@@ -1,0 +1,62 @@
+# =========================================================================
+# CHRISTOSMETRICS — orchestration locale (dev uniquement)
+# =========================================================================
+# Les secrets viennent du fichier .env (jamais committé). Pour démarrer :
+#   cp .env.example .env  (puis éditer .env)
+#   docker compose up --build
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: christos-db
+    environment:
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "5433:5432"
+    volumes:
+      - christos-db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER} -d ${DB_NAME}"]
+      interval: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: ./backend
+    container_name: christos-backend
+    environment:
+      SPRING_PROFILES_ACTIVE: dev
+      DB_URL: jdbc:postgresql://db:5432/${DB_NAME}
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+      APP_JWT_SECRET: ${APP_JWT_SECRET}
+      APP_CORS_ORIGINS: ${APP_CORS_ORIGINS:-http://localhost:5173}
+      APP_MAIL_ACTIF: ${APP_MAIL_ACTIF:-false}
+      APP_MAIL_EXPEDITEUR: ${APP_MAIL_EXPEDITEUR:-noreply@christosmetrics.app}
+      SMTP_HOST: ${SMTP_HOST:-localhost}
+      SMTP_PORT: ${SMTP_PORT:-25}
+      SMTP_USER: ${SMTP_USER:-}
+      SMTP_PASSWORD: ${SMTP_PASSWORD:-}
+      SMTP_AUTH: ${SMTP_AUTH:-false}
+      SMTP_STARTTLS: ${SMTP_STARTTLS:-false}
+    ports:
+      - "8080:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: christos-frontend
+    environment:
+      VITE_API_URL: ${VITE_API_URL:-http://localhost:8080}
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+
+volumes:
+  christos-db-data:

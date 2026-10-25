@@ -1,0 +1,17 @@
+# Profil 'dev' : valeurs par défaut pour développement local SEULEMENT.
+# N'est jamais utilisé en production (SPRING_PROFILES_ACTIVE=prod en prod).
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5433/christosmetrics}
+    username: ${DB_USER:christos}
+    password: ${DB_PASSWORD:christos}
+
+app:
+  jwt:
+    secret: ${APP_JWT_SECRET:DEV_LOCAL_SECRET_a_remplacer_imperativement_32_octets_minimum_abcd}
+  cors:
+    origins: ${APP_CORS_ORIGINS:http://localhost:5173,http://localhost:3000}
+
+logging:
+  level:
+    com.christosmetrics: DEBUG

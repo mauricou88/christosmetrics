@@ -1,0 +1,33 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Secrets
+.env
+.env.local
+.env.production
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Backend
+backend/target/
+
+# Frontend
+frontend/node_modules/
+node_modules/
+frontend/dist/
+frontend/android/

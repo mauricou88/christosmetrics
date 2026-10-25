@@ -1,0 +1,44 @@
+{
+  "name": "christosmetrics-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "CHRISTOSMETRICS \u2014 frontend React (production)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .ts,.tsx",
+    "cap:sync": "npm run build && npx cap sync",
+    "cap:ios": "npm run build && npx cap sync ios && npx cap open ios",
+    "cap:android": "npm run build && npx cap sync android && npx cap open android",
+    "cap:init": "npx cap init CHRISTOSMETRICS app.christosmetrics.mobile --web-dir=dist",
+    "cap:add:ios": "npx cap add ios",
+    "cap:add:android": "npx cap add android",
+    "capacitor:sync:after": "node resources/android/appliquer-natif.cjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0",
+    "chart.js": "^4.4.3",
+    "react-chartjs-2": "^5.2.0",
+    "@capacitor/core": "^6.1.0",
+    "@capacitor/android": "^6.1.0",
+    "@capacitor/ios": "^6.1.0",
+    "@capacitor/preferences": "^6.0.0",
+    "@capacitor/filesystem": "^6.0.0",
+    "@capacitor/share": "^6.0.0",
+    "@capacitor/app": "^6.0.0",
+    "@capacitor/splash-screen": "^6.0.0",
+    "@capacitor/status-bar": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0",
+    "@capacitor/cli": "^6.1.0"
+  }
+}

@@ -1,0 +1,73 @@
+# =========================================================================
+# CHRISTOSMETRICS — Configuration de l'application Spring Boot
+# =========================================================================
+# Les secrets critiques (JWT, DB) N'ONT PAS de valeur par défaut : le serveur
+# refuse de démarrer s'ils ne sont pas injectés par variables d'environnement.
+# C'est volontaire — jamais de secret en clair dans le code source.
+
+spring:
+  application:
+    name: christosmetrics
+
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
+
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: false
+
+  mail:
+    host: ${SMTP_HOST:localhost}
+    port: ${SMTP_PORT:25}
+    username: ${SMTP_USER:}
+    password: ${SMTP_PASSWORD:}
+    properties:
+      mail:
+        smtp:
+          auth: ${SMTP_AUTH:false}
+          starttls:
+            enable: ${SMTP_STARTTLS:false}
+
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+
+server:
+  port: ${PORT:8080}
+  forward-headers-strategy: native
+  error:
+    include-message: never
+    include-stacktrace: never
+
+app:
+  jwt:
+    secret: ${APP_JWT_SECRET}            # OBLIGATOIRE — fail-fast si absent
+    expiration-ms: ${APP_JWT_EXPIRATION_MS:604800000}
+  cors:
+    origins: ${APP_CORS_ORIGINS:http://localhost:5173}  # liste séparée par virgules
+  mail:
+    actif: ${APP_MAIL_ACTIF:false}
+    expediteur: ${APP_MAIL_EXPEDITEUR:noreply@christosmetrics.app}
+  rate-limit:
+    login-max-par-minute: ${RL_LOGIN:5}
+    pdf-upload-max-par-heure: ${RL_PDF:30}
+
+logging:
+  level:
+    org.springframework.security: INFO
+    com.christosmetrics: ${LOG_LEVEL:INFO}
