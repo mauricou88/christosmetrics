@@ -1,0 +1,44 @@
+services:
+  - type: web
+    name: christosmetrics-backend
+    runtime: docker
+    plan: free
+    region: frankfurt
+    rootDir: backend
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/referentiels
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
+      - key: DB_URL
+        value: "jdbc:postgresql://PLACEHOLDER:5432/PLACEHOLDER"
+      - key: PGHOST
+        fromDatabase:
+          name: christosmetrics-db
+          property: host
+      - key: PGDATABASE
+        fromDatabase:
+          name: christosmetrics-db
+          property: database
+      - key: DB_USER
+        fromDatabase:
+          name: christosmetrics-db
+          property: user
+      - key: DB_PASSWORD
+        fromDatabase:
+          name: christosmetrics-db
+          property: password
+      - key: APP_JWT_SECRET
+        generateValue: true
+      - key: APP_CORS_ORIGINS
+        value: "capacitor://localhost,http://localhost,https://localhost"
+      - key: APP_MAIL_ACTIF
+        value: "false"
+      - key: PORT
+        value: "8080"
+
+databases:
+  - name: christosmetrics-db
+    plan: free
+    region: frankfurt
+    postgresMajorVersion: "16"
