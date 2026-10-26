@@ -7,11 +7,12 @@ const ROOT = path.resolve(__dirname, '..');
 const PUBLIC = path.join(ROOT, 'public');
 const SOURCE = path.join(PUBLIC, 'christosmetrics-logo.png');
 
-const BG = { r: 0xF2, g: 0xF6, b: 0xF7, alpha: 1 };
+const BG_OPAQUE = { r: 0xF2, g: 0xF6, b: 0xF7, alpha: 1 };
+const BG_TRANSPARENT = { r: 0, g: 0, b: 0, alpha: 0 };
 
-async function makeIcon({ size, logoRatio, outputName }) {
+async function makeIcon({ size, logoRatio, outputName, background }) {
   const canvas = sharp({
-    create: { width: size, height: size, channels: 4, background: BG }
+    create: { width: size, height: size, channels: 4, background }
   });
 
   const maxLogoWidth = Math.round(size * logoRatio);
@@ -29,13 +30,16 @@ async function makeIcon({ size, logoRatio, outputName }) {
     .png()
     .toFile(outputPath);
 
-  console.log(`✓ ${outputName} (${size}x${size}, logo ${metadata.width}x${metadata.height})`);
+  console.log(`✓ ${outputName} (${size}x${size}, logo ${metadata.width}x${metadata.height}, fond ${background.alpha === 0 ? 'transparent' : 'opaque'})`);
 }
 
 (async () => {
-  await makeIcon({ size: 192, logoRatio: 0.78, outputName: 'pwa-192x192.png' });
-  await makeIcon({ size: 512, logoRatio: 0.78, outputName: 'pwa-512x512.png' });
-  // Maskable : safe zone 60% (le reste est "mangé" par les masques Android)
-  await makeIcon({ size: 512, logoRatio: 0.56, outputName: 'pwa-maskable-512x512.png' });
+  // Icônes classiques — fond transparent
+  await makeIcon({ size: 192, logoRatio: 0.88, outputName: 'pwa-192x192.png', background: BG_TRANSPARENT });
+  await makeIcon({ size: 512, logoRatio: 0.88, outputName: 'pwa-512x512.png', background: BG_TRANSPARENT });
+  // Maskable — fond opaque OBLIGATOIRE pour Android (sinon le masque casse le rendu)
+  await makeIcon({ size: 512, logoRatio: 0.56, outputName: 'pwa-maskable-512x512.png', background: BG_OPAQUE });
+  // Apple touch icon — transparent (iOS 15+ gère bien)
+  await makeIcon({ size: 180, logoRatio: 0.88, outputName: 'apple-touch-icon.png', background: BG_TRANSPARENT });
   console.log('\nTerminé.');
 })();
