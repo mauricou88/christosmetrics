@@ -1,22 +1,41 @@
 import sharp from 'sharp';
-import { mkdir } from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const publicDir = new URL('../public/', import.meta.url);
-await mkdir(publicDir, { recursive: true });
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(__dirname, '..');
+const PUBLIC = path.join(ROOT, 'public');
+const SOURCE = path.join(PUBLIC, 'christosmetrics-logo.png');
 
-for (const { filename, size, margin } of [
-  { filename: 'pwa-192x192.png', size: 192, margin: 0 },
-  { filename: 'pwa-512x512.png', size: 512, margin: 0 },
-  { filename: 'pwa-maskable-512x512.png', size: 512, margin: 80 },
-]) {
-  const contentSize = size - margin * 2;
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
-    <rect width="${size}" height="${size}" fill="#2F6F7F" />
-    <svg x="${margin}" y="${margin}" width="${contentSize}" height="${contentSize}" viewBox="0 0 512 512">
-      <text x="256" y="256" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-size="240" font-weight="bold" fill="white">CM</text>
-    </svg>
-  </svg>`;
-  const outputPath = new URL(filename, publicDir);
-  await sharp(Buffer.from(svg)).png().toFile(outputPath.pathname.replace(/^\/(?=[A-Za-z]:)/, ''));
-  console.log(`Generated ${filename} (${size}x${size})`);
+const BG = { r: 0xF2, g: 0xF6, b: 0xF7, alpha: 1 };
+
+async function makeIcon({ size, logoRatio, outputName }) {
+  const canvas = sharp({
+    create: { width: size, height: size, channels: 4, background: BG }
+  });
+
+  const maxLogoWidth = Math.round(size * logoRatio);
+  const resized = await sharp(SOURCE)
+    .resize({ width: maxLogoWidth, fit: 'inside', withoutEnlargement: false })
+    .toBuffer();
+
+  const metadata = await sharp(resized).metadata();
+  const left = Math.round((size - metadata.width) / 2);
+  const top = Math.round((size - metadata.height) / 2);
+
+  const outputPath = path.join(PUBLIC, outputName);
+  await canvas
+    .composite([{ input: resized, left, top }])
+    .png()
+    .toFile(outputPath);
+
+  console.log(`✓ ${outputName} (${size}x${size}, logo ${metadata.width}x${metadata.height})`);
 }
+
+(async () => {
+  await makeIcon({ size: 192, logoRatio: 0.78, outputName: 'pwa-192x192.png' });
+  await makeIcon({ size: 512, logoRatio: 0.78, outputName: 'pwa-512x512.png' });
+  // Maskable : safe zone 60% (le reste est "mangé" par les masques Android)
+  await makeIcon({ size: 512, logoRatio: 0.56, outputName: 'pwa-maskable-512x512.png' });
+  console.log('\nTerminé.');
+})();
