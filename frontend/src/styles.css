@@ -142,6 +142,27 @@ main{padding-top:28px;padding-bottom:max(32px,env(safe-area-inset-bottom))}
 .menu-footer a{color:var(--teal);font-size:13px}
 .menu-footer .suppression-discrete{color:var(--muted);font-size:12px}
 
+.footer-global {
+  margin-top: 48px;
+  padding: 24px 16px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--text-secondary, #4A5A66);
+}
+.footer-global nav a {
+  color: inherit;
+  text-decoration: underline;
+}
+.footer-global nav a:hover {
+  color: var(--accent, #2F6F7F);
+}
+.footer-copyright {
+  margin-top: 12px;
+  font-size: 0.8125rem;
+  opacity: 0.75;
+}
+
 /* ---------- Questionnaire ---------- */
 .rail{position:sticky;top:70px;height:3px;background:var(--line);border-radius:999px;overflow:hidden;margin-bottom:20px}
 #rail{height:100%;background:var(--orange);transition:width .3s ease;width:0}

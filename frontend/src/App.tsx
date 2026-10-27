@@ -7,6 +7,8 @@ import { QuestionnairePage } from './pages/QuestionnairePage';
 import { ResultatPage } from './pages/ResultatPage';
 import { MonParcoursPage } from './pages/MonParcoursPage';
 import { SupprimerComptePage } from './pages/SupprimerComptePage';
+import { PolitiqueConfidentialitePage } from './pages/PolitiqueConfidentialitePage';
+import { ConditionsUtilisationPage } from './pages/ConditionsUtilisationPage';
 import { StatusReseau } from './components/StatusReseau';
 import { AccueilPage } from './pages/AccueilPage';
 import { useEffect, type ReactNode } from 'react';
@@ -58,6 +60,8 @@ export function App() {
             <Route path="/" element={<AccueilPage />} />
             <Route path="/connexion" element={<EntreeSiDeja />} />
             <Route path="/inscription" element={<EntreeSiDeja inscription />} />
+            <Route path="/politique-confidentialite" element={<PolitiqueConfidentialitePage />} />
+            <Route path="/conditions-utilisation" element={<ConditionsUtilisationPage />} />
             <Route path="/menu" element={<Protege><MenuPage /></Protege>} />
             <Route path="/test/:code" element={<Protege><QuestionnairePage /></Protege>} />
             <Route path="/resultat/:passationId" element={<Protege><ResultatPage /></Protege>} />
