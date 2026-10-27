@@ -155,6 +155,26 @@
     "parcours": "Journey",
     "profil": "Profile"
   },
+  "onboarding": {
+    "passer": "Skip",
+    "commencer": "Get started",
+    "ecran1": {
+      "titre": "Reflect on your journey.",
+      "pitch": "Christosmetrics helps you see how the fruit of the Spirit is growing in your life, without judgement."
+    },
+    "ecran2": {
+      "titre": "6 individual assessments, 1 CHRISTOS summary.",
+      "pitch": "Explore each aspect of the fruit with care. Complete all six to discover your overall CHRISTOS picture."
+    },
+    "ecran3": {
+      "titre": "Take away a PDF, a plan and Bible verses.",
+      "pitch": "Each assessment ends with a personal report you can keep, print or share."
+    },
+    "revoir_intro": "Watch the introduction again",
+    "introduction": "Introduction",
+    "navigation": "Introduction screens",
+    "progression": "Screen {{actuel}} of {{total}}"
+  },
   "footer": {
     "label": "Legal links",
     "politique": "Privacy policy",

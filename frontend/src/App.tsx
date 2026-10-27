@@ -14,7 +14,8 @@ import { StatusReseau } from './components/StatusReseau';
 import { Footer } from './components/Footer';
 import { BottomNav } from './components/BottomNav';
 import { AccueilPage } from './pages/AccueilPage';
-import { useEffect, type ReactNode } from 'react';
+import { OnboardingPage } from './pages/OnboardingPage';
+import { useEffect, useState, type ReactNode } from 'react';
 
 function RetourEnHaut() {
   const { pathname, search } = useLocation();
@@ -61,21 +62,35 @@ export function App() {
   );
 }
 
+/** Gère les routes, l’introduction initiale et les éléments masqués en mode immersif. */
 function ContenuApp() {
   const { pathname } = useLocation();
-  const { estConnecte } = useAuth();
-  const pagesSansFooter = /^\/test\/[^/]+\/?$/i;
+  const { estConnecte, chargement } = useAuth();
+  const [onboardingDone, setOnboardingDone] = useState(() => {
+    try { return localStorage.getItem('onboarding-done') === 'true'; }
+    catch { return false; }
+  });
+  const introduction = /^\/onboarding\/?$/i.test(pathname);
+  const pagesSansFooter = /^\/(test\/[^/]+|onboarding)\/?$/i;
   const afficherFooter = !pagesSansFooter.test(pathname);
   const afficherBottomNav = estConnecte && afficherFooter;
+
+  /** Retient aussi la fin de l’introduction en mémoire si localStorage est inaccessible. */
+  function terminerIntroduction() {
+    setOnboardingDone(true);
+  }
 
   return (
     <div className={afficherBottomNav ? 'avec-bottom-nav' : undefined}>
         <RetourEnHaut />
-        <Header />
+        {!introduction && <Header />}
         <StatusReseau />
-        <main>
+        <main className={introduction ? 'onboarding-main' : undefined}>
           <Routes>
-            <Route path="/" element={<AccueilPage />} />
+            <Route path="/" element={chargement
+              ? <div className="wrap" role="status">…</div>
+              : onboardingDone || estConnecte ? <AccueilPage /> : <Navigate to="/onboarding" replace />} />
+            <Route path="/onboarding" element={<OnboardingPage onTermine={terminerIntroduction} />} />
             <Route path="/connexion" element={<EntreeSiDeja />} />
             <Route path="/inscription" element={<EntreeSiDeja inscription />} />
             <Route path="/politique-confidentialite" element={<PolitiqueConfidentialitePage />} />

@@ -155,6 +155,26 @@
     "parcours": "Parcours",
     "profil": "Profil"
   },
+  "onboarding": {
+    "passer": "Passer",
+    "commencer": "Commencer",
+    "ecran1": {
+      "titre": "Fais le point sur ton cheminement.",
+      "pitch": "Christosmetrics t'aide à mesurer où tu en es du fruit de l'Esprit, sans jugement."
+    },
+    "ecran2": {
+      "titre": "6 fruits individuels, 1 synthèse CHRISTOS.",
+      "pitch": "Chaque fruit se mesure avec soin. Les six complétés, tu découvres ton CHRISTOS global."
+    },
+    "ecran3": {
+      "titre": "Repars avec un PDF, un plan, et des versets.",
+      "pitch": "Chaque test se termine par une restitution que tu peux garder, imprimer ou partager."
+    },
+    "revoir_intro": "Revoir l'introduction",
+    "introduction": "Introduction",
+    "navigation": "Écrans de présentation",
+    "progression": "Écran {{actuel}} sur {{total}}"
+  },
   "footer": {
     "label": "Liens juridiques",
     "politique": "Politique de confidentialité",

@@ -70,6 +70,13 @@ export function ProfilPage() {
     navigate('/', { replace: true });
   }
 
+  /** Relance la présentation même pour un compte connecté ou un stockage indisponible. */
+  function revoirIntroduction() {
+    try { localStorage.removeItem('onboarding-done'); }
+    catch { /* La route dédiée reste accessible sans stockage. */ }
+    navigate('/onboarding');
+  }
+
   return (
     <div className="wrap profil-page">
       <div>
@@ -144,6 +151,12 @@ export function ProfilPage() {
           <Link to="/politique-confidentialite">{t('footer.politique')}</Link>
           <Link to="/conditions-utilisation">{t('footer.cgu')}</Link>
         </div>
+      </section>
+      <section className="card" aria-labelledby="profil-intro">
+        <h2 id="profil-intro">{t('onboarding.introduction')}</h2>
+        <button type="button" className="btn ghost" onClick={revoirIntroduction}>
+          {t('onboarding.revoir_intro')}
+        </button>
       </section>
     </div>
   );

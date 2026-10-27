@@ -155,6 +155,26 @@
     "parcours": "Recorrido",
     "profil": "Perfil"
   },
+  "onboarding": {
+    "passer": "Omitir",
+    "commencer": "Comenzar",
+    "ecran1": {
+      "titre": "Reflexiona sobre tu caminar.",
+      "pitch": "Christosmetrics te ayuda a descubrir cómo crece el fruto del Espíritu en tu vida, sin juzgarte."
+    },
+    "ecran2": {
+      "titre": "6 evaluaciones individuales, 1 síntesis CHRISTOS.",
+      "pitch": "Explora con atención cada aspecto del fruto. Al completar los seis, descubrirás tu visión global CHRISTOS."
+    },
+    "ecran3": {
+      "titre": "Llévate un PDF, un plan y versículos bíblicos.",
+      "pitch": "Cada evaluación termina con un informe personal que puedes guardar, imprimir o compartir."
+    },
+    "revoir_intro": "Volver a ver la introducción",
+    "introduction": "Introducción",
+    "navigation": "Pantallas de presentación",
+    "progression": "Pantalla {{actuel}} de {{total}}"
+  },
   "footer": {
     "label": "Enlaces legales",
     "politique": "Política de privacidad",
