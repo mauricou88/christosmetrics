@@ -67,6 +67,10 @@
   color-scheme: dark;
 }
 
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
 html, body {
   background-color: var(--bg);
   color: var(--ink);
@@ -433,4 +437,67 @@ main { padding-left: max(16px, env(safe-area-inset-left));
   .bottom-nav__link:active {
     transform: none;
   }
+}
+
+/* === Profil et choix du thème === */
+.profil-page {
+  display: grid;
+  gap: 24px;
+}
+.profil-page .lede {
+  margin-bottom: 0;
+}
+.profil-identite {
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.profil-identite strong {
+  color: var(--ink);
+}
+.profil-liens {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 16px;
+}
+.profil-liens a {
+  color: var(--teal);
+}
+.theme-choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  min-width: 0;
+  padding: 0;
+  margin: 16px 0 0;
+  border: 0;
+}
+.theme-choice {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 10px 14px;
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+}
+.theme-choice input {
+  width: auto;
+  margin: 0;
+  accent-color: var(--teal);
+}
+.theme-choice--active,
+.theme-choice:hover {
+  border-color: var(--teal);
+  background: var(--teal-xl);
+  color: var(--teal);
+}
+.theme-choice:focus-within {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
 }

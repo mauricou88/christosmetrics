@@ -6,6 +6,7 @@ import { MenuPage } from './pages/MenuPage';
 import { QuestionnairePage } from './pages/QuestionnairePage';
 import { ResultatPage } from './pages/ResultatPage';
 import { MonParcoursPage } from './pages/MonParcoursPage';
+import { ProfilPage } from './pages/ProfilPage';
 import { SupprimerComptePage } from './pages/SupprimerComptePage';
 import { PolitiqueConfidentialitePage } from './pages/PolitiqueConfidentialitePage';
 import { ConditionsUtilisationPage } from './pages/ConditionsUtilisationPage';
@@ -83,6 +84,7 @@ function ContenuApp() {
             <Route path="/test/:code" element={<Protege><QuestionnairePage /></Protege>} />
             <Route path="/resultat/:passationId" element={<Protege><ResultatPage /></Protege>} />
             <Route path="/mon-parcours" element={<Protege><MonParcoursPage /></Protege>} />
+            <Route path="/profil" element={<Protege><ProfilPage /></Protege>} />
             <Route path="/supprimer-compte" element={<Protege><SupprimerComptePage /></Protege>} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
