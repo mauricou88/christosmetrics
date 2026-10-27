@@ -1,9 +1,10 @@
 import { useState, type FormEvent } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { useAuth } from '../context/AuthContext';
 
 /**
- * Page de connexion ET d'inscription (bascule via un lien).
+ * Formulaire traduit de connexion et d’inscription, avec bascule via un lien.
  *
  * En cas de succès :
  *   - le token JWT est stocké dans localStorage (via AuthContext) ;
@@ -12,6 +13,7 @@ import { useAuth } from '../context/AuthContext';
  *     n'a pas expiré → il retrouve directement sa progression.
  */
 export function LoginPage({ modeInitial = 'connexion' }: { modeInitial?: 'connexion' | 'inscription' }) {
+  const { t } = useTranslation();
   const [mode, setMode] = useState<'connexion' | 'inscription'>(modeInitial);
   const [email, setEmail] = useState('');
   const [motDePasse, setMotDePasse] = useState('');
@@ -23,6 +25,7 @@ export function LoginPage({ modeInitial = 'connexion' }: { modeInitial?: 'connex
   const { connexion, inscription } = useAuth();
   const navigate = useNavigate();
 
+  /** Soumet les identifiants et valeurs métier sans traduire les données envoyées à l’API. */
   async function soumettre(e: FormEvent) {
     e.preventDefault();
     setErreur(null);
@@ -43,52 +46,51 @@ export function LoginPage({ modeInitial = 'connexion' }: { modeInitial?: 'connex
 
   return (
     <div className="wrap">
-      <Link className="lien-retour" to="/">← Présentation de l’application</Link>
-      <div className="eyebrow">CHRISTOSMETRICS</div>
-      <h1>{mode === 'connexion' ? 'Connexion' : 'Créer un compte'}</h1>
-      <p className="lede">
-        {mode === 'connexion'
-          ? "Retrouvez vos tests en cours et vos restitutions."
-          : "Votre compte permet de sauvegarder vos réponses et de reprendre plus tard."}
-      </p>
+      <Link className="lien-retour" to="/">{t('commun.presentation')}</Link>
+      <div className="eyebrow">{t('commun.marque')}</div>
+      <h1>{t(`auth.${mode}.titre`)}</h1>
+      <p className="lede">{t(`auth.${mode}.lede`)}</p>
 
       <form className="card" onSubmit={soumettre}>
         {mode === 'inscription' && (
           <>
             <div className="grid2">
               <div>
-                <label>Prénom *</label>
+                <label>{t('auth.champs.prenom')}</label>
                 <input value={prenom} onChange={e => setPrenom(e.target.value)} required />
               </div>
               <div>
-                <label>Nom *</label>
+                <label>{t('auth.champs.nom')}</label>
                 <input value={nom} onChange={e => setNom(e.target.value)} required />
               </div>
             </div>
             <div style={{ marginTop: 14 }}>
-              <label>Église</label>
+              <label>{t('auth.champs.eglise')}</label>
               <select value={eglise} onChange={e => setEglise(e.target.value)}>
-                <option>Rouen</option><option>Le Havre</option><option>Évreux</option>
-                <option>Caen</option><option>Autre</option>
+                <option value="Rouen">{t('auth.champs.eglises.rouen')}</option>
+                <option value="Le Havre">{t('auth.champs.eglises.le_havre')}</option>
+                <option value="Évreux">{t('auth.champs.eglises.evreux')}</option>
+                <option value="Caen">{t('auth.champs.eglises.caen')}</option>
+                <option value="Autre">{t('auth.champs.eglises.autre')}</option>
               </select>
             </div>
           </>
         )}
         <div style={{ marginTop: 14 }}>
-          <label>Adresse e-mail *</label>
+          <label>{t('auth.champs.email')}</label>
           <input type="email" value={email} onChange={e => setEmail(e.target.value)} required autoComplete="email" />
         </div>
         <div style={{ marginTop: 14 }}>
-          <label>Mot de passe *</label>
+          <label>{t('auth.champs.mot_de_passe')}</label>
           <input type="password" value={motDePasse} onChange={e => setMotDePasse(e.target.value)}
                  required minLength={mode === 'inscription' ? 8 : 1} maxLength={100}
                  pattern={mode === 'inscription' ? '^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{8,100}$' : undefined}
-                 title={mode === 'inscription' ? '8 à 100 caractères, avec une majuscule, une minuscule et un chiffre.' : undefined}
+                 title={mode === 'inscription' ? t('auth.champs.regles_mot_de_passe') : undefined}
                  aria-describedby={mode === 'inscription' ? 'regles-mot-de-passe' : undefined}
                  autoComplete={mode === 'connexion' ? 'current-password' : 'new-password'} />
           {mode === 'inscription' && (
             <p id="regles-mot-de-passe" className="hint">
-              8 à 100 caractères, avec une majuscule, une minuscule et un chiffre.
+              {t('auth.champs.regles_mot_de_passe')}
             </p>
           )}
         </div>
@@ -97,14 +99,14 @@ export function LoginPage({ modeInitial = 'connexion' }: { modeInitial?: 'connex
 
         <div className="controls" style={{ marginTop: 20 }}>
           <button className="btn" type="submit" disabled={enCours}>
-            {enCours ? '…' : (mode === 'connexion' ? 'Se connecter' : 'Créer mon compte')}
+            {enCours ? t('commun.en_cours') : t(`auth.${mode}.cta`)}
           </button>
         </div>
         <p className="hint" style={{ marginTop: 12 }}>
-          {mode === 'connexion' ? "Pas encore de compte ? " : "Déjà inscrit ? "}
+          {mode === 'connexion' ? t('auth.connexion.pas_de_compte') : t('auth.inscription.deja_compte')}{' '}
           <button type="button" onClick={() => setMode(mode === 'connexion' ? 'inscription' : 'connexion')}
                   style={{ background: 'none', border: 'none', color: 'var(--teal)', cursor: 'pointer', textDecoration: 'underline' }}>
-            {mode === 'connexion' ? "S'inscrire" : "Se connecter"}
+            {mode === 'connexion' ? t('auth.connexion.inscription') : t('auth.inscription.connexion')}
           </button>
         </p>
       </form>

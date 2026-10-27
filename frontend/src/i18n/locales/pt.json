@@ -1,0 +1,164 @@
+{
+  "commun": {
+    "marque": "CHRISTOSMETRICS",
+    "chargement": "A carregar…",
+    "en_cours": "…",
+    "enregistrer": "Guardar",
+    "annuler": "Cancelar",
+    "retour": "Voltar",
+    "suivant": "Seguinte",
+    "precedent": "Anterior",
+    "deconnexion": "Terminar sessão",
+    "oui": "Sim",
+    "non": "Não",
+    "reessayer": "Tentar novamente",
+    "bonjour": "Olá {{prenom}}",
+    "presentation": "← Apresentação da aplicação",
+    "mon_parcours": "O meu percurso",
+    "supprimer_compte": "Eliminar a minha conta",
+    "verset": "Mas o fruto do Espírito é amor, alegria, paz, longanimidade, benignidade, bondade, fidelidade, mansidão e domínio próprio.",
+    "verset_ref": "Gálatas 5:22"
+  },
+  "accueil": {
+    "eyebrow": "CHRISTOSMETRICS · Autodiagnóstico",
+    "titre": "Como está a crescer o fruto do Espírito na sua vida?",
+    "lede": "Reserve um momento para refletir sobre a sua caminhada cristã. A partir das suas respostas, CHRISTOSMETRICS ajuda a reconhecer os seus pontos fortes e os aspetos em que deseja crescer.",
+    "comment_ca_marche": "Como funciona?",
+    "etapes": {
+      "compte": {
+        "titre": "Crie a sua conta ou inicie sessão.",
+        "description": "Encontre as suas respostas e os seus resultados no seu espaço pessoal."
+      },
+      "parcours": {
+        "titre": "Escolha Individual ou Casal.",
+        "description": "Explore em profundidade um aspeto do fruto ou a dinâmica do casal através dos nove aspetos."
+      },
+      "reponses": {
+        "titre": "Responda ao seu ritmo.",
+        "description": "Com uma ligação à Internet, cada resposta é guardada. Pode parar e continuar mais tarde."
+      },
+      "restitution": {
+        "titre": "Descubra os seus resultados.",
+        "description": "Consulte as suas pontuações, gráficos e relatório PDF. Complete as seis avaliações individuais disponíveis para desbloquear a sua síntese global."
+      }
+    },
+    "aide": "Uma ferramenta de reflexão pessoal baseada nas suas respostas, para acompanhar o seu crescimento espiritual.",
+    "individuel_label": "Avaliações individuais:",
+    "fruits_disponibles": "Amor, Alegria, Paz, Paciência, Bondade e Benignidade, e Fidelidade.",
+    "fruits_a_concevoir": "Mansidão e Domínio próprio estão por desenvolver.",
+    "cta_parcours": "Voltar aos meus percursos",
+    "cta_commencer": "Criar a minha conta e começar",
+    "cta_connexion": "Iniciar sessão"
+  },
+  "auth": {
+    "champs": {
+      "prenom": "Nome próprio *",
+      "nom": "Apelido *",
+      "email": "Endereço de e-mail *",
+      "mot_de_passe": "Palavra-passe *",
+      "eglise": "Igreja",
+      "eglises": {
+        "rouen": "Rouen",
+        "le_havre": "Le Havre",
+        "evreux": "Évreux",
+        "caen": "Caen",
+        "autre": "Outra"
+      },
+      "regles_mot_de_passe": "Entre 8 e 100 caracteres, com uma letra maiúscula, uma letra minúscula e um algarismo."
+    },
+    "connexion": {
+      "titre": "Iniciar sessão",
+      "lede": "Retome as suas avaliações em curso e consulte os seus resultados.",
+      "cta": "Iniciar sessão",
+      "pas_de_compte": "Ainda não tem conta?",
+      "inscription": "Registar-se"
+    },
+    "inscription": {
+      "titre": "Criar uma conta",
+      "lede": "A sua conta permite guardar as respostas e continuar mais tarde.",
+      "cta": "Criar a minha conta",
+      "deja_compte": "Já tem conta?",
+      "connexion": "Iniciar sessão"
+    }
+  },
+  "menu": {
+    "eyebrow": "CHRISTOSMETRICS · Autodiagnóstico",
+    "chargement": "A carregar os seus percursos…",
+    "catalogue_indisponible": "O catálogo está indisponível.",
+    "erreur_catalogue_titre": "Não foi possível carregar o catálogo",
+    "erreur_parcours": "Não é possível carregar os seus resultados neste momento.",
+    "erreur_parcours_aide": "Tente novamente para recuperar as suas pontuações e os questionários em curso.",
+    "recharger_resultats": "Recarregar os meus resultados",
+    "titre": "O que deseja avaliar?",
+    "lede": "Escolha o seu percurso. Cada avaliação apresenta uma análise pessoal com as suas pontuações, gráficos e relatório PDF.",
+    "parcours_individuel": {
+      "numero": "PERCURSO 1",
+      "titre": "Individual",
+      "description": "Avalie cada aspeto do fruto em profundidade. {{nombre}} questionários disponíveis; Mansidão e Domínio próprio estão por desenvolver."
+    },
+    "parcours_couple": {
+      "numero": "PERCURSO 2",
+      "titre": "Casal",
+      "description": "Avalie a dinâmica espiritual do casal através dos nove aspetos do fruto. Uma afirmação por aspeto."
+    },
+    "individuel": {
+      "retour": "← Escolher um percurso",
+      "eyebrow": "Autodiagnóstico individual",
+      "titre": "Como está a crescer o fruto do Espírito na sua vida?",
+      "lede": "Escolha um aspeto do fruto. Consulte os seus resultados ou retome um questionário em curso."
+    },
+    "domaines_questions": "{{domaines}} áreas · {{questions}} perguntas",
+    "teste_pourcentage": "✓ Concluído — {{score}}% · Ver os meus resultados",
+    "teste_couple": "✓ Concluído — {{score}}/36 · Ver os meus resultados",
+    "reprendre": "Em curso · Continuar",
+    "a_concevoir": "Por desenvolver",
+    "fruits": {
+      "amour": "Amor",
+      "joie": "Alegria",
+      "paix": "Paz",
+      "patience": "Paciência",
+      "bonte": "Bondade e Benignidade",
+      "fidelite": "Fidelidade",
+      "douceur": "Mansidão",
+      "maitrise": "Domínio próprio"
+    },
+    "presentation": "Objetivo e funcionamento da aplicação",
+    "synthese": {
+      "titre": "As suas avaliações concluídas ({{realises}}/{{attendus}})",
+      "score": "{{score}}%",
+      "en_cours": "Em curso",
+      "non_teste": "— por avaliar",
+      "titre_global": "A sua síntese global do fruto do Espírito",
+      "moyenne": "Média dos seis aspetos avaliados, calculada a partir das suas respostas.",
+      "debloquer_one": "Complete a última avaliação em falta para desbloquear a sua <strong>síntese global do fruto do Espírito.</strong>",
+      "debloquer_other": "Complete as {{count}} avaliações em falta para desbloquear a sua <strong>síntese global do fruto do Espírito.</strong>",
+      "voir_parcours": "Ver o meu percurso e os meus resultados →"
+    }
+  },
+  "profil": {
+    "eyebrow": "CHRISTOSMETRICS · O meu espaço",
+    "titre": "Perfil",
+    "langue": "Idioma",
+    "theme": "Tema",
+    "theme_description": "Escolha o aspeto da aplicação. Automático segue o tema do seu dispositivo.",
+    "theme_clair": "Claro ☀️",
+    "theme_sombre": "Escuro 🌙",
+    "theme_auto": "Automático ⚙️",
+    "compte": "Conta",
+    "a_propos": "Sobre",
+    "version": "CHRISTOSMETRICS · Versão {{version}}"
+  },
+  "navigation": {
+    "label": "Navegação principal",
+    "accueil": "Início",
+    "tests": "Testes",
+    "parcours": "Percurso",
+    "profil": "Perfil"
+  },
+  "footer": {
+    "label": "Ligações legais",
+    "politique": "Política de privacidade",
+    "cgu": "Condições de utilização",
+    "copyright": "© {{annee}} Christosmetrics by LA"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "commun": {
+    "marque": "CHRISTOSMETRICS",
+    "chargement": "Loading…",
+    "en_cours": "…",
+    "enregistrer": "Save",
+    "annuler": "Cancel",
+    "retour": "Back",
+    "suivant": "Next",
+    "precedent": "Previous",
+    "deconnexion": "Sign out",
+    "oui": "Yes",
+    "non": "No",
+    "reessayer": "Try again",
+    "bonjour": "Hello {{prenom}}",
+    "presentation": "← About the application",
+    "mon_parcours": "My journey",
+    "supprimer_compte": "Delete my account",
+    "verset": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness, gentleness and self-control.",
+    "verset_ref": "Galatians 5:22"
+  },
+  "accueil": {
+    "eyebrow": "CHRISTOSMETRICS · Self-assessment",
+    "titre": "How is the fruit of the Spirit growing in your life?",
+    "lede": "Take a moment to reflect on your Christian journey. Based on your answers, CHRISTOSMETRICS helps you recognise your strengths and the areas in which you would like to grow.",
+    "comment_ca_marche": "How does it work?",
+    "etapes": {
+      "compte": {
+        "titre": "Create your account or sign in.",
+        "description": "Find your answers and results in your personal space."
+      },
+      "parcours": {
+        "titre": "Choose Individual or Couple.",
+        "description": "Explore one aspect of the fruit in depth, or reflect on your relationship as a couple through all nine aspects."
+      },
+      "reponses": {
+        "titre": "Answer at your own pace.",
+        "description": "With an Internet connection, each answer is saved. You can stop and come back later."
+      },
+      "restitution": {
+        "titre": "Discover your results.",
+        "description": "View your scores, charts and PDF report. Complete the six available individual assessments to unlock your overall summary."
+      }
+    },
+    "aide": "A tool for personal reflection based on your answers, to support your spiritual growth.",
+    "individuel_label": "Individual assessments:",
+    "fruits_disponibles": "Love, Joy, Peace, Patience, Goodness & Kindness, and Faithfulness.",
+    "fruits_a_concevoir": "Gentleness and Self-control have yet to be developed.",
+    "cta_parcours": "Return to my journeys",
+    "cta_commencer": "Create my account and get started",
+    "cta_connexion": "Sign in"
+  },
+  "auth": {
+    "champs": {
+      "prenom": "First name *",
+      "nom": "Last name *",
+      "email": "Email address *",
+      "mot_de_passe": "Password *",
+      "eglise": "Church",
+      "eglises": {
+        "rouen": "Rouen",
+        "le_havre": "Le Havre",
+        "evreux": "Évreux",
+        "caen": "Caen",
+        "autre": "Other"
+      },
+      "regles_mot_de_passe": "8 to 100 characters, including an uppercase letter, a lowercase letter and a number."
+    },
+    "connexion": {
+      "titre": "Sign in",
+      "lede": "Return to your assessments in progress and your results.",
+      "cta": "Sign in",
+      "pas_de_compte": "Don't have an account yet?",
+      "inscription": "Sign up"
+    },
+    "inscription": {
+      "titre": "Create an account",
+      "lede": "Your account lets you save your answers and continue later.",
+      "cta": "Create my account",
+      "deja_compte": "Already registered?",
+      "connexion": "Sign in"
+    }
+  },
+  "menu": {
+    "eyebrow": "CHRISTOSMETRICS · Self-assessment",
+    "chargement": "Loading your journeys…",
+    "catalogue_indisponible": "The catalogue is unavailable.",
+    "erreur_catalogue_titre": "Unable to load the catalogue",
+    "erreur_parcours": "Your results cannot be loaded at the moment.",
+    "erreur_parcours_aide": "Try again to retrieve your scores and assessments in progress.",
+    "recharger_resultats": "Reload my results",
+    "titre": "What would you like to assess?",
+    "lede": "Choose your journey. Each assessment provides personal feedback with your scores, charts and PDF report.",
+    "parcours_individuel": {
+      "numero": "JOURNEY 1",
+      "titre": "Individual",
+      "description": "Explore each aspect of the fruit in depth. {{nombre}} questionnaires available; Gentleness and Self-control have yet to be developed."
+    },
+    "parcours_couple": {
+      "numero": "JOURNEY 2",
+      "titre": "Couple",
+      "description": "Reflect on the spiritual dynamics of your relationship through the nine aspects of the fruit. One statement per aspect."
+    },
+    "individuel": {
+      "retour": "← Choose a journey",
+      "eyebrow": "Individual self-assessment",
+      "titre": "How is the fruit of the Spirit growing in your life?",
+      "lede": "Choose an aspect of the fruit. View your results or resume a questionnaire in progress."
+    },
+    "domaines_questions": "{{domaines}} areas · {{questions}} questions",
+    "teste_pourcentage": "✓ Completed — {{score}}% · View my results",
+    "teste_couple": "✓ Completed — {{score}}/36 · View my results",
+    "reprendre": "In progress · Resume",
+    "a_concevoir": "Not yet developed",
+    "fruits": {
+      "amour": "Love",
+      "joie": "Joy",
+      "paix": "Peace",
+      "patience": "Patience",
+      "bonte": "Goodness & Kindness",
+      "fidelite": "Faithfulness",
+      "douceur": "Gentleness",
+      "maitrise": "Self-control"
+    },
+    "presentation": "Purpose and how the application works",
+    "synthese": {
+      "titre": "Your completed assessments ({{realises}}/{{attendus}})",
+      "score": "{{score}}%",
+      "en_cours": "In progress",
+      "non_teste": "— not assessed",
+      "titre_global": "Your overall summary of the fruit of the Spirit",
+      "moyenne": "The average of your six assessed aspects, calculated from your answers.",
+      "debloquer_one": "Complete the last remaining assessment to unlock your <strong>overall summary of the fruit of the Spirit.</strong>",
+      "debloquer_other": "Complete the {{count}} remaining assessments to unlock your <strong>overall summary of the fruit of the Spirit.</strong>",
+      "voir_parcours": "View my journey and results →"
+    }
+  },
+  "profil": {
+    "eyebrow": "CHRISTOSMETRICS · My space",
+    "titre": "Profile",
+    "langue": "Language",
+    "theme": "Theme",
+    "theme_description": "Choose the application's appearance. Automatic follows your device's theme.",
+    "theme_clair": "Light ☀️",
+    "theme_sombre": "Dark 🌙",
+    "theme_auto": "Automatic ⚙️",
+    "compte": "Account",
+    "a_propos": "About",
+    "version": "CHRISTOSMETRICS · Version {{version}}"
+  },
+  "navigation": {
+    "label": "Main navigation",
+    "accueil": "Home",
+    "tests": "Tests",
+    "parcours": "Journey",
+    "profil": "Profile"
+  },
+  "footer": {
+    "label": "Legal links",
+    "politique": "Privacy policy",
+    "cgu": "Terms of use",
+    "copyright": "© {{annee}} Christosmetrics by LA"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "commun": {
+    "marque": "CHRISTOSMETRICS",
+    "chargement": "Chargement…",
+    "en_cours": "…",
+    "enregistrer": "Enregistrer",
+    "annuler": "Annuler",
+    "retour": "Retour",
+    "suivant": "Suivant",
+    "precedent": "Précédent",
+    "deconnexion": "Se déconnecter",
+    "oui": "Oui",
+    "non": "Non",
+    "reessayer": "Réessayer",
+    "bonjour": "Bonjour {{prenom}}",
+    "presentation": "← Présentation de l’application",
+    "mon_parcours": "Mon parcours",
+    "supprimer_compte": "Supprimer mon compte",
+    "verset": "« Mais le fruit de l’Esprit, c’est l’amour, la joie, la paix, la patience, la bonté, la bienveillance, la fidélité, la douceur, la maîtrise de soi. »",
+    "verset_ref": "Galates 5.22"
+  },
+  "accueil": {
+    "eyebrow": "CHRISTOSMETRICS · Auto-diagnostic",
+    "titre": "Où en êtes-vous du fruit de l’Esprit ?",
+    "lede": "Prenez un temps pour faire le point sur votre cheminement chrétien. À partir de vos réponses, CHRISTOSMETRICS vous aide à reconnaître vos points forts et les domaines dans lesquels vous souhaitez grandir.",
+    "comment_ca_marche": "Comment cela fonctionne ?",
+    "etapes": {
+      "compte": {
+        "titre": "Créez votre compte ou connectez-vous.",
+        "description": "Retrouvez vos réponses et vos résultats dans votre espace personnel."
+      },
+      "parcours": {
+        "titre": "Choisissez Individuel ou Couple.",
+        "description": "Explorez un fruit en profondeur ou la dynamique de votre couple à travers les neuf fruits."
+      },
+      "reponses": {
+        "titre": "Répondez à votre rythme.",
+        "description": "Avec une connexion Internet, chaque réponse est sauvegardée. Vous pouvez vous arrêter et reprendre plus tard."
+      },
+      "restitution": {
+        "titre": "Découvrez votre restitution.",
+        "description": "Consultez vos scores, vos graphiques et votre PDF. Complétez les six tests individuels disponibles pour débloquer votre synthèse globale."
+      }
+    },
+    "aide": "Un support de réflexion personnelle fondé sur vos réponses, pour accompagner votre croissance spirituelle.",
+    "individuel_label": "En individuel :",
+    "fruits_disponibles": "Amour, Joie, Paix, Patience, Bonté & Bienveillance et Fidélité.",
+    "fruits_a_concevoir": "Douceur et Maîtrise de soi sont à concevoir.",
+    "cta_parcours": "Retrouver mes parcours",
+    "cta_commencer": "Créer mon compte et commencer",
+    "cta_connexion": "Se connecter"
+  },
+  "auth": {
+    "champs": {
+      "prenom": "Prénom *",
+      "nom": "Nom *",
+      "email": "Adresse e-mail *",
+      "mot_de_passe": "Mot de passe *",
+      "eglise": "Église",
+      "eglises": {
+        "rouen": "Rouen",
+        "le_havre": "Le Havre",
+        "evreux": "Évreux",
+        "caen": "Caen",
+        "autre": "Autre"
+      },
+      "regles_mot_de_passe": "8 à 100 caractères, avec une majuscule, une minuscule et un chiffre."
+    },
+    "connexion": {
+      "titre": "Connexion",
+      "lede": "Retrouvez vos tests en cours et vos restitutions.",
+      "cta": "Se connecter",
+      "pas_de_compte": "Pas encore de compte ?",
+      "inscription": "S’inscrire"
+    },
+    "inscription": {
+      "titre": "Créer un compte",
+      "lede": "Votre compte permet de sauvegarder vos réponses et de reprendre plus tard.",
+      "cta": "Créer mon compte",
+      "deja_compte": "Déjà inscrit ?",
+      "connexion": "Se connecter"
+    }
+  },
+  "menu": {
+    "eyebrow": "CHRISTOSMETRICS · Auto-diagnostic",
+    "chargement": "Chargement de vos parcours…",
+    "catalogue_indisponible": "Catalogue indisponible.",
+    "erreur_catalogue_titre": "Impossible de charger le catalogue",
+    "erreur_parcours": "Vos résultats ne peuvent pas être chargés pour le moment.",
+    "erreur_parcours_aide": "Réessayez pour retrouver vos scores et vos questionnaires en cours.",
+    "recharger_resultats": "Recharger mes résultats",
+    "titre": "Que souhaitez-vous évaluer ?",
+    "lede": "Choisissez votre parcours. Chaque diagnostic produit une restitution personnelle avec vos scores, vos graphiques et votre PDF.",
+    "parcours_individuel": {
+      "numero": "PARCOURS 1",
+      "titre": "Individuel",
+      "description": "Évaluez chaque fruit en profondeur. {{nombre}} questionnaires disponibles ; Douceur et Maîtrise de soi à concevoir."
+    },
+    "parcours_couple": {
+      "numero": "PARCOURS 2",
+      "titre": "Couple",
+      "description": "Évaluez la dynamique spirituelle de votre couple sur les neuf fruits. Une affirmation par fruit."
+    },
+    "individuel": {
+      "retour": "← Choisir un parcours",
+      "eyebrow": "Auto-diagnostic individuel",
+      "titre": "Où en êtes-vous du fruit de l’Esprit ?",
+      "lede": "Choisissez un fruit. Retrouvez vos résultats ou reprenez un questionnaire en cours."
+    },
+    "domaines_questions": "{{domaines}} domaines · {{questions}} questions",
+    "teste_pourcentage": "✓ Testé — {{score}}% · Voir ma restitution",
+    "teste_couple": "✓ Testé — {{score}}/36 · Voir ma restitution",
+    "reprendre": "En cours · Reprendre",
+    "a_concevoir": "À concevoir",
+    "fruits": {
+      "amour": "Amour",
+      "joie": "Joie",
+      "paix": "Paix",
+      "patience": "Patience",
+      "bonte": "Bonté & Bienveillance",
+      "fidelite": "Fidélité",
+      "douceur": "Douceur",
+      "maitrise": "Maîtrise de soi"
+    },
+    "presentation": "But et fonctionnement de l’application",
+    "synthese": {
+      "titre": "Vos tests effectués ({{realises}}/{{attendus}})",
+      "score": "{{score}}%",
+      "en_cours": "En cours",
+      "non_teste": "— non testé",
+      "titre_global": "Votre synthèse globale du fruit de l’Esprit",
+      "moyenne": "Moyenne de vos six composantes évaluées, calculée à partir de vos réponses.",
+      "debloquer_one": "Complétez le dernier test restant pour débloquer votre <strong>synthèse globale du fruit de l’Esprit.</strong>",
+      "debloquer_other": "Complétez les {{count}} tests restants pour débloquer votre <strong>synthèse globale du fruit de l’Esprit.</strong>",
+      "voir_parcours": "Voir mon parcours et mes restitutions →"
+    }
+  },
+  "profil": {
+    "eyebrow": "CHRISTOSMETRICS · Mon espace",
+    "titre": "Profil",
+    "langue": "Langue",
+    "theme": "Thème",
+    "theme_description": "Choisissez l’apparence de l’application. Automatique suit le thème de votre appareil.",
+    "theme_clair": "Clair ☀️",
+    "theme_sombre": "Sombre 🌙",
+    "theme_auto": "Automatique ⚙️",
+    "compte": "Compte",
+    "a_propos": "À propos",
+    "version": "CHRISTOSMETRICS · Version {{version}}"
+  },
+  "navigation": {
+    "label": "Navigation principale",
+    "accueil": "Accueil",
+    "tests": "Tests",
+    "parcours": "Parcours",
+    "profil": "Profil"
+  },
+  "footer": {
+    "label": "Liens juridiques",
+    "politique": "Politique de confidentialité",
+    "cgu": "Conditions d'utilisation",
+    "copyright": "© {{annee}} Christosmetrics by LA"
+  }
+}
