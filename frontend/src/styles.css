@@ -321,3 +321,77 @@ main { padding-left: max(16px, env(safe-area-inset-left));
 @media (max-width: 900px) and (orientation: landscape) {
   .chart > div[style*="height"] { height: 260px !important; }
 }
+
+/* === Bottom navigation === */
+.bottom-nav {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .avec-bottom-nav {
+    padding-bottom: calc(64px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    height: calc(64px + env(safe-area-inset-bottom, 0px));
+    padding: 0 max(8px, env(safe-area-inset-right, 0px)) env(safe-area-inset-bottom, 0px) max(8px, env(safe-area-inset-left, 0px));
+    background: var(--bg);
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border-top: 1px solid var(--line);
+  }
+
+  .bottom-nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    min-width: 0;
+    padding: 8px 4px;
+    border-radius: 8px;
+    color: var(--muted);
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: color 0.15s ease, background-color 0.15s ease, transform 0.15s ease;
+  }
+
+  .bottom-nav__link svg {
+    flex-shrink: 0;
+  }
+
+  .bottom-nav__link[aria-current="page"],
+  .bottom-nav__link:hover {
+    color: var(--teal);
+    background-color: color-mix(in srgb, var(--teal) 8%, transparent);
+  }
+
+  .bottom-nav__link:focus-visible {
+    outline: 2px solid var(--teal);
+    outline-offset: -3px;
+  }
+
+  .bottom-nav__link:active {
+    transform: scale(0.97);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bottom-nav__link {
+    transition: none;
+  }
+
+  .bottom-nav__link:active {
+    transform: none;
+  }
+}

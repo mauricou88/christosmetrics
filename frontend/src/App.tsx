@@ -11,6 +11,7 @@ import { PolitiqueConfidentialitePage } from './pages/PolitiqueConfidentialitePa
 import { ConditionsUtilisationPage } from './pages/ConditionsUtilisationPage';
 import { StatusReseau } from './components/StatusReseau';
 import { Footer } from './components/Footer';
+import { BottomNav } from './components/BottomNav';
 import { AccueilPage } from './pages/AccueilPage';
 import { useEffect, type ReactNode } from 'react';
 
@@ -61,11 +62,13 @@ export function App() {
 
 function ContenuApp() {
   const { pathname } = useLocation();
+  const { estConnecte } = useAuth();
   const pagesSansFooter = /^\/test\/[^/]+\/?$/i;
   const afficherFooter = !pagesSansFooter.test(pathname);
+  const afficherBottomNav = estConnecte && afficherFooter;
 
   return (
-    <>
+    <div className={afficherBottomNav ? 'avec-bottom-nav' : undefined}>
         <RetourEnHaut />
         <Header />
         <StatusReseau />
@@ -85,7 +88,8 @@ function ContenuApp() {
           </Routes>
         </main>
         {afficherFooter && <Footer />}
-    </>
+        {afficherBottomNav && <BottomNav />}
+    </div>
   );
 }
 
