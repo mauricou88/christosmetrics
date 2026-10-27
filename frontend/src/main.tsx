@@ -1,4 +1,5 @@
 import ReactDOM from 'react-dom/client';
+import { registerSW } from 'virtual:pwa-register';
 import { App } from './App';
 import './styles.css';
 import './i18n';
@@ -22,3 +23,12 @@ try {
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <App />
 );
+
+// En mode autoUpdate, le module recharge la page à l’activation d’une nouvelle version.
+registerSW({
+  immediate: true,
+  /** Signale dans la console que les ressources de l’application sont disponibles hors ligne. */
+  onOfflineReady() {
+    console.log('App prête hors-ligne');
+  },
+});
