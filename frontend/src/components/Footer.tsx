@@ -10,7 +10,7 @@ export function Footer() {
         <Link to="/conditions-utilisation">Conditions d'utilisation</Link>
       </nav>
       <p className="footer-copyright">
-        © {annee} Christos — Édité par CMSWeShare · Méthode CHRISTOS par Luka Ankou (SISA)
+        © {annee} Christosmetrics by LA
       </p>
     </footer>
   );

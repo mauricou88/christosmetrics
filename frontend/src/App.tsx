@@ -10,6 +10,7 @@ import { SupprimerComptePage } from './pages/SupprimerComptePage';
 import { PolitiqueConfidentialitePage } from './pages/PolitiqueConfidentialitePage';
 import { ConditionsUtilisationPage } from './pages/ConditionsUtilisationPage';
 import { StatusReseau } from './components/StatusReseau';
+import { Footer } from './components/Footer';
 import { AccueilPage } from './pages/AccueilPage';
 import { useEffect, type ReactNode } from 'react';
 
@@ -48,10 +49,23 @@ function EntreeSiDeja({ inscription = false }: { inscription?: boolean }) {
 }
 
 export function App() {
+  const Router = Capacitor.isNativePlatform() ? HashRouter : BrowserRouter;
   return (
     <AuthProvider>
-      {(() => { const Router = Capacitor.isNativePlatform() ? HashRouter : BrowserRouter; return (
       <Router>
+        <ContenuApp />
+      </Router>
+    </AuthProvider>
+  );
+}
+
+function ContenuApp() {
+  const { pathname } = useLocation();
+  const pagesSansFooter = /^\/test\/[^/]+\/?$/i;
+  const afficherFooter = !pagesSansFooter.test(pathname);
+
+  return (
+    <>
         <RetourEnHaut />
         <Header />
         <StatusReseau />
@@ -70,9 +84,8 @@ export function App() {
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
-      </Router>
-    );})()}
-    </AuthProvider>
+        {afficherFooter && <Footer />}
+    </>
   );
 }
 
