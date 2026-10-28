@@ -2,6 +2,7 @@ package com.christosmetrics.domain.model;
 
 import jakarta.persistence.*;
 import java.time.Instant;
+import java.time.LocalDateTime;
 
 /**
  * Utilisateur de l'application.
@@ -40,6 +41,16 @@ public class User {
     @Column(name = "token_version", nullable = false)
     private long tokenVersion = 0L;
 
+    /** Date UTC de la dernière journée d’activité comptabilisée. */
+    @Column(name = "derniere_activite_at")
+    private LocalDateTime derniereActiviteAt;
+
+    @Column(name = "streak_actuel", nullable = false)
+    private int streakActuel = 0;
+
+    @Column(name = "streak_record", nullable = false)
+    private int streakRecord = 0;
+
     protected User() { } // requis par JPA
 
     public User(String email, String motDePasseHash, String prenom, String nom, String eglise) {
@@ -64,4 +75,12 @@ public class User {
     public void setPrenom(String prenom) { this.prenom = prenom; }
     public void setNom(String nom) { this.nom = nom; }
     public void setEglise(String eglise) { this.eglise = eglise; }
+
+    /** Accesseurs de la progression quotidienne, indépendante des scores des tests. */
+    public LocalDateTime getDerniereActiviteAt() { return derniereActiviteAt; }
+    public int getStreakActuel() { return streakActuel; }
+    public int getStreakRecord() { return streakRecord; }
+    public void setDerniereActiviteAt(LocalDateTime valeur) { this.derniereActiviteAt = valeur; }
+    public void setStreakActuel(int valeur) { this.streakActuel = valeur; }
+    public void setStreakRecord(int valeur) { this.streakRecord = valeur; }
 }

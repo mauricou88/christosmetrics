@@ -2,6 +2,7 @@ package com.christosmetrics.web.controller;
 
 import com.christosmetrics.application.dto.AuthDtos.*;
 import com.christosmetrics.application.service.AuthService;
+import com.christosmetrics.application.service.StreakService;
 import com.christosmetrics.infrastructure.security.RateLimiter;
 import com.christosmetrics.infrastructure.security.TrafficExcessif;
 import jakarta.servlet.http.HttpServletRequest;
@@ -18,10 +19,13 @@ public class AuthController {
 
     private final AuthService authService;
     private final RateLimiter rateLimiter;
+    private final StreakService streakService;
 
-    public AuthController(AuthService authService, RateLimiter rateLimiter) {
+    /** Ajoute le suivi d’activité aux connexions réussies uniquement. */
+    public AuthController(AuthService authService, RateLimiter rateLimiter, StreakService streakService) {
         this.authService = authService;
         this.rateLimiter = rateLimiter;
+        this.streakService = streakService;
     }
 
     @PostMapping("/register")
@@ -32,13 +36,16 @@ public class AuthController {
         return ResponseEntity.ok(authService.register(req));
     }
 
+    /** Compte la connexion après validation des identifiants et avant l’envoi du JWT. */
     @PostMapping("/login")
     public ResponseEntity<AuthResponse> login(@Valid @RequestBody LoginRequest req,
                                               HttpServletRequest http) {
         // 5 tentatives max / minute / IP + / email (double garde-fou)
         exigerSousQuota("login-ip:" + ipDe(http), rateLimiter.loginMaxParMinute(), 60);
         exigerSousQuota("login-mail:" + req.email().toLowerCase(), rateLimiter.loginMaxParMinute(), 60);
-        return ResponseEntity.ok(authService.login(req));
+        AuthResponse reponse = authService.login(req);
+        streakService.enregistrerActivite(reponse.user().id());
+        return ResponseEntity.ok(reponse);
     }
 
     private void exigerSousQuota(String cle, int max, long fenetreSec) {

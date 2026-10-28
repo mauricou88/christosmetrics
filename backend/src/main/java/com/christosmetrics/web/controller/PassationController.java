@@ -3,6 +3,7 @@ package com.christosmetrics.web.controller;
 import com.christosmetrics.application.dto.PassationDtos.*;
 import com.christosmetrics.application.dto.ResultatDto;
 import com.christosmetrics.application.service.PassationApplicationService;
+import com.christosmetrics.application.service.StreakService;
 import com.christosmetrics.domain.model.User;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
@@ -33,15 +34,21 @@ import org.springframework.web.bind.annotation.*;
 public class PassationController {
 
     private final PassationApplicationService service;
+    private final StreakService streakService;
 
-    public PassationController(PassationApplicationService service) {
+    /** Suit l’activité uniquement après une opération métier réussie. */
+    public PassationController(PassationApplicationService service, StreakService streakService) {
         this.service = service;
+        this.streakService = streakService;
     }
 
+    /** Compte le démarrage ou la reprise, après validation du référentiel. */
     @PostMapping("/demarrer")
     public ProgressionDto demarrer(@AuthenticationPrincipal User user,
                                    @RequestParam String code) {
-        return service.demarrerOuReprendre(user, code);
+        ProgressionDto progression = service.demarrerOuReprendre(user, code);
+        streakService.enregistrerActivite(user);
+        return progression;
     }
 
     @PostMapping("/{id}/repondre")
@@ -64,9 +71,12 @@ public class PassationController {
         return service.terminerEtCalculer(user, id);
     }
 
+    /** Compte une consultation seulement après vérification de propriété du résultat. */
     @GetMapping("/{id}/resultat")
     public ResultatDto resultat(@AuthenticationPrincipal User user,
                                 @PathVariable Long id) {
-        return service.resultat(user, id);
+        ResultatDto resultat = service.resultat(user, id);
+        streakService.enregistrerActivite(user);
+        return resultat;
     }
 }
