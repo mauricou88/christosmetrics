@@ -1,0 +1,1177 @@
+{
+  "fruit": {
+    "id": 3,
+    "code": "fidelite",
+    "nom": "Faithfulness",
+    "description": null,
+    "verset": "Galatians 5:22"
+  },
+  "dimensions": [
+    {
+      "id": 14,
+      "code": "fidelite-d14",
+      "position": 0,
+      "libelle": "Faithfulness and love",
+      "libelleCourt": "Love"
+    },
+    {
+      "id": 15,
+      "code": "fidelite-d15",
+      "position": 1,
+      "libelle": "Faithfulness in trials and suffering",
+      "libelleCourt": "Trials/Suffering"
+    },
+    {
+      "id": 16,
+      "code": "fidelite-d16",
+      "position": 2,
+      "libelle": "Faithfulness to vows and promises",
+      "libelleCourt": "Vows/Promises"
+    },
+    {
+      "id": 17,
+      "code": "fidelite-d17",
+      "position": 3,
+      "libelle": "Faithfulness and loyalty",
+      "libelleCourt": "Loyalty"
+    },
+    {
+      "id": 18,
+      "code": "fidelite-d18",
+      "position": 4,
+      "libelle": "Faithfulness and integrity/consistency",
+      "libelleCourt": "Integrity/Consistency"
+    },
+    {
+      "id": 19,
+      "code": "fidelite-d19",
+      "position": 5,
+      "libelle": "Faithfulness and stewardship",
+      "libelleCourt": "Stewardship"
+    }
+  ],
+  "questions": [
+    {
+      "id": 260,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 0,
+      "enonce": "I remain committed to my relationships even when my emotions change.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 261,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 1,
+      "enonce": "I am consistent in the love I give, whatever I receive.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 262,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 2,
+      "enonce": "I remain present through difficult periods in a relationship.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 263,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 3,
+      "enonce": "I keep my relationship commitments over time.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 264,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 4,
+      "enonce": "I am reliable in my relationships.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 265,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 5,
+      "enonce": "I do not easily shift my attachments.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 266,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 6,
+      "enonce": "I remain invested even when a relationship is in crisis.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 267,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 7,
+      "enonce": "I am emotionally stable in my commitments.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 268,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 8,
+      "enonce": "I show consistency in love.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 269,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 9,
+      "enonce": "I remain faithful despite relationship difficulties.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 270,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 10,
+      "enonce": "I easily detach myself from others.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 271,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 11,
+      "enonce": "My feelings change quickly.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 272,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 12,
+      "enonce": "I easily abandon a difficult relationship.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 273,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 13,
+      "enonce": "I am unstable in my emotional commitments.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 274,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 14,
+      "enonce": "I lack consistency in love.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 275,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 15,
+      "enonce": "I quickly grow weary in relationships.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 276,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 16,
+      "enonce": "I easily distance myself emotionally.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 277,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 17,
+      "enonce": "I am not emotionally dependable.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 278,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 18,
+      "enonce": "My attachments change quickly.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 279,
+      "dimensionId": 14,
+      "dimensionCode": "fidelite-d14",
+      "position": 19,
+      "enonce": "I lack perseverance in relationships.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 280,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 0,
+      "enonce": "I remain stable in difficult periods.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 281,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 1,
+      "enonce": "I keep going despite prolonged trials.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 282,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 2,
+      "enonce": "I persevere even when it is painful.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 283,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 3,
+      "enonce": "I hold on to hope in suffering.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 284,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 4,
+      "enonce": "I remain consistent in difficulties.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 285,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 5,
+      "enonce": "I do not give up easily.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 286,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 6,
+      "enonce": "I maintain a firm attitude in the face of trials.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 287,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 7,
+      "enonce": "I keep going despite repeated obstacles.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 288,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 8,
+      "enonce": "I show inner endurance.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 289,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 9,
+      "enonce": "I remain faithful to my values in times of trial.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 290,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 10,
+      "enonce": "I quickly become discouraged in difficulties.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 291,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 11,
+      "enonce": "I easily give up when faced with suffering.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 292,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 12,
+      "enonce": "I quickly lose hope.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 293,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 13,
+      "enonce": "I lack endurance in trials.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 294,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 14,
+      "enonce": "I am unstable in difficult periods.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 295,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 15,
+      "enonce": "I give up when things get hard.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 296,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 16,
+      "enonce": "I am fragile in crises.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 297,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 17,
+      "enonce": "I generally lack perseverance.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 298,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 18,
+      "enonce": "I easily change direction in times of trial.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 299,
+      "dimensionId": 15,
+      "dimensionCode": "fidelite-d15",
+      "position": 19,
+      "enonce": "I easily let things get me down.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 300,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 0,
+      "enonce": "I keep my promises even when it costs me.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 301,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 1,
+      "enonce": "I honour my commitments whatever happens.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 302,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 2,
+      "enonce": "I do what I said I would do.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 303,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 3,
+      "enonce": "Others can count on my word.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 304,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 4,
+      "enonce": "I am reliable in what I say.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 305,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 5,
+      "enonce": "I follow through on what I say I will do.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 306,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 6,
+      "enonce": "I take my promises seriously.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 307,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 7,
+      "enonce": "I fulfil my responsibilities.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 308,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 8,
+      "enonce": "My words and actions are consistent.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 309,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 9,
+      "enonce": "I remain faithful to my commitments over time.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 310,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 10,
+      "enonce": "I readily make promises without keeping my word.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 311,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 11,
+      "enonce": "I forget my commitments.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 312,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 12,
+      "enonce": "I easily change my mind.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 313,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 13,
+      "enonce": "I lack reliability in my words or commitments.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 314,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 14,
+      "enonce": "I do not always follow through on my commitments.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 315,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 15,
+      "enonce": "I easily withdraw from commitments.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 316,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 16,
+      "enonce": "I lack consistency in my responsibilities.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 317,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 17,
+      "enonce": "Others find it hard to count on me.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 318,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 18,
+      "enonce": "I say things without doing them.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 319,
+      "dimensionId": 16,
+      "dimensionCode": "fidelite-d16",
+      "position": 19,
+      "enonce": "I am inconsistent in my commitments.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 320,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 0,
+      "enonce": "I remain loyal to the important people in my life.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 321,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 1,
+      "enonce": "I defend absent people when they are attacked.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 322,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 2,
+      "enonce": "I do not easily betray others' trust.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 323,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 3,
+      "enonce": "I remain faithful to my values even under pressure.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 324,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 4,
+      "enonce": "I am consistent in my friendships.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 325,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 5,
+      "enonce": "I keep what others tell me in confidence.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 326,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 6,
+      "enonce": "I support others in difficult times.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 327,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 7,
+      "enonce": "I remain present even when it does not benefit me.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 328,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 8,
+      "enonce": "Others say I am trustworthy.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 329,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 9,
+      "enonce": "I remain loyal despite tensions.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 330,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 10,
+      "enonce": "I easily distance myself when things get complicated.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 331,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 11,
+      "enonce": "I can betray someone's trust for my own benefit.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 332,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 12,
+      "enonce": "I readily talk about others behind their backs.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 333,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 13,
+      "enonce": "I lack loyalty in relationships.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 334,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 14,
+      "enonce": "I change my position according to my own interests.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 335,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 15,
+      "enonce": "I am opportunistic in some relationships.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 336,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 16,
+      "enonce": "I am inconsistent in my support.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 337,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 17,
+      "enonce": "I am not dependable in relationships.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 338,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 18,
+      "enonce": "I can abandon someone in difficulty.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 339,
+      "dimensionId": 17,
+      "dimensionCode": "fidelite-d17",
+      "position": 19,
+      "enonce": "I lack faithfulness in relationships.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 340,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 0,
+      "enonce": "I finish what I start.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 341,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 1,
+      "enonce": "I see my projects through.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 342,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 2,
+      "enonce": "I remain motivated over time.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 343,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 3,
+      "enonce": "I persevere in pursuing my goals.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 344,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 4,
+      "enonce": "I stay on course despite difficulties.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 345,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 5,
+      "enonce": "I remain committed until the end.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 346,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 6,
+      "enonce": "I pursue my projects despite obstacles.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 347,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 7,
+      "enonce": "I am disciplined in my commitments.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 348,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 8,
+      "enonce": "I do not quickly grow weary.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 349,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 9,
+      "enonce": "I show consistency in my projects.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 350,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 10,
+      "enonce": "I often abandon what I start.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 351,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 11,
+      "enonce": "I quickly grow weary.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 352,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 12,
+      "enonce": "I regularly switch projects.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 353,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 13,
+      "enonce": "I lack perseverance in pursuing my goals.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 354,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 14,
+      "enonce": "I leave many things unfinished.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 355,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 15,
+      "enonce": "I easily lose motivation.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 356,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 16,
+      "enonce": "I am inconsistent in my efforts.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 357,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 17,
+      "enonce": "I quickly lose interest.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 358,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 18,
+      "enonce": "I give up when things become difficult.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 359,
+      "dimensionId": 18,
+      "dimensionCode": "fidelite-d18",
+      "position": 19,
+      "enonce": "I lack consistency in my projects.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 360,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 0,
+      "enonce": "I take good care of what is entrusted to me.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 361,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 1,
+      "enonce": "I take my responsibilities seriously.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 362,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 2,
+      "enonce": "I am reliable in the tasks entrusted to me.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 363,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 3,
+      "enonce": "I honour the responsibilities I am given.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 364,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 4,
+      "enonce": "I show integrity in my management.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 365,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 5,
+      "enonce": "I care for the resources entrusted to me.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 366,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 6,
+      "enonce": "I act responsibly in my assignments.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 367,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 7,
+      "enonce": "I deliver thorough, complete and careful work.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 368,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 8,
+      "enonce": "I am trustworthy in my management.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 369,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 9,
+      "enonce": "I show faithfulness in small things (thankless or subordinate tasks).",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 370,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 10,
+      "enonce": "I easily neglect what is entrusted to me.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 371,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 11,
+      "enonce": "I do not take my responsibilities seriously enough.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 372,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 12,
+      "enonce": "I lack diligence in my management.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 373,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 13,
+      "enonce": "I put off the tasks entrusted to me.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 374,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 14,
+      "enonce": "I lack rigour.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 375,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 15,
+      "enonce": "I manage my responsibilities poorly.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 376,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 16,
+      "enonce": "I am careless with the resources entrusted to me.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 377,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 17,
+      "enonce": "I am inconsistent in my responsibilities and commitments.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 378,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 18,
+      "enonce": "Others find it hard to trust me.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 379,
+      "dimensionId": 19,
+      "dimensionCode": "fidelite-d19",
+      "position": 19,
+      "enonce": "I lack faithfulness in the details.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    }
+  ],
+  "baremes": [
+    {
+      "position": 0,
+      "scoreMin": 0,
+      "scoreMax": 19,
+      "interpretation": "Faithfulness is scarcely evident across the attitudes assessed. This is a warning sign: action is needed without delay.",
+      "typeIcone": "TRISTE",
+      "nombreIcones": 1
+    },
+    {
+      "position": 1,
+      "scoreMin": 20,
+      "scoreMax": 39,
+      "interpretation": "There are several slight signs of faithfulness. These need to be strengthened significantly.",
+      "typeIcone": "NEUTRE",
+      "nombreIcones": 1
+    },
+    {
+      "position": 2,
+      "scoreMin": 40,
+      "scoreMax": 59,
+      "interpretation": "The profile shows a real presence of faithfulness in daily life, even if its expression remains inconsistent. This needs further work.",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 1
+    },
+    {
+      "position": 3,
+      "scoreMin": 60,
+      "scoreMax": 79,
+      "interpretation": "Faithfulness appears to be clearly evident in several areas of life. Keep strengthening it!",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 2
+    },
+    {
+      "position": 4,
+      "scoreMin": 80,
+      "scoreMax": 100,
+      "interpretation": "The profile reveals a very strong expression of the faithfulness of the Lord. Stay on course!",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 3
+    }
+  ]
+}

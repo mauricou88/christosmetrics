@@ -88,6 +88,86 @@ Allégresse, cœur, âme, cheminement, fidélité, communauté, assemblée, tém
 
 Les questionnaires sont des textes originaux à localiser. Ces références servent au vocabulaire biblique et aux allusions, sans transformer les questions en citations canoniques.
 
-## Point d'arrêt
+## Extension autorisée du glossaire
 
-Le glossaire et les arbitrages Q69/Q99 sont validés. Les étapes 5–7 et les builds sont autorisés ; arrêt avant commit et avant le fruit suivant.
+## Enrichissements LOT 3 — appliqués à partir de Patience
+
+| FR | EN | ES | PT-PT | Choix |
+| --- | --- | --- | --- | --- |
+| patience | patience | paciencia | paciência | Persévérance active ; ne pas remplacer automatiquement par passivité, longanimity ou forbearance. |
+| persévérer ; persévérance | persevere ; perseverance | perseverar ; perseverancia | perseverar ; perseverança | Conserver l'effort durable, sans promettre un résultat immédiat. |
+| maîtrise de soi | self-control | dominio propio | domínio próprio | Terme stable pour la régulation des réactions ; ne pas confondre avec domination d'autrui. |
+| attente en Dieu ; attendre Dieu | waiting for God | espera en Dios ; esperar a Dios | espera em Deus ; esperar por Deus | Attente confiante du croyant ; aucune référence à une prétendue absence de Dieu. |
+| timing de Dieu | God's timing | los tiempos de Dios | o tempo de Deus | Formulation naturelle dans chaque langue, sans calque du mot anglais en ES/PT. |
+| rechute, dans la croissance personnelle | setback in one's progress | retroceso | retrocesso | Éviter un diagnostic médical ou une référence au péché non présents dans l'item. |
+| injustice ; inéquité | injustice ; unfairness | injusticia ; falta de equidad | injustiça ; falta de equidade | Conserver les deux expressions ; patienter n'est pas traduit par approuver l'injustice. |
+
+Ces ajouts s'appliquent à Patience et aux fruits suivants. Les fichiers Joie ne sont pas révisés rétroactivement.
+
+## Enrichissements LOT 3 — appliqués à partir d'Amour
+
+| FR | EN | ES | PT-PT | Choix |
+| --- | --- | --- | --- | --- |
+| amour | love | amor | amor | Jamais charity en anglais contemporain ; ne pas ajouter « divin » à chaque item. |
+| compassion | compassion | compasión | compaixão | Distinguer sensibilité à la souffrance et simple pitié distante. |
+| grâce, disposition envers autrui | grace | gracia | graça | Contexte de pardon et faveur non méritée ; ne pas confondre avec élégance ou humour. |
+| miséricorde | mercy | misericordia | misericórdia | Garder la nuance de compassion envers la faute ou la fragilité. |
+| pardonner ; pardon | forgive ; forgiveness | perdonar ; perdón | perdoar ; perdão | Ne pas confondre pardon, oubli et absence de responsabilité. |
+| orgueil ; humilité | pride ; humility | orgullo ; humildad | orgulho ; humildade | Pride désigne ici la supériorité, non la satisfaction légitime d'une réussite. |
+| intégrité ; intègre | integrity ; acting with integrity | integridad ; íntegro | integridade ; íntegro | Cohérence éthique de la conduite, et non intégrité physique. |
+| crainte, dans les items psychologiques | fear | temor / miedo | medo / receio | Ne pas introduire le sens de révérence devant Dieu absent de ces questions. |
+
+Les titres du référentiel Amour restent des reformulations de la méthode, pas des citations certifiées NIV/NVI/ARA. Le titre « ne soupçonne pas le mal » reste centré sur la suspicion, conformément aux items. « Excuse tout » est rendu en EN par « Love is always forgiving » dans le contexte du pardon. Ces choix n'autorisent ni la dissimulation d'un tort ni sa justification.
+
+## Enrichissements LOT 3 — appliqués à partir de Bonté & Bienveillance
+
+| FR | EN | ES | PT-PT | Choix |
+| --- | --- | --- | --- | --- |
+| Bonté & Bienveillance, nom du référentiel | Kindness & Goodness | Bondad y Benevolencia | Bondade e Benevolência | Noms validés par Momo ; préserver les deux concepts. |
+| Bonté (Chrestotes), dimension d'intention | Kindness (Chrestotes) | Bondad (Chrestotes) | Bondade (Chrestotes) | Conserver la translittération du seed comme repère de la méthode. |
+| Bienveillance (Agathousune), dimension d'action | Goodness (Agathousune) | Benevolencia (Agathousune) | Benevolência (Agathousune) | Dimension d'action ; ne pas fusionner avec la disposition intérieure. |
+| douceur, intention ou réaction | gentleness | delicadeza | delicadeza | Pour l'intention relationnelle ; ne pas transformer en faiblesse ou effacement. |
+| reprendre quelqu'un pour son bien | correct someone for their good | corregir a alguien por su bien | corrigir alguém para seu bem | Reprendre signifie corriger ici, pas récupérer une personne ou lui reprendre un bien. |
+| s'égarer | go astray | desviarse | desviar-se | Ne pas ajouter un diagnostic de péché ou une rupture religieuse absents du français. |
+
+Les noms de référentiel validés ne prétendent pas être les mots d'une citation canonique de Galates 5:22. Si un verset complet est cité ultérieurement, suivre l'édition biblique correspondante. Aucun verset complet n'est ajouté dans ce lot.
+
+## Enrichissements LOT 3 — appliqués à partir de Fidélité
+
+| FR | EN | ES | PT-PT | Choix |
+| --- | --- | --- | --- | --- |
+| fidélité, fruit | faithfulness | fidelidad | fidelidade | Ne pas réduire le nom du fruit à loyalty ; foi reste faith / fe / fé. |
+| loyauté, dimension relationnelle | loyalty | lealtad | lealdade | Conserver le terme propre à la dimension sans le substituer au nom du fruit. |
+| intendance | stewardship | administración responsable | gestão responsável | Responsabilité des ressources confiées ; éviter une lecture hôtelière ou le sens de privilèges de mordomia. |
+| vœux ; promesses | vows ; promises | votos ; promesas | votos ; promessas | Vœu signifie engagement solennel, pas souhait ou vote électoral. |
+| rendre témoignage, fiabilité attestée | say someone is trustworthy | dar testimonio de que alguien es digno de confianza | dar testemunho de que alguém é digno de confiança | Q328 parle de la réputation de fiabilité, sans ajouter un récit de conversion. |
+| constance | consistency | constancia | constância | Stabilité dans le temps, sans réduire la fidélité aux seuls sentiments. |
+
+## Enrichissements LOT 3 — appliqués à partir de Paix
+
+| FR | EN | ES | PT-PT | Choix |
+| --- | --- | --- | --- | --- |
+| paix | peace | paz | paz | État intérieur et relationnel ; ne pas réduire le concept à l'absence de dispute. |
+| culpabilité | guilt | culpa | culpa | Ressenti décrit ; ne pas transformer en constat de culpabilité divine. |
+| péché non traité | unaddressed sin | pecado no abordado | pecado não tratado | Conserver le titre théologique sans inventer de pratique sacramentelle ou de procédure de guérison. |
+| condamnation intérieure | inner condemnation | condena interior | condenação interior | Ne pas ajouter « par Dieu » ni confondre avec une décision judiciaire. |
+| lâcher prise | let go | soltar | deixar ir | Dans ce corpus, desserrer le contrôle ; ne pas substituer passivité ou abandon de toute responsabilité. |
+| ruminer | dwell on | dar vueltas a | remoer | Pensées répétitives, sans diagnostic médical ajouté. |
+| regard des autres | how others see me / others' opinions | la mirada de los demás | o olhar dos outros | Perception sociale ; non regard visuel au sens littéral. |
+
+Shalom n'apparaît pas dans le seed Paix : aucun mot hébreu ni développement doctrinal n'est inséré dans les questions.
+
+## Enrichissements LOT 3 — appliqués à partir de CHRISTOS Couple
+
+| FR | EN | ES | PT-PT | Choix |
+| --- | --- | --- | --- | --- |
+| couple | couple | pareja | casal | Unité relationnelle, sans transformer l'affirmation en question individuelle. |
+| conjoint | spouse | cónyuge | cônjuge | Conserver le vocabulaire conjugal neutre, sans imposer de sexe au partenaire. |
+| amour sacrificiel ; se livrer | sacrificial love ; offer oneself | amor sacrificial ; entregarse | amor sacrificial ; entregar-se | Don de soi ; ne pas ajouter une idée de coercition ou supprimer le sacrifice. |
+| douceur, nom du fruit | gentleness | mansedumbre | mansidão | Nom du fruit dans la méthode ; distinct de la délicatesse d'une attitude locale. |
+| caractère de Christ | Christ's character | carácter de Cristo | caráter de Cristo | Traits manifestés dans les interactions, non apparence physique. |
+| restauration profonde | deep restoration | restauración profunda | restauração profunda | Conserver l'intensité pastorale sans ajouter de diagnostic ou de promesse de guérison. |
+
+Les neuf affirmations françaises sont rédigées à la troisième personne ou à la forme passive, sans pronom « nous ». Cette perspective collective est conservée ; aucun « je » individuel ni « nous » absent de la source n'est inventé. Communion conjugale n'apparaît pas dans le seed Couple et n'est pas ajoutée.
+
+Le glossaire et les arbitrages Q69/Q99 ont été validés pour Joie. Le LOT 3 autorise l'enrichissement progressif et l'enchaînement des six référentiels sans validation intermédiaire. Arrêt avant commit ; aucune application rétroactive des enrichissements aux fruits précédents.

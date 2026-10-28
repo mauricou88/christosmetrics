@@ -1,0 +1,191 @@
+{
+  "fruit": {
+    "id": 7,
+    "code": "couple",
+    "nom": "Couple",
+    "description": null,
+    "verset": "Galatians 5:22"
+  },
+  "dimensions": [
+    {
+      "id": 46,
+      "code": "couple-d46",
+      "position": 0,
+      "libelle": "Love",
+      "libelleCourt": "love"
+    },
+    {
+      "id": 47,
+      "code": "couple-d47",
+      "position": 1,
+      "libelle": "Joy",
+      "libelleCourt": "joy"
+    },
+    {
+      "id": 48,
+      "code": "couple-d48",
+      "position": 2,
+      "libelle": "Peace",
+      "libelleCourt": "peace"
+    },
+    {
+      "id": 49,
+      "code": "couple-d49",
+      "position": 3,
+      "libelle": "Patience",
+      "libelleCourt": "patience"
+    },
+    {
+      "id": 50,
+      "code": "couple-d50",
+      "position": 4,
+      "libelle": "Kindness",
+      "libelleCourt": "kindness"
+    },
+    {
+      "id": 51,
+      "code": "couple-d51",
+      "position": 5,
+      "libelle": "Goodness",
+      "libelleCourt": "goodness"
+    },
+    {
+      "id": 52,
+      "code": "couple-d52",
+      "position": 6,
+      "libelle": "Faithfulness",
+      "libelleCourt": "faithfulness"
+    },
+    {
+      "id": 53,
+      "code": "couple-d53",
+      "position": 7,
+      "libelle": "Gentleness",
+      "libelleCourt": "gentleness"
+    },
+    {
+      "id": 54,
+      "code": "couple-d54",
+      "position": 8,
+      "libelle": "Self-control",
+      "libelleCourt": "self-control"
+    }
+  ],
+  "questions": [
+    {
+      "id": 960,
+      "dimensionId": 46,
+      "dimensionCode": "couple-d46",
+      "position": 0,
+      "enonce": "God's love, the sacrificial love that gives, forgives and offers itself, is the foundation of the couple's relationship.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 961,
+      "dimensionId": 47,
+      "dimensionCode": "couple-d47",
+      "position": 0,
+      "enonce": "The deep joy that comes from God characterises the atmosphere of the home, regardless of circumstances.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 962,
+      "dimensionId": 48,
+      "dimensionCode": "couple-d48",
+      "position": 0,
+      "enonce": "God's peace reigns in the couple's conversations, decisions and everyday interactions.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 963,
+      "dimensionId": 49,
+      "dimensionCode": "couple-d49",
+      "position": 0,
+      "enonce": "The couple patiently bears with each other's weaknesses and limitations, without losing their temper at the first setback.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 964,
+      "dimensionId": 50,
+      "dimensionCode": "couple-d50",
+      "position": 0,
+      "enonce": "Each partner does good to the other, even when it takes effort or sacrifice.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 965,
+      "dimensionId": 51,
+      "dimensionCode": "couple-d51",
+      "position": 0,
+      "enonce": "Words and attitudes show gentleness, encouragement and respect.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 966,
+      "dimensionId": 52,
+      "dimensionCode": "couple-d52",
+      "position": 0,
+      "enonce": "Commitments made before God and to one's spouse are consistently honoured.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 967,
+      "dimensionId": 53,
+      "dimensionCode": "couple-d53",
+      "position": 0,
+      "enonce": "Disagreements are handled with self-control, humility and mutual respect.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 968,
+      "dimensionId": 54,
+      "dimensionCode": "couple-d54",
+      "position": 0,
+      "enonce": "Emotions, reactions and words are kept under control to preserve the couple's unity.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    }
+  ],
+  "baremes": [
+    {
+      "position": 0,
+      "scoreMin": 32,
+      "scoreMax": 36,
+      "interpretation": "The fruit of the Spirit strongly characterises the couple's relationship. Christ's character is visible in their interactions.",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 3
+    },
+    {
+      "position": 1,
+      "scoreMin": 25,
+      "scoreMax": 31,
+      "interpretation": "The couple has good foundations, but some areas need strengthening.",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 2
+    },
+    {
+      "position": 2,
+      "scoreMin": 18,
+      "scoreMax": 24,
+      "interpretation": "Several vulnerabilities are evident. Some virtues are present, but are not yet sufficiently rooted in everyday life.",
+      "typeIcone": "NEUTRE",
+      "nombreIcones": 1
+    },
+    {
+      "position": 3,
+      "scoreMin": 9,
+      "scoreMax": 17,
+      "interpretation": "Several spiritual and relational foundations need deep restoration.",
+      "typeIcone": "TRISTE",
+      "nombreIcones": 1
+    }
+  ]
+}

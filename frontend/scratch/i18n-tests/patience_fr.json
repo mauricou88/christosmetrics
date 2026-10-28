@@ -1,0 +1,1925 @@
+{
+  "fruit": {
+    "id": 6,
+    "code": "patience",
+    "nom": "Patience",
+    "description": null,
+    "verset": "Galates 5.22"
+  },
+  "dimensions": [
+    {
+      "id": 36,
+      "code": "patience-d36",
+      "position": 0,
+      "libelle": "Patience dans l'épreuve et la souffrance",
+      "libelleCourt": "Épreuve/Souffrance"
+    },
+    {
+      "id": 37,
+      "code": "patience-d37",
+      "position": 1,
+      "libelle": "Patience dans l'attente (temps)",
+      "libelleCourt": "Attente (temps)"
+    },
+    {
+      "id": 38,
+      "code": "patience-d38",
+      "position": 2,
+      "libelle": "Patience avec les autres",
+      "libelleCourt": "Avec les autres"
+    },
+    {
+      "id": 39,
+      "code": "patience-d39",
+      "position": 3,
+      "libelle": "Patience face aux imperfections",
+      "libelleCourt": "Face aux imperfections"
+    },
+    {
+      "id": 40,
+      "code": "patience-d40",
+      "position": 4,
+      "libelle": "Patience dans les frustrations",
+      "libelleCourt": "Frustrations"
+    },
+    {
+      "id": 41,
+      "code": "patience-d41",
+      "position": 5,
+      "libelle": "Patience dans la croissance personnelle",
+      "libelleCourt": "Croissance personnelle"
+    },
+    {
+      "id": 42,
+      "code": "patience-d42",
+      "position": 6,
+      "libelle": "Patience dans le travail et projets",
+      "libelleCourt": "Travail et projets"
+    },
+    {
+      "id": 43,
+      "code": "patience-d43",
+      "position": 7,
+      "libelle": "Patience face à l'injustice",
+      "libelleCourt": "Face à l'injustice"
+    },
+    {
+      "id": 44,
+      "code": "patience-d44",
+      "position": 8,
+      "libelle": "Patience émotionnelle (maîtrise de soi)",
+      "libelleCourt": "Émotionnelle"
+    },
+    {
+      "id": 45,
+      "code": "patience-d45",
+      "position": 9,
+      "libelle": "Patience spirituelle (attente en Dieu)",
+      "libelleCourt": "Spirituelle"
+    }
+  ],
+  "questions": [
+    {
+      "id": 760,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 0,
+      "enonce": "Je tiens bon dans la durée malgré la douleur.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 761,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 1,
+      "enonce": "Je garde espoir quand l'épreuve se prolonge.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 762,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 2,
+      "enonce": "Je reste stable face à une difficulté réelle.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 763,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 3,
+      "enonce": "Je supporte la souffrance sans me révolter.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 764,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 4,
+      "enonce": "Je persévère quand tout semble contre moi.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 765,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 5,
+      "enonce": "J'accepte que certaines épreuves prennent du temps.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 766,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 6,
+      "enonce": "Je garde confiance dans les moments difficiles.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 767,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 7,
+      "enonce": "Je traverse les tempêtes avec calme.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 768,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 8,
+      "enonce": "Je m'appuie sur ma foi dans l'adversité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 769,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 9,
+      "enonce": "Je reste patient même quand je souffre.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 770,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 10,
+      "enonce": "Je m'effondre vite face à la souffrance.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 771,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 11,
+      "enonce": "Je me révolte dès que l'épreuve dure.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 772,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 12,
+      "enonce": "Je perds espoir rapidement dans la difficulté.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 773,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 13,
+      "enonce": "Je deviens amer quand je souffre.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 774,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 14,
+      "enonce": "Je ne supporte pas les épreuves longues.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 775,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 15,
+      "enonce": "Je me plains constamment dans l'adversité.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 776,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 16,
+      "enonce": "Je cède au découragement facilement.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 777,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 17,
+      "enonce": "Je veux que la souffrance cesse immédiatement.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 778,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 18,
+      "enonce": "Je panique devant les difficultés.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 779,
+      "dimensionId": 36,
+      "dimensionCode": "patience-d36",
+      "position": 19,
+      "enonce": "La douleur me rend impatient.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 780,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 0,
+      "enonce": "Je sais attendre sans m'agiter.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 781,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 1,
+      "enonce": "Je patiente sereinement quand c'est nécessaire.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 782,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 2,
+      "enonce": "J'accepte que les choses prennent du temps.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 783,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 3,
+      "enonce": "Je reste calme dans une file d'attente.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 784,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 4,
+      "enonce": "Je gère bien les délais imposés.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 785,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 5,
+      "enonce": "Je vis l'attente avec paix.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 786,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 6,
+      "enonce": "Je ne me précipite pas inutilement.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 787,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 7,
+      "enonce": "Je respecte le rythme des événements.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 788,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 8,
+      "enonce": "J'attends une réponse sans anxiété.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 789,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 9,
+      "enonce": "Je supporte les temps morts sereinement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 790,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 10,
+      "enonce": "Je déteste attendre.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 791,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 11,
+      "enonce": "Je m'impatiente dès que ça tarde.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 792,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 12,
+      "enonce": "Je m'agace dans les files d'attente.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 793,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 13,
+      "enonce": "Je veux tout, tout de suite.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 794,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 14,
+      "enonce": "Les délais me rendent nerveux.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 795,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 15,
+      "enonce": "Je vérifie sans cesse si c'est prêt.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 796,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 16,
+      "enonce": "L'attente me stresse énormément.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 797,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 17,
+      "enonce": "Je bous intérieurement quand ça traîne.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 798,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 18,
+      "enonce": "Je ne supporte pas la lenteur.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 799,
+      "dimensionId": 37,
+      "dimensionCode": "patience-d37",
+      "position": 19,
+      "enonce": "Je précipite tout par impatience.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 800,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 0,
+      "enonce": "Je reste patient avec les personnes lentes.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 801,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 1,
+      "enonce": "Je laisse aux autres le temps de comprendre.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 802,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 2,
+      "enonce": "Je supporte les défauts d'autrui.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 803,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 3,
+      "enonce": "J'écoute sans couper la parole.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 804,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 4,
+      "enonce": "Je tolère les rythmes différents du mien.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 805,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 5,
+      "enonce": "Je reste doux face aux maladresses.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 806,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 6,
+      "enonce": "J'accompagne sans presser les autres.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 807,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 7,
+      "enonce": "Je pardonne les lenteurs des autres.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 808,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 8,
+      "enonce": "Je garde mon calme avec les enfants.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 809,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 9,
+      "enonce": "Je fais preuve de compréhension envers autrui.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 810,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 10,
+      "enonce": "Je m'énerve contre les gens lents.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 811,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 11,
+      "enonce": "Je coupe la parole par impatience.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 812,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 12,
+      "enonce": "Je m'agace des défauts des autres.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 813,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 13,
+      "enonce": "Je presse les autres constamment.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 814,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 14,
+      "enonce": "Je supporte mal les maladresses d'autrui.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 815,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 15,
+      "enonce": "Je critique la lenteur des autres.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 816,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 16,
+      "enonce": "Je perds patience avec mes proches.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 817,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 17,
+      "enonce": "Je m'irrite quand on ne comprend pas vite.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 818,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 18,
+      "enonce": "Je soupire face aux hésitations d'autrui.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 819,
+      "dimensionId": 38,
+      "dimensionCode": "patience-d38",
+      "position": 19,
+      "enonce": "Les autres me trouvent impatient.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 820,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 0,
+      "enonce": "J'accepte que rien ne soit parfait.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 821,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 1,
+      "enonce": "Je tolère mes propres imperfections.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 822,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 2,
+      "enonce": "Je compose avec les défauts d'une situation.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 823,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 3,
+      "enonce": "Je reste serein face à l'imparfait.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 824,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 4,
+      "enonce": "Je ne m'obstine pas à tout contrôler.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 825,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 5,
+      "enonce": "J'accueille les erreurs comme normales.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 826,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 6,
+      "enonce": "Je relativise ce qui n'est pas parfait.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 827,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 7,
+      "enonce": "Je fais avec les limites du réel.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 828,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 8,
+      "enonce": "Je pardonne les imperfections.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 829,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 9,
+      "enonce": "Je garde la paix malgré les défauts.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 830,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 10,
+      "enonce": "Je supporte mal l'imperfection.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 831,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 11,
+      "enonce": "Je m'irrite dès que quelque chose cloche.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 832,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 12,
+      "enonce": "Je veux que tout soit parfait.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 833,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 13,
+      "enonce": "Les défauts me contrarient beaucoup.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 834,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 14,
+      "enonce": "Je ne tolère aucune erreur.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 835,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 15,
+      "enonce": "Je m'acharne à tout corriger.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 836,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 16,
+      "enonce": "L'imparfait me met mal à l'aise.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 837,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 17,
+      "enonce": "Je critique le moindre défaut.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 838,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 18,
+      "enonce": "Je perds patience face aux imperfections.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 839,
+      "dimensionId": 39,
+      "dimensionCode": "patience-d39",
+      "position": 19,
+      "enonce": "Je m'obstine contre ce qui cloche.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 840,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 0,
+      "enonce": "Je gère bien mes frustrations.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 841,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 1,
+      "enonce": "Je reste calme quand mes plans échouent.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 842,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 2,
+      "enonce": "J'accepte les contretemps sereinement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 843,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 3,
+      "enonce": "Je rebondis après une déception.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 844,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 4,
+      "enonce": "Je garde mon sang-froid face aux obstacles.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 845,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 5,
+      "enonce": "Je transforme la frustration en patience.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 846,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 6,
+      "enonce": "Je ne me laisse pas abattre par un échec.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 847,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 7,
+      "enonce": "J'accueille les imprévus avec souplesse.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 848,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 8,
+      "enonce": "Je respire avant de réagir à une contrariété.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 849,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 9,
+      "enonce": "Je reste posé quand rien ne va comme prévu.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 850,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 10,
+      "enonce": "La moindre frustration me fait exploser.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 851,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 11,
+      "enonce": "Je m'effondre quand mes plans échouent.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 852,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 12,
+      "enonce": "Les contretemps me mettent hors de moi.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 853,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 13,
+      "enonce": "Je réagis violemment à la contrariété.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 854,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 14,
+      "enonce": "Je rumine longtemps mes frustrations.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 855,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 15,
+      "enonce": "Un obstacle me décourage aussitôt.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 856,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 16,
+      "enonce": "Je m'emporte face aux imprévus.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 857,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 17,
+      "enonce": "Je supporte mal qu'on contrarie mes projets.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 858,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 18,
+      "enonce": "La frustration me rend agressif.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 859,
+      "dimensionId": 40,
+      "dimensionCode": "patience-d40",
+      "position": 19,
+      "enonce": "Je perds vite mon calme quand ça bloque.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 860,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 0,
+      "enonce": "J'accepte que grandir prenne du temps.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 861,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 1,
+      "enonce": "Je progresse à mon rythme sans me juger.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 862,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 2,
+      "enonce": "Je persévère dans mon développement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 863,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 3,
+      "enonce": "Je célèbre les petits progrès.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 864,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 4,
+      "enonce": "J'accepte mes rechutes comme normales.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 865,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 5,
+      "enonce": "Je reste patient avec moi-même.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 866,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 6,
+      "enonce": "Je vois le chemin parcouru, pas seulement le reste.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 867,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 7,
+      "enonce": "Je cultive la constance dans mes efforts.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 868,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 8,
+      "enonce": "Je fais confiance au processus de croissance.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 869,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 9,
+      "enonce": "Je reste motivé sur le long terme.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 870,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 10,
+      "enonce": "Je veux progresser immédiatement.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 871,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 11,
+      "enonce": "Je me décourage si je n'avance pas vite.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 872,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 12,
+      "enonce": "Je suis dur envers moi-même.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 873,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 13,
+      "enonce": "Je me compare et m'impatiente.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 874,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 14,
+      "enonce": "Je lâche mes efforts trop tôt.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 875,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 15,
+      "enonce": "Je ne supporte pas mes rechutes.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 876,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 16,
+      "enonce": "Je veux des résultats instantanés.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 877,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 17,
+      "enonce": "Je m'agace de ma propre lenteur.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 878,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 18,
+      "enonce": "Je néglige le chemin parcouru.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 879,
+      "dimensionId": 41,
+      "dimensionCode": "patience-d41",
+      "position": 19,
+      "enonce": "Mon impatience freine ma croissance.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 880,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 0,
+      "enonce": "Je mène mes projets avec constance.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 881,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 1,
+      "enonce": "Je persévère jusqu'à l'aboutissement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 882,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 2,
+      "enonce": "Je gère les délais professionnels sereinement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 883,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 3,
+      "enonce": "Je reste patient face aux tâches longues.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 884,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 4,
+      "enonce": "J'avance étape par étape sans me presser.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 885,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 5,
+      "enonce": "Je garde mon calme sous la pression.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 886,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 6,
+      "enonce": "Je supporte les projets qui traînent.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 887,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 7,
+      "enonce": "Je reste concentré sur le long terme.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 888,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 8,
+      "enonce": "J'accepte les révisions et reprises.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 889,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 9,
+      "enonce": "Je termine ce que je commence.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 890,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 10,
+      "enonce": "J'abandonne les projets trop longs.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 891,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 11,
+      "enonce": "Je me décourage quand ça n'avance pas.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 892,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 12,
+      "enonce": "La pression professionnelle me fait craquer.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 893,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 13,
+      "enonce": "Je bâcle pour finir plus vite.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 894,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 14,
+      "enonce": "Je m'impatiente devant les tâches longues.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 895,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 15,
+      "enonce": "Je change de projet dès que ça bloque.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 896,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 16,
+      "enonce": "Les révisions m'agacent.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 897,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 17,
+      "enonce": "Je veux des résultats immédiats au travail.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 898,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 18,
+      "enonce": "Je perds patience sur les dossiers longs.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 899,
+      "dimensionId": 42,
+      "dimensionCode": "patience-d42",
+      "position": 19,
+      "enonce": "Mon impatience nuit à mes projets.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 900,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 0,
+      "enonce": "Je garde mon calme face à l'injustice.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 901,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 1,
+      "enonce": "Je réponds à l'injustice sans violence.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 902,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 2,
+      "enonce": "Je patiente en cherchant une solution juste.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 903,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 3,
+      "enonce": "Je maîtrise ma colère devant l'inéquité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 904,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 4,
+      "enonce": "Je reste digne face à un traitement injuste.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 905,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 5,
+      "enonce": "Je ne me venge pas dans la précipitation.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 906,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 6,
+      "enonce": "Je confie les injustices au temps et à Dieu.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 907,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 7,
+      "enonce": "Je réagis avec mesure à l'inéquité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 908,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 8,
+      "enonce": "Je garde espoir que justice sera faite.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 909,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 9,
+      "enonce": "Je supporte l'injustice sans m'aigrir.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 910,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 10,
+      "enonce": "L'injustice me fait exploser.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 911,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 11,
+      "enonce": "Je veux me venger immédiatement.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 912,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 12,
+      "enonce": "Je perds tout calme face à l'inéquité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 913,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 13,
+      "enonce": "Je réagis avec violence à l'injustice.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 914,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 14,
+      "enonce": "Je rumine longtemps les injustices subies.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 915,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 15,
+      "enonce": "L'inéquité me rend amer.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 916,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 16,
+      "enonce": "Je ne supporte aucune injustice.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 917,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 17,
+      "enonce": "Je m'emporte dès que c'est injuste.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 918,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 18,
+      "enonce": "Je deviens agressif face à l'injustice.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 919,
+      "dimensionId": 43,
+      "dimensionCode": "patience-d43",
+      "position": 19,
+      "enonce": "L'injustice détruit ma patience.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 920,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 0,
+      "enonce": "Je maîtrise mes émotions sous tension.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 921,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 1,
+      "enonce": "Je respire avant de réagir.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 922,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 2,
+      "enonce": "Je garde mon calme quand je suis énervé.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 923,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 3,
+      "enonce": "Je canalise ma colère sereinement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 924,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 4,
+      "enonce": "Je reste posé dans les moments intenses.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 925,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 5,
+      "enonce": "Je prends du recul avant de répondre.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 926,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 6,
+      "enonce": "Je gère mon stress avec patience.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 927,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 7,
+      "enonce": "Je désamorce mes emportements.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 928,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 8,
+      "enonce": "Je reste maître de mes réactions.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 929,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 9,
+      "enonce": "Je transforme l'agacement en calme.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 930,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 10,
+      "enonce": "Je m'emporte facilement.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 931,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 11,
+      "enonce": "Je réagis à chaud sans réfléchir.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 932,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 12,
+      "enonce": "Mes émotions me submergent vite.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 933,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 13,
+      "enonce": "Je crie quand je suis contrarié.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 934,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 14,
+      "enonce": "Je perds le contrôle sous tension.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 935,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 15,
+      "enonce": "Je m'énerve pour un rien.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 936,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 16,
+      "enonce": "Je suis impulsif dans mes réactions.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 937,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 17,
+      "enonce": "Ma colère explose rapidement.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 938,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 18,
+      "enonce": "Je regrette souvent mes réactions.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 939,
+      "dimensionId": 44,
+      "dimensionCode": "patience-d44",
+      "position": 19,
+      "enonce": "Je maîtrise mal mon impatience.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 940,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 0,
+      "enonce": "J'attends les réponses de Dieu avec confiance.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 941,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 1,
+      "enonce": "Je patiente dans la prière sans me lasser.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 942,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 2,
+      "enonce": "Je fais confiance au timing de Dieu.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 943,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 3,
+      "enonce": "Je persévère spirituellement dans l'attente.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 944,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 4,
+      "enonce": "Je garde la foi quand Dieu semble silencieux.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 945,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 5,
+      "enonce": "J'accepte que Dieu agisse en son temps.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 946,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 6,
+      "enonce": "Je reste fidèle même sans réponse immédiate.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 947,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 7,
+      "enonce": "Je cultive la patience dans ma vie spirituelle.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 948,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 8,
+      "enonce": "Je m'en remets à Dieu sans précipitation.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 949,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 9,
+      "enonce": "Je grandis dans l'attente confiante.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 950,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 10,
+      "enonce": "Je m'impatiente devant le silence de Dieu.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 951,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 11,
+      "enonce": "Je veux des réponses divines immédiates.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 952,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 12,
+      "enonce": "Je doute quand Dieu tarde.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 953,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 13,
+      "enonce": "Je me décourage dans la prière.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 954,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 14,
+      "enonce": "Je lâche la foi si rien ne vient vite.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 955,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 15,
+      "enonce": "Je force les choses au lieu d'attendre Dieu.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 956,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 16,
+      "enonce": "Le silence de Dieu me frustre.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 957,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 17,
+      "enonce": "Je perds patience spirituellement.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 958,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 18,
+      "enonce": "Je ne supporte pas d'attendre Dieu.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 959,
+      "dimensionId": 45,
+      "dimensionCode": "patience-d45",
+      "position": 19,
+      "enonce": "Mon impatience affecte ma foi.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    }
+  ],
+  "baremes": [
+    {
+      "position": 0,
+      "scoreMin": 0,
+      "scoreMax": 19,
+      "interpretation": "Le fruit de l’Esprit apparaît encore très peu dans l’ensemble des attitudes mesurées.",
+      "typeIcone": "TRISTE",
+      "nombreIcones": 1
+    },
+    {
+      "position": 1,
+      "scoreMin": 20,
+      "scoreMax": 39,
+      "interpretation": "Plusieurs dispositions positives existent, mais leur expression reste faible ou inconstante.",
+      "typeIcone": "NEUTRE",
+      "nombreIcones": 1
+    },
+    {
+      "position": 2,
+      "scoreMin": 40,
+      "scoreMax": 59,
+      "interpretation": "Le profil montre une empreinte réelle, avec une présence modérée du fruit de l’Esprit.",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 1
+    },
+    {
+      "position": 3,
+      "scoreMin": 60,
+      "scoreMax": 79,
+      "interpretation": "Le fruit de l’Esprit semble se manifester de façon encourageante dans plusieurs domaines de la vie.",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 2
+    },
+    {
+      "position": 4,
+      "scoreMin": 80,
+      "scoreMax": 100,
+      "interpretation": "Le profil révèle une manifestation forte et cohérente des qualités évaluées, tout en laissant place à une croissance continue.",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 3
+    }
+  ]
+}

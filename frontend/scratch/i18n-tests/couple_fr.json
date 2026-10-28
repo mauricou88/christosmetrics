@@ -1,0 +1,191 @@
+{
+  "fruit": {
+    "id": 7,
+    "code": "couple",
+    "nom": "Couple",
+    "description": null,
+    "verset": "Galates 5.22"
+  },
+  "dimensions": [
+    {
+      "id": 46,
+      "code": "couple-d46",
+      "position": 0,
+      "libelle": "L'amour",
+      "libelleCourt": "amour"
+    },
+    {
+      "id": 47,
+      "code": "couple-d47",
+      "position": 1,
+      "libelle": "La joie",
+      "libelleCourt": "joie"
+    },
+    {
+      "id": 48,
+      "code": "couple-d48",
+      "position": 2,
+      "libelle": "La paix",
+      "libelleCourt": "paix"
+    },
+    {
+      "id": 49,
+      "code": "couple-d49",
+      "position": 3,
+      "libelle": "La patience",
+      "libelleCourt": "patience"
+    },
+    {
+      "id": 50,
+      "code": "couple-d50",
+      "position": 4,
+      "libelle": "La bonté",
+      "libelleCourt": "bonté"
+    },
+    {
+      "id": 51,
+      "code": "couple-d51",
+      "position": 5,
+      "libelle": "La bienveillance",
+      "libelleCourt": "bienveillance"
+    },
+    {
+      "id": 52,
+      "code": "couple-d52",
+      "position": 6,
+      "libelle": "La fidélité",
+      "libelleCourt": "fidélité"
+    },
+    {
+      "id": 53,
+      "code": "couple-d53",
+      "position": 7,
+      "libelle": "La douceur",
+      "libelleCourt": "douceur"
+    },
+    {
+      "id": 54,
+      "code": "couple-d54",
+      "position": 8,
+      "libelle": "La maîtrise de soi",
+      "libelleCourt": "maîtrise de soi"
+    }
+  ],
+  "questions": [
+    {
+      "id": 960,
+      "dimensionId": 46,
+      "dimensionCode": "couple-d46",
+      "position": 0,
+      "enonce": "L'amour de Dieu, l'amour sacrificiel qui donne, pardonne et se livre, constitue le fondement du couple.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 961,
+      "dimensionId": 47,
+      "dimensionCode": "couple-d47",
+      "position": 0,
+      "enonce": "La joie profonde qui vient de Dieu caractérise l'atmosphère de la maison, indépendamment des circonstances.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 962,
+      "dimensionId": 48,
+      "dimensionCode": "couple-d48",
+      "position": 0,
+      "enonce": "La paix de Dieu règne dans les conversations, les décisions et les interactions quotidiennes du couple.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 963,
+      "dimensionId": 49,
+      "dimensionCode": "couple-d49",
+      "position": 0,
+      "enonce": "Le couple supporte les faiblesses et les limites de chacun avec patience, sans exploser à la première contrariété.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 964,
+      "dimensionId": 50,
+      "dimensionCode": "couple-d50",
+      "position": 0,
+      "enonce": "Le bien est fait l'un envers l'autre, même lorsque cela demande un effort ou un sacrifice.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 965,
+      "dimensionId": 51,
+      "dimensionCode": "couple-d51",
+      "position": 0,
+      "enonce": "Les paroles et les attitudes sont empreintes de douceur, d'encouragement et de respect.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 966,
+      "dimensionId": 52,
+      "dimensionCode": "couple-d52",
+      "position": 0,
+      "enonce": "Les engagements pris devant Dieu et envers son conjoint sont honorés avec constance.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 967,
+      "dimensionId": 53,
+      "dimensionCode": "couple-d53",
+      "position": 0,
+      "enonce": "Les désaccords sont gérés avec maîtrise, humilité et respect mutuel.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 968,
+      "dimensionId": 54,
+      "dimensionCode": "couple-d54",
+      "position": 0,
+      "enonce": "Les émotions, réactions et paroles sont contrôlées afin de préserver l'unité du couple.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    }
+  ],
+  "baremes": [
+    {
+      "position": 0,
+      "scoreMin": 32,
+      "scoreMax": 36,
+      "interpretation": "Le fruit de l'Esprit caractérise fortement la dynamique du couple. Le caractère de Christ est visible dans les interactions.",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 3
+    },
+    {
+      "position": 1,
+      "scoreMin": 25,
+      "scoreMax": 31,
+      "interpretation": "Le couple possède de bonnes fondations, mais certains domaines ont besoin d'être renforcés.",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 2
+    },
+    {
+      "position": 2,
+      "scoreMin": 18,
+      "scoreMax": 24,
+      "interpretation": "Plusieurs fragilités apparaissent. Certaines vertus sont présentes, mais pas encore suffisamment enracinées dans le quotidien.",
+      "typeIcone": "NEUTRE",
+      "nombreIcones": 1
+    },
+    {
+      "position": 3,
+      "scoreMin": 9,
+      "scoreMax": 17,
+      "interpretation": "Plusieurs fondations spirituelles et relationnelles nécessitent une restauration profonde.",
+      "typeIcone": "TRISTE",
+      "nombreIcones": 1
+    }
+  ]
+}

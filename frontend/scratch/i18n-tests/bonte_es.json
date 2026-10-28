@@ -1,0 +1,969 @@
+{
+  "fruit": {
+    "id": 4,
+    "code": "bonte",
+    "nom": "Bondad y Benevolencia",
+    "description": null,
+    "verset": "Gálatas 5:22"
+  },
+  "dimensions": [
+    {
+      "id": 20,
+      "code": "bonte-d20",
+      "position": 0,
+      "libelle": "Bondad (Chrestotes)",
+      "libelleCourt": "Bondad (intención)"
+    },
+    {
+      "id": 21,
+      "code": "bonte-d21",
+      "position": 1,
+      "libelle": "Benevolencia (Agathousune)",
+      "libelleCourt": "Benevolencia (acción)"
+    }
+  ],
+  "questions": [
+    {
+      "id": 380,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 0,
+      "enonce": "Siento compasión por los demás de forma natural.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 381,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 1,
+      "enonce": "Me conmueve el sufrimiento de los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 382,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 2,
+      "enonce": "En mi interior busco hacer el bien.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 383,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 3,
+      "enonce": "Siento delicadeza en mis intenciones.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 384,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 4,
+      "enonce": "Pienso espontáneamente en el bien de los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 385,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 5,
+      "enonce": "Mis pensamientos son benevolentes, incluso hacia quienes no me agradan.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 386,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 6,
+      "enonce": "No albergo malas intenciones.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 387,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 7,
+      "enonce": "Siento empatía ante las dificultades.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 388,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 8,
+      "enonce": "Tengo una inclinación natural a la amabilidad.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 389,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 9,
+      "enonce": "Busco comprender antes de juzgar.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 390,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 10,
+      "enonce": "Siento compasión incluso por alguien que me ha herido.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 391,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 11,
+      "enonce": "Mis reacciones interiores son delicadas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 392,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 12,
+      "enonce": "No deseo el mal a los demás, ni siquiera cuando estoy enfadado.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 393,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 13,
+      "enonce": "Soy sensible a las emociones de los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 394,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 14,
+      "enonce": "Siento un deseo interior sincero de ayudar.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 395,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 15,
+      "enonce": "Soy indulgente en mis pensamientos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 396,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 16,
+      "enonce": "Mantengo una buena disposición interior hacia los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 397,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 17,
+      "enonce": "Mi primera inclinación es pensar bien de los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 398,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 18,
+      "enonce": "Tiendo a no alimentar amargura en mi interior.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 399,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 19,
+      "enonce": "Conservo una buena opinión de los demás incluso en los conflictos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 400,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 20,
+      "enonce": "Cuando las dificultades se prolongan, me desanimo rápidamente.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 401,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 21,
+      "enonce": "Deseo sinceramente el bien de los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 402,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 22,
+      "enonce": "No me apresuro a juzgar a los demás.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 403,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 23,
+      "enonce": "Me conmueven las injusticias que sufren los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 404,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 24,
+      "enonce": "Mantengo pensamientos benevolentes a lo largo del tiempo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 405,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 25,
+      "enonce": "Alimento fácilmente pensamientos negativos hacia los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 406,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 26,
+      "enonce": "Me falta compasión ante el sufrimiento.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 407,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 27,
+      "enonce": "Soy duro en mis pensamientos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 408,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 28,
+      "enonce": "Juzgo rápidamente sin intentar comprender.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 409,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 29,
+      "enonce": "Soy indiferente a las dificultades de los demás.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 410,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 30,
+      "enonce": "Me falta empatía.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 411,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 31,
+      "enonce": "Mantengo pensamientos críticos o duros.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 412,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 32,
+      "enonce": "Soy frío por dentro.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 413,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 33,
+      "enonce": "Me falta delicadeza en mis intenciones.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 414,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 34,
+      "enonce": "Soy severo en mis juicios.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 415,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 35,
+      "enonce": "Siento poca compasión por los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 416,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 36,
+      "enonce": "Soy duro con quienes fracasan.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 417,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 37,
+      "enonce": "Me falta bondad interior.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 418,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 38,
+      "enonce": "Critico fácilmente a los demás en mis pensamientos.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 419,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 39,
+      "enonce": "Guardo rencor durante mucho tiempo.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 420,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 40,
+      "enonce": "Soy poco sensible a las necesidades de los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 421,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 41,
+      "enonce": "Me falta misericordia.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 422,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 42,
+      "enonce": "Estoy cerrado emocionalmente.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 423,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 43,
+      "enonce": "Pienso mal de los demás con facilidad.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 424,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 44,
+      "enonce": "Mis pensamientos son duros ante los errores.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 425,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 45,
+      "enonce": "Me falta paciencia interior con los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 426,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 46,
+      "enonce": "A veces me alegro de los fracasos de los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 427,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 47,
+      "enonce": "Soy indiferente a las injusticias que sufren los demás.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 428,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 48,
+      "enonce": "Mantengo pensamientos negativos persistentes.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 429,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 49,
+      "enonce": "Me falta amabilidad interior.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 430,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 0,
+      "enonce": "Ayudo lo mejor que puedo a las personas en dificultades.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 431,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 1,
+      "enonce": "Tomo iniciativas concretas para hacer el bien.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 432,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 2,
+      "enonce": "Estoy dispuesto a actuar para ayudar a alguien.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 433,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 3,
+      "enonce": "Hago el bien de forma activa a mi alrededor.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 434,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 4,
+      "enonce": "Me comprometo con acciones útiles para los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 435,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 5,
+      "enonce": "Apoyo a los demás en sus necesidades.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 436,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 6,
+      "enonce": "Actúo cuando veo una necesidad.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 437,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 7,
+      "enonce": "Dedico mi tiempo a los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 438,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 8,
+      "enonce": "Me implico en el bien de los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 439,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 9,
+      "enonce": "Muestro generosidad con acciones concretas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 440,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 10,
+      "enonce": "Sé decir la verdad con benevolencia.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 441,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 11,
+      "enonce": "Corrijo con justicia cuando es necesario.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 442,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 12,
+      "enonce": "Confronto con respeto cuando hace falta.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 443,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 13,
+      "enonce": "Busco el verdadero bien de los demás, aunque resulte incómodo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 444,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 14,
+      "enonce": "Tomo decisiones justas, aunque sean difíciles.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 445,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 15,
+      "enonce": "Estoy dispuesto a corregir a alguien por su bien.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 446,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 16,
+      "enonce": "No dejo que alguien se haga daño sin intervenir.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 447,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 17,
+      "enonce": "Hago el bien de forma activa.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 448,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 18,
+      "enonce": "Participo en actos de compasión.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 449,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 19,
+      "enonce": "Ayudo de forma espontánea.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 450,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 20,
+      "enonce": "Cuido de las personas en dificultades.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 451,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 21,
+      "enonce": "Corrijo a alguien cuando es necesario por su bien.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 452,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 22,
+      "enonce": "Confronto con sabiduría cuando hace falta.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 453,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 23,
+      "enonce": "No dejo que alguien se desvíe sin intervenir.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 454,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 24,
+      "enonce": "Tomo posición a favor del bien.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 455,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 25,
+      "enonce": "Veo las necesidades, pero no actúo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 456,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 26,
+      "enonce": "Permanezco pasivo ante el sufrimiento de los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 457,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 27,
+      "enonce": "Me falta iniciativa para ayudar.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 458,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 28,
+      "enonce": "Prefiero evitar implicarme.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 459,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 29,
+      "enonce": "Dejo que los demás se las arreglen solos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 460,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 30,
+      "enonce": "Me implico poco en las acciones de ayuda.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 461,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 31,
+      "enonce": "No actúo ni siquiera cuando podría ayudar.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 462,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 32,
+      "enonce": "Soy indiferente a las necesidades visibles.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 463,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 33,
+      "enonce": "Me falta generosidad en mis actos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 464,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 34,
+      "enonce": "No dedico tiempo a ayudar.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 465,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 35,
+      "enonce": "No me atrevo a decir la verdad cuando es necesario.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 466,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 36,
+      "enonce": "Evito las confrontaciones útiles.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 467,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 37,
+      "enonce": "Dejo que las situaciones se deterioren.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 468,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 38,
+      "enonce": "Me falta valor para actuar.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 469,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 39,
+      "enonce": "Soy pasivo ante la injusticia.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 470,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 40,
+      "enonce": "No corrijo cuando es necesario.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 471,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 41,
+      "enonce": "Dejo pasar los errores sin intervenir.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 472,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 42,
+      "enonce": "Me falta implicación concreta.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 473,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 43,
+      "enonce": "Soy poco activo en hacer el bien.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 474,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 44,
+      "enonce": "A menudo pospongo la ayuda que podría prestar.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 475,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 45,
+      "enonce": "Mis acciones están centradas en mí mismo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 476,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 46,
+      "enonce": "Solo actúo si me conviene.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 477,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 47,
+      "enonce": "Me falta compromiso con los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 478,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 48,
+      "enonce": "Desaprovecho las oportunidades de ayudar.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 479,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 49,
+      "enonce": "Soy pasivo ante las necesidades de los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    }
+  ],
+  "baremes": [
+    {
+      "position": 0,
+      "scoreMin": 0,
+      "scoreMax": 19,
+      "interpretation": "La bondad y la benevolencia se manifiestan muy poco en el conjunto de las actitudes evaluadas. Es una señal de alerta: es necesario actuar sin demora.",
+      "typeIcone": "TRISTE",
+      "nombreIcones": 1
+    },
+    {
+      "position": 1,
+      "scoreMin": 20,
+      "scoreMax": 39,
+      "interpretation": "Hay varios indicios leves de bondad y benevolencia. Es necesario fortalecerlos de manera significativa.",
+      "typeIcone": "NEUTRE",
+      "nombreIcones": 1
+    },
+    {
+      "position": 2,
+      "scoreMin": 40,
+      "scoreMax": 59,
+      "interpretation": "El perfil muestra una presencia real de bondad y benevolencia en la vida cotidiana, aunque su expresión sigue siendo inconstante. Hay que seguir trabajando en ello.",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 1
+    },
+    {
+      "position": 3,
+      "scoreMin": 60,
+      "scoreMax": 79,
+      "interpretation": "La bondad y la benevolencia parecen manifestarse de forma evidente en varias áreas de la vida. ¡Sigue fortaleciéndolas!",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 2
+    },
+    {
+      "position": 4,
+      "scoreMin": 80,
+      "scoreMax": 100,
+      "interpretation": "El perfil revela una manifestación muy intensa de la bondad y la benevolencia del Señor. ¡Mantén el rumbo!",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 3
+    }
+  ]
+}

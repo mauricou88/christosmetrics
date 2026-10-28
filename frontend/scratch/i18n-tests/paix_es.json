@@ -1,0 +1,1542 @@
+{
+  "fruit": {
+    "id": 2,
+    "code": "paix",
+    "nom": "Paz",
+    "description": null,
+    "verset": "Gálatas 5:22"
+  },
+  "dimensions": [
+    {
+      "id": 6,
+      "code": "paix-d6",
+      "position": 0,
+      "libelle": "Preocupación / Ansiedad",
+      "libelleCourt": "Preocupación/Ansiedad"
+    },
+    {
+      "id": 7,
+      "code": "paix-d7",
+      "position": 1,
+      "libelle": "La necesidad de control",
+      "libelleCourt": "Necesidad de control"
+    },
+    {
+      "id": 8,
+      "code": "paix-d8",
+      "position": 2,
+      "libelle": "Dependencia de las cosas materiales",
+      "libelleCourt": "Dependencia material"
+    },
+    {
+      "id": 9,
+      "code": "paix-d9",
+      "position": 3,
+      "libelle": "Tensiones en las relaciones",
+      "libelleCourt": "Tensiones en las relaciones"
+    },
+    {
+      "id": 10,
+      "code": "paix-d10",
+      "position": 4,
+      "libelle": "Culpa y pecado no abordado",
+      "libelleCourt": "Culpa"
+    },
+    {
+      "id": 11,
+      "code": "paix-d11",
+      "position": 5,
+      "libelle": "Pensamientos negativos",
+      "libelleCourt": "Pensamientos negativos"
+    },
+    {
+      "id": 12,
+      "code": "paix-d12",
+      "position": 6,
+      "libelle": "La mirada de los demás",
+      "libelleCourt": "La mirada de los demás"
+    },
+    {
+      "id": 13,
+      "code": "paix-d13",
+      "position": 7,
+      "libelle": "Pruebas",
+      "libelleCourt": "Pruebas"
+    }
+  ],
+  "questions": [
+    {
+      "id": 101,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 0,
+      "enonce": "Me preocupo a menudo por el futuro.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 102,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 1,
+      "enonce": "Siento ansiedad con regularidad.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 103,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 2,
+      "enonce": "Pienso a menudo en lo que podría salir mal.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 104,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 3,
+      "enonce": "Me preocupo incluso sin una razón clara.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 105,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 4,
+      "enonce": "Doy muchas vueltas a mis preocupaciones.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 106,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 5,
+      "enonce": "Me cuesta dejar de pensar en mis problemas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 107,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 6,
+      "enonce": "Siento tensión ante la incertidumbre.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 108,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 7,
+      "enonce": "Me preocupo fácilmente por los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 109,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 8,
+      "enonce": "Mi mente suele estar inquieta.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 110,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 9,
+      "enonce": "Siento preocupación interior con frecuencia.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 111,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 10,
+      "enonce": "Mantengo una actitud de paz ante el futuro.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 112,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 11,
+      "enonce": "En lugar de preocuparme, confío.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 113,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 12,
+      "enonce": "Mantengo la calma ante la incertidumbre.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 114,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 13,
+      "enonce": "No dejo que los pensamientos de ansiedad me invadan.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 115,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 14,
+      "enonce": "Soy capaz de soltar.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 116,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 15,
+      "enonce": "Duermo en paz a pesar de las preocupaciones.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 117,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 16,
+      "enonce": "Mantengo la estabilidad mental ante la adversidad.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 118,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 17,
+      "enonce": "No consigo dejar de preocuparme.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 119,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 18,
+      "enonce": "Vivo el día a día con serenidad.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 120,
+      "dimensionId": 6,
+      "dimensionCode": "paix-d6",
+      "position": 19,
+      "enonce": "Mantengo la confianza ante el mañana.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 121,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 0,
+      "enonce": "Necesito tenerlo todo bajo control en todo momento.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 122,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 1,
+      "enonce": "Me estreso cuando no controlo una situación.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 123,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 2,
+      "enonce": "Quiero prever todos los escenarios.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 124,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 3,
+      "enonce": "Me siento mal cuando las cosas escapan a mi control.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 125,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 4,
+      "enonce": "Me cuesta delegar.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 126,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 5,
+      "enonce": "Quiero organizarlo todo de antemano.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 127,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 6,
+      "enonce": "Me cuesta tolerar los imprevistos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 128,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 7,
+      "enonce": "Siento tensión cuando no tengo el control.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 129,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 8,
+      "enonce": "Busco controlar mi entorno.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 130,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 9,
+      "enonce": "Solo me siento seguro cuando tengo el control.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 131,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 10,
+      "enonce": "Acepto lo que no puedo controlar.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 132,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 11,
+      "enonce": "Me siento cómodo ante los imprevistos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 133,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 12,
+      "enonce": "Suelto las cosas con facilidad.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 134,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 13,
+      "enonce": "Confío en el curso natural de las cosas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 135,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 14,
+      "enonce": "Mantengo la calma incluso sin tener el control.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 136,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 15,
+      "enonce": "Sé delegar con serenidad.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 137,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 16,
+      "enonce": "Soy flexible ante los cambios.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 138,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 17,
+      "enonce": "No siento la necesidad de controlarlo todo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 139,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 18,
+      "enonce": "Soy adaptable.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 140,
+      "dimensionId": 7,
+      "dimensionCode": "paix-d7",
+      "position": 19,
+      "enonce": "Vivo desde la confianza en lugar del control.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 141,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 0,
+      "enonce": "Mi paz depende de mi situación económica.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 142,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 1,
+      "enonce": "Me preocupo cuando disminuyen mis recursos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 143,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 2,
+      "enonce": "Mis bienes me hacen sentir seguro.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 144,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 3,
+      "enonce": "Me estreso ante una pérdida material.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 145,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 4,
+      "enonce": "Pienso a menudo en el dinero (que no tengo).",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 146,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 5,
+      "enonce": "Me siento mejor cuando tengo más recursos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 147,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 6,
+      "enonce": "Mi comodidad influye en cómo me siento por dentro.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 148,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 7,
+      "enonce": "Me preocupa mi estabilidad económica.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 149,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 8,
+      "enonce": "Mido mi seguridad por mis posesiones.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 150,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 9,
+      "enonce": "Me siento vulnerable sin seguridad material.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 151,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 10,
+      "enonce": "Mi paz no depende de mis bienes.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 152,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 11,
+      "enonce": "Mantengo la serenidad incluso en la escasez.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 153,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 12,
+      "enonce": "No me apoyo en mis posesiones.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 154,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 13,
+      "enonce": "Estoy en paz independientemente de mis recursos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 155,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 14,
+      "enonce": "Estoy desprendido de lo material.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 156,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 15,
+      "enonce": "Mantengo la estabilidad incluso en la pérdida.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 157,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 16,
+      "enonce": "Mi seguridad es interior.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 158,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 17,
+      "enonce": "Vivo sin depender de la comodidad.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 159,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 18,
+      "enonce": "Mantengo la serenidad sin garantías materiales.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 160,
+      "dimensionId": 8,
+      "dimensionCode": "paix-d8",
+      "position": 19,
+      "enonce": "Mi estado de ánimo no depende del dinero.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 161,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 0,
+      "enonce": "Los conflictos me perturban profundamente.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 162,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 1,
+      "enonce": "Pierdo la paz en las discusiones.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 163,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 2,
+      "enonce": "Las tensiones me causan mucho estrés.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 164,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 3,
+      "enonce": "Doy vueltas a los conflictos durante mucho tiempo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 165,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 4,
+      "enonce": "Los desacuerdos me afectan.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 166,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 5,
+      "enonce": "Siento ira en situaciones de tensión.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 167,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 6,
+      "enonce": "Me siento mal durante mucho tiempo después de un conflicto.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 168,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 7,
+      "enonce": "Las relaciones influyen mucho en mi estado de ánimo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 169,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 8,
+      "enonce": "Los desacuerdos me alteran.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 170,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 9,
+      "enonce": "Pierdo la serenidad en situaciones de tensión.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 171,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 10,
+      "enonce": "Mantengo la calma en los conflictos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 172,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 11,
+      "enonce": "Mantengo la paz a pesar de las tensiones.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 173,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 12,
+      "enonce": "Tomo distancia ante los conflictos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 174,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 13,
+      "enonce": "Me distancio emocionalmente de las discusiones.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 175,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 14,
+      "enonce": "Mantengo la estabilidad en las relaciones difíciles.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 176,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 15,
+      "enonce": "No dejo que los conflictos me invadan.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 177,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 16,
+      "enonce": "Gestiono las tensiones con calma.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 178,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 17,
+      "enonce": "Mantengo la serenidad ante los desacuerdos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 179,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 18,
+      "enonce": "Mantengo la paz interior en los conflictos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 180,
+      "dimensionId": 9,
+      "dimensionCode": "paix-d9",
+      "position": 19,
+      "enonce": "Mantengo la estabilidad a pesar de las tensiones.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 181,
+      "dimensionId": 10,
+      "dimensionCode": "paix-d10",
+      "position": 0,
+      "enonce": "Siento culpa constantemente por mis actos, palabras o pensamientos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 182,
+      "dimensionId": 10,
+      "dimensionCode": "paix-d10",
+      "position": 1,
+      "enonce": "Vuelvo a pensar en mis errores del pasado.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 183,
+      "dimensionId": 10,
+      "dimensionCode": "paix-d10",
+      "position": 2,
+      "enonce": "Me siento condenado por dentro.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 184,
+      "dimensionId": 10,
+      "dimensionCode": "paix-d10",
+      "position": 3,
+      "enonce": "Me reprocho ciertas cosas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 185,
+      "dimensionId": 10,
+      "dimensionCode": "paix-d10",
+      "position": 4,
+      "enonce": "Arrastro arrepentimientos persistentes.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 186,
+      "dimensionId": 10,
+      "dimensionCode": "paix-d10",
+      "position": 5,
+      "enonce": "Me siento mal por mis faltas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 187,
+      "dimensionId": 10,
+      "dimensionCode": "paix-d10",
+      "position": 6,
+      "enonce": "Mi pasado me perturba interiormente.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 188,
+      "dimensionId": 10,
+      "dimensionCode": "paix-d10",
+      "position": 7,
+      "enonce": "Siento un peso interior.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 189,
+      "dimensionId": 10,
+      "dimensionCode": "paix-d10",
+      "position": 8,
+      "enonce": "Me juzgo con severidad.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 190,
+      "dimensionId": 10,
+      "dimensionCode": "paix-d10",
+      "position": 9,
+      "enonce": "Mis errores me afectan.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 191,
+      "dimensionId": 10,
+      "dimensionCode": "paix-d10",
+      "position": 10,
+      "enonce": "Estoy en paz con mi pasado.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 192,
+      "dimensionId": 10,
+      "dimensionCode": "paix-d10",
+      "position": 11,
+      "enonce": "Me siento profundamente perdonado.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 193,
+      "dimensionId": 10,
+      "dimensionCode": "paix-d10",
+      "position": 12,
+      "enonce": "No me siento abrumado por dentro.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 194,
+      "dimensionId": 10,
+      "dimensionCode": "paix-d10",
+      "position": 13,
+      "enonce": "Me libero de mis errores.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 195,
+      "dimensionId": 10,
+      "dimensionCode": "paix-d10",
+      "position": 14,
+      "enonce": "Vivo sin condena interior.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 196,
+      "dimensionId": 10,
+      "dimensionCode": "paix-d10",
+      "position": 15,
+      "enonce": "Dejo atrás mis faltas pasadas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 197,
+      "dimensionId": 10,
+      "dimensionCode": "paix-d10",
+      "position": 16,
+      "enonce": "Me levanto sin quedarme atrapado en lo que pasó.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 198,
+      "dimensionId": 10,
+      "dimensionCode": "paix-d10",
+      "position": 17,
+      "enonce": "Vivo con libertad interior.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 199,
+      "dimensionId": 10,
+      "dimensionCode": "paix-d10",
+      "position": 18,
+      "enonce": "Estoy en paz conmigo mismo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 200,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 0,
+      "enonce": "Pienso a menudo de forma negativa.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 201,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 1,
+      "enonce": "Imagino lo peor con facilidad.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 202,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 2,
+      "enonce": "Imagino escenarios negativos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 203,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 3,
+      "enonce": "Dudo a menudo.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 204,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 4,
+      "enonce": "Los pensamientos negativos me invaden.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 205,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 5,
+      "enonce": "Me fijo primero en lo negativo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 206,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 6,
+      "enonce": "Me critico interiormente.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 207,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 7,
+      "enonce": "Siento pesimismo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 208,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 8,
+      "enonce": "Mi mente suele ser negativa.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 209,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 9,
+      "enonce": "Veo el lado oscuro de las cosas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 210,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 10,
+      "enonce": "Pienso de forma positiva.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 211,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 11,
+      "enonce": "Mantengo pensamientos constructivos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 212,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 12,
+      "enonce": "Mis pensamientos están agitados.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 213,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 13,
+      "enonce": "Elijo pensamientos positivos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 214,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 14,
+      "enonce": "Mantengo una perspectiva sana.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 215,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 15,
+      "enonce": "No dejo que mi mente se vea desbordada.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 216,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 16,
+      "enonce": "Cultivo pensamientos de paz.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 217,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 17,
+      "enonce": "Mantengo el optimismo pase lo que pase.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 218,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 18,
+      "enonce": "Mantengo una mente estable.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 219,
+      "dimensionId": 11,
+      "dimensionCode": "paix-d11",
+      "position": 19,
+      "enonce": "Controlo mi mente.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 220,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 0,
+      "enonce": "La forma en que me ven los demás influye en mi estado de ánimo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 221,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 1,
+      "enonce": "Necesito validación.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 222,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 2,
+      "enonce": "Me siento mal si no me reconocen.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 223,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 3,
+      "enonce": "Busco la aprobación de los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 224,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 4,
+      "enonce": "Soy sensible a las críticas.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 225,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 5,
+      "enonce": "Quiero que me acepten.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 226,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 6,
+      "enonce": "Mi estado de ánimo depende de la opinión de los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 227,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 7,
+      "enonce": "Temo que me juzguen.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 228,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 8,
+      "enonce": "Busco agradar.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 229,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 9,
+      "enonce": "Me afecta lo que piensan los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 230,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 10,
+      "enonce": "Mantengo la estabilidad independientemente de los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 231,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 11,
+      "enonce": "No busco validación externa.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 232,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 12,
+      "enonce": "Soy libre de la mirada de los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 233,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 13,
+      "enonce": "Tengo confianza en mi identidad.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 234,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 14,
+      "enonce": "Mantengo la estabilidad ante las críticas.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 235,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 15,
+      "enonce": "No necesito aprobación.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 236,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 16,
+      "enonce": "Soy libre por dentro de la opinión de los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 237,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 17,
+      "enonce": "No dependo de cómo me ven los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 238,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 18,
+      "enonce": "Estoy afianzado en mí mismo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 239,
+      "dimensionId": 12,
+      "dimensionCode": "paix-d12",
+      "position": 19,
+      "enonce": "Vivo sin presión social.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 240,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 0,
+      "enonce": "Veo las pruebas como algo injusto.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 241,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 1,
+      "enonce": "Me desanimo ante las dificultades.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 242,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 2,
+      "enonce": "Pierdo la confianza en las pruebas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 243,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 3,
+      "enonce": "Me siento abandonado en los momentos difíciles.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 244,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 4,
+      "enonce": "Siento que hay injusticia.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 245,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 5,
+      "enonce": "Me lleno de amargura en las pruebas.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 246,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 6,
+      "enonce": "Pierdo la esperanza fácilmente.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 247,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 7,
+      "enonce": "Me quejo en las dificultades.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 248,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 8,
+      "enonce": "Veo las pruebas de forma negativa.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 249,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 9,
+      "enonce": "Me siento abatido ante las dificultades.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 250,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 10,
+      "enonce": "Veo un sentido en las pruebas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 251,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 11,
+      "enonce": "Mantengo la confianza en las dificultades.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 252,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 12,
+      "enonce": "Mantengo una actitud positiva en las pruebas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 253,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 13,
+      "enonce": "Veo las pruebas como experiencias de aprendizaje.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 254,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 14,
+      "enonce": "Conservo la esperanza a pesar de las dificultades.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 255,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 15,
+      "enonce": "Mantengo la estabilidad en las pruebas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 256,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 16,
+      "enonce": "Crezco a través de las dificultades.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 257,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 17,
+      "enonce": "Mantengo una buena actitud.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 258,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 18,
+      "enonce": "Mantengo la confianza en las tormentas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 259,
+      "dimensionId": 13,
+      "dimensionCode": "paix-d13",
+      "position": 19,
+      "enonce": "Mantengo una perspectiva constructiva.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    }
+  ],
+  "baremes": [
+    {
+      "position": 0,
+      "scoreMin": 0,
+      "scoreMax": 19,
+      "interpretation": "La paz se manifiesta muy poco en el conjunto de las actitudes evaluadas. Es una señal de alerta: es necesario actuar sin demora.",
+      "typeIcone": "TRISTE",
+      "nombreIcones": 1
+    },
+    {
+      "position": 1,
+      "scoreMin": 20,
+      "scoreMax": 39,
+      "interpretation": "Hay varios indicios leves de paz. Es necesario fortalecerlos de manera significativa.",
+      "typeIcone": "NEUTRE",
+      "nombreIcones": 1
+    },
+    {
+      "position": 2,
+      "scoreMin": 40,
+      "scoreMax": 59,
+      "interpretation": "El perfil muestra una presencia real de paz en la vida cotidiana, aunque su expresión sigue siendo inconstante. Hay que seguir trabajando en ello.",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 1
+    },
+    {
+      "position": 3,
+      "scoreMin": 60,
+      "scoreMax": 79,
+      "interpretation": "La paz parece manifestarse de forma evidente en varias áreas de la vida. ¡Sigue fortaleciéndola!",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 2
+    },
+    {
+      "position": 4,
+      "scoreMin": 80,
+      "scoreMax": 100,
+      "interpretation": "El perfil revela una manifestación muy intensa de la paz del Señor. ¡Mantén el rumbo!",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 3
+    }
+  ]
+}

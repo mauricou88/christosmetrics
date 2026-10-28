@@ -1,0 +1,2673 @@
+{
+  "fruit": {
+    "id": 5,
+    "code": "amour",
+    "nom": "Amour",
+    "description": null,
+    "verset": "1 Corinthiens 13.4-7 et 1 Jean 4.18"
+  },
+  "dimensions": [
+    {
+      "id": 22,
+      "code": "amour-d22",
+      "position": 0,
+      "libelle": "L’amour est patient",
+      "libelleCourt": "Patient"
+    },
+    {
+      "id": 23,
+      "code": "amour-d23",
+      "position": 1,
+      "libelle": "L’amour est plein de bonté",
+      "libelleCourt": "Plein de bonté"
+    },
+    {
+      "id": 24,
+      "code": "amour-d24",
+      "position": 2,
+      "libelle": "L’amour n’est pas envieux",
+      "libelleCourt": "Non envieux"
+    },
+    {
+      "id": 25,
+      "code": "amour-d25",
+      "position": 3,
+      "libelle": "L’amour ne se vante pas",
+      "libelleCourt": "Non vantard"
+    },
+    {
+      "id": 26,
+      "code": "amour-d26",
+      "position": 4,
+      "libelle": "L’amour ne s’enfle pas d’orgueil",
+      "libelleCourt": "Non enflé d'orgueil"
+    },
+    {
+      "id": 27,
+      "code": "amour-d27",
+      "position": 5,
+      "libelle": "L’amour ne fait rien de malhonnête",
+      "libelleCourt": "Non malhonnête"
+    },
+    {
+      "id": 28,
+      "code": "amour-d28",
+      "position": 6,
+      "libelle": "L’amour ne cherche pas son intérêt",
+      "libelleCourt": "Non intéressé"
+    },
+    {
+      "id": 29,
+      "code": "amour-d29",
+      "position": 7,
+      "libelle": "L’amour ne s’irrite pas",
+      "libelleCourt": "Non irritable"
+    },
+    {
+      "id": 30,
+      "code": "amour-d30",
+      "position": 8,
+      "libelle": "L’amour ne soupçonne pas le mal",
+      "libelleCourt": "Non suspicieux du mal"
+    },
+    {
+      "id": 31,
+      "code": "amour-d31",
+      "position": 9,
+      "libelle": "L’amour ne se réjouit pas de l’injustice",
+      "libelleCourt": "Non réjoui de l'injustice"
+    },
+    {
+      "id": 32,
+      "code": "amour-d32",
+      "position": 10,
+      "libelle": "L’amour se réjouit de la vérité",
+      "libelleCourt": "Réjoui de la vérité"
+    },
+    {
+      "id": 33,
+      "code": "amour-d33",
+      "position": 11,
+      "libelle": "L’amour excuse tout",
+      "libelleCourt": "Excuse tout"
+    },
+    {
+      "id": 34,
+      "code": "amour-d34",
+      "position": 12,
+      "libelle": "L’amour croit, espère et supporte tout",
+      "libelleCourt": "Croit, Espère, Supporte tout"
+    },
+    {
+      "id": 35,
+      "code": "amour-d35",
+      "position": 13,
+      "libelle": "L’amour parfait bannit la crainte",
+      "libelleCourt": "Bannit la crainte"
+    }
+  ],
+  "questions": [
+    {
+      "id": 480,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 0,
+      "enonce": "Je reste calme lorsque les choses prennent du temps.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 481,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 1,
+      "enonce": "Je supporte les retards sans m’énerver.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 482,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 2,
+      "enonce": "Je laisse aux autres le temps de progresser.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 483,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 3,
+      "enonce": "Je fais preuve de tolérance face aux erreurs.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 484,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 4,
+      "enonce": "Je garde mon calme dans les frustrations.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 485,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 5,
+      "enonce": "Je suis capable d’attendre sans me plaindre.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 486,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 6,
+      "enonce": "Je persévère malgré les lenteurs.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 487,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 7,
+      "enonce": "Je supporte les imperfections des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 488,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 8,
+      "enonce": "Je prends du recul avant de réagir.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 489,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 9,
+      "enonce": "Les autres me perçoivent comme patient.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 490,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 10,
+      "enonce": "Je m’agace rapidement lorsque les choses n’avancent pas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 491,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 11,
+      "enonce": "Je perds patience face aux erreurs répétées.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 492,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 12,
+      "enonce": "Je veux que tout se fasse rapidement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 493,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 13,
+      "enonce": "Je m’irrite facilement contre les autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 494,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 14,
+      "enonce": "Je supporte mal les délais.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 495,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 15,
+      "enonce": "Je m’impatiente dans les attentes.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 496,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 16,
+      "enonce": "Je m’énerve quand quelqu’un est lent.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 497,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 17,
+      "enonce": "Je me lasse rapidement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 498,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 18,
+      "enonce": "Je montre mon impatience.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 499,
+      "dimensionId": 22,
+      "dimensionCode": "amour-d22",
+      "position": 19,
+      "enonce": "Je tolère difficilement les imperfections.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 500,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 0,
+      "enonce": "Je cherche à faire du bien autour de moi.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 501,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 1,
+      "enonce": "Je rends service spontanément.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 502,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 2,
+      "enonce": "Je suis attentif aux besoins des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 503,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 3,
+      "enonce": "Je fais preuve de générosité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 504,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 4,
+      "enonce": "Je me réjouis d’aider.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 505,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 5,
+      "enonce": "Je prends soin des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 506,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 6,
+      "enonce": "Je fais preuve de compassion.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 507,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 7,
+      "enonce": "Je cherche à encourager.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 508,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 8,
+      "enonce": "Je suis accueillant.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 509,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 9,
+      "enonce": "Les autres ressentent ma bienveillance.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 510,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 10,
+      "enonce": "Je suis indifférent aux besoins des autres.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 511,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 11,
+      "enonce": "Je n’aide que si cela m’arrange.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 512,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 12,
+      "enonce": "Je pense d’abord à moi.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 513,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 13,
+      "enonce": "Je suis peu sensible aux autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 514,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 14,
+      "enonce": "Je refuse d’aider quand cela me dérange.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 515,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 15,
+      "enonce": "Je manque de générosité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 516,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 16,
+      "enonce": "Je me ferme aux autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 517,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 17,
+      "enonce": "Je me montre distant.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 518,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 18,
+      "enonce": "Je néglige les autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 519,
+      "dimensionId": 23,
+      "dimensionCode": "amour-d23",
+      "position": 19,
+      "enonce": "Je suis peu serviable.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 520,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 0,
+      "enonce": "Je me réjouis du succès des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 521,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 1,
+      "enonce": "Je célèbre les réussites d’autrui.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 522,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 2,
+      "enonce": "Je suis en paix avec ce que j’ai.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 523,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 3,
+      "enonce": "Je ne me compare pas excessivement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 524,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 4,
+      "enonce": "Je suis reconnaissant pour ma vie.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 525,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 5,
+      "enonce": "Je me réjouis sincèrement pour les autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 526,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 6,
+      "enonce": "Je suis satisfait de mon parcours.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 527,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 7,
+      "enonce": "Je valorise les autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 528,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 8,
+      "enonce": "Je ne ressens pas de rivalité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 529,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 9,
+      "enonce": "Je me réjouis du bien des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 530,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 10,
+      "enonce": "Je suis jaloux des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 531,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 11,
+      "enonce": "Je me compare constamment.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 532,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 12,
+      "enonce": "Je ressens de l’envie.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 533,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 13,
+      "enonce": "Je suis frustré du succès d’autrui.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 534,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 14,
+      "enonce": "Je me sens en compétition.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 535,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 15,
+      "enonce": "J’envie les autres dans tel ou tel domaine.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 536,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 16,
+      "enonce": "Je n’arrive pas à me contenter de ce que j’ai.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 537,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 17,
+      "enonce": "Je ressens du manque.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 538,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 18,
+      "enonce": "Je suis jaloux intérieurement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 539,
+      "dimensionId": 24,
+      "dimensionCode": "amour-d24",
+      "position": 19,
+      "enonce": "Je convoite ce que les autres ont.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 540,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 0,
+      "enonce": "Je reste humble dans mes réussites.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 541,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 1,
+      "enonce": "Je ne cherche pas à impressionner.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 542,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 2,
+      "enonce": "Je parle peu de mes exploits.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 543,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 3,
+      "enonce": "Je laisse les autres me valoriser.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 544,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 4,
+      "enonce": "Je suis discret sur mes succès.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 545,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 5,
+      "enonce": "Je ne cherche pas à me mettre en avant.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 546,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 6,
+      "enonce": "Je valorise les autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 547,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 7,
+      "enonce": "Je reste simple.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 548,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 8,
+      "enonce": "J’évite de me glorifier devant les autres de mes accomplissements ou réussites.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 549,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 9,
+      "enonce": "Je garde une attitude modeste.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 550,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 10,
+      "enonce": "Je parle souvent de mes réussites.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 551,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 11,
+      "enonce": "J’aime me mettre en avant.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 552,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 12,
+      "enonce": "Je cherche à impressionner.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 553,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 13,
+      "enonce": "Je me vante facilement.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 554,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 14,
+      "enonce": "Je cherche la reconnaissance.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 555,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 15,
+      "enonce": "Je veux être admiré.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 556,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 16,
+      "enonce": "Je me mets au centre.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 557,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 17,
+      "enonce": "Je me valorise souvent.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 558,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 18,
+      "enonce": "Je cherche l’attention.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 559,
+      "dimensionId": 25,
+      "dimensionCode": "amour-d25",
+      "position": 19,
+      "enonce": "Je mets en avant mes qualités.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 560,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 0,
+      "enonce": "Je reconnais mes limites.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 561,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 1,
+      "enonce": "Je suis ouvert aux critiques.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 562,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 2,
+      "enonce": "Je reste humble.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 563,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 3,
+      "enonce": "Je reconnais mes erreurs.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 564,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 4,
+      "enonce": "Je valorise les autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 565,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 5,
+      "enonce": "Je reste accessible.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 566,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 6,
+      "enonce": "Je suis à l’écoute.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 567,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 7,
+      "enonce": "Je ne me considère pas supérieur.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 568,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 8,
+      "enonce": "Je reste enseignable.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 569,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 9,
+      "enonce": "Je fais preuve d’humilité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 570,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 10,
+      "enonce": "Je me sens supérieur aux autres.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 571,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 11,
+      "enonce": "J’ai du mal à reconnaître mes erreurs.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 572,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 12,
+      "enonce": "Je suis orgueilleux.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 573,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 13,
+      "enonce": "Je rejette les critiques.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 574,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 14,
+      "enonce": "Je me crois meilleur.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 575,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 15,
+      "enonce": "Je me ferme aux remarques.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 576,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 16,
+      "enonce": "Je manque d’humilité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 577,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 17,
+      "enonce": "Je méprise certains.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 578,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 18,
+      "enonce": "Je refuse d’apprendre.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 579,
+      "dimensionId": 26,
+      "dimensionCode": "amour-d26",
+      "position": 19,
+      "enonce": "Je suis centré sur moi.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 580,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 0,
+      "enonce": "Je me comporte avec respect dans toutes les situations.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 581,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 1,
+      "enonce": "Je veille à agir avec intégrité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 582,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 2,
+      "enonce": "Je respecte les autres dans mes paroles et mes attitudes.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 583,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 3,
+      "enonce": "Je refuse les comportements déplacés.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 584,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 4,
+      "enonce": "Je garde une conduite honorable même en privé.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 585,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 5,
+      "enonce": "Je respecte les limites dans mes relations.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 586,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 6,
+      "enonce": "Je me comporte dignement dans tous les contextes.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 587,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 7,
+      "enonce": "Je fais attention à ne pas choquer ou blesser par mon comportement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 588,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 8,
+      "enonce": "Je veille à rester cohérent avec mes valeurs.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 589,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 9,
+      "enonce": "Je suis attentif à l’impact de mes actions sur les autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 590,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 10,
+      "enonce": "Je me permets parfois des comportements déplacés.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 591,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 11,
+      "enonce": "Je dépasse certaines limites sans me soucier des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 592,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 12,
+      "enonce": "Je me comporte différemment en privé et en public.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 593,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 13,
+      "enonce": "Je manque parfois de respect dans mes attitudes.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 594,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 14,
+      "enonce": "Je banalise certains comportements inappropriés.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 595,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 15,
+      "enonce": "Je me laisse aller à des attitudes déplacées.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 596,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 16,
+      "enonce": "Je néglige l’impact de mes actes.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 597,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 17,
+      "enonce": "Je franchis facilement des limites relationnelles.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 598,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 18,
+      "enonce": "Je me justifie lorsque je fais quelque chose de mal.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 599,
+      "dimensionId": 27,
+      "dimensionCode": "amour-d27",
+      "position": 19,
+      "enonce": "Je ne vois pas toujours le problème dans certains comportements.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 600,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 0,
+      "enonce": "Je prends en compte les besoins des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 601,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 1,
+      "enonce": "Je fais passer les autres avant moi dans certaines situations.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 602,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 2,
+      "enonce": "Je suis prêt à faire des sacrifices.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 603,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 3,
+      "enonce": "Je cherche le bien commun.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 604,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 4,
+      "enonce": "Je donne sans attendre en retour.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 605,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 5,
+      "enonce": "Je suis attentif aux attentes des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 606,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 6,
+      "enonce": "Je fais des choix qui bénéficient aussi aux autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 607,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 7,
+      "enonce": "Je suis capable de renoncer à mes préférences.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 608,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 8,
+      "enonce": "Je cherche à servir plutôt qu’à être servi.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 609,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 9,
+      "enonce": "Je pense aux autres dans mes décisions.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 610,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 10,
+      "enonce": "Je pense d’abord à moi.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 611,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 11,
+      "enonce": "Je privilégie mon intérêt personnel.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 612,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 12,
+      "enonce": "Je cherche à tirer avantage des situations.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 613,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 13,
+      "enonce": "Je veux que les choses aillent dans mon sens.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 614,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 14,
+      "enonce": "Je suis centré sur mes besoins.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 615,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 15,
+      "enonce": "Je supporte mal de ne pas être prioritaire.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 616,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 16,
+      "enonce": "Je prends rarement en compte les autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 617,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 17,
+      "enonce": "Je veux contrôler les décisions.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 618,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 18,
+      "enonce": "Je cherche mon confort avant tout.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 619,
+      "dimensionId": 28,
+      "dimensionCode": "amour-d28",
+      "position": 19,
+      "enonce": "Je suis frustré quand je dois céder.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 620,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 0,
+      "enonce": "Je garde mon calme face aux tensions.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 621,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 1,
+      "enonce": "Je contrôle mes réactions émotionnelles.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 622,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 2,
+      "enonce": "Je reste posé même lorsque je suis contrarié.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 623,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 3,
+      "enonce": "Je prends du recul avant de réagir.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 624,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 4,
+      "enonce": "Je gère mes émotions avec maturité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 625,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 5,
+      "enonce": "Je reste calme dans les conflits.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 626,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 6,
+      "enonce": "Je ne réagis pas impulsivement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 627,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 7,
+      "enonce": "Je maîtrise mon irritation.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 628,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 8,
+      "enonce": "Je fais preuve de patience émotionnelle.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 629,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 9,
+      "enonce": "Je reste paisible sous pression.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 630,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 10,
+      "enonce": "Je m’énerve facilement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 631,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 11,
+      "enonce": "Je réagis de manière impulsive.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 632,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 12,
+      "enonce": "Je perds rapidement mon calme.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 633,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 13,
+      "enonce": "Je me laisse envahir par la colère.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 634,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 14,
+      "enonce": "Je m’irrite pour des détails.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 635,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 15,
+      "enonce": "Je réagis vivement aux frustrations.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 636,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 16,
+      "enonce": "Je m’emporte facilement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 637,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 17,
+      "enonce": "Je manque de maîtrise émotionnelle.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 638,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 18,
+      "enonce": "Je réagis trop vite.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 639,
+      "dimensionId": 29,
+      "dimensionCode": "amour-d29",
+      "position": 19,
+      "enonce": "Je laisse mes émotions prendre le dessus.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 640,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 0,
+      "enonce": "Je choisis de faire confiance aux autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 641,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 1,
+      "enonce": "Je ne prête pas de mauvaises intentions sans preuve.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 642,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 2,
+      "enonce": "Je cherche à comprendre avant de juger.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 643,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 3,
+      "enonce": "Je laisse le bénéfice du doute.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 644,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 4,
+      "enonce": "J’évite les conclusions hâtives.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 645,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 5,
+      "enonce": "Je crois au bon côté des gens.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 646,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 6,
+      "enonce": "J’interprète positivement les situations.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 647,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 7,
+      "enonce": "Je donne une seconde chance.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 648,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 8,
+      "enonce": "Je refuse de nourrir la suspicion.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 649,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 9,
+      "enonce": "Je cherche la vérité avant de juger.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 650,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 10,
+      "enonce": "Je me méfie facilement des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 651,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 11,
+      "enonce": "Je suppose souvent le pire.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 652,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 12,
+      "enonce": "Je doute des intentions des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 653,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 13,
+      "enonce": "Je tire des conclusions négatives rapidement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 654,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 14,
+      "enonce": "Je soupçonne facilement.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 655,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 15,
+      "enonce": "J’interprète mal les actions des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 656,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 16,
+      "enonce": "Je me méfie sans raison claire.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 657,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 17,
+      "enonce": "Je pense que les autres ont de mauvaises intentions.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 658,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 18,
+      "enonce": "Je garde des soupçons.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 659,
+      "dimensionId": 30,
+      "dimensionCode": "amour-d30",
+      "position": 19,
+      "enonce": "Je me méfie excessivement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 660,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 0,
+      "enonce": "Je suis attristé face à l’injustice.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 661,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 1,
+      "enonce": "Je refuse de me réjouir du mal.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 662,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 2,
+      "enonce": "Je prends position contre l’injustice.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 663,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 3,
+      "enonce": "Je ressens de la compassion face aux victimes.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 664,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 4,
+      "enonce": "Je cherche la justice dans mes actions.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 665,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 5,
+      "enonce": "Je rejette les comportements injustes.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 666,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 6,
+      "enonce": "Je défends ce qui est juste.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 667,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 7,
+      "enonce": "Je suis sensible à l’équité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 668,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 8,
+      "enonce": "Je refuse de profiter de l’injustice.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 669,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 9,
+      "enonce": "Je suis aligné avec ce qui est juste.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 670,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 10,
+      "enonce": "Je me réjouis parfois du mal des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 671,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 11,
+      "enonce": "Je profite de situations injustes.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 672,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 12,
+      "enonce": "Je ferme les yeux sur l’injustice.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 673,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 13,
+      "enonce": "Je minimise les injustices.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 674,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 14,
+      "enonce": "Je trouve normal certaines injustices.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 675,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 15,
+      "enonce": "Je suis indifférent à l’injustice.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 676,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 16,
+      "enonce": "Je tire avantage de situations injustes.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 677,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 17,
+      "enonce": "Je banalise le mal.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 678,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 18,
+      "enonce": "Je me réjouis de certaines injustices.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 679,
+      "dimensionId": 31,
+      "dimensionCode": "amour-d31",
+      "position": 19,
+      "enonce": "Je ne prends pas position face à l’injustice.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 680,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 0,
+      "enonce": "Je me réjouis de ce qui est vrai.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 681,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 1,
+      "enonce": "Je valorise la vérité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 682,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 2,
+      "enonce": "Je cherche la transparence.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 683,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 3,
+      "enonce": "Je suis honnête dans mes relations.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 684,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 4,
+      "enonce": "Je défends la vérité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 685,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 5,
+      "enonce": "Je préfère la vérité au confort.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 686,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 6,
+      "enonce": "Je suis intègre.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 687,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 7,
+      "enonce": "Je me réjouis quand la vérité éclate.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 688,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 8,
+      "enonce": "Je vis dans la vérité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 689,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 9,
+      "enonce": "Je recherche l’authenticité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 690,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 10,
+      "enonce": "Je préfère éviter la vérité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 691,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 11,
+      "enonce": "Je tolère le mensonge.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 692,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 12,
+      "enonce": "Je cache la vérité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 693,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 13,
+      "enonce": "Je déforme la réalité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 694,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 14,
+      "enonce": "Je fuis la vérité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 695,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 15,
+      "enonce": "Je manque de transparence.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 696,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 16,
+      "enonce": "Je mens parfois.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 697,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 17,
+      "enonce": "J’évite d’être honnête.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 698,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 18,
+      "enonce": "Je préfère le confort au vrai.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 699,
+      "dimensionId": 32,
+      "dimensionCode": "amour-d32",
+      "position": 19,
+      "enonce": "Je minimise la vérité.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 700,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 0,
+      "enonce": "Je pardonne facilement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 701,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 1,
+      "enonce": "Je donne une seconde chance.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 702,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 2,
+      "enonce": "Je couvre les erreurs des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 703,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 3,
+      "enonce": "Je fais preuve de grâce.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 704,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 4,
+      "enonce": "Je ne rappelle pas constamment les fautes.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 705,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 5,
+      "enonce": "Je fais preuve de miséricorde.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 706,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 6,
+      "enonce": "Je pardonne sincèrement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 707,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 7,
+      "enonce": "Je ne garde pas les offenses.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 708,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 8,
+      "enonce": "Je laisse passer certaines erreurs.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 709,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 9,
+      "enonce": "Je fais preuve de compréhension.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 710,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 10,
+      "enonce": "Je garde les offenses en mémoire.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 711,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 11,
+      "enonce": "Je rappelle souvent les erreurs des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 712,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 12,
+      "enonce": "Je pardonne difficilement.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 713,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 13,
+      "enonce": "Je garde rancune.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 714,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 14,
+      "enonce": "Je ressasse les blessures.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 715,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 15,
+      "enonce": "Je refuse de pardonner.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 716,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 16,
+      "enonce": "Je condamne facilement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 717,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 17,
+      "enonce": "Je suis dur envers les erreurs.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 718,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 18,
+      "enonce": "Je n’oublie pas les fautes.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 719,
+      "dimensionId": 33,
+      "dimensionCode": "amour-d33",
+      "position": 19,
+      "enonce": "Je juge sévèrement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 720,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 0,
+      "enonce": "Je garde confiance même dans les difficultés.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 721,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 1,
+      "enonce": "Je crois en la possibilité de changement chez les autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 722,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 2,
+      "enonce": "Je reste plein d’espérance.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 723,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 3,
+      "enonce": "Je persévère dans les relations difficiles.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 724,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 4,
+      "enonce": "Je soutiens les autres malgré les épreuves.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 725,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 5,
+      "enonce": "Je ne renonce pas facilement aux autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 726,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 6,
+      "enonce": "Je garde l’espoir.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 727,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 7,
+      "enonce": "Je continue à croire au bien.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 728,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 8,
+      "enonce": "Je supporte les situations difficiles.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 729,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 9,
+      "enonce": "Je persévère dans l’amour.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 730,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 10,
+      "enonce": "Je perds rapidement espoir.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 731,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 11,
+      "enonce": "Je renonce facilement aux autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 732,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 12,
+      "enonce": "Je cesse de croire en quelqu’un.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 733,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 13,
+      "enonce": "Je me décourage vite.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 734,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 14,
+      "enonce": "J’abandonne les relations difficiles.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 735,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 15,
+      "enonce": "Je manque de persévérance.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 736,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 16,
+      "enonce": "Je ne crois plus au changement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 737,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 17,
+      "enonce": "Je me lasse rapidement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 738,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 18,
+      "enonce": "Je perds confiance.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 739,
+      "dimensionId": 34,
+      "dimensionCode": "amour-d34",
+      "position": 19,
+      "enonce": "J’abandonne face aux difficultés.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 740,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 0,
+      "enonce": "Je ressens souvent de l’inquiétude face à l’avenir.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 741,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 1,
+      "enonce": "Je crains d’être rejeté par les autres.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 742,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 2,
+      "enonce": "Je crains de ne pas être à la hauteur.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 743,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 3,
+      "enonce": "Je redoute le regard ou le jugement des autres.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 744,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 4,
+      "enonce": "Je me sens souvent insécurisé intérieurement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 745,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 5,
+      "enonce": "J’ai peur de perdre ce qui est important pour moi.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 746,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 6,
+      "enonce": "Je suis freiné par la peur dans certaines décisions.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 747,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 7,
+      "enonce": "Je redoute les situations inconnues.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 748,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 8,
+      "enonce": "Je ressens de l’anxiété dans mes relations.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 749,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 9,
+      "enonce": "Je crains les conséquences de mes erreurs.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 750,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 10,
+      "enonce": "Je me sens en sécurité intérieurement, même dans l’incertitude.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 751,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 11,
+      "enonce": "Je fais confiance à Dieu pour mon avenir.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 752,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 12,
+      "enonce": "Je prends des décisions sans être paralysé par la peur.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 753,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 13,
+      "enonce": "Je me sens libre d’être moi-même avec les autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 754,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 14,
+      "enonce": "Je ne crains pas le jugement des autres.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 755,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 15,
+      "enonce": "Je garde la paix même dans les situations incertaines.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 756,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 16,
+      "enonce": "Je fais face aux difficultés avec confiance.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 757,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 17,
+      "enonce": "Je suis stable émotionnellement face aux imprévus.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 758,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 18,
+      "enonce": "Je crois que je suis accepté et aimé.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 759,
+      "dimensionId": 35,
+      "dimensionCode": "amour-d35",
+      "position": 19,
+      "enonce": "Je vis avec assurance plutôt qu’avec peur.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    }
+  ],
+  "baremes": [
+    {
+      "position": 0,
+      "scoreMin": 0,
+      "scoreMax": 19,
+      "interpretation": "L'amour apparait très peu dans l’ensemble des attitudes mesurées. Alerte, il est nécessaire d’y remédier sans plus tarder.",
+      "typeIcone": "TRISTE",
+      "nombreIcones": 1
+    },
+    {
+      "position": 1,
+      "scoreMin": 20,
+      "scoreMax": 39,
+      "interpretation": "Plusieurs signes légers d'amour existent. Ils sont à augmenter significativement.",
+      "typeIcone": "NEUTRE",
+      "nombreIcones": 1
+    },
+    {
+      "position": 2,
+      "scoreMin": 40,
+      "scoreMax": 59,
+      "interpretation": "Le profil montre une empreinte réelle de l'amour au quotidien même si son expression reste inconstante. A travailler.",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 1
+    },
+    {
+      "position": 3,
+      "scoreMin": 60,
+      "scoreMax": 79,
+      "interpretation": "L'amour semble se manifester de façon évidente dans plusieurs domaines de la vie. A renforcer !",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 2
+    },
+    {
+      "position": 4,
+      "scoreMin": 80,
+      "scoreMax": 100,
+      "interpretation": "Le profil révèle une manifestation très importante de l'amour du Seigneur. Gardez le cap !",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 3
+    }
+  ]
+}

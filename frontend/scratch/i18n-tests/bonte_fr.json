@@ -1,0 +1,969 @@
+{
+  "fruit": {
+    "id": 4,
+    "code": "bonte",
+    "nom": "Bonté & Bienveillance",
+    "description": null,
+    "verset": "Galates 5.22"
+  },
+  "dimensions": [
+    {
+      "id": 20,
+      "code": "bonte-d20",
+      "position": 0,
+      "libelle": "Bonté (Chrestotes)",
+      "libelleCourt": "Bonté (intention)"
+    },
+    {
+      "id": 21,
+      "code": "bonte-d21",
+      "position": 1,
+      "libelle": "Bienveillance (Agathousune)",
+      "libelleCourt": "Bienveillance (action)"
+    }
+  ],
+  "questions": [
+    {
+      "id": 380,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 0,
+      "enonce": "Je ressens naturellement de la compassion pour les autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 381,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 1,
+      "enonce": "Je suis touché par la souffrance d’autrui.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 382,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 2,
+      "enonce": "Je cherche intérieurement à faire le bien.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 383,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 3,
+      "enonce": "Je ressens de la douceur dans mes intentions.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 384,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 4,
+      "enonce": "Je pense spontanément au bien des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 385,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 5,
+      "enonce": "Je suis bienveillant dans mes pensées, même envers ceux que je n’aime pas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 386,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 6,
+      "enonce": "Je ne nourris pas de mauvaises intentions.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 387,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 7,
+      "enonce": "Je ressens de l’empathie face aux difficultés.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 388,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 8,
+      "enonce": "Je suis naturellement porté vers la gentillesse.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 389,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 9,
+      "enonce": "Je cherche à comprendre avant de juger.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 390,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 10,
+      "enonce": "Je ressens de la compassion même pour quelqu’un qui m’a blessé.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 391,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 11,
+      "enonce": "Je suis intérieurement doux dans mes réactions.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 392,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 12,
+      "enonce": "Je ne souhaite pas de mal aux autres, même en colère.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 393,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 13,
+      "enonce": "Je suis sensible aux émotions des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 394,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 14,
+      "enonce": "Je ressens un désir intérieur sincère d’aider.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 395,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 15,
+      "enonce": "Je suis indulgent dans mes pensées.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 396,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 16,
+      "enonce": "Je garde une attitude intérieure bien disposée envers les autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 397,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 17,
+      "enonce": "Je pense positivement des autres par défaut.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 398,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 18,
+      "enonce": "Je suis porté à ne pas nourrir de l'amertume intérieurement.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 399,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 19,
+      "enonce": "Je garde une bonne considération même en conflit.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 400,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 20,
+      "enonce": "Lorsque les difficultés durent, je me décourage rapidement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 401,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 21,
+      "enonce": "Je souhaite sincèrement le bien des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 402,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 22,
+      "enonce": "Je suis lent à juger les autres.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 403,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 23,
+      "enonce": "Je suis touché par les injustices subies par autrui.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 404,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 24,
+      "enonce": "Je garde des pensées bienveillantes dans la durée.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 405,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 25,
+      "enonce": "Je nourris facilement des pensées négatives envers les autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 406,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 26,
+      "enonce": "Je manque de compassion face à la souffrance.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 407,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 27,
+      "enonce": "Je suis dur dans mes pensées.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 408,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 28,
+      "enonce": "Je juge rapidement sans chercher à comprendre.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 409,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 29,
+      "enonce": "Je suis indifférent aux difficultés des autres.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 410,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 30,
+      "enonce": "Je manque d’empathie.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 411,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 31,
+      "enonce": "Je garde des pensées critiques ou dures.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 412,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 32,
+      "enonce": "Je suis froid intérieurement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 413,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 33,
+      "enonce": "Je manque de douceur dans mes intentions.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 414,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 34,
+      "enonce": "Je suis sévère dans mes jugements.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 415,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 35,
+      "enonce": "Je ressens peu de compassion pour les autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 416,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 36,
+      "enonce": "Je suis dur envers ceux qui échouent.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 417,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 37,
+      "enonce": "Je manque de bonté intérieure.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 418,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 38,
+      "enonce": "Je critique facilement intérieurement.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 419,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 39,
+      "enonce": "Je garde des rancunes longtemps.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 420,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 40,
+      "enonce": "Je suis peu sensible aux besoins des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 421,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 41,
+      "enonce": "Je manque de miséricorde.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 422,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 42,
+      "enonce": "Je suis fermé émotionnellement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 423,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 43,
+      "enonce": "Je pense facilement du mal des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 424,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 44,
+      "enonce": "Je suis dur dans mes pensées face aux erreurs.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 425,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 45,
+      "enonce": "Je manque de patience intérieure envers les autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 426,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 46,
+      "enonce": "Je me réjouis parfois des échecs des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 427,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 47,
+      "enonce": "Je suis indifférent aux injustices subies par autrui.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 428,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 48,
+      "enonce": "Je garde des pensées négatives persistantes.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 429,
+      "dimensionId": 20,
+      "dimensionCode": "bonte-d20",
+      "position": 49,
+      "enonce": "Je manque d'amabilité intérieure.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 430,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 0,
+      "enonce": "J’aide du mieux que je peux les personnes en difficulté.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 431,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 1,
+      "enonce": "Je prends des initiatives concrètes pour faire le bien.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 432,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 2,
+      "enonce": "Je suis prêt à agir pour aider quelqu’un.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 433,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 3,
+      "enonce": "Je fais du bien autour de moi activement.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 434,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 4,
+      "enonce": "Je m’engage dans des actions utiles aux autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 435,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 5,
+      "enonce": "Je soutiens les autres dans leurs besoins.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 436,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 6,
+      "enonce": "Je passe à l’action lorsque je vois un besoin.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 437,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 7,
+      "enonce": "Je donne de mon temps pour les autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 438,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 8,
+      "enonce": "Je suis impliqué dans le bien des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 439,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 9,
+      "enonce": "Je fais preuve de générosité concrète.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 440,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 10,
+      "enonce": "Je sais dire la vérité avec bienveillance.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 441,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 11,
+      "enonce": "Je corrige lorsque c’est nécessaire avec justesse.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 442,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 12,
+      "enonce": "Je confronte avec respect lorsqu’il le faut.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 443,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 13,
+      "enonce": "Je cherche le bien réel des autres, même si c’est inconfortable.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 444,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 14,
+      "enonce": "Je prends des décisions justes, même difficiles.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 445,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 15,
+      "enonce": "Je suis prêt à reprendre quelqu’un pour son bien.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 446,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 16,
+      "enonce": "Je ne laisse pas quelqu’un se nuire sans intervenir.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 447,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 17,
+      "enonce": "Je suis actif dans le bien.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 448,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 18,
+      "enonce": "Je participe aux actes de compassion.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 449,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 19,
+      "enonce": "Je rends service spontanément.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 450,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 20,
+      "enonce": "Je prends soin des personnes en difficulté.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 451,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 21,
+      "enonce": "Je corrige quelqu’un lorsque c’est nécessaire pour son bien.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 452,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 22,
+      "enonce": "Je confronte avec sagesse quand il le faut.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 453,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 23,
+      "enonce": "Je ne laisse pas quelqu’un s’égarer sans intervenir.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 454,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 24,
+      "enonce": "Je prends position pour le bien.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 455,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 25,
+      "enonce": "Je vois les besoins mais je n’agis pas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 456,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 26,
+      "enonce": "Je reste passif face à la souffrance des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 457,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 27,
+      "enonce": "Je manque d’initiative pour aider.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 458,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 28,
+      "enonce": "Je préfère éviter de m’impliquer.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 459,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 29,
+      "enonce": "Je laisse les autres se débrouiller seuls.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 460,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 30,
+      "enonce": "Je suis peu engagé dans les actions d'aide.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 461,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 31,
+      "enonce": "Je n’agis pas même lorsque je pourrais aider.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 462,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 32,
+      "enonce": "Je suis indifférent aux besoins visibles.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 463,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 33,
+      "enonce": "Je manque de générosité dans mes actes.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 464,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 34,
+      "enonce": "Je ne prends pas le temps d’aider.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 465,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 35,
+      "enonce": "Je n’ose pas dire la vérité quand c’est nécessaire.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 466,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 36,
+      "enonce": "J’évite les confrontations utiles.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 467,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 37,
+      "enonce": "Je laisse les situations se détériorer.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 468,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 38,
+      "enonce": "Je manque de courage pour agir.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 469,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 39,
+      "enonce": "Je suis passif face à l’injustice.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 470,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 40,
+      "enonce": "Je ne corrige pas quand c’est nécessaire.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 471,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 41,
+      "enonce": "Je laisse les erreurs sans intervenir.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 472,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 42,
+      "enonce": "Je manque d’implication concrète.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 473,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 43,
+      "enonce": "Je suis peu actif dans le bien.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 474,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 44,
+      "enonce": "Je reporte souvent l’aide que je pourrais apporter.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 475,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 45,
+      "enonce": "Je suis centré sur moi-même dans mes actions.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 476,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 46,
+      "enonce": "Je n’agis que si cela m’arrange.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 477,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 47,
+      "enonce": "Je manque d’engagement envers les autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 478,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 48,
+      "enonce": "Je néglige les opportunités d’aider.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 479,
+      "dimensionId": 21,
+      "dimensionCode": "bonte-d21",
+      "position": 49,
+      "enonce": "Je suis passif face aux besoins des autres.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    }
+  ],
+  "baremes": [
+    {
+      "position": 0,
+      "scoreMin": 0,
+      "scoreMax": 19,
+      "interpretation": "La bonté et la bienveillance apparaissent très peu dans l’ensemble des attitudes mesurées. Alerte, il est nécessaire d’y remédier sans plus tarder.",
+      "typeIcone": "TRISTE",
+      "nombreIcones": 1
+    },
+    {
+      "position": 1,
+      "scoreMin": 20,
+      "scoreMax": 39,
+      "interpretation": "Plusieurs signes légers de bonté et bienveillance existent. Ils sont à augmenter significativement.",
+      "typeIcone": "NEUTRE",
+      "nombreIcones": 1
+    },
+    {
+      "position": 2,
+      "scoreMin": 40,
+      "scoreMax": 59,
+      "interpretation": "Le profil montre une empreinte réelle de bonté et bienveillance au quotidien même si son expression reste inconstante. A travailler.",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 1
+    },
+    {
+      "position": 3,
+      "scoreMin": 60,
+      "scoreMax": 79,
+      "interpretation": "La bonté et la bienveillance semblent se manifester de façon évidente dans plusieurs domaines de la vie. A renforcer !",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 2
+    },
+    {
+      "position": 4,
+      "scoreMin": 80,
+      "scoreMax": 100,
+      "interpretation": "Le profil révèle une manifestation très importante de la bonté et bienveillance du Seigneur. Gardez le cap !",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 3
+    }
+  ]
+}

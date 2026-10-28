@@ -1,0 +1,191 @@
+{
+  "fruit": {
+    "id": 7,
+    "code": "couple",
+    "nom": "Pareja",
+    "description": null,
+    "verset": "Gálatas 5:22"
+  },
+  "dimensions": [
+    {
+      "id": 46,
+      "code": "couple-d46",
+      "position": 0,
+      "libelle": "Amor",
+      "libelleCourt": "amor"
+    },
+    {
+      "id": 47,
+      "code": "couple-d47",
+      "position": 1,
+      "libelle": "Alegría",
+      "libelleCourt": "alegría"
+    },
+    {
+      "id": 48,
+      "code": "couple-d48",
+      "position": 2,
+      "libelle": "Paz",
+      "libelleCourt": "paz"
+    },
+    {
+      "id": 49,
+      "code": "couple-d49",
+      "position": 3,
+      "libelle": "Paciencia",
+      "libelleCourt": "paciencia"
+    },
+    {
+      "id": 50,
+      "code": "couple-d50",
+      "position": 4,
+      "libelle": "Bondad",
+      "libelleCourt": "bondad"
+    },
+    {
+      "id": 51,
+      "code": "couple-d51",
+      "position": 5,
+      "libelle": "Benevolencia",
+      "libelleCourt": "benevolencia"
+    },
+    {
+      "id": 52,
+      "code": "couple-d52",
+      "position": 6,
+      "libelle": "Fidelidad",
+      "libelleCourt": "fidelidad"
+    },
+    {
+      "id": 53,
+      "code": "couple-d53",
+      "position": 7,
+      "libelle": "Mansedumbre",
+      "libelleCourt": "mansedumbre"
+    },
+    {
+      "id": 54,
+      "code": "couple-d54",
+      "position": 8,
+      "libelle": "Dominio propio",
+      "libelleCourt": "dominio propio"
+    }
+  ],
+  "questions": [
+    {
+      "id": 960,
+      "dimensionId": 46,
+      "dimensionCode": "couple-d46",
+      "position": 0,
+      "enonce": "El amor de Dios, el amor sacrificial que da, perdona y se entrega, constituye el fundamento de la pareja.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 961,
+      "dimensionId": 47,
+      "dimensionCode": "couple-d47",
+      "position": 0,
+      "enonce": "La alegría profunda que viene de Dios caracteriza el ambiente del hogar, independientemente de las circunstancias.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 962,
+      "dimensionId": 48,
+      "dimensionCode": "couple-d48",
+      "position": 0,
+      "enonce": "La paz de Dios reina en las conversaciones, las decisiones y las interacciones cotidianas de la pareja.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 963,
+      "dimensionId": 49,
+      "dimensionCode": "couple-d49",
+      "position": 0,
+      "enonce": "La pareja sobrelleva con paciencia las debilidades y los límites de cada uno, sin estallar ante la primera contrariedad.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 964,
+      "dimensionId": 50,
+      "dimensionCode": "couple-d50",
+      "position": 0,
+      "enonce": "Cada miembro de la pareja hace el bien al otro, incluso cuando requiere esfuerzo o sacrificio.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 965,
+      "dimensionId": 51,
+      "dimensionCode": "couple-d51",
+      "position": 0,
+      "enonce": "Las palabras y las actitudes expresan delicadeza, ánimo y respeto.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 966,
+      "dimensionId": 52,
+      "dimensionCode": "couple-d52",
+      "position": 0,
+      "enonce": "Los compromisos asumidos ante Dios y con el cónyuge se cumplen con constancia.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 967,
+      "dimensionId": 53,
+      "dimensionCode": "couple-d53",
+      "position": 0,
+      "enonce": "Los desacuerdos se gestionan con dominio propio, humildad y respeto mutuo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 968,
+      "dimensionId": 54,
+      "dimensionCode": "couple-d54",
+      "position": 0,
+      "enonce": "Las emociones, las reacciones y las palabras se controlan para preservar la unidad de la pareja.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    }
+  ],
+  "baremes": [
+    {
+      "position": 0,
+      "scoreMin": 32,
+      "scoreMax": 36,
+      "interpretation": "El fruto del Espíritu caracteriza de forma marcada la dinámica de la pareja. El carácter de Cristo es visible en sus interacciones.",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 3
+    },
+    {
+      "position": 1,
+      "scoreMin": 25,
+      "scoreMax": 31,
+      "interpretation": "La pareja tiene buenos cimientos, pero algunas áreas necesitan fortalecerse.",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 2
+    },
+    {
+      "position": 2,
+      "scoreMin": 18,
+      "scoreMax": 24,
+      "interpretation": "Se observan varias fragilidades. Algunas virtudes están presentes, pero aún no están suficientemente arraigadas en la vida cotidiana.",
+      "typeIcone": "NEUTRE",
+      "nombreIcones": 1
+    },
+    {
+      "position": 3,
+      "scoreMin": 9,
+      "scoreMax": 17,
+      "interpretation": "Varios cimientos espirituales y relacionales necesitan una restauración profunda.",
+      "typeIcone": "TRISTE",
+      "nombreIcones": 1
+    }
+  ]
+}
