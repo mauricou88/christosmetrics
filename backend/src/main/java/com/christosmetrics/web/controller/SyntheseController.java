@@ -15,8 +15,9 @@ public class SyntheseController {
 
     public SyntheseController(SyntheseService service) { this.service = service; }
 
+    /** Localise les noms des referentiels presents dans l'historique. */
     @GetMapping
-    public SyntheseGlobale monParcours(@AuthenticationPrincipal User user) {
-        return service.synthese(user);
+    public SyntheseGlobale monParcours(@AuthenticationPrincipal User user, @RequestParam(defaultValue = "fr") String lang) {
+        return service.synthese(user, lang);
     }
 }

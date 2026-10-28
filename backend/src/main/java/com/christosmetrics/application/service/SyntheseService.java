@@ -4,6 +4,7 @@ import com.christosmetrics.application.dto.HistoriqueDtos.*;
 import com.christosmetrics.domain.model.*;
 import com.christosmetrics.domain.repository.*;
 import com.christosmetrics.domain.service.ScoringService;
+import com.christosmetrics.application.i18n.ContenuLocalise;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -35,6 +36,12 @@ public class SyntheseService {
 
     @Transactional(readOnly = true)
     public SyntheseGlobale synthese(User user) {
+        return synthese(user, "fr");
+    }
+
+    /** Localise les noms de l'historique sans changer la selection des passations. */
+    @Transactional(readOnly = true)
+    public SyntheseGlobale synthese(User user, String langue) {
         List<Passation> toutes = passationRepo.findByUserOrderByDebuteeLeDesc(user);
 
         // Une entrée par référentiel : TERMINEE > EN_COURS, puis plus récente.
@@ -46,7 +53,7 @@ public class SyntheseService {
         }
 
         List<PassationResume> resumes = parRef.values().stream()
-                .map(this::toResume).collect(Collectors.toList());
+                .map(p -> toResume(p, langue)).collect(Collectors.toList());
 
         List<Referentiel> indivActifs = referentielRepo.findByActifTrue().stream()
                 .filter(r -> r.getType() == Referentiel.Type.INDIVIDUEL)
@@ -79,7 +86,8 @@ public class SyntheseService {
         return cand.getDebuteeLe().isAfter(cur.getDebuteeLe());
     }
 
-    private PassationResume toResume(Passation p) {
+    /** Conserve les dates, scores et liens PDF independants de la langue. */
+    private PassationResume toResume(Passation p, String langue) {
         Double s = null; Integer sa = null;
         if (p.estTerminee()) {
             var calc = scoringService.calculer(p);
@@ -87,7 +95,7 @@ public class SyntheseService {
         }
         boolean pdfOk = pdfRepo.findByPassation(p).isPresent();
         return new PassationResume(
-                p.getId(), p.getReferentiel().getCode(), p.getReferentiel().getNom(),
+                p.getId(), p.getReferentiel().getCode(), ContenuLocalise.nom(p.getReferentiel(), langue),
                 p.getReferentiel().getType().name(), p.getEtat().name(),
                 p.getDebuteeLe(), p.getTermineeLe(), s, sa, pdfOk);
     }

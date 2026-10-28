@@ -3,6 +3,7 @@ package com.christosmetrics.application.service;
 import com.christosmetrics.application.dto.PassationDtos.*;
 import com.christosmetrics.application.dto.ResultatDto;
 import com.christosmetrics.application.mapper.DomainMapper;
+import com.christosmetrics.application.i18n.ContenuLocalise;
 import com.christosmetrics.domain.model.*;
 import com.christosmetrics.domain.repository.*;
 import com.christosmetrics.domain.service.ProgressionService;
@@ -84,6 +85,12 @@ public class PassationApplicationService {
     /** Termine la passation, calcule le résultat, le stocke, le renvoie. */
     @Transactional
     public ResultatDto terminerEtCalculer(User user, Long passationId) {
+        return terminerEtCalculer(user, passationId, "fr");
+    }
+
+    /** Persiste le resultat canonique francais et localise seulement la reponse HTTP. */
+    @Transactional
+    public ResultatDto terminerEtCalculer(User user, Long passationId, String langue) {
         Passation p = chargerPassationDeUser(user, passationId);
         ProgressionService.Progression progression = progressionService.etatDeProgression(p);
         if (!progression.complete()) {
@@ -97,7 +104,7 @@ public class PassationApplicationService {
         ResultatCalcule calc = scoringService.calculer(p);
 
         // Sérialise le détail en JSON et persiste le résultat (un par passation).
-        ResultatDto dto = toResultatDto(p, calc);
+        ResultatDto dto = toResultatDto(p, calc, "fr");
         Resultat resultat = resultatRepo.findByPassation(p).orElse(null);
         String detail = serialiser(dto);
         if (resultat == null) {
@@ -105,17 +112,23 @@ public class PassationApplicationService {
         }
         resultatRepo.save(resultat);
         passationRepo.save(p);
-        return dto;
+        return toResultatDto(p, calc, langue);
     }
 
     /** Relit un résultat déjà calculé (pour réafficher / régénérer le PDF). */
     @Transactional(readOnly = true)
     public ResultatDto resultat(User user, Long passationId) {
+        return resultat(user, passationId, "fr");
+    }
+
+    /** Relit les scores existants avec les textes de la langue demandee. */
+    @Transactional(readOnly = true)
+    public ResultatDto resultat(User user, Long passationId, String langue) {
         Passation p = chargerPassationDeUser(user, passationId);
         if (!p.estTerminee()) {
             throw new IllegalStateException("Cette passation n'est pas encore terminée");
         }
-        return toResultatDto(p, scoringService.calculer(p));
+        return toResultatDto(p, scoringService.calculer(p), langue);
     }
 
     // ---- Helpers ----
@@ -139,19 +152,19 @@ public class PassationApplicationService {
     }
 
     /** Construit le DTO de résultat + détecte la tranche du barème. */
-    private ResultatDto toResultatDto(Passation p, ResultatCalcule calc) {
+    private ResultatDto toResultatDto(Passation p, ResultatCalcule calc, String langue) {
         Referentiel ref = p.getReferentiel();
         List<ResultatDto.ScoreDimensionDto> dims = calc.dimensions().stream()
-                .map(this::toDimDto).toList();
-        List<ResultatDto.ScoreDimensionDto> top = calc.top().stream().map(this::toDimDto).toList();
-        List<ResultatDto.ScoreDimensionDto> flop = calc.flop().stream().map(this::toDimDto).toList();
+                .map(s -> toDimDto(s, ref, langue)).toList();
+        List<ResultatDto.ScoreDimensionDto> top = calc.top().stream().map(s -> toDimDto(s, ref, langue)).toList();
+        List<ResultatDto.ScoreDimensionDto> flop = calc.flop().stream().map(s -> toDimDto(s, ref, langue)).toList();
 
         int scoreInterprete = calc.globalArrondi();
         List<ResultatDto.TrancheDto> bareme = ref.getTranchesInterpretation().stream()
                 .map(t -> new ResultatDto.TrancheDto(
                         t.getMinScore(),
                         t.getMaxScore(),
-                        t.getTexte(),
+                        ContenuLocalise.getContenuLocalise(t, langue),
                         t.getTypeIcone(),
                         t.getNombreIcones(),
                         t.contient(scoreInterprete)))
@@ -165,13 +178,18 @@ public class PassationApplicationService {
                 : "POURCENTAGE";
 
         return new ResultatDto(
-                p.getId(), ref.getCode(), ref.getNom(), ref.getType().name(),
+                p.getId(), ref.getCode(), ContenuLocalise.nom(ref, langue), ref.getType().name(),
                 calc.global(), calc.globalArrondi(), unite, tranche, bareme,
                 dims, top, flop);
     }
 
-    private ResultatDto.ScoreDimensionDto toDimDto(ScoreDimension s) {
-        return new ResultatDto.ScoreDimensionDto(s.libelle(), s.libelleCourt(), s.pourcentage());
+    /** Retrouve la dimension par son identifiant, jamais par son texte traduit. */
+    private ResultatDto.ScoreDimensionDto toDimDto(ScoreDimension s, Referentiel ref, String langue) {
+        Dimension d = ref.getDimensions().stream()
+                .filter(dimension -> Objects.equals(dimension.getId(), s.dimensionId()))
+                .findFirst().orElseThrow();
+        return new ResultatDto.ScoreDimensionDto(
+                ContenuLocalise.libelle(d, langue), ContenuLocalise.libelleCourt(d, langue), s.pourcentage());
     }
 
     private String serialiser(Object o) {

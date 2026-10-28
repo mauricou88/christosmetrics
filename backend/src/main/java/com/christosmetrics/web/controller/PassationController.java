@@ -65,17 +65,18 @@ public class PassationController {
         return service.repondreLot(user, id, req);
     }
 
+    /** Finalise les scores et localise les textes de la reponse uniquement. */
     @PostMapping("/{id}/terminer")
     public ResultatDto terminer(@AuthenticationPrincipal User user,
-                                @PathVariable Long id) {
-        return service.terminerEtCalculer(user, id);
+                                @PathVariable Long id, @RequestParam(defaultValue = "fr") String lang) {
+        return service.terminerEtCalculer(user, id, lang);
     }
 
     /** Compte une consultation seulement après vérification de propriété du résultat. */
     @GetMapping("/{id}/resultat")
     public ResultatDto resultat(@AuthenticationPrincipal User user,
-                                @PathVariable Long id) {
-        ResultatDto resultat = service.resultat(user, id);
+                                @PathVariable Long id, @RequestParam(defaultValue = "fr") String lang) {
+        ResultatDto resultat = service.resultat(user, id, lang);
         streakService.enregistrerActivite(user);
         return resultat;
     }

@@ -11,6 +11,54 @@ import java.util.List;
 @Entity
 @Table(name = "dimensions")
 public class Dimension {
+    /** Contenu localise ; NULL conserve le repli vers le francais. */
+    @Column(name = "libelle_en", length = 500)
+    private String libelleEn;
+
+    @Column(name = "libelle_es", length = 500)
+    private String libelleEs;
+
+    @Column(name = "libelle_pt", length = 500)
+    private String libellePt;
+
+    @Column(name = "libelle_court_en", length = 500)
+    private String libelleCourtEn;
+
+    @Column(name = "libelle_court_es", length = 500)
+    private String libelleCourtEs;
+
+    @Column(name = "libelle_court_pt", length = 500)
+    private String libelleCourtPt;
+
+    /** Lit la traduction en, facultative avant validation du contenu. */
+    public String getLibelleEn() { return libelleEn; }
+    /** Enregistre la traduction en sans modifier le texte francais. */
+    public void setLibelleEn(String valeur) { this.libelleEn = valeur; }
+
+    /** Lit la traduction es, facultative avant validation du contenu. */
+    public String getLibelleEs() { return libelleEs; }
+    /** Enregistre la traduction es sans modifier le texte francais. */
+    public void setLibelleEs(String valeur) { this.libelleEs = valeur; }
+
+    /** Lit la traduction pt, facultative avant validation du contenu. */
+    public String getLibellePt() { return libellePt; }
+    /** Enregistre la traduction pt sans modifier le texte francais. */
+    public void setLibellePt(String valeur) { this.libellePt = valeur; }
+
+    /** Lit la traduction en, facultative avant validation du contenu. */
+    public String getLibelleCourtEn() { return libelleCourtEn; }
+    /** Enregistre la traduction en sans modifier le texte francais. */
+    public void setLibelleCourtEn(String valeur) { this.libelleCourtEn = valeur; }
+
+    /** Lit la traduction es, facultative avant validation du contenu. */
+    public String getLibelleCourtEs() { return libelleCourtEs; }
+    /** Enregistre la traduction es sans modifier le texte francais. */
+    public void setLibelleCourtEs(String valeur) { this.libelleCourtEs = valeur; }
+
+    /** Lit la traduction pt, facultative avant validation du contenu. */
+    public String getLibelleCourtPt() { return libelleCourtPt; }
+    /** Enregistre la traduction pt sans modifier le texte francais. */
+    public void setLibelleCourtPt(String valeur) { this.libelleCourtPt = valeur; }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useParams, useNavigate } from 'react-router-dom';
 import { chargerResultat } from '../api/passations';
 import type { Resultat } from '../types';
@@ -37,6 +38,8 @@ function icones(type: 'TRISTE' | 'NEUTRE' | 'CONTENT', nombre: number, couleurBa
  * au POC.
  */
 export function ResultatPage() {
+  const { i18n } = useTranslation();
+  const langue = i18n.resolvedLanguage ?? i18n.language;
   const { passationId } = useParams<{ passationId: string }>();
   const navigate = useNavigate();
   const [resultat, setResultat] = useState<Resultat | null>(null);
@@ -47,10 +50,14 @@ export function ResultatPage() {
 
   useEffect(() => {
     if (!passationId) return;
+    let annule = false;
+    setResultat(null);
+    setErreur(null);
     chargerResultat(Number(passationId))
-      .then(setResultat)
-      .catch(e => setErreur((e as Error).message));
-  }, [passationId]);
+      .then(resultatCharge => { if (!annule) setResultat(resultatCharge); })
+      .catch(e => { if (!annule) setErreur((e as Error).message); });
+    return () => { annule = true; };
+  }, [passationId, langue]);
 
   if (erreur) {
     return <div className="wrap"><p className="hint" style={{ color: '#d45219' }}>{erreur}</p></div>;

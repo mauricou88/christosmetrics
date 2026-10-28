@@ -28,15 +28,17 @@ public class ReferentielController {
         this.mapper = mapper;
     }
 
+    /** Renvoie le catalogue dans la langue demandee, francais par defaut. */
     @GetMapping
-    public List<ReferentielResume> lister() {
-        return referentielRepo.findByActifTrue().stream().map(mapper::toResume).toList();
+    public List<ReferentielResume> lister(@RequestParam(defaultValue = "fr") String lang) {
+        return referentielRepo.findByActifTrue().stream().map(r -> mapper.toResume(r, lang)).toList();
     }
 
+    /** Renvoie les dimensions et questions localisees sans exposer la polarite. */
     @GetMapping("/{code}")
-    public ReferentielComplet detail(@PathVariable String code) {
+    public ReferentielComplet detail(@PathVariable String code, @RequestParam(defaultValue = "fr") String lang) {
         return referentielRepo.findByCode(code)
-                .map(mapper::toComplet)
+                .map(r -> mapper.toComplet(r, lang))
                 .orElseThrow(() -> new NoSuchElementException("Référentiel inconnu : " + code));
     }
 }

@@ -13,6 +13,30 @@ import jakarta.persistence.*;
 @Entity
 @Table(name = "questions")
 public class Question {
+    /** Contenu localise ; NULL conserve le repli vers le francais. */
+    @Column(name = "texte_en", columnDefinition = "TEXT")
+    private String texteEn;
+
+    @Column(name = "texte_es", columnDefinition = "TEXT")
+    private String texteEs;
+
+    @Column(name = "texte_pt", columnDefinition = "TEXT")
+    private String textePt;
+
+    /** Lit la traduction en, facultative avant validation du contenu. */
+    public String getTexteEn() { return texteEn; }
+    /** Enregistre la traduction en sans modifier le texte francais. */
+    public void setTexteEn(String valeur) { this.texteEn = valeur; }
+
+    /** Lit la traduction es, facultative avant validation du contenu. */
+    public String getTexteEs() { return texteEs; }
+    /** Enregistre la traduction es sans modifier le texte francais. */
+    public void setTexteEs(String valeur) { this.texteEs = valeur; }
+
+    /** Lit la traduction pt, facultative avant validation du contenu. */
+    public String getTextePt() { return textePt; }
+    /** Enregistre la traduction pt sans modifier le texte francais. */
+    public void setTextePt(String valeur) { this.textePt = valeur; }
 
     public enum Polarite { DIRECTE, INVERSE }
 

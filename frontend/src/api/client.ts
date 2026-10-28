@@ -16,6 +16,7 @@
 
 import { Capacitor } from '@capacitor/core';
 import { Preferences } from '@capacitor/preferences';
+import i18n from '../i18n';
 
 const BASE_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:8080';
 const TOKEN_KEY = 'christos_token';
@@ -63,6 +64,21 @@ interface RequestOptions {
   auth?: boolean;
 }
 
+/** Ajoute la langue aux seules routes de contenu, sans modifier les codes ni les autres parametres. */
+export function avecLangueContenu(path: string, langue: string): string {
+  const [chemin, recherche = ''] = path.split('?', 2);
+  const localisable = /^\/api\/referentiels(?:\/[^/]+)?\/?$/.test(chemin)
+    || /^\/api\/questions(?:\/[^/]+)?\/?$/.test(chemin)
+    || /^\/api\/passations\/[^/]+\/(?:resultat|terminer)\/?$/.test(chemin)
+    || /^\/api\/mon-parcours\/?$/.test(chemin);
+  if (!localisable) return path;
+  const code = langue.toLowerCase().split(/[-_]/)[0];
+  const params = new URLSearchParams(recherche);
+  params.set('lang', ['fr', 'en', 'es', 'pt'].includes(code) ? code : 'fr');
+  return `${chemin}?${params.toString()}`;
+}
+
+/** Envoie la requete avec la langue courante pour le catalogue et les restitutions. */
 export async function apiRequest<T>(path: string, opts: RequestOptions = {}): Promise<T> {
   const { method = 'GET', body, auth = true } = opts;
   const headers: Record<string, string> = {
@@ -75,7 +91,8 @@ export async function apiRequest<T>(path: string, opts: RequestOptions = {}): Pr
     if (token) headers['Authorization'] = `Bearer ${token}`;
   }
 
-  const res = await fetch(`${BASE_URL}${path}`, {
+  const chemin = avecLangueContenu(path, i18n.resolvedLanguage ?? i18n.language ?? 'fr');
+  const res = await fetch(`${BASE_URL}${chemin}`, {
     method,
     headers,
     body: body ? JSON.stringify(body) : undefined,

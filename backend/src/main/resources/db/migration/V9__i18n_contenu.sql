@@ -1,0 +1,19 @@
+-- Traductions facultatives : les champs historiques restent la source francaise.
+ALTER TABLE referentiels ADD COLUMN nom_en VARCHAR(255);
+ALTER TABLE referentiels ADD COLUMN nom_es VARCHAR(255);
+ALTER TABLE referentiels ADD COLUMN nom_pt VARCHAR(255);
+ALTER TABLE referentiels ADD COLUMN verset_en VARCHAR(255);
+ALTER TABLE referentiels ADD COLUMN verset_es VARCHAR(255);
+ALTER TABLE referentiels ADD COLUMN verset_pt VARCHAR(255);
+ALTER TABLE dimensions ADD COLUMN libelle_en VARCHAR(500);
+ALTER TABLE dimensions ADD COLUMN libelle_es VARCHAR(500);
+ALTER TABLE dimensions ADD COLUMN libelle_pt VARCHAR(500);
+ALTER TABLE dimensions ADD COLUMN libelle_court_en VARCHAR(500);
+ALTER TABLE dimensions ADD COLUMN libelle_court_es VARCHAR(500);
+ALTER TABLE dimensions ADD COLUMN libelle_court_pt VARCHAR(500);
+ALTER TABLE questions ADD COLUMN texte_en TEXT;
+ALTER TABLE questions ADD COLUMN texte_es TEXT;
+ALTER TABLE questions ADD COLUMN texte_pt TEXT;
+ALTER TABLE tranches_interpretation ADD COLUMN texte_en TEXT;
+ALTER TABLE tranches_interpretation ADD COLUMN texte_es TEXT;
+ALTER TABLE tranches_interpretation ADD COLUMN texte_pt TEXT;

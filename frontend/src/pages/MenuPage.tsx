@@ -10,7 +10,8 @@ import type { ReferentielResume } from '../types';
 
 /** Affiche les parcours et leur progression dans la langue choisie, sans modifier les codes API. */
 export function MenuPage() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const langue = i18n.resolvedLanguage ?? i18n.language;
   const { user, deconnexion } = useAuth();
   const navigate = useNavigate();
   const [params, setParams] = useSearchParams();
@@ -39,13 +40,13 @@ export function MenuPage() {
       setChargement(false);
     });
     return () => { annule = true; };
-  }, [actualisation]);
+  }, [actualisation, langue]);
 
   const individuels = referentielsIndividuels(refs);
   const couple = refs.find(r => r.type === 'COUPLE');
   const passationCouple = couple ? passationPourFruit(synthese?.passations ?? [], couple.code) : undefined;
   const aConcevoir = FRUITS_A_CONCEVOIR.filter(f => !individuels.some(r => r.code === f.code));
-  /** Relance les chargements ; changer de langue ne déclenche aucun nouvel appel réseau. */
+  /** Relance les chargements ; la langue actualise aussi les textes provenant du serveur. */
   const reessayer = () => setActualisation(valeur => valeur + 1);
 
   return (

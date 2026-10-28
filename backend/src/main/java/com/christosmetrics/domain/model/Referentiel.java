@@ -14,6 +14,54 @@ import java.util.List;
 @Entity
 @Table(name = "referentiels")
 public class Referentiel {
+    /** Contenu localise ; NULL conserve le repli vers le francais. */
+    @Column(name = "nom_en", length = 255)
+    private String nomEn;
+
+    @Column(name = "nom_es", length = 255)
+    private String nomEs;
+
+    @Column(name = "nom_pt", length = 255)
+    private String nomPt;
+
+    @Column(name = "verset_en", length = 255)
+    private String versetEn;
+
+    @Column(name = "verset_es", length = 255)
+    private String versetEs;
+
+    @Column(name = "verset_pt", length = 255)
+    private String versetPt;
+
+    /** Lit la traduction en, facultative avant validation du contenu. */
+    public String getNomEn() { return nomEn; }
+    /** Enregistre la traduction en sans modifier le texte francais. */
+    public void setNomEn(String valeur) { this.nomEn = valeur; }
+
+    /** Lit la traduction es, facultative avant validation du contenu. */
+    public String getNomEs() { return nomEs; }
+    /** Enregistre la traduction es sans modifier le texte francais. */
+    public void setNomEs(String valeur) { this.nomEs = valeur; }
+
+    /** Lit la traduction pt, facultative avant validation du contenu. */
+    public String getNomPt() { return nomPt; }
+    /** Enregistre la traduction pt sans modifier le texte francais. */
+    public void setNomPt(String valeur) { this.nomPt = valeur; }
+
+    /** Lit la traduction en, facultative avant validation du contenu. */
+    public String getVersetEn() { return versetEn; }
+    /** Enregistre la traduction en sans modifier le texte francais. */
+    public void setVersetEn(String valeur) { this.versetEn = valeur; }
+
+    /** Lit la traduction es, facultative avant validation du contenu. */
+    public String getVersetEs() { return versetEs; }
+    /** Enregistre la traduction es sans modifier le texte francais. */
+    public void setVersetEs(String valeur) { this.versetEs = valeur; }
+
+    /** Lit la traduction pt, facultative avant validation du contenu. */
+    public String getVersetPt() { return versetPt; }
+    /** Enregistre la traduction pt sans modifier le texte francais. */
+    public void setVersetPt(String valeur) { this.versetPt = valeur; }
 
     public enum Type { INDIVIDUEL, COUPLE }
 

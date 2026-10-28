@@ -2,6 +2,7 @@ package com.christosmetrics.application.mapper;
 
 import com.christosmetrics.application.dto.*;
 import com.christosmetrics.domain.model.*;
+import com.christosmetrics.application.i18n.ContenuLocalise;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -26,29 +27,40 @@ public class DomainMapper {
     // ---- Referentiel ----
 
     public ReferentielDto.ReferentielResume toResume(Referentiel r) {
+        return toResume(r, "fr");
+    }
+
+    /** Localise le catalogue en conservant les identifiants et compteurs. */
+    public ReferentielDto.ReferentielResume toResume(Referentiel r, String langue) {
         int nbQuestions = r.getDimensions().stream()
                 .mapToInt(d -> d.getQuestions().size()).sum();
         return new ReferentielDto.ReferentielResume(
-                r.getId(), r.getCode(), r.getNom(), r.getType().name(),
-                r.getVerset(), r.getTopFlop(), r.getDimensions().size(), nbQuestions);
+                r.getId(), r.getCode(), ContenuLocalise.nom(r, langue), r.getType().name(),
+                ContenuLocalise.verset(r, langue), r.getTopFlop(), r.getDimensions().size(), nbQuestions);
     }
 
     public ReferentielDto.ReferentielComplet toComplet(Referentiel r) {
-        List<ReferentielDto.DimensionDto> dims = r.getDimensions().stream()
-                .map(this::toDimensionDto)
-                .toList();
-        return new ReferentielDto.ReferentielComplet(
-                r.getId(), r.getCode(), r.getNom(), r.getType().name(),
-                r.getVerset(), r.getTopFlop(), dims);
+        return toComplet(r, "fr");
     }
 
-    private ReferentielDto.DimensionDto toDimensionDto(Dimension d) {
+    /** Localise le questionnaire complet, avec repli francais champ par champ. */
+    public ReferentielDto.ReferentielComplet toComplet(Referentiel r, String langue) {
+        List<ReferentielDto.DimensionDto> dims = r.getDimensions().stream()
+                .map(d -> toDimensionDto(d, langue))
+                .toList();
+        return new ReferentielDto.ReferentielComplet(
+                r.getId(), r.getCode(), ContenuLocalise.nom(r, langue), r.getType().name(),
+                ContenuLocalise.verset(r, langue), r.getTopFlop(), dims);
+    }
+
+    /** Adapte les titres et enonces a la langue de la requete. */
+    private ReferentielDto.DimensionDto toDimensionDto(Dimension d, String langue) {
         List<ReferentielDto.QuestionDto> questions = d.getQuestions().stream()
                 // NB : pas de polarité exposée ici, volontairement.
-                .map(q -> new ReferentielDto.QuestionDto(q.getId(), q.getPosition(), q.getTexte()))
+                .map(q -> new ReferentielDto.QuestionDto(q.getId(), q.getPosition(), ContenuLocalise.getContenuLocalise(q, langue)))
                 .toList();
         return new ReferentielDto.DimensionDto(
-                d.getId(), d.getPosition(), d.getLibelle(), d.getLibelleCourt(), questions);
+                d.getId(), d.getPosition(), ContenuLocalise.libelle(d, langue), ContenuLocalise.libelleCourt(d, langue), questions);
     }
 
     // ---- Progression ----

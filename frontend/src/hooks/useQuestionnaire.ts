@@ -1,10 +1,13 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import type { ReferentielComplet, QuestionDto } from '../types';
 import { chargerReferentiel } from '../api/referentiels';
 import { demarrerOuReprendre, repondre as apiRepondre, terminer } from '../api/passations';
 
 /** Une réponse sauvegardée à la fois, puis une finalisation explicite. */
 export function useQuestionnaire(code: string) {
+  const { i18n } = useTranslation();
+  const langue = i18n.resolvedLanguage ?? i18n.language;
   const [referentiel, setReferentiel] = useState<ReferentielComplet | null>(null);
   const [questionsAPlat, setQuestionsAPlat] = useState<QuestionDto[]>([]);
   const [passationId, setPassationId] = useState<number | null>(null);
@@ -45,7 +48,7 @@ export function useQuestionnaire(code: string) {
       }
     })();
     return () => { annule = true; };
-  }, [code]);
+  }, [code, langue]);
 
   const repondre = useCallback(async (valeur: number) => {
     if (passationId == null || chargement || actionEnCours.current) return;

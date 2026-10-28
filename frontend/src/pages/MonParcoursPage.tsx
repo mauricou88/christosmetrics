@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import { chargerMonParcours, type SyntheseGlobale } from '../api/synthese';
 import { urlTelechargementPdf } from '../api/pdf';
@@ -11,6 +12,8 @@ import { useAuth } from '../context/AuthContext';
  * La synthèse n'apparaît que si TOUS les fruits individuels sont terminés.
  */
 export function MonParcoursPage() {
+  const { i18n } = useTranslation();
+  const langue = i18n.resolvedLanguage ?? i18n.language;
   const navigate = useNavigate();
   const { user } = useAuth();
   const [synthese, setSynthese] = useState<SyntheseGlobale | null>(null);
@@ -18,11 +21,15 @@ export function MonParcoursPage() {
   const [chargement, setChargement] = useState(true);
 
   useEffect(() => {
+    let annule = false;
+    setChargement(true);
+    setErreur(null);
     chargerMonParcours()
-      .then(setSynthese)
-      .catch(e => setErreur((e as Error).message))
-      .finally(() => setChargement(false));
-  }, []);
+      .then(parcours => { if (!annule) setSynthese(parcours); })
+      .catch(e => { if (!annule) setErreur((e as Error).message); })
+      .finally(() => { if (!annule) setChargement(false); });
+    return () => { annule = true; };
+  }, [langue]);
 
   async function handleTelechargerPdf(passationId: number, nomFruit: string) {
     try {
