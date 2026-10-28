@@ -175,6 +175,27 @@
     "navigation": "Introduction screens",
     "progression": "Screen {{actuel}} of {{total}}"
   },
+  "progression": {
+    "titre": "Progress",
+    "jauge_label": "{{faits}} / {{total}} aspects of the fruit",
+    "jauge_cta": "View my journey",
+    "fruits": "aspects of the fruit",
+    "premier_fruit": "Start with your first assessment, at your own pace.",
+    "indisponible": "Your progress is temporarily unavailable.",
+    "christos_debloque": "🌟 CHRISTOS summary unlocked",
+    "score_global": "Overall score: {{score}}%",
+    "streak_zero": "Start your streak",
+    "streak_un": "🔥 1 day — a lovely start!",
+    "streak_one": "🔥 {{count}} day in a row",
+    "streak_other": "🔥 {{count}} days in a row",
+    "streak_record": "Personal best: {{count}} days",
+    "streak_record_one": "Personal best: {{count}} day",
+    "streak_record_other": "Personal best: {{count}} days",
+    "streak_actuel_one": "Current streak: {{count}} day",
+    "streak_actuel_other": "Current streak: {{count}} days",
+    "fruits_restants_one": "Just <strong>1 more assessment</strong> before your CHRISTOS summary",
+    "fruits_restants_other": "Just <strong>{{count}} more assessments</strong> before your CHRISTOS summary"
+  },
   "footer": {
     "label": "Legal links",
     "politique": "Privacy policy",

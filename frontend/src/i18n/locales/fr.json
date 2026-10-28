@@ -175,6 +175,27 @@
     "navigation": "Écrans de présentation",
     "progression": "Écran {{actuel}} sur {{total}}"
   },
+  "progression": {
+    "titre": "Progression",
+    "jauge_label": "{{faits}} / {{total}} fruits",
+    "jauge_cta": "Voir mon parcours",
+    "fruits": "fruits",
+    "premier_fruit": "Commence par ton premier fruit, à ton rythme.",
+    "indisponible": "Ta progression est momentanément indisponible.",
+    "christos_debloque": "🌟 Synthèse CHRISTOS débloquée",
+    "score_global": "Score global : {{score}}%",
+    "streak_zero": "Commence ta série",
+    "streak_un": "🔥 1 jour — belle entrée !",
+    "streak_one": "🔥 {{count}} jour de suite",
+    "streak_other": "🔥 {{count}} jours de suite",
+    "streak_record": "Record personnel : {{count}} jours",
+    "streak_record_one": "Record personnel : {{count}} jour",
+    "streak_record_other": "Record personnel : {{count}} jours",
+    "streak_actuel_one": "Série actuelle : {{count}} jour",
+    "streak_actuel_other": "Série actuelle : {{count}} jours",
+    "fruits_restants_one": "Encore <strong>1 fruit</strong> avant la synthèse CHRISTOS",
+    "fruits_restants_other": "Encore <strong>{{count}} fruits</strong> avant la synthèse CHRISTOS"
+  },
   "footer": {
     "label": "Liens juridiques",
     "politique": "Politique de confidentialité",

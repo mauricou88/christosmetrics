@@ -1,8 +1,11 @@
 import { useEffect, useState, type KeyboardEvent } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 import { useAuth } from '../context/AuthContext';
 import { version } from '../../package.json';
+import { useMoi } from '../hooks/useMoi';
+import { JaugeChristos } from '../components/JaugeChristos';
+import { BadgeStreak } from '../components/BadgeStreak';
 
 type ThemePref = 'light' | 'dark' | 'auto';
 const langues = [
@@ -13,11 +16,12 @@ const langues = [
 ] as const;
 type Langue = typeof langues[number]['code'];
 
-/** Présente le compte et les préférences de langue et de thème. */
+/** Présente les préférences et la progression personnelle sans bloquer le profil sur une erreur API. */
 export function ProfilPage() {
   const { t, i18n } = useTranslation();
   const langueActive = (i18n.resolvedLanguage ?? i18n.language ?? 'fr').split('-')[0];
   const { user, deconnexion } = useAuth();
+  const { moi, chargement, rafraichir } = useMoi();
   const navigate = useNavigate();
   const [themePref, setThemePref] = useState<ThemePref>(() => {
     try {
@@ -130,6 +134,18 @@ export function ProfilPage() {
             </label>
           ))}
         </fieldset>
+      </section>
+
+      <section className="card" aria-labelledby="profil-progression">
+        <h2 id="profil-progression">{t('progression.titre')}</h2>
+        {chargement ? <p className="hint progression-attente" role="status">{t('commun.chargement')}</p> : moi ? (
+          <div className="profil-progression">
+            <JaugeChristos {...moi} />
+            <BadgeStreak streakActuel={moi.streakActuel} streakRecord={moi.streakRecord} />
+            <p className="hint">{t('progression.streak_actuel', { count: moi.streakActuel })}{' · '}{t('progression.streak_record', { count: moi.streakRecord })}</p>
+            {moi.fruitsCompletes < moi.fruitsTotal && <p className="hint info"><Trans t={t} i18nKey="progression.fruits_restants" count={Math.max(0, moi.fruitsTotal - moi.fruitsCompletes)} components={{ strong: <strong /> }} /></p>}
+          </div>
+        ) : <p className="hint">{t('progression.indisponible')}{' '}<button type="button" className="btn ghost sm" onClick={() => { void rafraichir(); }}>{t('commun.reessayer')}</button></p>}
       </section>
 
       <section className="card" aria-labelledby="profil-compte">

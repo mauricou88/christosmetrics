@@ -175,6 +175,27 @@
     "navigation": "Pantallas de presentación",
     "progression": "Pantalla {{actuel}} de {{total}}"
   },
+  "progression": {
+    "titre": "Progreso",
+    "jauge_label": "{{faits}} / {{total}} aspectos del fruto",
+    "jauge_cta": "Ver mi recorrido",
+    "fruits": "aspectos del fruto",
+    "premier_fruit": "Empieza con tu primera evaluación, a tu ritmo.",
+    "indisponible": "Tu progreso no está disponible temporalmente.",
+    "christos_debloque": "🌟 Síntesis CHRISTOS desbloqueada",
+    "score_global": "Puntuación global: {{score}}%",
+    "streak_zero": "Comienza tu racha",
+    "streak_un": "🔥 1 día — ¡un gran comienzo!",
+    "streak_one": "🔥 {{count}} día seguido",
+    "streak_other": "🔥 {{count}} días seguidos",
+    "streak_record": "Récord personal: {{count}} días",
+    "streak_record_one": "Récord personal: {{count}} día",
+    "streak_record_other": "Récord personal: {{count}} días",
+    "streak_actuel_one": "Racha actual: {{count}} día",
+    "streak_actuel_other": "Racha actual: {{count}} días",
+    "fruits_restants_one": "Solo falta <strong>1 evaluación</strong> para la síntesis CHRISTOS",
+    "fruits_restants_other": "Solo faltan <strong>{{count}} evaluaciones</strong> para la síntesis CHRISTOS"
+  },
   "footer": {
     "label": "Enlaces legales",
     "politique": "Política de privacidad",

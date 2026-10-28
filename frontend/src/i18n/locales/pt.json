@@ -175,6 +175,27 @@
     "navigation": "Ecrãs de apresentação",
     "progression": "Ecrã {{actuel}} de {{total}}"
   },
+  "progression": {
+    "titre": "Progresso",
+    "jauge_label": "{{faits}} / {{total}} aspetos do fruto",
+    "jauge_cta": "Ver o meu percurso",
+    "fruits": "aspetos do fruto",
+    "premier_fruit": "Comece pela sua primeira avaliação, ao seu ritmo.",
+    "indisponible": "O seu progresso está temporariamente indisponível.",
+    "christos_debloque": "🌟 Síntese CHRISTOS desbloqueada",
+    "score_global": "Pontuação global: {{score}}%",
+    "streak_zero": "Comece a sua série",
+    "streak_un": "🔥 1 dia — um belo começo!",
+    "streak_one": "🔥 {{count}} dia seguido",
+    "streak_other": "🔥 {{count}} dias seguidos",
+    "streak_record": "Recorde pessoal: {{count}} dias",
+    "streak_record_one": "Recorde pessoal: {{count}} dia",
+    "streak_record_other": "Recorde pessoal: {{count}} dias",
+    "streak_actuel_one": "Série atual: {{count}} dia",
+    "streak_actuel_other": "Série atual: {{count}} dias",
+    "fruits_restants_one": "Falta apenas <strong>1 avaliação</strong> para a síntese CHRISTOS",
+    "fruits_restants_other": "Faltam apenas <strong>{{count}} avaliações</strong> para a síntese CHRISTOS"
+  },
   "footer": {
     "label": "Ligações legais",
     "politique": "Política de privacidade",
