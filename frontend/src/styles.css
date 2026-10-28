@@ -567,6 +567,13 @@ main { padding-left: max(16px, env(safe-area-inset-left));
 .badge-streak--record .badge-streak-bouton { border-color: var(--orange); background: var(--orange-xl); }
 .badge-streak--record .badge-streak-flamme { width: 26px; height: 30px; }
 .badge-streak-detail { margin: 6px 0 0; color: var(--muted); font-size: 12px; }
+.switch-row { display: flex; align-items: center; gap: 12px; min-height: 44px; margin-top: 16px; color: var(--ink); cursor: pointer; }
+.switch-row input { width: 20px; height: 20px; margin: 0; flex-shrink: 0; accent-color: var(--teal); }
+.rappels-config { display: grid; gap: 10px; min-width: 0; margin: 16px 0 0; padding: 0; border: 0; }
+.rappels-config > label { margin: 8px 0 0; }
+.rappels-config input, .rappels-config select { background: var(--surface); color: var(--ink); }
+.rappels-config > .btn { justify-self: start; margin-top: 8px; }
+.rappels-information { padding: 12px 16px; border-left: 3px solid var(--orange); border-radius: 8px; background: var(--orange-xl); color: var(--ink); font-size: 14px; }
 @media (max-width: 480px) {
   .jauge-christos--banniere { grid-template-columns: 1fr; padding: 16px; }
   .jauge-christos--banniere .jauge-christos-cta { grid-column: 1; grid-row: auto; }
