@@ -1,0 +1,990 @@
+{
+  "fruit": {
+    "id": 1,
+    "code": "joie",
+    "nom": "Alegría",
+    "description": null,
+    "verset": "Gálatas 5:22"
+  },
+  "dimensions": [
+    {
+      "id": 1,
+      "code": "joie-d1",
+      "position": 0,
+      "libelle": "La alegría y las circunstancias",
+      "libelleCourt": "Circunstancias"
+    },
+    {
+      "id": 2,
+      "code": "joie-d2",
+      "position": 1,
+      "libelle": "La alegría y las pruebas",
+      "libelleCourt": "Pruebas"
+    },
+    {
+      "id": 3,
+      "code": "joie-d3",
+      "position": 2,
+      "libelle": "La alegría y las relaciones",
+      "libelleCourt": "Relaciones"
+    },
+    {
+      "id": 4,
+      "code": "joie-d4",
+      "position": 3,
+      "libelle": "La alegría intrapersonal",
+      "libelleCourt": "Intrapersonal"
+    },
+    {
+      "id": 5,
+      "code": "joie-d5",
+      "position": 4,
+      "libelle": "La alegría y Dios",
+      "libelleCourt": "Dios"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 0,
+      "enonce": "Mantengo una actitud positiva incluso cuando las cosas van mal.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 2,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 1,
+      "enonce": "Mi alegría no depende únicamente de lo que me ocurre.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 3,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 2,
+      "enonce": "Mantengo la estabilidad emocional ante los cambios.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 4,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 3,
+      "enonce": "Encuentro motivos para estar agradecido incluso en situaciones difíciles.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 5,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 4,
+      "enonce": "Mantengo la paz interior a pesar de los imprevistos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 6,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 5,
+      "enonce": "Puedo alegrarme incluso cuando mis planes fracasan.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 7,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 6,
+      "enonce": "Mantengo una actitud constructiva ante las dificultades.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 8,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 7,
+      "enonce": "Soy capaz de ver lo positivo en situaciones negativas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 9,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 8,
+      "enonce": "No dejo que las circunstancias determinen mis emociones.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 10,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 9,
+      "enonce": "Mantengo la alegría interior incluso en la incertidumbre.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 11,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 10,
+      "enonce": "Mi estado de ánimo depende mucho de lo que me ocurre.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 12,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 11,
+      "enonce": "Pierdo fácilmente la alegría cuando las cosas salen mal.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 13,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 12,
+      "enonce": "Los imprevistos me desestabilizan.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 14,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 13,
+      "enonce": "Me desanimo rápidamente.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 15,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 14,
+      "enonce": "Las dificultades afectan mucho a mi ánimo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 16,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 15,
+      "enonce": "Solo siento alegría cuando todo va bien.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 17,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 16,
+      "enonce": "Dejo que las circunstancias controlen cómo me siento por dentro.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 18,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 17,
+      "enonce": "A menudo tengo una actitud negativa ante las dificultades.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 19,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 18,
+      "enonce": "Pierdo fácilmente el entusiasmo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 20,
+      "dimensionId": 1,
+      "dimensionCode": "joie-d1",
+      "position": 19,
+      "enonce": "Mi estado de ánimo depende de los acontecimientos externos.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 21,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 0,
+      "enonce": "Puedo conservar la alegría incluso en los momentos difíciles.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 22,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 1,
+      "enonce": "Encuentro sentido en las pruebas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 23,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 2,
+      "enonce": "Creo que de las dificultades puede surgir algo bueno.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 24,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 3,
+      "enonce": "Mantengo la confianza a pesar de las pruebas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 25,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 4,
+      "enonce": "Conservo la esperanza en el sufrimiento.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 26,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 5,
+      "enonce": "No dejo que las dificultades me aplasten.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 27,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 6,
+      "enonce": "Mantengo una actitud agradecida incluso en el dolor.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 28,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 7,
+      "enonce": "Veo las pruebas como oportunidades de crecimiento.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 29,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 8,
+      "enonce": "Me mantengo firme por dentro a pesar de las crisis.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 30,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 9,
+      "enonce": "Mantengo una perspectiva positiva en las pruebas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 31,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 10,
+      "enonce": "Las pruebas me hacen perder toda alegría.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 32,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 11,
+      "enonce": "Siento que las dificultades me aplastan.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 33,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 12,
+      "enonce": "Pierdo la esperanza en los momentos difíciles.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 34,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 13,
+      "enonce": "Solo veo las pruebas como algo injusto.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 35,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 14,
+      "enonce": "Me desanimo fácilmente.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 36,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 15,
+      "enonce": "Me lleno de amargura ante las dificultades.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 37,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 16,
+      "enonce": "Pierdo la confianza en las pruebas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 38,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 17,
+      "enonce": "Las emociones me sobrepasan.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 39,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 18,
+      "enonce": "Encuentro poco sentido en las dificultades.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 40,
+      "dimensionId": 2,
+      "dimensionCode": "joie-d2",
+      "position": 19,
+      "enonce": "Las pruebas me llevan a tener una actitud negativa.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 41,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 0,
+      "enonce": "Mi alegría depende mucho de la calidad de mis relaciones.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 42,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 1,
+      "enonce": "Me siento menos feliz cuando estoy a solas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 43,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 2,
+      "enonce": "Mi felicidad depende de cómo me ven los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 44,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 3,
+      "enonce": "Siento más alegría cuando estoy con otras personas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 45,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 4,
+      "enonce": "Cómo me siento por dentro depende del ambiente en mis relaciones con quienes me rodean.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 46,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 5,
+      "enonce": "Siento que me falta alegría cuando hay tensión en mis relaciones.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 47,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 6,
+      "enonce": "Tener o no tener pareja influye mucho en mi alegría.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 48,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 7,
+      "enonce": "Me siento menos feliz cuando los demás no me comprenden.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 49,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 8,
+      "enonce": "Mis relaciones influyen mucho en mi ánimo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 50,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 9,
+      "enonce": "Pierdo fácilmente la alegría cuando estoy en conflicto con alguien.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 51,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 10,
+      "enonce": "Soy capaz de conservar la alegría incluso cuando estoy a solas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 52,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 11,
+      "enonce": "Mi alegría no depende de cómo me ven los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 53,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 12,
+      "enonce": "Mantengo la estabilidad interior incluso cuando mis relaciones son difíciles.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 54,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 13,
+      "enonce": "Cómo me siento por dentro no depende de mi situación sentimental (soltería, matrimonio, etc.).",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 55,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 14,
+      "enonce": "Puedo estar en paz incluso sin la aprobación de los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 56,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 15,
+      "enonce": "Mantengo la estabilidad incluso cuando siento que no me comprenden.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 57,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 16,
+      "enonce": "Conservo la alegría incluso en los conflictos con otras personas.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 58,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 17,
+      "enonce": "Mi alegría no depende de la presencia o la ausencia de los demás.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 59,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 18,
+      "enonce": "Encuentro alegría independientemente de mi situación familiar.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 60,
+      "dimensionId": 3,
+      "dimensionCode": "joie-d3",
+      "position": 19,
+      "enonce": "Mantengo la estabilidad interior incluso cuando mis relaciones cambian.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 61,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 0,
+      "enonce": "Me siento profundamente feliz por dentro.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 62,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 1,
+      "enonce": "Estoy en paz con quien soy.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 63,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 2,
+      "enonce": "Siento que me aman y me aceptan.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 64,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 3,
+      "enonce": "Vivo con una sensación de plenitud.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 65,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 4,
+      "enonce": "Soy emocionalmente estable.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 66,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 5,
+      "enonce": "Estoy satisfecho con mi vida.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 67,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 6,
+      "enonce": "Siento alegría interior con regularidad.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 68,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 7,
+      "enonce": "Tengo confianza en mi identidad.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 69,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 8,
+      "enonce": "Siento armonía interior.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 70,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 9,
+      "enonce": "Experimento una alegría profunda sin que nada externo la provoque.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 71,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 10,
+      "enonce": "Siento un vacío interior.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 72,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 11,
+      "enonce": "Estoy insatisfecho con mi vida.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 73,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 12,
+      "enonce": "Dudo de mi propio valor.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 74,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 13,
+      "enonce": "Siento que me falta algo por dentro.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 75,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 14,
+      "enonce": "Soy emocionalmente inestable.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 76,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 15,
+      "enonce": "A menudo siento malestar conmigo mismo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 77,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 16,
+      "enonce": "Busco constantemente algo que me llene.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 78,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 17,
+      "enonce": "Siento poca alegría interior.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 79,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 18,
+      "enonce": "A menudo siento tristeza sin una razón clara.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 80,
+      "dimensionId": 4,
+      "dimensionCode": "joie-d4",
+      "position": 19,
+      "enonce": "Me falta alegría interior.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 81,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 0,
+      "enonce": "Mi relación con Dios me da alegría.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 82,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 1,
+      "enonce": "Me alegro en la presencia de Dios.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 83,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 2,
+      "enonce": "Encuentro alegría en la oración.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 84,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 3,
+      "enonce": "Me hace feliz seguir a Jesús, sin importar el precio que tenga que pagar.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 85,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 4,
+      "enonce": "Siento alegría en mi fe.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 86,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 5,
+      "enonce": "Me alegro en la Palabra de Dios.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 87,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 6,
+      "enonce": "Mi fe alimenta mi alegría.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 88,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 7,
+      "enonce": "Sé alabar a Dios incluso cuando no hay un motivo aparente para hacerlo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 89,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 8,
+      "enonce": "Me esfuerzo por dar gracias en todo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 90,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 9,
+      "enonce": "Dios es una fuente constante de alegría para mí.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 91,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 10,
+      "enonce": "Mi vida espiritual depende de mi estado de ánimo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 92,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 11,
+      "enonce": "No siento alegría en mi fe.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 93,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 12,
+      "enonce": "Encuentro poco placer en la oración.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 94,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 13,
+      "enonce": "Siento distancia de Dios cuando no estoy bien.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 95,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 14,
+      "enonce": "Mi fe no me da realmente alegría.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 96,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 15,
+      "enonce": "Vivo mi fe como una obligación.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 97,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 16,
+      "enonce": "Siento poca conexión espiritual en los momentos difíciles.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 98,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 17,
+      "enonce": "No tengo claro si siento alegría cuando me invitan a ir a la casa del Señor.",
+      "polarite": "negative",
+      "polariteSource": "INVERSE"
+    },
+    {
+      "id": 99,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 18,
+      "enonce": "Me cuesta contentarme con lo que tengo.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    },
+    {
+      "id": 100,
+      "dimensionId": 5,
+      "dimensionCode": "joie-d5",
+      "position": 19,
+      "enonce": "No siento verdadera alegría en la iglesia.",
+      "polarite": "positive",
+      "polariteSource": "DIRECTE"
+    }
+  ],
+  "baremes": [
+    {
+      "position": 0,
+      "scoreMin": 0,
+      "scoreMax": 19,
+      "interpretation": "La alegría se manifiesta muy poco en el conjunto de las actitudes evaluadas. Es una señal de alerta: es necesario actuar sin demora.",
+      "typeIcone": "TRISTE",
+      "nombreIcones": 1
+    },
+    {
+      "position": 1,
+      "scoreMin": 20,
+      "scoreMax": 39,
+      "interpretation": "Hay varios indicios leves de alegría. Es necesario fortalecerlos de manera significativa.",
+      "typeIcone": "NEUTRE",
+      "nombreIcones": 1
+    },
+    {
+      "position": 2,
+      "scoreMin": 40,
+      "scoreMax": 59,
+      "interpretation": "El perfil muestra una presencia real de alegría en la vida cotidiana, aunque su expresión sigue siendo inconstante. Hay que seguir trabajando en ello.",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 1
+    },
+    {
+      "position": 3,
+      "scoreMin": 60,
+      "scoreMax": 79,
+      "interpretation": "La alegría parece manifestarse de forma evidente en varias áreas de la vida. ¡Sigue fortaleciéndola!",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 2
+    },
+    {
+      "position": 4,
+      "scoreMin": 80,
+      "scoreMax": 100,
+      "interpretation": "El perfil revela una manifestación muy intensa de la alegría del Señor. ¡Mantén el rumbo!",
+      "typeIcone": "CONTENT",
+      "nombreIcones": 3
+    }
+  ]
+}
