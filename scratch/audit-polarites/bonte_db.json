@@ -1,0 +1,802 @@
+[
+  {
+    "question_num": 1,
+    "id": 380,
+    "dimension_id": 20,
+    "position": 0,
+    "enonce": "Je ressens naturellement de la compassion pour les autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 2,
+    "id": 381,
+    "dimension_id": 20,
+    "position": 1,
+    "enonce": "Je suis touché par la souffrance d’autrui.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 3,
+    "id": 382,
+    "dimension_id": 20,
+    "position": 2,
+    "enonce": "Je cherche intérieurement à faire le bien.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 4,
+    "id": 383,
+    "dimension_id": 20,
+    "position": 3,
+    "enonce": "Je ressens de la douceur dans mes intentions.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 5,
+    "id": 384,
+    "dimension_id": 20,
+    "position": 4,
+    "enonce": "Je pense spontanément au bien des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 6,
+    "id": 385,
+    "dimension_id": 20,
+    "position": 5,
+    "enonce": "Je suis bienveillant dans mes pensées, même envers ceux que je n’aime pas.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 7,
+    "id": 386,
+    "dimension_id": 20,
+    "position": 6,
+    "enonce": "Je ne nourris pas de mauvaises intentions.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 8,
+    "id": 387,
+    "dimension_id": 20,
+    "position": 7,
+    "enonce": "Je ressens de l’empathie face aux difficultés.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 9,
+    "id": 388,
+    "dimension_id": 20,
+    "position": 8,
+    "enonce": "Je suis naturellement porté vers la gentillesse.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 10,
+    "id": 389,
+    "dimension_id": 20,
+    "position": 9,
+    "enonce": "Je cherche à comprendre avant de juger.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 11,
+    "id": 390,
+    "dimension_id": 20,
+    "position": 10,
+    "enonce": "Je ressens de la compassion même pour quelqu’un qui m’a blessé.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 12,
+    "id": 391,
+    "dimension_id": 20,
+    "position": 11,
+    "enonce": "Je suis intérieurement doux dans mes réactions.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 13,
+    "id": 392,
+    "dimension_id": 20,
+    "position": 12,
+    "enonce": "Je ne souhaite pas de mal aux autres, même en colère.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 14,
+    "id": 393,
+    "dimension_id": 20,
+    "position": 13,
+    "enonce": "Je suis sensible aux émotions des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 15,
+    "id": 394,
+    "dimension_id": 20,
+    "position": 14,
+    "enonce": "Je ressens un désir intérieur sincère d’aider.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 16,
+    "id": 395,
+    "dimension_id": 20,
+    "position": 15,
+    "enonce": "Je suis indulgent dans mes pensées.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 17,
+    "id": 396,
+    "dimension_id": 20,
+    "position": 16,
+    "enonce": "Je garde une attitude intérieure bien disposée envers les autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 18,
+    "id": 397,
+    "dimension_id": 20,
+    "position": 17,
+    "enonce": "Je pense positivement des autres par défaut.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 19,
+    "id": 398,
+    "dimension_id": 20,
+    "position": 18,
+    "enonce": "Je suis porté à ne pas nourrir de l'amertume intérieurement.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 20,
+    "id": 399,
+    "dimension_id": 20,
+    "position": 19,
+    "enonce": "Je garde une bonne considération même en conflit.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 21,
+    "id": 400,
+    "dimension_id": 20,
+    "position": 20,
+    "enonce": "Lorsque les difficultés durent, je me décourage rapidement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 22,
+    "id": 401,
+    "dimension_id": 20,
+    "position": 21,
+    "enonce": "Je souhaite sincèrement le bien des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 23,
+    "id": 402,
+    "dimension_id": 20,
+    "position": 22,
+    "enonce": "Je suis lent à juger les autres.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 24,
+    "id": 403,
+    "dimension_id": 20,
+    "position": 23,
+    "enonce": "Je suis touché par les injustices subies par autrui.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 25,
+    "id": 404,
+    "dimension_id": 20,
+    "position": 24,
+    "enonce": "Je garde des pensées bienveillantes dans la durée.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 26,
+    "id": 405,
+    "dimension_id": 20,
+    "position": 25,
+    "enonce": "Je nourris facilement des pensées négatives envers les autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 27,
+    "id": 406,
+    "dimension_id": 20,
+    "position": 26,
+    "enonce": "Je manque de compassion face à la souffrance.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 28,
+    "id": 407,
+    "dimension_id": 20,
+    "position": 27,
+    "enonce": "Je suis dur dans mes pensées.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 29,
+    "id": 408,
+    "dimension_id": 20,
+    "position": 28,
+    "enonce": "Je juge rapidement sans chercher à comprendre.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 30,
+    "id": 409,
+    "dimension_id": 20,
+    "position": 29,
+    "enonce": "Je suis indifférent aux difficultés des autres.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 31,
+    "id": 410,
+    "dimension_id": 20,
+    "position": 30,
+    "enonce": "Je manque d’empathie.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 32,
+    "id": 411,
+    "dimension_id": 20,
+    "position": 31,
+    "enonce": "Je garde des pensées critiques ou dures.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 33,
+    "id": 412,
+    "dimension_id": 20,
+    "position": 32,
+    "enonce": "Je suis froid intérieurement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 34,
+    "id": 413,
+    "dimension_id": 20,
+    "position": 33,
+    "enonce": "Je manque de douceur dans mes intentions.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 35,
+    "id": 414,
+    "dimension_id": 20,
+    "position": 34,
+    "enonce": "Je suis sévère dans mes jugements.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 36,
+    "id": 415,
+    "dimension_id": 20,
+    "position": 35,
+    "enonce": "Je ressens peu de compassion pour les autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 37,
+    "id": 416,
+    "dimension_id": 20,
+    "position": 36,
+    "enonce": "Je suis dur envers ceux qui échouent.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 38,
+    "id": 417,
+    "dimension_id": 20,
+    "position": 37,
+    "enonce": "Je manque de bonté intérieure.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 39,
+    "id": 418,
+    "dimension_id": 20,
+    "position": 38,
+    "enonce": "Je critique facilement intérieurement.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 40,
+    "id": 419,
+    "dimension_id": 20,
+    "position": 39,
+    "enonce": "Je garde des rancunes longtemps.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 41,
+    "id": 420,
+    "dimension_id": 20,
+    "position": 40,
+    "enonce": "Je suis peu sensible aux besoins des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 42,
+    "id": 421,
+    "dimension_id": 20,
+    "position": 41,
+    "enonce": "Je manque de miséricorde.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 43,
+    "id": 422,
+    "dimension_id": 20,
+    "position": 42,
+    "enonce": "Je suis fermé émotionnellement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 44,
+    "id": 423,
+    "dimension_id": 20,
+    "position": 43,
+    "enonce": "Je pense facilement du mal des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 45,
+    "id": 424,
+    "dimension_id": 20,
+    "position": 44,
+    "enonce": "Je suis dur dans mes pensées face aux erreurs.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 46,
+    "id": 425,
+    "dimension_id": 20,
+    "position": 45,
+    "enonce": "Je manque de patience intérieure envers les autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 47,
+    "id": 426,
+    "dimension_id": 20,
+    "position": 46,
+    "enonce": "Je me réjouis parfois des échecs des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 48,
+    "id": 427,
+    "dimension_id": 20,
+    "position": 47,
+    "enonce": "Je suis indifférent aux injustices subies par autrui.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 49,
+    "id": 428,
+    "dimension_id": 20,
+    "position": 48,
+    "enonce": "Je garde des pensées négatives persistantes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 50,
+    "id": 429,
+    "dimension_id": 20,
+    "position": 49,
+    "enonce": "Je manque d'amabilité intérieure.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 51,
+    "id": 430,
+    "dimension_id": 21,
+    "position": 0,
+    "enonce": "J’aide du mieux que je peux les personnes en difficulté.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 52,
+    "id": 431,
+    "dimension_id": 21,
+    "position": 1,
+    "enonce": "Je prends des initiatives concrètes pour faire le bien.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 53,
+    "id": 432,
+    "dimension_id": 21,
+    "position": 2,
+    "enonce": "Je suis prêt à agir pour aider quelqu’un.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 54,
+    "id": 433,
+    "dimension_id": 21,
+    "position": 3,
+    "enonce": "Je fais du bien autour de moi activement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 55,
+    "id": 434,
+    "dimension_id": 21,
+    "position": 4,
+    "enonce": "Je m’engage dans des actions utiles aux autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 56,
+    "id": 435,
+    "dimension_id": 21,
+    "position": 5,
+    "enonce": "Je soutiens les autres dans leurs besoins.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 57,
+    "id": 436,
+    "dimension_id": 21,
+    "position": 6,
+    "enonce": "Je passe à l’action lorsque je vois un besoin.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 58,
+    "id": 437,
+    "dimension_id": 21,
+    "position": 7,
+    "enonce": "Je donne de mon temps pour les autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 59,
+    "id": 438,
+    "dimension_id": 21,
+    "position": 8,
+    "enonce": "Je suis impliqué dans le bien des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 60,
+    "id": 439,
+    "dimension_id": 21,
+    "position": 9,
+    "enonce": "Je fais preuve de générosité concrète.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 61,
+    "id": 440,
+    "dimension_id": 21,
+    "position": 10,
+    "enonce": "Je sais dire la vérité avec bienveillance.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 62,
+    "id": 441,
+    "dimension_id": 21,
+    "position": 11,
+    "enonce": "Je corrige lorsque c’est nécessaire avec justesse.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 63,
+    "id": 442,
+    "dimension_id": 21,
+    "position": 12,
+    "enonce": "Je confronte avec respect lorsqu’il le faut.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 64,
+    "id": 443,
+    "dimension_id": 21,
+    "position": 13,
+    "enonce": "Je cherche le bien réel des autres, même si c’est inconfortable.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 65,
+    "id": 444,
+    "dimension_id": 21,
+    "position": 14,
+    "enonce": "Je prends des décisions justes, même difficiles.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 66,
+    "id": 445,
+    "dimension_id": 21,
+    "position": 15,
+    "enonce": "Je suis prêt à reprendre quelqu’un pour son bien.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 67,
+    "id": 446,
+    "dimension_id": 21,
+    "position": 16,
+    "enonce": "Je ne laisse pas quelqu’un se nuire sans intervenir.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 68,
+    "id": 447,
+    "dimension_id": 21,
+    "position": 17,
+    "enonce": "Je suis actif dans le bien.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 69,
+    "id": 448,
+    "dimension_id": 21,
+    "position": 18,
+    "enonce": "Je participe aux actes de compassion.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 70,
+    "id": 449,
+    "dimension_id": 21,
+    "position": 19,
+    "enonce": "Je rends service spontanément.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 71,
+    "id": 450,
+    "dimension_id": 21,
+    "position": 20,
+    "enonce": "Je prends soin des personnes en difficulté.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 72,
+    "id": 451,
+    "dimension_id": 21,
+    "position": 21,
+    "enonce": "Je corrige quelqu’un lorsque c’est nécessaire pour son bien.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 73,
+    "id": 452,
+    "dimension_id": 21,
+    "position": 22,
+    "enonce": "Je confronte avec sagesse quand il le faut.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 74,
+    "id": 453,
+    "dimension_id": 21,
+    "position": 23,
+    "enonce": "Je ne laisse pas quelqu’un s’égarer sans intervenir.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 75,
+    "id": 454,
+    "dimension_id": 21,
+    "position": 24,
+    "enonce": "Je prends position pour le bien.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 76,
+    "id": 455,
+    "dimension_id": 21,
+    "position": 25,
+    "enonce": "Je vois les besoins mais je n’agis pas.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 77,
+    "id": 456,
+    "dimension_id": 21,
+    "position": 26,
+    "enonce": "Je reste passif face à la souffrance des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 78,
+    "id": 457,
+    "dimension_id": 21,
+    "position": 27,
+    "enonce": "Je manque d’initiative pour aider.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 79,
+    "id": 458,
+    "dimension_id": 21,
+    "position": 28,
+    "enonce": "Je préfère éviter de m’impliquer.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 80,
+    "id": 459,
+    "dimension_id": 21,
+    "position": 29,
+    "enonce": "Je laisse les autres se débrouiller seuls.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 81,
+    "id": 460,
+    "dimension_id": 21,
+    "position": 30,
+    "enonce": "Je suis peu engagé dans les actions d'aide.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 82,
+    "id": 461,
+    "dimension_id": 21,
+    "position": 31,
+    "enonce": "Je n’agis pas même lorsque je pourrais aider.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 83,
+    "id": 462,
+    "dimension_id": 21,
+    "position": 32,
+    "enonce": "Je suis indifférent aux besoins visibles.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 84,
+    "id": 463,
+    "dimension_id": 21,
+    "position": 33,
+    "enonce": "Je manque de générosité dans mes actes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 85,
+    "id": 464,
+    "dimension_id": 21,
+    "position": 34,
+    "enonce": "Je ne prends pas le temps d’aider.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 86,
+    "id": 465,
+    "dimension_id": 21,
+    "position": 35,
+    "enonce": "Je n’ose pas dire la vérité quand c’est nécessaire.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 87,
+    "id": 466,
+    "dimension_id": 21,
+    "position": 36,
+    "enonce": "J’évite les confrontations utiles.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 88,
+    "id": 467,
+    "dimension_id": 21,
+    "position": 37,
+    "enonce": "Je laisse les situations se détériorer.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 89,
+    "id": 468,
+    "dimension_id": 21,
+    "position": 38,
+    "enonce": "Je manque de courage pour agir.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 90,
+    "id": 469,
+    "dimension_id": 21,
+    "position": 39,
+    "enonce": "Je suis passif face à l’injustice.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 91,
+    "id": 470,
+    "dimension_id": 21,
+    "position": 40,
+    "enonce": "Je ne corrige pas quand c’est nécessaire.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 92,
+    "id": 471,
+    "dimension_id": 21,
+    "position": 41,
+    "enonce": "Je laisse les erreurs sans intervenir.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 93,
+    "id": 472,
+    "dimension_id": 21,
+    "position": 42,
+    "enonce": "Je manque d’implication concrète.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 94,
+    "id": 473,
+    "dimension_id": 21,
+    "position": 43,
+    "enonce": "Je suis peu actif dans le bien.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 95,
+    "id": 474,
+    "dimension_id": 21,
+    "position": 44,
+    "enonce": "Je reporte souvent l’aide que je pourrais apporter.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 96,
+    "id": 475,
+    "dimension_id": 21,
+    "position": 45,
+    "enonce": "Je suis centré sur moi-même dans mes actions.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 97,
+    "id": 476,
+    "dimension_id": 21,
+    "position": 46,
+    "enonce": "Je n’agis que si cela m’arrange.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 98,
+    "id": 477,
+    "dimension_id": 21,
+    "position": 47,
+    "enonce": "Je manque d’engagement envers les autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 99,
+    "id": 478,
+    "dimension_id": 21,
+    "position": 48,
+    "enonce": "Je néglige les opportunités d’aider.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 100,
+    "id": 479,
+    "dimension_id": 21,
+    "position": 49,
+    "enonce": "Je suis passif face aux besoins des autres.",
+    "polarite_db": "DIRECTE"
+  }
+]

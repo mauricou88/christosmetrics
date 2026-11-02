@@ -1,0 +1,2242 @@
+[
+  {
+    "question_num": 1,
+    "id": 480,
+    "dimension_id": 22,
+    "position": 0,
+    "enonce": "Je reste calme lorsque les choses prennent du temps.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 2,
+    "id": 481,
+    "dimension_id": 22,
+    "position": 1,
+    "enonce": "Je supporte les retards sans m’énerver.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 3,
+    "id": 482,
+    "dimension_id": 22,
+    "position": 2,
+    "enonce": "Je laisse aux autres le temps de progresser.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 4,
+    "id": 483,
+    "dimension_id": 22,
+    "position": 3,
+    "enonce": "Je fais preuve de tolérance face aux erreurs.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 5,
+    "id": 484,
+    "dimension_id": 22,
+    "position": 4,
+    "enonce": "Je garde mon calme dans les frustrations.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 6,
+    "id": 485,
+    "dimension_id": 22,
+    "position": 5,
+    "enonce": "Je suis capable d’attendre sans me plaindre.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 7,
+    "id": 486,
+    "dimension_id": 22,
+    "position": 6,
+    "enonce": "Je persévère malgré les lenteurs.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 8,
+    "id": 487,
+    "dimension_id": 22,
+    "position": 7,
+    "enonce": "Je supporte les imperfections des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 9,
+    "id": 488,
+    "dimension_id": 22,
+    "position": 8,
+    "enonce": "Je prends du recul avant de réagir.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 10,
+    "id": 489,
+    "dimension_id": 22,
+    "position": 9,
+    "enonce": "Les autres me perçoivent comme patient.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 11,
+    "id": 490,
+    "dimension_id": 22,
+    "position": 10,
+    "enonce": "Je m’agace rapidement lorsque les choses n’avancent pas.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 12,
+    "id": 491,
+    "dimension_id": 22,
+    "position": 11,
+    "enonce": "Je perds patience face aux erreurs répétées.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 13,
+    "id": 492,
+    "dimension_id": 22,
+    "position": 12,
+    "enonce": "Je veux que tout se fasse rapidement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 14,
+    "id": 493,
+    "dimension_id": 22,
+    "position": 13,
+    "enonce": "Je m’irrite facilement contre les autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 15,
+    "id": 494,
+    "dimension_id": 22,
+    "position": 14,
+    "enonce": "Je supporte mal les délais.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 16,
+    "id": 495,
+    "dimension_id": 22,
+    "position": 15,
+    "enonce": "Je m’impatiente dans les attentes.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 17,
+    "id": 496,
+    "dimension_id": 22,
+    "position": 16,
+    "enonce": "Je m’énerve quand quelqu’un est lent.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 18,
+    "id": 497,
+    "dimension_id": 22,
+    "position": 17,
+    "enonce": "Je me lasse rapidement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 19,
+    "id": 498,
+    "dimension_id": 22,
+    "position": 18,
+    "enonce": "Je montre mon impatience.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 20,
+    "id": 499,
+    "dimension_id": 22,
+    "position": 19,
+    "enonce": "Je tolère difficilement les imperfections.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 21,
+    "id": 500,
+    "dimension_id": 23,
+    "position": 0,
+    "enonce": "Je cherche à faire du bien autour de moi.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 22,
+    "id": 501,
+    "dimension_id": 23,
+    "position": 1,
+    "enonce": "Je rends service spontanément.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 23,
+    "id": 502,
+    "dimension_id": 23,
+    "position": 2,
+    "enonce": "Je suis attentif aux besoins des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 24,
+    "id": 503,
+    "dimension_id": 23,
+    "position": 3,
+    "enonce": "Je fais preuve de générosité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 25,
+    "id": 504,
+    "dimension_id": 23,
+    "position": 4,
+    "enonce": "Je me réjouis d’aider.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 26,
+    "id": 505,
+    "dimension_id": 23,
+    "position": 5,
+    "enonce": "Je prends soin des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 27,
+    "id": 506,
+    "dimension_id": 23,
+    "position": 6,
+    "enonce": "Je fais preuve de compassion.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 28,
+    "id": 507,
+    "dimension_id": 23,
+    "position": 7,
+    "enonce": "Je cherche à encourager.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 29,
+    "id": 508,
+    "dimension_id": 23,
+    "position": 8,
+    "enonce": "Je suis accueillant.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 30,
+    "id": 509,
+    "dimension_id": 23,
+    "position": 9,
+    "enonce": "Les autres ressentent ma bienveillance.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 31,
+    "id": 510,
+    "dimension_id": 23,
+    "position": 10,
+    "enonce": "Je suis indifférent aux besoins des autres.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 32,
+    "id": 511,
+    "dimension_id": 23,
+    "position": 11,
+    "enonce": "Je n’aide que si cela m’arrange.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 33,
+    "id": 512,
+    "dimension_id": 23,
+    "position": 12,
+    "enonce": "Je pense d’abord à moi.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 34,
+    "id": 513,
+    "dimension_id": 23,
+    "position": 13,
+    "enonce": "Je suis peu sensible aux autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 35,
+    "id": 514,
+    "dimension_id": 23,
+    "position": 14,
+    "enonce": "Je refuse d’aider quand cela me dérange.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 36,
+    "id": 515,
+    "dimension_id": 23,
+    "position": 15,
+    "enonce": "Je manque de générosité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 37,
+    "id": 516,
+    "dimension_id": 23,
+    "position": 16,
+    "enonce": "Je me ferme aux autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 38,
+    "id": 517,
+    "dimension_id": 23,
+    "position": 17,
+    "enonce": "Je me montre distant.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 39,
+    "id": 518,
+    "dimension_id": 23,
+    "position": 18,
+    "enonce": "Je néglige les autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 40,
+    "id": 519,
+    "dimension_id": 23,
+    "position": 19,
+    "enonce": "Je suis peu serviable.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 41,
+    "id": 520,
+    "dimension_id": 24,
+    "position": 0,
+    "enonce": "Je me réjouis du succès des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 42,
+    "id": 521,
+    "dimension_id": 24,
+    "position": 1,
+    "enonce": "Je célèbre les réussites d’autrui.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 43,
+    "id": 522,
+    "dimension_id": 24,
+    "position": 2,
+    "enonce": "Je suis en paix avec ce que j’ai.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 44,
+    "id": 523,
+    "dimension_id": 24,
+    "position": 3,
+    "enonce": "Je ne me compare pas excessivement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 45,
+    "id": 524,
+    "dimension_id": 24,
+    "position": 4,
+    "enonce": "Je suis reconnaissant pour ma vie.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 46,
+    "id": 525,
+    "dimension_id": 24,
+    "position": 5,
+    "enonce": "Je me réjouis sincèrement pour les autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 47,
+    "id": 526,
+    "dimension_id": 24,
+    "position": 6,
+    "enonce": "Je suis satisfait de mon parcours.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 48,
+    "id": 527,
+    "dimension_id": 24,
+    "position": 7,
+    "enonce": "Je valorise les autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 49,
+    "id": 528,
+    "dimension_id": 24,
+    "position": 8,
+    "enonce": "Je ne ressens pas de rivalité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 50,
+    "id": 529,
+    "dimension_id": 24,
+    "position": 9,
+    "enonce": "Je me réjouis du bien des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 51,
+    "id": 530,
+    "dimension_id": 24,
+    "position": 10,
+    "enonce": "Je suis jaloux des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 52,
+    "id": 531,
+    "dimension_id": 24,
+    "position": 11,
+    "enonce": "Je me compare constamment.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 53,
+    "id": 532,
+    "dimension_id": 24,
+    "position": 12,
+    "enonce": "Je ressens de l’envie.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 54,
+    "id": 533,
+    "dimension_id": 24,
+    "position": 13,
+    "enonce": "Je suis frustré du succès d’autrui.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 55,
+    "id": 534,
+    "dimension_id": 24,
+    "position": 14,
+    "enonce": "Je me sens en compétition.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 56,
+    "id": 535,
+    "dimension_id": 24,
+    "position": 15,
+    "enonce": "J’envie les autres dans tel ou tel domaine.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 57,
+    "id": 536,
+    "dimension_id": 24,
+    "position": 16,
+    "enonce": "Je n’arrive pas à me contenter de ce que j’ai.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 58,
+    "id": 537,
+    "dimension_id": 24,
+    "position": 17,
+    "enonce": "Je ressens du manque.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 59,
+    "id": 538,
+    "dimension_id": 24,
+    "position": 18,
+    "enonce": "Je suis jaloux intérieurement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 60,
+    "id": 539,
+    "dimension_id": 24,
+    "position": 19,
+    "enonce": "Je convoite ce que les autres ont.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 61,
+    "id": 540,
+    "dimension_id": 25,
+    "position": 0,
+    "enonce": "Je reste humble dans mes réussites.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 62,
+    "id": 541,
+    "dimension_id": 25,
+    "position": 1,
+    "enonce": "Je ne cherche pas à impressionner.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 63,
+    "id": 542,
+    "dimension_id": 25,
+    "position": 2,
+    "enonce": "Je parle peu de mes exploits.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 64,
+    "id": 543,
+    "dimension_id": 25,
+    "position": 3,
+    "enonce": "Je laisse les autres me valoriser.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 65,
+    "id": 544,
+    "dimension_id": 25,
+    "position": 4,
+    "enonce": "Je suis discret sur mes succès.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 66,
+    "id": 545,
+    "dimension_id": 25,
+    "position": 5,
+    "enonce": "Je ne cherche pas à me mettre en avant.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 67,
+    "id": 546,
+    "dimension_id": 25,
+    "position": 6,
+    "enonce": "Je valorise les autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 68,
+    "id": 547,
+    "dimension_id": 25,
+    "position": 7,
+    "enonce": "Je reste simple.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 69,
+    "id": 548,
+    "dimension_id": 25,
+    "position": 8,
+    "enonce": "J’évite de me glorifier devant les autres de mes accomplissements ou réussites.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 70,
+    "id": 549,
+    "dimension_id": 25,
+    "position": 9,
+    "enonce": "Je garde une attitude modeste.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 71,
+    "id": 550,
+    "dimension_id": 25,
+    "position": 10,
+    "enonce": "Je parle souvent de mes réussites.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 72,
+    "id": 551,
+    "dimension_id": 25,
+    "position": 11,
+    "enonce": "J’aime me mettre en avant.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 73,
+    "id": 552,
+    "dimension_id": 25,
+    "position": 12,
+    "enonce": "Je cherche à impressionner.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 74,
+    "id": 553,
+    "dimension_id": 25,
+    "position": 13,
+    "enonce": "Je me vante facilement.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 75,
+    "id": 554,
+    "dimension_id": 25,
+    "position": 14,
+    "enonce": "Je cherche la reconnaissance.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 76,
+    "id": 555,
+    "dimension_id": 25,
+    "position": 15,
+    "enonce": "Je veux être admiré.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 77,
+    "id": 556,
+    "dimension_id": 25,
+    "position": 16,
+    "enonce": "Je me mets au centre.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 78,
+    "id": 557,
+    "dimension_id": 25,
+    "position": 17,
+    "enonce": "Je me valorise souvent.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 79,
+    "id": 558,
+    "dimension_id": 25,
+    "position": 18,
+    "enonce": "Je cherche l’attention.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 80,
+    "id": 559,
+    "dimension_id": 25,
+    "position": 19,
+    "enonce": "Je mets en avant mes qualités.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 81,
+    "id": 560,
+    "dimension_id": 26,
+    "position": 0,
+    "enonce": "Je reconnais mes limites.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 82,
+    "id": 561,
+    "dimension_id": 26,
+    "position": 1,
+    "enonce": "Je suis ouvert aux critiques.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 83,
+    "id": 562,
+    "dimension_id": 26,
+    "position": 2,
+    "enonce": "Je reste humble.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 84,
+    "id": 563,
+    "dimension_id": 26,
+    "position": 3,
+    "enonce": "Je reconnais mes erreurs.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 85,
+    "id": 564,
+    "dimension_id": 26,
+    "position": 4,
+    "enonce": "Je valorise les autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 86,
+    "id": 565,
+    "dimension_id": 26,
+    "position": 5,
+    "enonce": "Je reste accessible.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 87,
+    "id": 566,
+    "dimension_id": 26,
+    "position": 6,
+    "enonce": "Je suis à l’écoute.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 88,
+    "id": 567,
+    "dimension_id": 26,
+    "position": 7,
+    "enonce": "Je ne me considère pas supérieur.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 89,
+    "id": 568,
+    "dimension_id": 26,
+    "position": 8,
+    "enonce": "Je reste enseignable.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 90,
+    "id": 569,
+    "dimension_id": 26,
+    "position": 9,
+    "enonce": "Je fais preuve d’humilité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 91,
+    "id": 570,
+    "dimension_id": 26,
+    "position": 10,
+    "enonce": "Je me sens supérieur aux autres.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 92,
+    "id": 571,
+    "dimension_id": 26,
+    "position": 11,
+    "enonce": "J’ai du mal à reconnaître mes erreurs.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 93,
+    "id": 572,
+    "dimension_id": 26,
+    "position": 12,
+    "enonce": "Je suis orgueilleux.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 94,
+    "id": 573,
+    "dimension_id": 26,
+    "position": 13,
+    "enonce": "Je rejette les critiques.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 95,
+    "id": 574,
+    "dimension_id": 26,
+    "position": 14,
+    "enonce": "Je me crois meilleur.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 96,
+    "id": 575,
+    "dimension_id": 26,
+    "position": 15,
+    "enonce": "Je me ferme aux remarques.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 97,
+    "id": 576,
+    "dimension_id": 26,
+    "position": 16,
+    "enonce": "Je manque d’humilité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 98,
+    "id": 577,
+    "dimension_id": 26,
+    "position": 17,
+    "enonce": "Je méprise certains.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 99,
+    "id": 578,
+    "dimension_id": 26,
+    "position": 18,
+    "enonce": "Je refuse d’apprendre.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 100,
+    "id": 579,
+    "dimension_id": 26,
+    "position": 19,
+    "enonce": "Je suis centré sur moi.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 101,
+    "id": 580,
+    "dimension_id": 27,
+    "position": 0,
+    "enonce": "Je me comporte avec respect dans toutes les situations.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 102,
+    "id": 581,
+    "dimension_id": 27,
+    "position": 1,
+    "enonce": "Je veille à agir avec intégrité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 103,
+    "id": 582,
+    "dimension_id": 27,
+    "position": 2,
+    "enonce": "Je respecte les autres dans mes paroles et mes attitudes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 104,
+    "id": 583,
+    "dimension_id": 27,
+    "position": 3,
+    "enonce": "Je refuse les comportements déplacés.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 105,
+    "id": 584,
+    "dimension_id": 27,
+    "position": 4,
+    "enonce": "Je garde une conduite honorable même en privé.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 106,
+    "id": 585,
+    "dimension_id": 27,
+    "position": 5,
+    "enonce": "Je respecte les limites dans mes relations.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 107,
+    "id": 586,
+    "dimension_id": 27,
+    "position": 6,
+    "enonce": "Je me comporte dignement dans tous les contextes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 108,
+    "id": 587,
+    "dimension_id": 27,
+    "position": 7,
+    "enonce": "Je fais attention à ne pas choquer ou blesser par mon comportement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 109,
+    "id": 588,
+    "dimension_id": 27,
+    "position": 8,
+    "enonce": "Je veille à rester cohérent avec mes valeurs.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 110,
+    "id": 589,
+    "dimension_id": 27,
+    "position": 9,
+    "enonce": "Je suis attentif à l’impact de mes actions sur les autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 111,
+    "id": 590,
+    "dimension_id": 27,
+    "position": 10,
+    "enonce": "Je me permets parfois des comportements déplacés.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 112,
+    "id": 591,
+    "dimension_id": 27,
+    "position": 11,
+    "enonce": "Je dépasse certaines limites sans me soucier des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 113,
+    "id": 592,
+    "dimension_id": 27,
+    "position": 12,
+    "enonce": "Je me comporte différemment en privé et en public.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 114,
+    "id": 593,
+    "dimension_id": 27,
+    "position": 13,
+    "enonce": "Je manque parfois de respect dans mes attitudes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 115,
+    "id": 594,
+    "dimension_id": 27,
+    "position": 14,
+    "enonce": "Je banalise certains comportements inappropriés.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 116,
+    "id": 595,
+    "dimension_id": 27,
+    "position": 15,
+    "enonce": "Je me laisse aller à des attitudes déplacées.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 117,
+    "id": 596,
+    "dimension_id": 27,
+    "position": 16,
+    "enonce": "Je néglige l’impact de mes actes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 118,
+    "id": 597,
+    "dimension_id": 27,
+    "position": 17,
+    "enonce": "Je franchis facilement des limites relationnelles.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 119,
+    "id": 598,
+    "dimension_id": 27,
+    "position": 18,
+    "enonce": "Je me justifie lorsque je fais quelque chose de mal.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 120,
+    "id": 599,
+    "dimension_id": 27,
+    "position": 19,
+    "enonce": "Je ne vois pas toujours le problème dans certains comportements.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 121,
+    "id": 600,
+    "dimension_id": 28,
+    "position": 0,
+    "enonce": "Je prends en compte les besoins des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 122,
+    "id": 601,
+    "dimension_id": 28,
+    "position": 1,
+    "enonce": "Je fais passer les autres avant moi dans certaines situations.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 123,
+    "id": 602,
+    "dimension_id": 28,
+    "position": 2,
+    "enonce": "Je suis prêt à faire des sacrifices.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 124,
+    "id": 603,
+    "dimension_id": 28,
+    "position": 3,
+    "enonce": "Je cherche le bien commun.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 125,
+    "id": 604,
+    "dimension_id": 28,
+    "position": 4,
+    "enonce": "Je donne sans attendre en retour.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 126,
+    "id": 605,
+    "dimension_id": 28,
+    "position": 5,
+    "enonce": "Je suis attentif aux attentes des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 127,
+    "id": 606,
+    "dimension_id": 28,
+    "position": 6,
+    "enonce": "Je fais des choix qui bénéficient aussi aux autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 128,
+    "id": 607,
+    "dimension_id": 28,
+    "position": 7,
+    "enonce": "Je suis capable de renoncer à mes préférences.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 129,
+    "id": 608,
+    "dimension_id": 28,
+    "position": 8,
+    "enonce": "Je cherche à servir plutôt qu’à être servi.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 130,
+    "id": 609,
+    "dimension_id": 28,
+    "position": 9,
+    "enonce": "Je pense aux autres dans mes décisions.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 131,
+    "id": 610,
+    "dimension_id": 28,
+    "position": 10,
+    "enonce": "Je pense d’abord à moi.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 132,
+    "id": 611,
+    "dimension_id": 28,
+    "position": 11,
+    "enonce": "Je privilégie mon intérêt personnel.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 133,
+    "id": 612,
+    "dimension_id": 28,
+    "position": 12,
+    "enonce": "Je cherche à tirer avantage des situations.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 134,
+    "id": 613,
+    "dimension_id": 28,
+    "position": 13,
+    "enonce": "Je veux que les choses aillent dans mon sens.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 135,
+    "id": 614,
+    "dimension_id": 28,
+    "position": 14,
+    "enonce": "Je suis centré sur mes besoins.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 136,
+    "id": 615,
+    "dimension_id": 28,
+    "position": 15,
+    "enonce": "Je supporte mal de ne pas être prioritaire.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 137,
+    "id": 616,
+    "dimension_id": 28,
+    "position": 16,
+    "enonce": "Je prends rarement en compte les autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 138,
+    "id": 617,
+    "dimension_id": 28,
+    "position": 17,
+    "enonce": "Je veux contrôler les décisions.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 139,
+    "id": 618,
+    "dimension_id": 28,
+    "position": 18,
+    "enonce": "Je cherche mon confort avant tout.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 140,
+    "id": 619,
+    "dimension_id": 28,
+    "position": 19,
+    "enonce": "Je suis frustré quand je dois céder.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 141,
+    "id": 620,
+    "dimension_id": 29,
+    "position": 0,
+    "enonce": "Je garde mon calme face aux tensions.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 142,
+    "id": 621,
+    "dimension_id": 29,
+    "position": 1,
+    "enonce": "Je contrôle mes réactions émotionnelles.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 143,
+    "id": 622,
+    "dimension_id": 29,
+    "position": 2,
+    "enonce": "Je reste posé même lorsque je suis contrarié.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 144,
+    "id": 623,
+    "dimension_id": 29,
+    "position": 3,
+    "enonce": "Je prends du recul avant de réagir.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 145,
+    "id": 624,
+    "dimension_id": 29,
+    "position": 4,
+    "enonce": "Je gère mes émotions avec maturité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 146,
+    "id": 625,
+    "dimension_id": 29,
+    "position": 5,
+    "enonce": "Je reste calme dans les conflits.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 147,
+    "id": 626,
+    "dimension_id": 29,
+    "position": 6,
+    "enonce": "Je ne réagis pas impulsivement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 148,
+    "id": 627,
+    "dimension_id": 29,
+    "position": 7,
+    "enonce": "Je maîtrise mon irritation.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 149,
+    "id": 628,
+    "dimension_id": 29,
+    "position": 8,
+    "enonce": "Je fais preuve de patience émotionnelle.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 150,
+    "id": 629,
+    "dimension_id": 29,
+    "position": 9,
+    "enonce": "Je reste paisible sous pression.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 151,
+    "id": 630,
+    "dimension_id": 29,
+    "position": 10,
+    "enonce": "Je m’énerve facilement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 152,
+    "id": 631,
+    "dimension_id": 29,
+    "position": 11,
+    "enonce": "Je réagis de manière impulsive.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 153,
+    "id": 632,
+    "dimension_id": 29,
+    "position": 12,
+    "enonce": "Je perds rapidement mon calme.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 154,
+    "id": 633,
+    "dimension_id": 29,
+    "position": 13,
+    "enonce": "Je me laisse envahir par la colère.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 155,
+    "id": 634,
+    "dimension_id": 29,
+    "position": 14,
+    "enonce": "Je m’irrite pour des détails.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 156,
+    "id": 635,
+    "dimension_id": 29,
+    "position": 15,
+    "enonce": "Je réagis vivement aux frustrations.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 157,
+    "id": 636,
+    "dimension_id": 29,
+    "position": 16,
+    "enonce": "Je m’emporte facilement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 158,
+    "id": 637,
+    "dimension_id": 29,
+    "position": 17,
+    "enonce": "Je manque de maîtrise émotionnelle.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 159,
+    "id": 638,
+    "dimension_id": 29,
+    "position": 18,
+    "enonce": "Je réagis trop vite.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 160,
+    "id": 639,
+    "dimension_id": 29,
+    "position": 19,
+    "enonce": "Je laisse mes émotions prendre le dessus.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 161,
+    "id": 640,
+    "dimension_id": 30,
+    "position": 0,
+    "enonce": "Je choisis de faire confiance aux autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 162,
+    "id": 641,
+    "dimension_id": 30,
+    "position": 1,
+    "enonce": "Je ne prête pas de mauvaises intentions sans preuve.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 163,
+    "id": 642,
+    "dimension_id": 30,
+    "position": 2,
+    "enonce": "Je cherche à comprendre avant de juger.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 164,
+    "id": 643,
+    "dimension_id": 30,
+    "position": 3,
+    "enonce": "Je laisse le bénéfice du doute.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 165,
+    "id": 644,
+    "dimension_id": 30,
+    "position": 4,
+    "enonce": "J’évite les conclusions hâtives.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 166,
+    "id": 645,
+    "dimension_id": 30,
+    "position": 5,
+    "enonce": "Je crois au bon côté des gens.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 167,
+    "id": 646,
+    "dimension_id": 30,
+    "position": 6,
+    "enonce": "J’interprète positivement les situations.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 168,
+    "id": 647,
+    "dimension_id": 30,
+    "position": 7,
+    "enonce": "Je donne une seconde chance.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 169,
+    "id": 648,
+    "dimension_id": 30,
+    "position": 8,
+    "enonce": "Je refuse de nourrir la suspicion.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 170,
+    "id": 649,
+    "dimension_id": 30,
+    "position": 9,
+    "enonce": "Je cherche la vérité avant de juger.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 171,
+    "id": 650,
+    "dimension_id": 30,
+    "position": 10,
+    "enonce": "Je me méfie facilement des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 172,
+    "id": 651,
+    "dimension_id": 30,
+    "position": 11,
+    "enonce": "Je suppose souvent le pire.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 173,
+    "id": 652,
+    "dimension_id": 30,
+    "position": 12,
+    "enonce": "Je doute des intentions des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 174,
+    "id": 653,
+    "dimension_id": 30,
+    "position": 13,
+    "enonce": "Je tire des conclusions négatives rapidement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 175,
+    "id": 654,
+    "dimension_id": 30,
+    "position": 14,
+    "enonce": "Je soupçonne facilement.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 176,
+    "id": 655,
+    "dimension_id": 30,
+    "position": 15,
+    "enonce": "J’interprète mal les actions des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 177,
+    "id": 656,
+    "dimension_id": 30,
+    "position": 16,
+    "enonce": "Je me méfie sans raison claire.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 178,
+    "id": 657,
+    "dimension_id": 30,
+    "position": 17,
+    "enonce": "Je pense que les autres ont de mauvaises intentions.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 179,
+    "id": 658,
+    "dimension_id": 30,
+    "position": 18,
+    "enonce": "Je garde des soupçons.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 180,
+    "id": 659,
+    "dimension_id": 30,
+    "position": 19,
+    "enonce": "Je me méfie excessivement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 181,
+    "id": 660,
+    "dimension_id": 31,
+    "position": 0,
+    "enonce": "Je suis attristé face à l’injustice.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 182,
+    "id": 661,
+    "dimension_id": 31,
+    "position": 1,
+    "enonce": "Je refuse de me réjouir du mal.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 183,
+    "id": 662,
+    "dimension_id": 31,
+    "position": 2,
+    "enonce": "Je prends position contre l’injustice.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 184,
+    "id": 663,
+    "dimension_id": 31,
+    "position": 3,
+    "enonce": "Je ressens de la compassion face aux victimes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 185,
+    "id": 664,
+    "dimension_id": 31,
+    "position": 4,
+    "enonce": "Je cherche la justice dans mes actions.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 186,
+    "id": 665,
+    "dimension_id": 31,
+    "position": 5,
+    "enonce": "Je rejette les comportements injustes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 187,
+    "id": 666,
+    "dimension_id": 31,
+    "position": 6,
+    "enonce": "Je défends ce qui est juste.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 188,
+    "id": 667,
+    "dimension_id": 31,
+    "position": 7,
+    "enonce": "Je suis sensible à l’équité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 189,
+    "id": 668,
+    "dimension_id": 31,
+    "position": 8,
+    "enonce": "Je refuse de profiter de l’injustice.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 190,
+    "id": 669,
+    "dimension_id": 31,
+    "position": 9,
+    "enonce": "Je suis aligné avec ce qui est juste.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 191,
+    "id": 670,
+    "dimension_id": 31,
+    "position": 10,
+    "enonce": "Je me réjouis parfois du mal des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 192,
+    "id": 671,
+    "dimension_id": 31,
+    "position": 11,
+    "enonce": "Je profite de situations injustes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 193,
+    "id": 672,
+    "dimension_id": 31,
+    "position": 12,
+    "enonce": "Je ferme les yeux sur l’injustice.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 194,
+    "id": 673,
+    "dimension_id": 31,
+    "position": 13,
+    "enonce": "Je minimise les injustices.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 195,
+    "id": 674,
+    "dimension_id": 31,
+    "position": 14,
+    "enonce": "Je trouve normal certaines injustices.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 196,
+    "id": 675,
+    "dimension_id": 31,
+    "position": 15,
+    "enonce": "Je suis indifférent à l’injustice.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 197,
+    "id": 676,
+    "dimension_id": 31,
+    "position": 16,
+    "enonce": "Je tire avantage de situations injustes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 198,
+    "id": 677,
+    "dimension_id": 31,
+    "position": 17,
+    "enonce": "Je banalise le mal.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 199,
+    "id": 678,
+    "dimension_id": 31,
+    "position": 18,
+    "enonce": "Je me réjouis de certaines injustices.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 200,
+    "id": 679,
+    "dimension_id": 31,
+    "position": 19,
+    "enonce": "Je ne prends pas position face à l’injustice.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 201,
+    "id": 680,
+    "dimension_id": 32,
+    "position": 0,
+    "enonce": "Je me réjouis de ce qui est vrai.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 202,
+    "id": 681,
+    "dimension_id": 32,
+    "position": 1,
+    "enonce": "Je valorise la vérité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 203,
+    "id": 682,
+    "dimension_id": 32,
+    "position": 2,
+    "enonce": "Je cherche la transparence.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 204,
+    "id": 683,
+    "dimension_id": 32,
+    "position": 3,
+    "enonce": "Je suis honnête dans mes relations.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 205,
+    "id": 684,
+    "dimension_id": 32,
+    "position": 4,
+    "enonce": "Je défends la vérité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 206,
+    "id": 685,
+    "dimension_id": 32,
+    "position": 5,
+    "enonce": "Je préfère la vérité au confort.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 207,
+    "id": 686,
+    "dimension_id": 32,
+    "position": 6,
+    "enonce": "Je suis intègre.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 208,
+    "id": 687,
+    "dimension_id": 32,
+    "position": 7,
+    "enonce": "Je me réjouis quand la vérité éclate.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 209,
+    "id": 688,
+    "dimension_id": 32,
+    "position": 8,
+    "enonce": "Je vis dans la vérité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 210,
+    "id": 689,
+    "dimension_id": 32,
+    "position": 9,
+    "enonce": "Je recherche l’authenticité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 211,
+    "id": 690,
+    "dimension_id": 32,
+    "position": 10,
+    "enonce": "Je préfère éviter la vérité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 212,
+    "id": 691,
+    "dimension_id": 32,
+    "position": 11,
+    "enonce": "Je tolère le mensonge.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 213,
+    "id": 692,
+    "dimension_id": 32,
+    "position": 12,
+    "enonce": "Je cache la vérité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 214,
+    "id": 693,
+    "dimension_id": 32,
+    "position": 13,
+    "enonce": "Je déforme la réalité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 215,
+    "id": 694,
+    "dimension_id": 32,
+    "position": 14,
+    "enonce": "Je fuis la vérité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 216,
+    "id": 695,
+    "dimension_id": 32,
+    "position": 15,
+    "enonce": "Je manque de transparence.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 217,
+    "id": 696,
+    "dimension_id": 32,
+    "position": 16,
+    "enonce": "Je mens parfois.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 218,
+    "id": 697,
+    "dimension_id": 32,
+    "position": 17,
+    "enonce": "J’évite d’être honnête.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 219,
+    "id": 698,
+    "dimension_id": 32,
+    "position": 18,
+    "enonce": "Je préfère le confort au vrai.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 220,
+    "id": 699,
+    "dimension_id": 32,
+    "position": 19,
+    "enonce": "Je minimise la vérité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 221,
+    "id": 700,
+    "dimension_id": 33,
+    "position": 0,
+    "enonce": "Je pardonne facilement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 222,
+    "id": 701,
+    "dimension_id": 33,
+    "position": 1,
+    "enonce": "Je donne une seconde chance.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 223,
+    "id": 702,
+    "dimension_id": 33,
+    "position": 2,
+    "enonce": "Je couvre les erreurs des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 224,
+    "id": 703,
+    "dimension_id": 33,
+    "position": 3,
+    "enonce": "Je fais preuve de grâce.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 225,
+    "id": 704,
+    "dimension_id": 33,
+    "position": 4,
+    "enonce": "Je ne rappelle pas constamment les fautes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 226,
+    "id": 705,
+    "dimension_id": 33,
+    "position": 5,
+    "enonce": "Je fais preuve de miséricorde.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 227,
+    "id": 706,
+    "dimension_id": 33,
+    "position": 6,
+    "enonce": "Je pardonne sincèrement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 228,
+    "id": 707,
+    "dimension_id": 33,
+    "position": 7,
+    "enonce": "Je ne garde pas les offenses.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 229,
+    "id": 708,
+    "dimension_id": 33,
+    "position": 8,
+    "enonce": "Je laisse passer certaines erreurs.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 230,
+    "id": 709,
+    "dimension_id": 33,
+    "position": 9,
+    "enonce": "Je fais preuve de compréhension.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 231,
+    "id": 710,
+    "dimension_id": 33,
+    "position": 10,
+    "enonce": "Je garde les offenses en mémoire.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 232,
+    "id": 711,
+    "dimension_id": 33,
+    "position": 11,
+    "enonce": "Je rappelle souvent les erreurs des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 233,
+    "id": 712,
+    "dimension_id": 33,
+    "position": 12,
+    "enonce": "Je pardonne difficilement.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 234,
+    "id": 713,
+    "dimension_id": 33,
+    "position": 13,
+    "enonce": "Je garde rancune.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 235,
+    "id": 714,
+    "dimension_id": 33,
+    "position": 14,
+    "enonce": "Je ressasse les blessures.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 236,
+    "id": 715,
+    "dimension_id": 33,
+    "position": 15,
+    "enonce": "Je refuse de pardonner.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 237,
+    "id": 716,
+    "dimension_id": 33,
+    "position": 16,
+    "enonce": "Je condamne facilement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 238,
+    "id": 717,
+    "dimension_id": 33,
+    "position": 17,
+    "enonce": "Je suis dur envers les erreurs.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 239,
+    "id": 718,
+    "dimension_id": 33,
+    "position": 18,
+    "enonce": "Je n’oublie pas les fautes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 240,
+    "id": 719,
+    "dimension_id": 33,
+    "position": 19,
+    "enonce": "Je juge sévèrement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 241,
+    "id": 720,
+    "dimension_id": 34,
+    "position": 0,
+    "enonce": "Je garde confiance même dans les difficultés.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 242,
+    "id": 721,
+    "dimension_id": 34,
+    "position": 1,
+    "enonce": "Je crois en la possibilité de changement chez les autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 243,
+    "id": 722,
+    "dimension_id": 34,
+    "position": 2,
+    "enonce": "Je reste plein d’espérance.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 244,
+    "id": 723,
+    "dimension_id": 34,
+    "position": 3,
+    "enonce": "Je persévère dans les relations difficiles.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 245,
+    "id": 724,
+    "dimension_id": 34,
+    "position": 4,
+    "enonce": "Je soutiens les autres malgré les épreuves.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 246,
+    "id": 725,
+    "dimension_id": 34,
+    "position": 5,
+    "enonce": "Je ne renonce pas facilement aux autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 247,
+    "id": 726,
+    "dimension_id": 34,
+    "position": 6,
+    "enonce": "Je garde l’espoir.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 248,
+    "id": 727,
+    "dimension_id": 34,
+    "position": 7,
+    "enonce": "Je continue à croire au bien.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 249,
+    "id": 728,
+    "dimension_id": 34,
+    "position": 8,
+    "enonce": "Je supporte les situations difficiles.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 250,
+    "id": 729,
+    "dimension_id": 34,
+    "position": 9,
+    "enonce": "Je persévère dans l’amour.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 251,
+    "id": 730,
+    "dimension_id": 34,
+    "position": 10,
+    "enonce": "Je perds rapidement espoir.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 252,
+    "id": 731,
+    "dimension_id": 34,
+    "position": 11,
+    "enonce": "Je renonce facilement aux autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 253,
+    "id": 732,
+    "dimension_id": 34,
+    "position": 12,
+    "enonce": "Je cesse de croire en quelqu’un.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 254,
+    "id": 733,
+    "dimension_id": 34,
+    "position": 13,
+    "enonce": "Je me décourage vite.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 255,
+    "id": 734,
+    "dimension_id": 34,
+    "position": 14,
+    "enonce": "J’abandonne les relations difficiles.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 256,
+    "id": 735,
+    "dimension_id": 34,
+    "position": 15,
+    "enonce": "Je manque de persévérance.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 257,
+    "id": 736,
+    "dimension_id": 34,
+    "position": 16,
+    "enonce": "Je ne crois plus au changement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 258,
+    "id": 737,
+    "dimension_id": 34,
+    "position": 17,
+    "enonce": "Je me lasse rapidement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 259,
+    "id": 738,
+    "dimension_id": 34,
+    "position": 18,
+    "enonce": "Je perds confiance.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 260,
+    "id": 739,
+    "dimension_id": 34,
+    "position": 19,
+    "enonce": "J’abandonne face aux difficultés.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 261,
+    "id": 740,
+    "dimension_id": 35,
+    "position": 0,
+    "enonce": "Je ressens souvent de l’inquiétude face à l’avenir.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 262,
+    "id": 741,
+    "dimension_id": 35,
+    "position": 1,
+    "enonce": "Je crains d’être rejeté par les autres.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 263,
+    "id": 742,
+    "dimension_id": 35,
+    "position": 2,
+    "enonce": "Je crains de ne pas être à la hauteur.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 264,
+    "id": 743,
+    "dimension_id": 35,
+    "position": 3,
+    "enonce": "Je redoute le regard ou le jugement des autres.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 265,
+    "id": 744,
+    "dimension_id": 35,
+    "position": 4,
+    "enonce": "Je me sens souvent insécurisé intérieurement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 266,
+    "id": 745,
+    "dimension_id": 35,
+    "position": 5,
+    "enonce": "J’ai peur de perdre ce qui est important pour moi.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 267,
+    "id": 746,
+    "dimension_id": 35,
+    "position": 6,
+    "enonce": "Je suis freiné par la peur dans certaines décisions.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 268,
+    "id": 747,
+    "dimension_id": 35,
+    "position": 7,
+    "enonce": "Je redoute les situations inconnues.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 269,
+    "id": 748,
+    "dimension_id": 35,
+    "position": 8,
+    "enonce": "Je ressens de l’anxiété dans mes relations.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 270,
+    "id": 749,
+    "dimension_id": 35,
+    "position": 9,
+    "enonce": "Je crains les conséquences de mes erreurs.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 271,
+    "id": 750,
+    "dimension_id": 35,
+    "position": 10,
+    "enonce": "Je me sens en sécurité intérieurement, même dans l’incertitude.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 272,
+    "id": 751,
+    "dimension_id": 35,
+    "position": 11,
+    "enonce": "Je fais confiance à Dieu pour mon avenir.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 273,
+    "id": 752,
+    "dimension_id": 35,
+    "position": 12,
+    "enonce": "Je prends des décisions sans être paralysé par la peur.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 274,
+    "id": 753,
+    "dimension_id": 35,
+    "position": 13,
+    "enonce": "Je me sens libre d’être moi-même avec les autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 275,
+    "id": 754,
+    "dimension_id": 35,
+    "position": 14,
+    "enonce": "Je ne crains pas le jugement des autres.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 276,
+    "id": 755,
+    "dimension_id": 35,
+    "position": 15,
+    "enonce": "Je garde la paix même dans les situations incertaines.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 277,
+    "id": 756,
+    "dimension_id": 35,
+    "position": 16,
+    "enonce": "Je fais face aux difficultés avec confiance.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 278,
+    "id": 757,
+    "dimension_id": 35,
+    "position": 17,
+    "enonce": "Je suis stable émotionnellement face aux imprévus.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 279,
+    "id": 758,
+    "dimension_id": 35,
+    "position": 18,
+    "enonce": "Je crois que je suis accepté et aimé.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 280,
+    "id": 759,
+    "dimension_id": 35,
+    "position": 19,
+    "enonce": "Je vis avec assurance plutôt qu’avec peur.",
+    "polarite_db": "INVERSE"
+  }
+]

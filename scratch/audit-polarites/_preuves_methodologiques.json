@@ -1,0 +1,211 @@
+{
+  "statut": "AUDIT_ADAPTE_TERMINE_AVEC_PATIENCE_NON_COMPARABLE",
+  "fruits": {
+    "joie": {
+      "fruit": "joie",
+      "source_excel": "C:\\Users\\mauri\\Downloads\\CHRISTOS\\JOIE\\CHRISTOSMETRICS - Fruit de l'Esprit - La Joie (réponses).xlsm",
+      "sha256_excel": "1802e7e796c9e24b5b1baaa876d22cd342040590a0b5fcccd71c84ec830db006",
+      "source_sql": "backend/src/main/resources/db/migration/V2__seed_fruits.sql",
+      "sha256_sql": "b97a2f1e785f3508d8b04b17bd1886a303d6e91bf6e79befb98f08bd7038f9ef",
+      "questions": 100,
+      "questions_exploitables": 100,
+      "questions_indeterminees_ou_scores_invalides": 0,
+      "divergences": 45,
+      "pourcentage_divergence_sur_total": 45.0,
+      "pourcentage_divergence_sur_comparables": 45.0,
+      "seuil_arret_franchi": true,
+      "alignement": {
+        "lignes_reponses": 73,
+        "lignes_score": 71,
+        "paires_non_ambigues": 70,
+        "lignes_score_ambigues_exclues": [
+          17
+        ],
+        "lignes_reponses_sans_score_ou_ambigues": 3
+      },
+      "divergences_signal_fort": 13,
+      "divergences_signal_faible": 32,
+      "controle_identite_aucune_donnee_personnelle_archivee": true
+    },
+    "patience": {
+      "fruit": "patience",
+      "statut": "LOGIQUE_POINTS_EXTRAITE_MAIS_CORPUS_V2_NON_APPARIABLE",
+      "source_excel": "C:\\Users\\mauri\\Downloads\\CHRISTOS\\Patience\\CHRISTOSMETRICS - Fruit de l'Esprit - La Patience (réponses).xlsx",
+      "sha256_excel": "c14f12a6badbc0e7e599438d6632fa99f318149c52932cb1936b22549a0d9fb8",
+      "source_sql": "backend/src/main/resources/db/migration/V2__seed_fruits.sql",
+      "sha256_sql": "b97a2f1e785f3508d8b04b17bd1886a303d6e91bf6e79befb98f08bd7038f9ef",
+      "feuille_score": "Feuil2",
+      "ligne_en_tetes_score": 1,
+      "questions": 200,
+      "questions_excel": 400,
+      "questions_exploitables": 0,
+      "questions_excel_exploitables": 384,
+      "divergences": null,
+      "pourcentage_divergence_sur_total": null,
+      "divergences_signal_fort": null,
+      "divergences_signal_faible": null,
+      "directions_divergences": {},
+      "alignement": {
+        "methode": "identifiants uniques, ordre non presume",
+        "lignes_reponses": 60,
+        "lignes_score": 60,
+        "paires_non_ambigues": 60,
+        "lignes_score_non_appariees": [],
+        "lignes_score_ambigues_exclues": []
+      },
+      "questions_qualite_hors_scope": 2,
+      "enonces_tronques": 400,
+      "paires_invalides_total": 196,
+      "colonnes_donnees_personnelles_non_archivees": true
+    },
+    "bonte": {
+      "fruit": "bonte",
+      "source_excel": "C:\\Users\\mauri\\Downloads\\CHRISTOS\\Bonté et Bienveillance\\CHRISTOSMETRICS - Fruit de l'Esprit - Bonté et Bienveillance (réponses).xlsx",
+      "sha256_excel": "c8f554cc96626f65f696109187697f3b089ed31d47a37657314612d90e7fdd2a",
+      "source_sql": "backend/src/main/resources/db/migration/V2__seed_fruits.sql",
+      "sha256_sql": "b97a2f1e785f3508d8b04b17bd1886a303d6e91bf6e79befb98f08bd7038f9ef",
+      "feuille_score": "scoring",
+      "ligne_en_tetes_score": 1,
+      "questions": 100,
+      "questions_exploitables": 100,
+      "divergences": 46,
+      "pourcentage_divergence_sur_total": 46.0,
+      "divergences_signal_fort": 35,
+      "divergences_signal_faible": 11,
+      "directions_divergences": {
+        "INVERSE→DIRECTE": 4,
+        "DIRECTE→INVERSE": 42
+      },
+      "alignement": {
+        "methode": "identifiants uniques, ordre non presume",
+        "lignes_reponses": 71,
+        "lignes_score": 71,
+        "paires_non_ambigues": 71,
+        "lignes_score_non_appariees": [],
+        "lignes_score_ambigues_exclues": []
+      },
+      "correspondances_en_tetes_documentees": [
+        {
+          "dimension": 1,
+          "question_locale": 47,
+          "en_tete_score": "Je me réjouis 3 des échecs des autres.",
+          "enonce_source": "Je me réjouis parfois des échecs des autres.",
+          "raison": "Remplacement parfois → 3 dans cet en-tête, même dimension et numéro local."
+        }
+      ],
+      "seuil_10_pourcent_non_bloquant": true,
+      "identifiants_personnels_non_archives": true
+    },
+    "fidelite": {
+      "fruit": "fidelite",
+      "source_excel": "C:\\Users\\mauri\\Downloads\\CHRISTOS\\Fidèlité\\CHRISTOSMETRICS - Fruit de l'Esprit - La Fidélité (réponses).xlsm",
+      "sha256_excel": "93479190a2fd4b0bd6d67ec09398f326bbcfbbafd9c4e8cc3ee4e169cda7daf1",
+      "source_sql": "backend/src/main/resources/db/migration/V2__seed_fruits.sql",
+      "sha256_sql": "b97a2f1e785f3508d8b04b17bd1886a303d6e91bf6e79befb98f08bd7038f9ef",
+      "feuille_score": "Transform",
+      "ligne_en_tetes_score": 1,
+      "questions": 120,
+      "questions_exploitables": 120,
+      "divergences": 56,
+      "pourcentage_divergence_sur_total": 46.666666666666664,
+      "divergences_signal_fort": 56,
+      "divergences_signal_faible": 0,
+      "directions_divergences": {
+        "DIRECTE→INVERSE": 56
+      },
+      "alignement": {
+        "methode": "identifiants uniques, ordre non presume",
+        "lignes_reponses": 107,
+        "lignes_score": 107,
+        "paires_non_ambigues": 107,
+        "lignes_score_non_appariees": [],
+        "lignes_score_ambigues_exclues": []
+      },
+      "correspondances_en_tetes_documentees": [],
+      "seuil_10_pourcent_non_bloquant": true,
+      "identifiants_personnels_non_archives": true
+    },
+    "paix": {
+      "fruit": "paix",
+      "source_excel": "C:\\Users\\mauri\\Downloads\\CHRISTOS\\Paix\\CHRISTOSMETRICS - Fruit de l'Esprit - La Paix (réponses).xlsm",
+      "sha256_excel": "d8ac59c3e8c90a658d5e99bf608c6118352688223f35e4097fe28f2c6a1fd584",
+      "source_sql": "backend/src/main/resources/db/migration/V2__seed_fruits.sql",
+      "sha256_sql": "b97a2f1e785f3508d8b04b17bd1886a303d6e91bf6e79befb98f08bd7038f9ef",
+      "feuille_score": "Scoring",
+      "ligne_en_tetes_score": 2,
+      "questions": 159,
+      "questions_exploitables": 159,
+      "divergences": 87,
+      "pourcentage_divergence_sur_total": 54.716981132075475,
+      "divergences_signal_fort": 62,
+      "divergences_signal_faible": 25,
+      "directions_divergences": {
+        "INVERSE→DIRECTE": 9,
+        "DIRECTE→INVERSE": 78
+      },
+      "alignement": {
+        "lignes_reponses": 77,
+        "lignes_score": 76,
+        "paires_non_ambigues": 75,
+        "lignes_score_ambigues_exclues": [
+          64
+        ],
+        "lignes_reponses_sans_score_ou_ambigues": 2,
+        "methode": "paires forcees dans tous les alignements ordonnes sur identifiants"
+      },
+      "correspondances_en_tetes_documentees": [],
+      "seuil_10_pourcent_non_bloquant": true,
+      "identifiants_personnels_non_archives": true
+    },
+    "amour": {
+      "fruit": "amour",
+      "source_excel": "C:\\Users\\mauri\\Downloads\\CHRISTOS\\AMOUR\\Amour de Dieu\\CHRISTOSMETRICS - Fruit de l'Esprit - L'amour Caen1.xlsx",
+      "sha256_excel": "3eb7afa399bf0a2d5fcea80d2d5cd2b0fabbd5eb25bb8b8d0444fefec86849ab",
+      "source_sql": "backend/src/main/resources/db/migration/V2__seed_fruits.sql",
+      "sha256_sql": "b97a2f1e785f3508d8b04b17bd1886a303d6e91bf6e79befb98f08bd7038f9ef",
+      "feuille_score": "Feuil1",
+      "ligne_en_tetes_score": 1,
+      "questions": 280,
+      "questions_exploitables": 280,
+      "divergences": 127,
+      "pourcentage_divergence_sur_total": 45.357142857142854,
+      "divergences_signal_fort": 0,
+      "divergences_signal_faible": 127,
+      "directions_divergences": {
+        "DIRECTE→INVERSE": 118,
+        "INVERSE→DIRECTE": 9
+      },
+      "alignement": {
+        "methode": "identifiants uniques, ordre non presume",
+        "lignes_reponses": 14,
+        "lignes_score": 14,
+        "paires_non_ambigues": 14,
+        "lignes_score_non_appariees": [],
+        "lignes_score_ambigues_exclues": []
+      },
+      "correspondances_en_tetes_documentees": [],
+      "seuil_10_pourcent_non_bloquant": true,
+      "identifiants_personnels_non_archives": true
+    }
+  },
+  "questions_individuelles_v2": 959,
+  "questions_comparables": 759,
+  "questions_v2_non_comparables": 200,
+  "divergences_confirmees": 361,
+  "taux_sur_comparables": 47.56258234519104,
+  "signaux_forts": 166,
+  "signaux_faibles": 195,
+  "directions": {
+    "DIRECTE→INVERSE": 339,
+    "INVERSE→DIRECTE": 22
+  },
+  "questions_couple_hors_scope": 9,
+  "projet_sql": {
+    "fichier": "V17__fix_polarites_proposee.sql",
+    "lignes_candidates": 361,
+    "instructions_update": 13,
+    "execute": false,
+    "faibles_revue_manuelle_requise": 195
+  },
+  "correction_appliquee": false
+}

@@ -1,0 +1,1602 @@
+[
+  {
+    "question_num": 1,
+    "id": 760,
+    "dimension_id": 36,
+    "position": 0,
+    "enonce": "Je tiens bon dans la durée malgré la douleur.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 2,
+    "id": 761,
+    "dimension_id": 36,
+    "position": 1,
+    "enonce": "Je garde espoir quand l'épreuve se prolonge.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 3,
+    "id": 762,
+    "dimension_id": 36,
+    "position": 2,
+    "enonce": "Je reste stable face à une difficulté réelle.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 4,
+    "id": 763,
+    "dimension_id": 36,
+    "position": 3,
+    "enonce": "Je supporte la souffrance sans me révolter.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 5,
+    "id": 764,
+    "dimension_id": 36,
+    "position": 4,
+    "enonce": "Je persévère quand tout semble contre moi.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 6,
+    "id": 765,
+    "dimension_id": 36,
+    "position": 5,
+    "enonce": "J'accepte que certaines épreuves prennent du temps.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 7,
+    "id": 766,
+    "dimension_id": 36,
+    "position": 6,
+    "enonce": "Je garde confiance dans les moments difficiles.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 8,
+    "id": 767,
+    "dimension_id": 36,
+    "position": 7,
+    "enonce": "Je traverse les tempêtes avec calme.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 9,
+    "id": 768,
+    "dimension_id": 36,
+    "position": 8,
+    "enonce": "Je m'appuie sur ma foi dans l'adversité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 10,
+    "id": 769,
+    "dimension_id": 36,
+    "position": 9,
+    "enonce": "Je reste patient même quand je souffre.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 11,
+    "id": 770,
+    "dimension_id": 36,
+    "position": 10,
+    "enonce": "Je m'effondre vite face à la souffrance.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 12,
+    "id": 771,
+    "dimension_id": 36,
+    "position": 11,
+    "enonce": "Je me révolte dès que l'épreuve dure.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 13,
+    "id": 772,
+    "dimension_id": 36,
+    "position": 12,
+    "enonce": "Je perds espoir rapidement dans la difficulté.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 14,
+    "id": 773,
+    "dimension_id": 36,
+    "position": 13,
+    "enonce": "Je deviens amer quand je souffre.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 15,
+    "id": 774,
+    "dimension_id": 36,
+    "position": 14,
+    "enonce": "Je ne supporte pas les épreuves longues.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 16,
+    "id": 775,
+    "dimension_id": 36,
+    "position": 15,
+    "enonce": "Je me plains constamment dans l'adversité.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 17,
+    "id": 776,
+    "dimension_id": 36,
+    "position": 16,
+    "enonce": "Je cède au découragement facilement.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 18,
+    "id": 777,
+    "dimension_id": 36,
+    "position": 17,
+    "enonce": "Je veux que la souffrance cesse immédiatement.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 19,
+    "id": 778,
+    "dimension_id": 36,
+    "position": 18,
+    "enonce": "Je panique devant les difficultés.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 20,
+    "id": 779,
+    "dimension_id": 36,
+    "position": 19,
+    "enonce": "La douleur me rend impatient.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 21,
+    "id": 780,
+    "dimension_id": 37,
+    "position": 0,
+    "enonce": "Je sais attendre sans m'agiter.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 22,
+    "id": 781,
+    "dimension_id": 37,
+    "position": 1,
+    "enonce": "Je patiente sereinement quand c'est nécessaire.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 23,
+    "id": 782,
+    "dimension_id": 37,
+    "position": 2,
+    "enonce": "J'accepte que les choses prennent du temps.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 24,
+    "id": 783,
+    "dimension_id": 37,
+    "position": 3,
+    "enonce": "Je reste calme dans une file d'attente.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 25,
+    "id": 784,
+    "dimension_id": 37,
+    "position": 4,
+    "enonce": "Je gère bien les délais imposés.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 26,
+    "id": 785,
+    "dimension_id": 37,
+    "position": 5,
+    "enonce": "Je vis l'attente avec paix.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 27,
+    "id": 786,
+    "dimension_id": 37,
+    "position": 6,
+    "enonce": "Je ne me précipite pas inutilement.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 28,
+    "id": 787,
+    "dimension_id": 37,
+    "position": 7,
+    "enonce": "Je respecte le rythme des événements.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 29,
+    "id": 788,
+    "dimension_id": 37,
+    "position": 8,
+    "enonce": "J'attends une réponse sans anxiété.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 30,
+    "id": 789,
+    "dimension_id": 37,
+    "position": 9,
+    "enonce": "Je supporte les temps morts sereinement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 31,
+    "id": 790,
+    "dimension_id": 37,
+    "position": 10,
+    "enonce": "Je déteste attendre.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 32,
+    "id": 791,
+    "dimension_id": 37,
+    "position": 11,
+    "enonce": "Je m'impatiente dès que ça tarde.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 33,
+    "id": 792,
+    "dimension_id": 37,
+    "position": 12,
+    "enonce": "Je m'agace dans les files d'attente.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 34,
+    "id": 793,
+    "dimension_id": 37,
+    "position": 13,
+    "enonce": "Je veux tout, tout de suite.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 35,
+    "id": 794,
+    "dimension_id": 37,
+    "position": 14,
+    "enonce": "Les délais me rendent nerveux.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 36,
+    "id": 795,
+    "dimension_id": 37,
+    "position": 15,
+    "enonce": "Je vérifie sans cesse si c'est prêt.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 37,
+    "id": 796,
+    "dimension_id": 37,
+    "position": 16,
+    "enonce": "L'attente me stresse énormément.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 38,
+    "id": 797,
+    "dimension_id": 37,
+    "position": 17,
+    "enonce": "Je bous intérieurement quand ça traîne.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 39,
+    "id": 798,
+    "dimension_id": 37,
+    "position": 18,
+    "enonce": "Je ne supporte pas la lenteur.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 40,
+    "id": 799,
+    "dimension_id": 37,
+    "position": 19,
+    "enonce": "Je précipite tout par impatience.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 41,
+    "id": 800,
+    "dimension_id": 38,
+    "position": 0,
+    "enonce": "Je reste patient avec les personnes lentes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 42,
+    "id": 801,
+    "dimension_id": 38,
+    "position": 1,
+    "enonce": "Je laisse aux autres le temps de comprendre.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 43,
+    "id": 802,
+    "dimension_id": 38,
+    "position": 2,
+    "enonce": "Je supporte les défauts d'autrui.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 44,
+    "id": 803,
+    "dimension_id": 38,
+    "position": 3,
+    "enonce": "J'écoute sans couper la parole.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 45,
+    "id": 804,
+    "dimension_id": 38,
+    "position": 4,
+    "enonce": "Je tolère les rythmes différents du mien.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 46,
+    "id": 805,
+    "dimension_id": 38,
+    "position": 5,
+    "enonce": "Je reste doux face aux maladresses.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 47,
+    "id": 806,
+    "dimension_id": 38,
+    "position": 6,
+    "enonce": "J'accompagne sans presser les autres.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 48,
+    "id": 807,
+    "dimension_id": 38,
+    "position": 7,
+    "enonce": "Je pardonne les lenteurs des autres.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 49,
+    "id": 808,
+    "dimension_id": 38,
+    "position": 8,
+    "enonce": "Je garde mon calme avec les enfants.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 50,
+    "id": 809,
+    "dimension_id": 38,
+    "position": 9,
+    "enonce": "Je fais preuve de compréhension envers autrui.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 51,
+    "id": 810,
+    "dimension_id": 38,
+    "position": 10,
+    "enonce": "Je m'énerve contre les gens lents.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 52,
+    "id": 811,
+    "dimension_id": 38,
+    "position": 11,
+    "enonce": "Je coupe la parole par impatience.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 53,
+    "id": 812,
+    "dimension_id": 38,
+    "position": 12,
+    "enonce": "Je m'agace des défauts des autres.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 54,
+    "id": 813,
+    "dimension_id": 38,
+    "position": 13,
+    "enonce": "Je presse les autres constamment.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 55,
+    "id": 814,
+    "dimension_id": 38,
+    "position": 14,
+    "enonce": "Je supporte mal les maladresses d'autrui.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 56,
+    "id": 815,
+    "dimension_id": 38,
+    "position": 15,
+    "enonce": "Je critique la lenteur des autres.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 57,
+    "id": 816,
+    "dimension_id": 38,
+    "position": 16,
+    "enonce": "Je perds patience avec mes proches.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 58,
+    "id": 817,
+    "dimension_id": 38,
+    "position": 17,
+    "enonce": "Je m'irrite quand on ne comprend pas vite.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 59,
+    "id": 818,
+    "dimension_id": 38,
+    "position": 18,
+    "enonce": "Je soupire face aux hésitations d'autrui.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 60,
+    "id": 819,
+    "dimension_id": 38,
+    "position": 19,
+    "enonce": "Les autres me trouvent impatient.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 61,
+    "id": 820,
+    "dimension_id": 39,
+    "position": 0,
+    "enonce": "J'accepte que rien ne soit parfait.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 62,
+    "id": 821,
+    "dimension_id": 39,
+    "position": 1,
+    "enonce": "Je tolère mes propres imperfections.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 63,
+    "id": 822,
+    "dimension_id": 39,
+    "position": 2,
+    "enonce": "Je compose avec les défauts d'une situation.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 64,
+    "id": 823,
+    "dimension_id": 39,
+    "position": 3,
+    "enonce": "Je reste serein face à l'imparfait.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 65,
+    "id": 824,
+    "dimension_id": 39,
+    "position": 4,
+    "enonce": "Je ne m'obstine pas à tout contrôler.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 66,
+    "id": 825,
+    "dimension_id": 39,
+    "position": 5,
+    "enonce": "J'accueille les erreurs comme normales.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 67,
+    "id": 826,
+    "dimension_id": 39,
+    "position": 6,
+    "enonce": "Je relativise ce qui n'est pas parfait.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 68,
+    "id": 827,
+    "dimension_id": 39,
+    "position": 7,
+    "enonce": "Je fais avec les limites du réel.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 69,
+    "id": 828,
+    "dimension_id": 39,
+    "position": 8,
+    "enonce": "Je pardonne les imperfections.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 70,
+    "id": 829,
+    "dimension_id": 39,
+    "position": 9,
+    "enonce": "Je garde la paix malgré les défauts.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 71,
+    "id": 830,
+    "dimension_id": 39,
+    "position": 10,
+    "enonce": "Je supporte mal l'imperfection.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 72,
+    "id": 831,
+    "dimension_id": 39,
+    "position": 11,
+    "enonce": "Je m'irrite dès que quelque chose cloche.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 73,
+    "id": 832,
+    "dimension_id": 39,
+    "position": 12,
+    "enonce": "Je veux que tout soit parfait.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 74,
+    "id": 833,
+    "dimension_id": 39,
+    "position": 13,
+    "enonce": "Les défauts me contrarient beaucoup.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 75,
+    "id": 834,
+    "dimension_id": 39,
+    "position": 14,
+    "enonce": "Je ne tolère aucune erreur.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 76,
+    "id": 835,
+    "dimension_id": 39,
+    "position": 15,
+    "enonce": "Je m'acharne à tout corriger.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 77,
+    "id": 836,
+    "dimension_id": 39,
+    "position": 16,
+    "enonce": "L'imparfait me met mal à l'aise.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 78,
+    "id": 837,
+    "dimension_id": 39,
+    "position": 17,
+    "enonce": "Je critique le moindre défaut.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 79,
+    "id": 838,
+    "dimension_id": 39,
+    "position": 18,
+    "enonce": "Je perds patience face aux imperfections.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 80,
+    "id": 839,
+    "dimension_id": 39,
+    "position": 19,
+    "enonce": "Je m'obstine contre ce qui cloche.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 81,
+    "id": 840,
+    "dimension_id": 40,
+    "position": 0,
+    "enonce": "Je gère bien mes frustrations.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 82,
+    "id": 841,
+    "dimension_id": 40,
+    "position": 1,
+    "enonce": "Je reste calme quand mes plans échouent.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 83,
+    "id": 842,
+    "dimension_id": 40,
+    "position": 2,
+    "enonce": "J'accepte les contretemps sereinement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 84,
+    "id": 843,
+    "dimension_id": 40,
+    "position": 3,
+    "enonce": "Je rebondis après une déception.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 85,
+    "id": 844,
+    "dimension_id": 40,
+    "position": 4,
+    "enonce": "Je garde mon sang-froid face aux obstacles.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 86,
+    "id": 845,
+    "dimension_id": 40,
+    "position": 5,
+    "enonce": "Je transforme la frustration en patience.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 87,
+    "id": 846,
+    "dimension_id": 40,
+    "position": 6,
+    "enonce": "Je ne me laisse pas abattre par un échec.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 88,
+    "id": 847,
+    "dimension_id": 40,
+    "position": 7,
+    "enonce": "J'accueille les imprévus avec souplesse.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 89,
+    "id": 848,
+    "dimension_id": 40,
+    "position": 8,
+    "enonce": "Je respire avant de réagir à une contrariété.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 90,
+    "id": 849,
+    "dimension_id": 40,
+    "position": 9,
+    "enonce": "Je reste posé quand rien ne va comme prévu.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 91,
+    "id": 850,
+    "dimension_id": 40,
+    "position": 10,
+    "enonce": "La moindre frustration me fait exploser.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 92,
+    "id": 851,
+    "dimension_id": 40,
+    "position": 11,
+    "enonce": "Je m'effondre quand mes plans échouent.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 93,
+    "id": 852,
+    "dimension_id": 40,
+    "position": 12,
+    "enonce": "Les contretemps me mettent hors de moi.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 94,
+    "id": 853,
+    "dimension_id": 40,
+    "position": 13,
+    "enonce": "Je réagis violemment à la contrariété.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 95,
+    "id": 854,
+    "dimension_id": 40,
+    "position": 14,
+    "enonce": "Je rumine longtemps mes frustrations.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 96,
+    "id": 855,
+    "dimension_id": 40,
+    "position": 15,
+    "enonce": "Un obstacle me décourage aussitôt.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 97,
+    "id": 856,
+    "dimension_id": 40,
+    "position": 16,
+    "enonce": "Je m'emporte face aux imprévus.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 98,
+    "id": 857,
+    "dimension_id": 40,
+    "position": 17,
+    "enonce": "Je supporte mal qu'on contrarie mes projets.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 99,
+    "id": 858,
+    "dimension_id": 40,
+    "position": 18,
+    "enonce": "La frustration me rend agressif.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 100,
+    "id": 859,
+    "dimension_id": 40,
+    "position": 19,
+    "enonce": "Je perds vite mon calme quand ça bloque.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 101,
+    "id": 860,
+    "dimension_id": 41,
+    "position": 0,
+    "enonce": "J'accepte que grandir prenne du temps.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 102,
+    "id": 861,
+    "dimension_id": 41,
+    "position": 1,
+    "enonce": "Je progresse à mon rythme sans me juger.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 103,
+    "id": 862,
+    "dimension_id": 41,
+    "position": 2,
+    "enonce": "Je persévère dans mon développement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 104,
+    "id": 863,
+    "dimension_id": 41,
+    "position": 3,
+    "enonce": "Je célèbre les petits progrès.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 105,
+    "id": 864,
+    "dimension_id": 41,
+    "position": 4,
+    "enonce": "J'accepte mes rechutes comme normales.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 106,
+    "id": 865,
+    "dimension_id": 41,
+    "position": 5,
+    "enonce": "Je reste patient avec moi-même.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 107,
+    "id": 866,
+    "dimension_id": 41,
+    "position": 6,
+    "enonce": "Je vois le chemin parcouru, pas seulement le reste.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 108,
+    "id": 867,
+    "dimension_id": 41,
+    "position": 7,
+    "enonce": "Je cultive la constance dans mes efforts.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 109,
+    "id": 868,
+    "dimension_id": 41,
+    "position": 8,
+    "enonce": "Je fais confiance au processus de croissance.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 110,
+    "id": 869,
+    "dimension_id": 41,
+    "position": 9,
+    "enonce": "Je reste motivé sur le long terme.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 111,
+    "id": 870,
+    "dimension_id": 41,
+    "position": 10,
+    "enonce": "Je veux progresser immédiatement.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 112,
+    "id": 871,
+    "dimension_id": 41,
+    "position": 11,
+    "enonce": "Je me décourage si je n'avance pas vite.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 113,
+    "id": 872,
+    "dimension_id": 41,
+    "position": 12,
+    "enonce": "Je suis dur envers moi-même.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 114,
+    "id": 873,
+    "dimension_id": 41,
+    "position": 13,
+    "enonce": "Je me compare et m'impatiente.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 115,
+    "id": 874,
+    "dimension_id": 41,
+    "position": 14,
+    "enonce": "Je lâche mes efforts trop tôt.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 116,
+    "id": 875,
+    "dimension_id": 41,
+    "position": 15,
+    "enonce": "Je ne supporte pas mes rechutes.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 117,
+    "id": 876,
+    "dimension_id": 41,
+    "position": 16,
+    "enonce": "Je veux des résultats instantanés.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 118,
+    "id": 877,
+    "dimension_id": 41,
+    "position": 17,
+    "enonce": "Je m'agace de ma propre lenteur.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 119,
+    "id": 878,
+    "dimension_id": 41,
+    "position": 18,
+    "enonce": "Je néglige le chemin parcouru.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 120,
+    "id": 879,
+    "dimension_id": 41,
+    "position": 19,
+    "enonce": "Mon impatience freine ma croissance.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 121,
+    "id": 880,
+    "dimension_id": 42,
+    "position": 0,
+    "enonce": "Je mène mes projets avec constance.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 122,
+    "id": 881,
+    "dimension_id": 42,
+    "position": 1,
+    "enonce": "Je persévère jusqu'à l'aboutissement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 123,
+    "id": 882,
+    "dimension_id": 42,
+    "position": 2,
+    "enonce": "Je gère les délais professionnels sereinement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 124,
+    "id": 883,
+    "dimension_id": 42,
+    "position": 3,
+    "enonce": "Je reste patient face aux tâches longues.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 125,
+    "id": 884,
+    "dimension_id": 42,
+    "position": 4,
+    "enonce": "J'avance étape par étape sans me presser.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 126,
+    "id": 885,
+    "dimension_id": 42,
+    "position": 5,
+    "enonce": "Je garde mon calme sous la pression.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 127,
+    "id": 886,
+    "dimension_id": 42,
+    "position": 6,
+    "enonce": "Je supporte les projets qui traînent.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 128,
+    "id": 887,
+    "dimension_id": 42,
+    "position": 7,
+    "enonce": "Je reste concentré sur le long terme.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 129,
+    "id": 888,
+    "dimension_id": 42,
+    "position": 8,
+    "enonce": "J'accepte les révisions et reprises.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 130,
+    "id": 889,
+    "dimension_id": 42,
+    "position": 9,
+    "enonce": "Je termine ce que je commence.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 131,
+    "id": 890,
+    "dimension_id": 42,
+    "position": 10,
+    "enonce": "J'abandonne les projets trop longs.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 132,
+    "id": 891,
+    "dimension_id": 42,
+    "position": 11,
+    "enonce": "Je me décourage quand ça n'avance pas.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 133,
+    "id": 892,
+    "dimension_id": 42,
+    "position": 12,
+    "enonce": "La pression professionnelle me fait craquer.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 134,
+    "id": 893,
+    "dimension_id": 42,
+    "position": 13,
+    "enonce": "Je bâcle pour finir plus vite.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 135,
+    "id": 894,
+    "dimension_id": 42,
+    "position": 14,
+    "enonce": "Je m'impatiente devant les tâches longues.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 136,
+    "id": 895,
+    "dimension_id": 42,
+    "position": 15,
+    "enonce": "Je change de projet dès que ça bloque.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 137,
+    "id": 896,
+    "dimension_id": 42,
+    "position": 16,
+    "enonce": "Les révisions m'agacent.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 138,
+    "id": 897,
+    "dimension_id": 42,
+    "position": 17,
+    "enonce": "Je veux des résultats immédiats au travail.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 139,
+    "id": 898,
+    "dimension_id": 42,
+    "position": 18,
+    "enonce": "Je perds patience sur les dossiers longs.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 140,
+    "id": 899,
+    "dimension_id": 42,
+    "position": 19,
+    "enonce": "Mon impatience nuit à mes projets.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 141,
+    "id": 900,
+    "dimension_id": 43,
+    "position": 0,
+    "enonce": "Je garde mon calme face à l'injustice.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 142,
+    "id": 901,
+    "dimension_id": 43,
+    "position": 1,
+    "enonce": "Je réponds à l'injustice sans violence.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 143,
+    "id": 902,
+    "dimension_id": 43,
+    "position": 2,
+    "enonce": "Je patiente en cherchant une solution juste.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 144,
+    "id": 903,
+    "dimension_id": 43,
+    "position": 3,
+    "enonce": "Je maîtrise ma colère devant l'inéquité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 145,
+    "id": 904,
+    "dimension_id": 43,
+    "position": 4,
+    "enonce": "Je reste digne face à un traitement injuste.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 146,
+    "id": 905,
+    "dimension_id": 43,
+    "position": 5,
+    "enonce": "Je ne me venge pas dans la précipitation.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 147,
+    "id": 906,
+    "dimension_id": 43,
+    "position": 6,
+    "enonce": "Je confie les injustices au temps et à Dieu.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 148,
+    "id": 907,
+    "dimension_id": 43,
+    "position": 7,
+    "enonce": "Je réagis avec mesure à l'inéquité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 149,
+    "id": 908,
+    "dimension_id": 43,
+    "position": 8,
+    "enonce": "Je garde espoir que justice sera faite.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 150,
+    "id": 909,
+    "dimension_id": 43,
+    "position": 9,
+    "enonce": "Je supporte l'injustice sans m'aigrir.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 151,
+    "id": 910,
+    "dimension_id": 43,
+    "position": 10,
+    "enonce": "L'injustice me fait exploser.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 152,
+    "id": 911,
+    "dimension_id": 43,
+    "position": 11,
+    "enonce": "Je veux me venger immédiatement.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 153,
+    "id": 912,
+    "dimension_id": 43,
+    "position": 12,
+    "enonce": "Je perds tout calme face à l'inéquité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 154,
+    "id": 913,
+    "dimension_id": 43,
+    "position": 13,
+    "enonce": "Je réagis avec violence à l'injustice.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 155,
+    "id": 914,
+    "dimension_id": 43,
+    "position": 14,
+    "enonce": "Je rumine longtemps les injustices subies.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 156,
+    "id": 915,
+    "dimension_id": 43,
+    "position": 15,
+    "enonce": "L'inéquité me rend amer.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 157,
+    "id": 916,
+    "dimension_id": 43,
+    "position": 16,
+    "enonce": "Je ne supporte aucune injustice.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 158,
+    "id": 917,
+    "dimension_id": 43,
+    "position": 17,
+    "enonce": "Je m'emporte dès que c'est injuste.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 159,
+    "id": 918,
+    "dimension_id": 43,
+    "position": 18,
+    "enonce": "Je deviens agressif face à l'injustice.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 160,
+    "id": 919,
+    "dimension_id": 43,
+    "position": 19,
+    "enonce": "L'injustice détruit ma patience.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 161,
+    "id": 920,
+    "dimension_id": 44,
+    "position": 0,
+    "enonce": "Je maîtrise mes émotions sous tension.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 162,
+    "id": 921,
+    "dimension_id": 44,
+    "position": 1,
+    "enonce": "Je respire avant de réagir.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 163,
+    "id": 922,
+    "dimension_id": 44,
+    "position": 2,
+    "enonce": "Je garde mon calme quand je suis énervé.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 164,
+    "id": 923,
+    "dimension_id": 44,
+    "position": 3,
+    "enonce": "Je canalise ma colère sereinement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 165,
+    "id": 924,
+    "dimension_id": 44,
+    "position": 4,
+    "enonce": "Je reste posé dans les moments intenses.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 166,
+    "id": 925,
+    "dimension_id": 44,
+    "position": 5,
+    "enonce": "Je prends du recul avant de répondre.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 167,
+    "id": 926,
+    "dimension_id": 44,
+    "position": 6,
+    "enonce": "Je gère mon stress avec patience.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 168,
+    "id": 927,
+    "dimension_id": 44,
+    "position": 7,
+    "enonce": "Je désamorce mes emportements.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 169,
+    "id": 928,
+    "dimension_id": 44,
+    "position": 8,
+    "enonce": "Je reste maître de mes réactions.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 170,
+    "id": 929,
+    "dimension_id": 44,
+    "position": 9,
+    "enonce": "Je transforme l'agacement en calme.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 171,
+    "id": 930,
+    "dimension_id": 44,
+    "position": 10,
+    "enonce": "Je m'emporte facilement.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 172,
+    "id": 931,
+    "dimension_id": 44,
+    "position": 11,
+    "enonce": "Je réagis à chaud sans réfléchir.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 173,
+    "id": 932,
+    "dimension_id": 44,
+    "position": 12,
+    "enonce": "Mes émotions me submergent vite.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 174,
+    "id": 933,
+    "dimension_id": 44,
+    "position": 13,
+    "enonce": "Je crie quand je suis contrarié.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 175,
+    "id": 934,
+    "dimension_id": 44,
+    "position": 14,
+    "enonce": "Je perds le contrôle sous tension.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 176,
+    "id": 935,
+    "dimension_id": 44,
+    "position": 15,
+    "enonce": "Je m'énerve pour un rien.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 177,
+    "id": 936,
+    "dimension_id": 44,
+    "position": 16,
+    "enonce": "Je suis impulsif dans mes réactions.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 178,
+    "id": 937,
+    "dimension_id": 44,
+    "position": 17,
+    "enonce": "Ma colère explose rapidement.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 179,
+    "id": 938,
+    "dimension_id": 44,
+    "position": 18,
+    "enonce": "Je regrette souvent mes réactions.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 180,
+    "id": 939,
+    "dimension_id": 44,
+    "position": 19,
+    "enonce": "Je maîtrise mal mon impatience.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 181,
+    "id": 940,
+    "dimension_id": 45,
+    "position": 0,
+    "enonce": "J'attends les réponses de Dieu avec confiance.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 182,
+    "id": 941,
+    "dimension_id": 45,
+    "position": 1,
+    "enonce": "Je patiente dans la prière sans me lasser.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 183,
+    "id": 942,
+    "dimension_id": 45,
+    "position": 2,
+    "enonce": "Je fais confiance au timing de Dieu.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 184,
+    "id": 943,
+    "dimension_id": 45,
+    "position": 3,
+    "enonce": "Je persévère spirituellement dans l'attente.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 185,
+    "id": 944,
+    "dimension_id": 45,
+    "position": 4,
+    "enonce": "Je garde la foi quand Dieu semble silencieux.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 186,
+    "id": 945,
+    "dimension_id": 45,
+    "position": 5,
+    "enonce": "J'accepte que Dieu agisse en son temps.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 187,
+    "id": 946,
+    "dimension_id": 45,
+    "position": 6,
+    "enonce": "Je reste fidèle même sans réponse immédiate.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 188,
+    "id": 947,
+    "dimension_id": 45,
+    "position": 7,
+    "enonce": "Je cultive la patience dans ma vie spirituelle.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 189,
+    "id": 948,
+    "dimension_id": 45,
+    "position": 8,
+    "enonce": "Je m'en remets à Dieu sans précipitation.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 190,
+    "id": 949,
+    "dimension_id": 45,
+    "position": 9,
+    "enonce": "Je grandis dans l'attente confiante.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 191,
+    "id": 950,
+    "dimension_id": 45,
+    "position": 10,
+    "enonce": "Je m'impatiente devant le silence de Dieu.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 192,
+    "id": 951,
+    "dimension_id": 45,
+    "position": 11,
+    "enonce": "Je veux des réponses divines immédiates.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 193,
+    "id": 952,
+    "dimension_id": 45,
+    "position": 12,
+    "enonce": "Je doute quand Dieu tarde.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 194,
+    "id": 953,
+    "dimension_id": 45,
+    "position": 13,
+    "enonce": "Je me décourage dans la prière.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 195,
+    "id": 954,
+    "dimension_id": 45,
+    "position": 14,
+    "enonce": "Je lâche la foi si rien ne vient vite.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 196,
+    "id": 955,
+    "dimension_id": 45,
+    "position": 15,
+    "enonce": "Je force les choses au lieu d'attendre Dieu.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 197,
+    "id": 956,
+    "dimension_id": 45,
+    "position": 16,
+    "enonce": "Le silence de Dieu me frustre.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 198,
+    "id": 957,
+    "dimension_id": 45,
+    "position": 17,
+    "enonce": "Je perds patience spirituellement.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 199,
+    "id": 958,
+    "dimension_id": 45,
+    "position": 18,
+    "enonce": "Je ne supporte pas d'attendre Dieu.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 200,
+    "id": 959,
+    "dimension_id": 45,
+    "position": 19,
+    "enonce": "Mon impatience affecte ma foi.",
+    "polarite_db": "INVERSE"
+  }
+]

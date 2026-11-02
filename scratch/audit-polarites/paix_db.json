@@ -1,0 +1,1274 @@
+[
+  {
+    "question_num": 1,
+    "id": 101,
+    "dimension_id": 6,
+    "position": 0,
+    "enonce": "Je m’inquiète souvent pour l’avenir.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 2,
+    "id": 102,
+    "dimension_id": 6,
+    "position": 1,
+    "enonce": "Je ressens régulièrement de l’anxiété.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 3,
+    "id": 103,
+    "dimension_id": 6,
+    "position": 2,
+    "enonce": "Je pense souvent à ce qui pourrait mal tourner.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 4,
+    "id": 104,
+    "dimension_id": 6,
+    "position": 3,
+    "enonce": "Je me fais du souci même sans raison claire.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 5,
+    "id": 105,
+    "dimension_id": 6,
+    "position": 4,
+    "enonce": "Je rumine beaucoup sur mes préoccupations.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 6,
+    "id": 106,
+    "dimension_id": 6,
+    "position": 5,
+    "enonce": "J’ai du mal à arrêter de penser à mes problèmes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 7,
+    "id": 107,
+    "dimension_id": 6,
+    "position": 6,
+    "enonce": "Je me sens tendu face à l’incertitude.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 8,
+    "id": 108,
+    "dimension_id": 6,
+    "position": 7,
+    "enonce": "Je me fais facilement du souci pour les autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 9,
+    "id": 109,
+    "dimension_id": 6,
+    "position": 8,
+    "enonce": "Mon esprit est souvent agité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 10,
+    "id": 110,
+    "dimension_id": 6,
+    "position": 9,
+    "enonce": "Je ressens une inquiétude intérieure fréquente.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 11,
+    "id": 111,
+    "dimension_id": 6,
+    "position": 10,
+    "enonce": "Je garde une attitude paisible face à l’avenir.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 12,
+    "id": 112,
+    "dimension_id": 6,
+    "position": 11,
+    "enonce": "Plutôt que de m'inquiéter, je fais confiance.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 13,
+    "id": 113,
+    "dimension_id": 6,
+    "position": 12,
+    "enonce": "Je garde mon calme face aux incertitudes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 14,
+    "id": 114,
+    "dimension_id": 6,
+    "position": 13,
+    "enonce": "Je ne me laisse pas envahir par les pensées anxieuses.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 15,
+    "id": 115,
+    "dimension_id": 6,
+    "position": 14,
+    "enonce": "Je suis capable de lâcher prise.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 16,
+    "id": 116,
+    "dimension_id": 6,
+    "position": 15,
+    "enonce": "Je dors paisiblement malgré les préoccupations.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 17,
+    "id": 117,
+    "dimension_id": 6,
+    "position": 16,
+    "enonce": "Je garde une stabilité mentale face à l'adversité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 18,
+    "id": 118,
+    "dimension_id": 6,
+    "position": 17,
+    "enonce": "Je ne n'arrive pas à ne pas m'inquiéter.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 19,
+    "id": 119,
+    "dimension_id": 6,
+    "position": 18,
+    "enonce": "Je vis au quotidien avec sérénité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 20,
+    "id": 120,
+    "dimension_id": 6,
+    "position": 19,
+    "enonce": "Je reste confiant face à demain.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 21,
+    "id": 121,
+    "dimension_id": 7,
+    "position": 0,
+    "enonce": "J’ai tout le temps besoin que tout soit sous contrôle.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 22,
+    "id": 122,
+    "dimension_id": 7,
+    "position": 1,
+    "enonce": "Je suis stressé quand je ne maîtrise pas une situation.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 23,
+    "id": 123,
+    "dimension_id": 7,
+    "position": 2,
+    "enonce": "Je veux anticiper tous les scénarios.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 24,
+    "id": 124,
+    "dimension_id": 7,
+    "position": 3,
+    "enonce": "Je me sens mal quand les choses m’échappent.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 25,
+    "id": 125,
+    "dimension_id": 7,
+    "position": 4,
+    "enonce": "J’ai du mal à déléguer.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 26,
+    "id": 126,
+    "dimension_id": 7,
+    "position": 5,
+    "enonce": "Je veux tout organiser à l’avance.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 27,
+    "id": 127,
+    "dimension_id": 7,
+    "position": 6,
+    "enonce": "Je supporte mal l’imprévu.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 28,
+    "id": 128,
+    "dimension_id": 7,
+    "position": 7,
+    "enonce": "Je ressens de la tension quand je ne contrôle pas.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 29,
+    "id": 129,
+    "dimension_id": 7,
+    "position": 8,
+    "enonce": "Je cherche à maîtriser mon environnement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 30,
+    "id": 130,
+    "dimension_id": 7,
+    "position": 9,
+    "enonce": "Je me sens en sécurité uniquement quand je contrôle.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 31,
+    "id": 131,
+    "dimension_id": 7,
+    "position": 10,
+    "enonce": "J’accepte ce que je ne peux pas contrôler.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 32,
+    "id": 132,
+    "dimension_id": 7,
+    "position": 11,
+    "enonce": "Je suis à l’aise avec l’imprévu.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 33,
+    "id": 133,
+    "dimension_id": 7,
+    "position": 12,
+    "enonce": "Je lâche prise facilement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 34,
+    "id": 134,
+    "dimension_id": 7,
+    "position": 13,
+    "enonce": "Je fais confiance au déroulement naturel des choses.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 35,
+    "id": 135,
+    "dimension_id": 7,
+    "position": 14,
+    "enonce": "Je reste calme même sans contrôle.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 36,
+    "id": 136,
+    "dimension_id": 7,
+    "position": 15,
+    "enonce": "Je sais déléguer sereinement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 37,
+    "id": 137,
+    "dimension_id": 7,
+    "position": 16,
+    "enonce": "Je suis flexible face aux changements.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 38,
+    "id": 138,
+    "dimension_id": 7,
+    "position": 17,
+    "enonce": "Je ne ressens pas le besoin de tout maîtriser.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 39,
+    "id": 139,
+    "dimension_id": 7,
+    "position": 18,
+    "enonce": "Je suis adaptable.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 40,
+    "id": 140,
+    "dimension_id": 7,
+    "position": 19,
+    "enonce": "Je vis avec confiance plutôt qu’avec contrôle.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 41,
+    "id": 141,
+    "dimension_id": 8,
+    "position": 0,
+    "enonce": "Ma paix dépend de ma situation financière.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 42,
+    "id": 142,
+    "dimension_id": 8,
+    "position": 1,
+    "enonce": "Je suis inquiet quand mes ressources diminuent.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 43,
+    "id": 143,
+    "dimension_id": 8,
+    "position": 2,
+    "enonce": "Je me sens en sécurité grâce à mes biens.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 44,
+    "id": 144,
+    "dimension_id": 8,
+    "position": 3,
+    "enonce": "Je suis stressé en cas de perte matérielle.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 45,
+    "id": 145,
+    "dimension_id": 8,
+    "position": 4,
+    "enonce": "Je pense souvent à l’argent (que je n'ai pas).",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 46,
+    "id": 146,
+    "dimension_id": 8,
+    "position": 5,
+    "enonce": "Je me sens mieux quand j’ai plus de ressources.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 47,
+    "id": 147,
+    "dimension_id": 8,
+    "position": 6,
+    "enonce": "Mon confort influence mon état intérieur.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 48,
+    "id": 148,
+    "dimension_id": 8,
+    "position": 7,
+    "enonce": "Je suis inquiet pour ma stabilité financière.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 49,
+    "id": 149,
+    "dimension_id": 8,
+    "position": 8,
+    "enonce": "Je mesure ma sécurité à mes possessions.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 50,
+    "id": 150,
+    "dimension_id": 8,
+    "position": 9,
+    "enonce": "Je me sens fragile sans sécurité matérielle.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 51,
+    "id": 151,
+    "dimension_id": 8,
+    "position": 10,
+    "enonce": "Ma paix ne dépend pas de mes biens.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 52,
+    "id": 152,
+    "dimension_id": 8,
+    "position": 11,
+    "enonce": "Je reste serein même en manque.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 53,
+    "id": 153,
+    "dimension_id": 8,
+    "position": 12,
+    "enonce": "Je ne m’appuie pas sur mes possessions.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 54,
+    "id": 154,
+    "dimension_id": 8,
+    "position": 13,
+    "enonce": "Je suis en paix indépendamment de mes ressources.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 55,
+    "id": 155,
+    "dimension_id": 8,
+    "position": 14,
+    "enonce": "Je suis détaché du matériel.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 56,
+    "id": 156,
+    "dimension_id": 8,
+    "position": 15,
+    "enonce": "Je reste stable même dans la perte.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 57,
+    "id": 157,
+    "dimension_id": 8,
+    "position": 16,
+    "enonce": "Ma sécurité est intérieure.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 58,
+    "id": 158,
+    "dimension_id": 8,
+    "position": 17,
+    "enonce": "Je vis sans dépendre du confort.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 59,
+    "id": 159,
+    "dimension_id": 8,
+    "position": 18,
+    "enonce": "Je reste serein sans garantie matérielle.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 60,
+    "id": 160,
+    "dimension_id": 8,
+    "position": 19,
+    "enonce": "Mon état ne dépend pas de l’argent.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 61,
+    "id": 161,
+    "dimension_id": 9,
+    "position": 0,
+    "enonce": "Les conflits me troublent profondément.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 62,
+    "id": 162,
+    "dimension_id": 9,
+    "position": 1,
+    "enonce": "Je perds ma paix dans les disputes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 63,
+    "id": 163,
+    "dimension_id": 9,
+    "position": 2,
+    "enonce": "Les tensions me stressent fortement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 64,
+    "id": 164,
+    "dimension_id": 9,
+    "position": 3,
+    "enonce": "Je repense longtemps aux conflits.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 65,
+    "id": 165,
+    "dimension_id": 9,
+    "position": 4,
+    "enonce": "Je suis affecté par les désaccords.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 66,
+    "id": 166,
+    "dimension_id": 9,
+    "position": 5,
+    "enonce": "Je ressens de la colère dans les tensions.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 67,
+    "id": 167,
+    "dimension_id": 9,
+    "position": 6,
+    "enonce": "Je me sens mal longtemps après un conflit.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 68,
+    "id": 168,
+    "dimension_id": 9,
+    "position": 7,
+    "enonce": "Les relations influencent fortement mon état.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 69,
+    "id": 169,
+    "dimension_id": 9,
+    "position": 8,
+    "enonce": "Je suis perturbé par les désaccords.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 70,
+    "id": 170,
+    "dimension_id": 9,
+    "position": 9,
+    "enonce": "Je perds ma sérénité dans les tensions.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 71,
+    "id": 171,
+    "dimension_id": 9,
+    "position": 10,
+    "enonce": "Je reste calme dans les conflits.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 72,
+    "id": 172,
+    "dimension_id": 9,
+    "position": 11,
+    "enonce": "Je garde la paix malgré les tensions.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 73,
+    "id": 173,
+    "dimension_id": 9,
+    "position": 12,
+    "enonce": "Je prends du recul face aux conflits.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 74,
+    "id": 174,
+    "dimension_id": 9,
+    "position": 13,
+    "enonce": "Je me détache émotionnellement des disputes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 75,
+    "id": 175,
+    "dimension_id": 9,
+    "position": 14,
+    "enonce": "Je suis stable dans les relations difficiles.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 76,
+    "id": 176,
+    "dimension_id": 9,
+    "position": 15,
+    "enonce": "Je ne laisse pas les conflits m’envahir.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 77,
+    "id": 177,
+    "dimension_id": 9,
+    "position": 16,
+    "enonce": "Je gère les tensions avec calme.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 78,
+    "id": 178,
+    "dimension_id": 9,
+    "position": 17,
+    "enonce": "Je reste posé face aux désaccords.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 79,
+    "id": 179,
+    "dimension_id": 9,
+    "position": 18,
+    "enonce": "Je garde une paix intérieure dans les conflits.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 80,
+    "id": 180,
+    "dimension_id": 9,
+    "position": 19,
+    "enonce": "Je suis stable malgré les tensions.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 81,
+    "id": 181,
+    "dimension_id": 10,
+    "position": 0,
+    "enonce": "Je ressens constamment de la culpabilité par rapport à mes actes, paroles ou pensées..",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 82,
+    "id": 182,
+    "dimension_id": 10,
+    "position": 1,
+    "enonce": "Je repense à mes erreurs passées.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 83,
+    "id": 183,
+    "dimension_id": 10,
+    "position": 2,
+    "enonce": "Je me sens condamné intérieurement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 84,
+    "id": 184,
+    "dimension_id": 10,
+    "position": 3,
+    "enonce": "Je me reproche certaines choses.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 85,
+    "id": 185,
+    "dimension_id": 10,
+    "position": 4,
+    "enonce": "Je porte des regrets persistants.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 86,
+    "id": 186,
+    "dimension_id": 10,
+    "position": 5,
+    "enonce": "Je me sens mal à cause de mes fautes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 87,
+    "id": 187,
+    "dimension_id": 10,
+    "position": 6,
+    "enonce": "Je suis troublé intérieurement par mon passé.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 88,
+    "id": 188,
+    "dimension_id": 10,
+    "position": 7,
+    "enonce": "Je ressens du poids intérieur.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 89,
+    "id": 189,
+    "dimension_id": 10,
+    "position": 8,
+    "enonce": "Je me juge sévèrement.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 90,
+    "id": 190,
+    "dimension_id": 10,
+    "position": 9,
+    "enonce": "Je suis affecté par mes erreurs.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 91,
+    "id": 191,
+    "dimension_id": 10,
+    "position": 10,
+    "enonce": "Je suis en paix avec mon passé.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 92,
+    "id": 192,
+    "dimension_id": 10,
+    "position": 11,
+    "enonce": "Je me sens profondément pardonné.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 93,
+    "id": 193,
+    "dimension_id": 10,
+    "position": 12,
+    "enonce": "Je ne suis pas accablé intérieurement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 94,
+    "id": 194,
+    "dimension_id": 10,
+    "position": 13,
+    "enonce": "Je me libère de mes erreurs.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 95,
+    "id": 195,
+    "dimension_id": 10,
+    "position": 14,
+    "enonce": "Je vis sans condamnation intérieure.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 96,
+    "id": 196,
+    "dimension_id": 10,
+    "position": 15,
+    "enonce": "Je lâche mes fautes passées.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 97,
+    "id": 197,
+    "dimension_id": 10,
+    "position": 16,
+    "enonce": "Je me relève sans rester bloqué sur ce qui s'est passé.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 98,
+    "id": 198,
+    "dimension_id": 10,
+    "position": 17,
+    "enonce": "Je vis dans la liberté intérieure.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 99,
+    "id": 199,
+    "dimension_id": 10,
+    "position": 18,
+    "enonce": "Je suis en paix avec moi-même.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 100,
+    "id": 200,
+    "dimension_id": 11,
+    "position": 0,
+    "enonce": "Je pense souvent de manière négative.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 101,
+    "id": 201,
+    "dimension_id": 11,
+    "position": 1,
+    "enonce": "J’imagine facilement le pire.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 102,
+    "id": 202,
+    "dimension_id": 11,
+    "position": 2,
+    "enonce": "Je me fais des scénarios négatifs.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 103,
+    "id": 203,
+    "dimension_id": 11,
+    "position": 3,
+    "enonce": "Je doute souvent.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 104,
+    "id": 204,
+    "dimension_id": 11,
+    "position": 4,
+    "enonce": "Je suis envahi par des pensées négatives.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 105,
+    "id": 205,
+    "dimension_id": 11,
+    "position": 5,
+    "enonce": "Je me focalise d'abord sur le négatif.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 106,
+    "id": 206,
+    "dimension_id": 11,
+    "position": 6,
+    "enonce": "Je me critique intérieurement.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 107,
+    "id": 207,
+    "dimension_id": 11,
+    "position": 7,
+    "enonce": "Je ressens du pessimisme.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 108,
+    "id": 208,
+    "dimension_id": 11,
+    "position": 8,
+    "enonce": "Mon esprit est souvent négatif.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 109,
+    "id": 209,
+    "dimension_id": 11,
+    "position": 9,
+    "enonce": "Je vois le côté sombre des choses.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 110,
+    "id": 210,
+    "dimension_id": 11,
+    "position": 10,
+    "enonce": "Je pense de manière positive.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 111,
+    "id": 211,
+    "dimension_id": 11,
+    "position": 11,
+    "enonce": "Je garde des pensées constructives.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 112,
+    "id": 212,
+    "dimension_id": 11,
+    "position": 12,
+    "enonce": "Mes pensées sont agitées.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 113,
+    "id": 213,
+    "dimension_id": 11,
+    "position": 13,
+    "enonce": "Je choisis des pensées positives.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 114,
+    "id": 214,
+    "dimension_id": 11,
+    "position": 14,
+    "enonce": "Je garde une perspective saine.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 115,
+    "id": 215,
+    "dimension_id": 11,
+    "position": 15,
+    "enonce": "Je ne me laisse pas envahir mentalement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 116,
+    "id": 216,
+    "dimension_id": 11,
+    "position": 16,
+    "enonce": "Je cultive des pensées paisibles.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 117,
+    "id": 217,
+    "dimension_id": 11,
+    "position": 17,
+    "enonce": "Je reste optimiste quoiqu'il en soit.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 118,
+    "id": 218,
+    "dimension_id": 11,
+    "position": 18,
+    "enonce": "Je garde un esprit stable.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 119,
+    "id": 219,
+    "dimension_id": 11,
+    "position": 19,
+    "enonce": "Je contrôle mon mental.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 120,
+    "id": 220,
+    "dimension_id": 12,
+    "position": 0,
+    "enonce": "Le regard des autres influence mon état.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 121,
+    "id": 221,
+    "dimension_id": 12,
+    "position": 1,
+    "enonce": "J’ai besoin d’être validé.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 122,
+    "id": 222,
+    "dimension_id": 12,
+    "position": 2,
+    "enonce": "Je me sens mal si je ne suis pas reconnu.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 123,
+    "id": 223,
+    "dimension_id": 12,
+    "position": 3,
+    "enonce": "Je cherche l’approbation des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 124,
+    "id": 224,
+    "dimension_id": 12,
+    "position": 4,
+    "enonce": "Je suis sensible aux critiques.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 125,
+    "id": 225,
+    "dimension_id": 12,
+    "position": 5,
+    "enonce": "Je veux être accepté.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 126,
+    "id": 226,
+    "dimension_id": 12,
+    "position": 6,
+    "enonce": "Mon état dépend de l’opinion des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 127,
+    "id": 227,
+    "dimension_id": 12,
+    "position": 7,
+    "enonce": "Je crains le jugement.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 128,
+    "id": 228,
+    "dimension_id": 12,
+    "position": 8,
+    "enonce": "Je cherche à plaire.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 129,
+    "id": 229,
+    "dimension_id": 12,
+    "position": 9,
+    "enonce": "Je suis affecté par ce que pensent les autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 130,
+    "id": 230,
+    "dimension_id": 12,
+    "position": 10,
+    "enonce": "Je suis stable indépendamment des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 131,
+    "id": 231,
+    "dimension_id": 12,
+    "position": 11,
+    "enonce": "Je ne cherche pas la validation extérieure.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 132,
+    "id": 232,
+    "dimension_id": 12,
+    "position": 12,
+    "enonce": "Je suis libre du regard des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 133,
+    "id": 233,
+    "dimension_id": 12,
+    "position": 13,
+    "enonce": "Je suis confiant dans mon identité.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 134,
+    "id": 234,
+    "dimension_id": 12,
+    "position": 14,
+    "enonce": "Je reste stable face aux critiques.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 135,
+    "id": 235,
+    "dimension_id": 12,
+    "position": 15,
+    "enonce": "Je n’ai pas besoin d’approbation.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 136,
+    "id": 236,
+    "dimension_id": 12,
+    "position": 16,
+    "enonce": "Je suis libre intérieurement de l'opinion des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 137,
+    "id": 237,
+    "dimension_id": 12,
+    "position": 17,
+    "enonce": "Je ne dépends pas du regard des autres.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 138,
+    "id": 238,
+    "dimension_id": 12,
+    "position": 18,
+    "enonce": "Je suis ancré en moi-même.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 139,
+    "id": 239,
+    "dimension_id": 12,
+    "position": 19,
+    "enonce": "Je vis sans pression sociale.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 140,
+    "id": 240,
+    "dimension_id": 13,
+    "position": 0,
+    "enonce": "Je vois les épreuves comme injustes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 141,
+    "id": 241,
+    "dimension_id": 13,
+    "position": 1,
+    "enonce": "Je me décourage dans les difficultés.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 142,
+    "id": 242,
+    "dimension_id": 13,
+    "position": 2,
+    "enonce": "Je perds confiance dans les épreuves.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 143,
+    "id": 243,
+    "dimension_id": 13,
+    "position": 3,
+    "enonce": "Je me sens abandonné dans les moments difficiles.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 144,
+    "id": 244,
+    "dimension_id": 13,
+    "position": 4,
+    "enonce": "Je ressens de l’injustice.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 145,
+    "id": 245,
+    "dimension_id": 13,
+    "position": 5,
+    "enonce": "Je deviens amer dans les épreuves.",
+    "polarite_db": "INVERSE"
+  },
+  {
+    "question_num": 146,
+    "id": 246,
+    "dimension_id": 13,
+    "position": 6,
+    "enonce": "Je perds espoir facilement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 147,
+    "id": 247,
+    "dimension_id": 13,
+    "position": 7,
+    "enonce": "Je me plains dans les difficultés.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 148,
+    "id": 248,
+    "dimension_id": 13,
+    "position": 8,
+    "enonce": "Je vois les épreuves négativement.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 149,
+    "id": 249,
+    "dimension_id": 13,
+    "position": 9,
+    "enonce": "Je suis abattu dans les difficultés.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 150,
+    "id": 250,
+    "dimension_id": 13,
+    "position": 10,
+    "enonce": "Je vois un sens dans les épreuves.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 151,
+    "id": 251,
+    "dimension_id": 13,
+    "position": 11,
+    "enonce": "Je garde confiance dans les difficultés.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 152,
+    "id": 252,
+    "dimension_id": 13,
+    "position": 12,
+    "enonce": "Je reste positif dans les épreuves.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 153,
+    "id": 253,
+    "dimension_id": 13,
+    "position": 13,
+    "enonce": "Je vois les épreuves comme formatrices.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 154,
+    "id": 254,
+    "dimension_id": 13,
+    "position": 14,
+    "enonce": "Je garde espoir malgré les difficultés.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 155,
+    "id": 255,
+    "dimension_id": 13,
+    "position": 15,
+    "enonce": "Je reste stable dans les épreuves.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 156,
+    "id": 256,
+    "dimension_id": 13,
+    "position": 16,
+    "enonce": "Je grandis à travers les difficultés.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 157,
+    "id": 257,
+    "dimension_id": 13,
+    "position": 17,
+    "enonce": "Je garde une bonne attitude.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 158,
+    "id": 258,
+    "dimension_id": 13,
+    "position": 18,
+    "enonce": "Je reste confiant dans les tempêtes.",
+    "polarite_db": "DIRECTE"
+  },
+  {
+    "question_num": 159,
+    "id": 259,
+    "dimension_id": 13,
+    "position": 19,
+    "enonce": "Je garde une perspective constructive.",
+    "polarite_db": "DIRECTE"
+  }
+]

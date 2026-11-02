@@ -1,0 +1,33 @@
+{
+  "fruit": "patience",
+  "statut": "FEUILLE_POINTS_IDENTIFIEE_CORPUS_DIFFERENT",
+  "source_excel": "C:/Users/mauri/Downloads/CHRISTOS/Patience/CHRISTOSMETRICS - Fruit de l'Esprit - La Patience (réponses).xlsx",
+  "lecture": {
+    "read_only": true,
+    "data_only": true
+  },
+  "questions_v2": 200,
+  "feuilles_disponibles": [
+    "Réponses au formulaire 1",
+    "Feuil1",
+    "Feuil2",
+    "Eglise",
+    "Rouen",
+    "DB_Reponses",
+    "Parametres"
+  ],
+  "feuille_reponses": {
+    "lignes": 61,
+    "colonnes": 405
+  },
+  "feuille_score_attendue": "Score",
+  "feuille_score_presente": false,
+  "audit_polarites_execute": true,
+  "votes_calcules": true,
+  "hypothese_non_verifiee": null,
+  "motif_arret": null,
+  "feuille_score_utilisee": "Feuil2",
+  "correspondance_v2_etablie": false,
+  "questions_excel": 400,
+  "limitation_actuelle": "200 questions V2 non appariables aux 400 items Excel ; aucune correction Patience proposee."
+}
