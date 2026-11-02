@@ -95,6 +95,15 @@ header.top{background:var(--surface);border-bottom:1px solid var(--line);positio
 .badge{font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;
        color:var(--orange);background:var(--orange-xl);padding:4px 10px;border-radius:999px}
 
+/* Signature visible et centree sous le logo sur mobile et tablette. */
+@media (max-width:1024px){
+  .top-in{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 14px}
+  .top-in > a{grid-column:1;grid-row:1;min-width:0}
+  .top .sig{display:block;grid-column:1 / -1;grid-row:2;text-align:center;line-height:1.4}
+  .top .spacer{display:none}
+  .top .badge{grid-column:2;grid-row:1;justify-self:end}
+}
+
 /* ---------- Système d'écrans : un seul visible à la fois (.on) ---------- */
 .screen{display:none;padding:34px 0 70px}
 .screen.on{display:block;animation:fade .35s ease}
@@ -277,7 +286,6 @@ canvas{max-width:100%;display:block}
 .hint.info{color:var(--teal);background:var(--teal-xl);padding:8px 12px;border-radius:6px;margin:12px 0 0}
 
 @media(max-width:620px){
-  .top .sig{display:none}
   .bareme-row{grid-template-columns:70px 1fr}
   .bareme-row .emoji{text-align:left}
   .bareme-row .txt{grid-column:1 / -1}
