@@ -95,13 +95,13 @@ header.top{background:var(--surface);border-bottom:1px solid var(--line);positio
 .badge{font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;
        color:var(--orange);background:var(--orange-xl);padding:4px 10px;border-radius:999px}
 
-/* Signature visible et centree sous le logo sur mobile et tablette. */
-@media (max-width:1024px){
-  .top-in{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 14px}
-  .top-in > a{grid-column:1;grid-row:1;min-width:0}
-  .top .sig{display:block;grid-column:1 / -1;grid-row:2;text-align:center;line-height:1.4}
-  .top .spacer{display:none}
-  .top .badge{grid-column:2;grid-row:1;justify-self:end}
+/* Signature alignee avec le logo, meme sur mobile. */
+@media (max-width:620px){
+  .top-in{gap:10px}
+  .top .sig{font-size:12px;line-height:1.3}
+}
+@media (max-width:420px){
+  .top .sig{font-size:11px}
 }
 
 /* ---------- Système d'écrans : un seul visible à la fois (.on) ---------- */

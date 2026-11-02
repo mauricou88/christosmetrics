@@ -121,8 +121,6 @@ function Header() {
           className="brand-logo"
         /></Link>
         <span className="sig">Mesurer pour devenir Christ</span>
-        <span className="spacer" />
-        <span className="badge">{Capacitor.isNativePlatform() ? 'Mobile' : 'Web'}</span>
       </div>
     </header>
   );
