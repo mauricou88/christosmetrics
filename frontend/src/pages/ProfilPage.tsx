@@ -139,7 +139,7 @@ export function ProfilPage() {
     void changerLangue(langues[suivant].code);
   }
 
-  /** Ferme la session puis revient à l’accueil en conservant les préférences d’affichage. */
+  /** Ferme la session, rétablit le français puis revient à l’accueil. */
   function handleDeconnexion() {
     deconnexion();
     navigate('/', { replace: true });

@@ -2,6 +2,7 @@ import { createContext, useContext, useState, useEffect, type ReactNode } from '
 import type { User, AuthResponse } from '../types';
 import { getToken, setToken, clearToken, initStore, SESSION_EXPIREE } from '../api/client';
 import * as authApi from '../api/auth';
+import i18n from '../i18n';
 
 /**
  * CONTEXTE D'AUTHENTIFICATION.
@@ -76,10 +77,17 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     appliquerAuth(res);
   }
 
+  /** Ferme la session et rétablit le français pour l’affichage et les prochaines visites. */
   function deconnexion() {
     clearToken();
     localStorage.removeItem(USER_KEY);
     setUser(null);
+    void i18n.changeLanguage('fr');
+    try {
+      localStorage.setItem('langue-preference', 'fr');
+    } catch {
+      // Le français reste actif pour cette visite si le stockage est indisponible.
+    }
   }
 
   return (
