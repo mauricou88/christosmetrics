@@ -101,24 +101,32 @@ export function MenuPage() {
                 <span>{t('commun.verset_ref')}</span>
               </div>
               <div className="fruits">
-                {individuels.map((r, index) => {
+                {individuels.map((r) => {
                   const p = passationPourFruit(synthese?.passations ?? [], r.code);
                   const termine = p?.etat === 'TERMINEE' && p.scoreGlobalArrondi != null;
+                  const enCours = p?.etat === 'EN_COURS';
                   return (
                     <button key={r.code} className="fruit" data-on="1" onClick={() => navigate(destinationFruit(r.code, p))}>
-                      <span className="n">{String(index + 1).padStart(2, '0')}</span>
+                      {termine ? (
+                        <span className="fruit-statut fruit-statut--termine" aria-label={t('menu.teste_pourcentage', { score: p.scoreGlobalArrondi }) as string}>
+                          <span className="fruit-statut-marker" aria-hidden="true" />{p.scoreGlobalArrondi}%
+                        </span>
+                      ) : enCours ? (
+                        <span className="fruit-statut fruit-statut--encours">
+                          <span className="fruit-statut-marker" aria-hidden="true" />{t('menu.reprendre')}
+                        </span>
+                      ) : (
+                        <span className="fruit-statut fruit-statut--vierge">{t('menu.statut_a_commencer', { defaultValue: 'À commencer' })}</span>
+                      )}
                       <span className="nm">{t(`menu.fruits.${r.code}`, { defaultValue: r.nom })}</span>
                       <span className="st">{t('menu.domaines_questions', { domaines: r.nbDimensions, questions: r.nbQuestions })}</span>
-                      {termine && <span className="fruit-progression">{t('menu.teste_pourcentage', { score: p.scoreGlobalArrondi })}</span>}
-                      {p?.etat === 'EN_COURS' && <span className="fruit-progression">{t('menu.reprendre')}</span>}
                     </button>
                   );
                 })}
                 {aConcevoir.map(f => (
                   <button key={f.code} className="fruit" data-on="0" disabled>
-                    <span className="n">{String(ORDRE_FRUITS.indexOf(f.code) + 1).padStart(2, '0')}</span>
+                    <span className="fruit-statut fruit-statut--vierge">{t('menu.a_concevoir')}</span>
                     <span className="nm">{t(`menu.fruits.${f.code}`, { defaultValue: f.nom })}</span>
-                    <span className="st">{t('menu.a_concevoir')}</span>
                   </button>
                 ))}
               </div>

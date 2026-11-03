@@ -13,6 +13,15 @@ ChartJS.register(
 
 const TEAL = '#0D6D80';
 
+/** Résout les tokens CSS en pixels pour les API Canvas et Chart.js. */
+function taillePolice(token: '--fs-caption' | '--fs-small'): number {
+  const valeur = typeof window === 'undefined'
+    ? ''
+    : window.getComputedStyle(document.documentElement).getPropertyValue(token);
+  const taille = Number.parseFloat(valeur);
+  return Number.isFinite(taille) && taille > 0 ? taille : (ChartJS.defaults.font.size ?? 12);
+}
+
 /**
  * RADAR « Votre portrait » — un axe par dimension, échelle 0..100 %.
  */
@@ -34,9 +43,9 @@ export function RadarPortrait({ dimensions }: { dimensions: ScoreDimension[] }) 
     scales: {
       r: {
         beginAtZero: true, max: 100,
-        ticks: { stepSize: 20, font: { size: 10 } },
+        ticks: { stepSize: 20, font: { size: taillePolice('--fs-caption') } },
         grid: { color: '#D8E4E7' },
-        pointLabels: { font: { size: 11 } },
+        pointLabels: { font: { size: taillePolice('--fs-caption') } },
       },
     },
   };
@@ -61,6 +70,7 @@ export function EntonnoirManifestation({ dimensions }: { dimensions: ScoreDimens
   // Plugin : écrit le % centré dans la barre (ou à droite si trop courte).
   const valuesPlugin = {
     id: 'valuesOnBars',
+    /** Dessine les pourcentages avec la taille canonique des métadonnées. */
     afterDatasetsDraw(chart: ChartJS) {
       const { ctx } = chart;
       const meta = chart.getDatasetMeta(0);
@@ -68,7 +78,7 @@ export function EntonnoirManifestation({ dimensions }: { dimensions: ScoreDimens
         const val = (chart.data.datasets[0].data as number[])[i];
         const largeur = bar.x - bar.base;
         ctx.save();
-        ctx.font = 'bold 12px Inter, sans-serif';
+        ctx.font = `bold ${taillePolice('--fs-small')}px Inter, sans-serif`;
         ctx.textBaseline = 'middle';
         if (largeur > 26) {
           ctx.fillStyle = '#fff'; ctx.textAlign = 'center';
@@ -89,7 +99,7 @@ export function EntonnoirManifestation({ dimensions }: { dimensions: ScoreDimens
     plugins: { legend: { display: false }, tooltip: { enabled: false } },
     scales: {
       x: { beginAtZero: true, max: 100, display: false, grid: { display: false } },
-      y: { ticks: { font: { size: 11 } }, grid: { display: false } },
+      y: { ticks: { font: { size: taillePolice('--fs-caption') } }, grid: { display: false } },
     },
   };
 
