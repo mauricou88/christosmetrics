@@ -1,9 +1,11 @@
+import { useTranslation } from 'react-i18next';
 import { useState, type FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { apiRequest } from '../api/client';
 import { useAuth } from '../context/AuthContext';
 
 export function SupprimerComptePage() {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const { deconnexion } = useAuth();
   const [etape, setEtape] = useState<'avertissement' | 'confirmation' | 'suppression'>('avertissement');
@@ -20,7 +22,7 @@ export function SupprimerComptePage() {
       deconnexion();
       navigate('/', { replace: true });
     } catch (error) {
-      setErreur(error instanceof Error ? error.message : 'La suppression a échoué. Veuillez réessayer.');
+      setErreur(error instanceof Error ? error.message : t('suppression.echec'));
       setEtape('confirmation');
     }
   }
@@ -54,7 +56,7 @@ export function SupprimerComptePage() {
             <div className="controls">
               <button className="btn" type="submit" style={{ backgroundColor: '#d45219', color: '#fff' }}
                       disabled={etape === 'suppression' || !motDePasse.trim()}>
-                {etape === 'suppression' ? 'Suppression…' : 'Supprimer définitivement mon compte'}
+                {etape === 'suppression' ? 'Suppression…' : t('suppression.bouton')}
               </button>
               <button className="btn ghost" type="button" disabled={etape === 'suppression'}
                       onClick={() => navigate('/menu')}>Annuler</button>

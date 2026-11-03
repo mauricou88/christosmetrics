@@ -17,7 +17,9 @@
     "mon_parcours": "O meu percurso",
     "supprimer_compte": "Eliminar a minha conta",
     "verset": "Mas o fruto do Espírito é amor, alegria, paz, longanimidade, benignidade, bondade, fidelidade, mansidão e domínio próprio.",
-    "verset_ref": "Gálatas 5:22"
+    "verset_ref": "Gálatas 5:22",
+    "erreur_prefixe": "Erro",
+    "statut_a_commencer": "Por começar"
   },
   "accueil": {
     "eyebrow": "CHRISTOSMETRICS · Autodiagnóstico",
@@ -237,5 +239,81 @@
     "politique": "Política de privacidade",
     "cgu": "Condições de utilização",
     "copyright": "© {{annee}} Christosmetrics by LA"
+  },
+  "questionnaire": {
+    "chargement": "A carregar o questionário…",
+    "aucune_question": "Nenhuma pergunta disponível.",
+    "question_num": "Pergunta {{num}} de {{total}}",
+    "reponses_enregistrees": "{{nb}} resposta(s) guardada(s) em {{total}}",
+    "sauvegarde_en_cours": "A guardar…",
+    "erreur_reessayer": "Pode tentar novamente.",
+    "pour_terminer": "Para terminar, todas as respostas devem estar guardadas. Selecione a sua resposta a esta pergunta.",
+    "revenir_premiere_manquante": "Voltar à primeira resposta em falta",
+    "question_precedente": "← Pergunta anterior",
+    "calcul_restitution": "A preparar o seu relatório…",
+    "terminer_voir_restitution": "Finalizar e ver o meu relatório",
+    "reprendre_plus_tard": "Retomar mais tarde",
+    "sauvegarde_hint": "💾 Cada resposta é guardada automaticamente. Pode fechar o separador e retomar mais tarde.",
+    "echelle": {
+      "jamais": "Nunca",
+      "rarement": "Raramente",
+      "parfois": "Às vezes",
+      "souvent": "Frequentemente",
+      "presque_toujours": "Quase sempre",
+      "toujours": "Sempre"
+    }
+  },
+  "resultat": {
+    "chargement": "A carregar o resultado…",
+    "eyebrow": "Relatório pessoal · {{nom}}",
+    "titre": "O seu retrato",
+    "de_conformite": "de conformidade global",
+    "points_sur_36": "pontos sobre 36",
+    "portrait_couple": "Retrato do casal",
+    "mon_portrait": "O meu retrato",
+    "manifestation_par_domaine": "Nível de manifestação por domínio",
+    "points_forts": "✨ Pontos fortes",
+    "a_travailler": "💪 A trabalhar",
+    "bareme_titre": "Escala de interpretação da conformidade global",
+    "bareme_intro": "O seu intervalo está indicado a vermelho.",
+    "enregistrer_pdf": "📄 Guardar o PDF e solicitar o envio por e-mail",
+    "generation_pdf": "⏳ A gerar…",
+    "retour_menu": "Voltar ao menu",
+    "choisir_autre_fruit": "Escolher outro fruto",
+    "mon_parcours_cta": "📊 O meu percurso",
+    "pdf_choisissez": "Escolha onde guardar o PDF. Guardado no servidor em curso…",
+    "pdf_local_ok": "PDF guardado. Aberto ou partilhado no seu dispositivo.",
+    "pdf_serveur_mail_ok": "PDF guardado no servidor. Envio por e-mail solicitado.",
+    "pdf_serveur_mail_off": "PDF guardado no servidor. Envio por e-mail desativado: configuração SMTP necessária.",
+    "pdf_erreur_local": "Guardado local: {{raison}}",
+    "pdf_erreur_serveur": "Guardado servidor / e-mail: {{raison}}",
+    "pdf_erreur_generique": "Erro: {{message}}",
+    "icone_aria": "{{nb}} nível(eis) {{type}}"
+  },
+  "mon_parcours": {
+    "veuillez_reconnecter": "Inicie sessão novamente.",
+    "telechargement_impossible": "Transferência impossível: {{raison}}",
+    "retour_fruits": "← Escolher outro fruto",
+    "manifestation_globale": "Manifestação global do fruto do Espírito",
+    "synthese_phrase": "Completou {{realises}} de {{attendus}} testes. Esta pontuação é a média das suas diferentes componentes — um instantâneo do seu percurso.",
+    "progression_titre": "O seu progresso rumo à síntese global",
+    "progression_phrase": "{{realises}} teste(s) concluído(s) de {{attendus}}. Conclua todos os seus diagnósticos individuais para desbloquear a síntese CHRISTOS global.",
+    "historique_titre": "Histórico dos seus testes",
+    "historique_vide": "Ainda não começou nenhum teste.",
+    "col_fruit": "Fruto",
+    "col_etat": "Estado",
+    "col_score": "Pontuação",
+    "col_actions": "Ações",
+    "demarre_le": "Iniciado em {{date}}",
+    "etat_termine": "✓ Concluído",
+    "etat_en_cours": "⏳ Em curso",
+    "cta_reprendre": "Retomar",
+    "cta_voir": "Ver",
+    "cta_pdf": "📄 PDF",
+    "page_titre": "Os seus testes e a sua síntese"
+  },
+  "suppression": {
+    "echec": "A eliminação falhou. Tente novamente.",
+    "bouton": "Eliminar definitivamente a minha conta"
   }
 }

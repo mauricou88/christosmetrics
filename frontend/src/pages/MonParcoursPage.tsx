@@ -12,7 +12,7 @@ import { useAuth } from '../context/AuthContext';
  * La synthèse n'apparaît que si TOUS les fruits individuels sont terminés.
  */
 export function MonParcoursPage() {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const langue = i18n.resolvedLanguage ?? i18n.language;
   const navigate = useNavigate();
   const { user } = useAuth();
@@ -33,13 +33,13 @@ export function MonParcoursPage() {
 
   async function handleTelechargerPdf(passationId: number, nomFruit: string) {
     try {
-      if (!user) throw new Error('Veuillez vous reconnecter.');
+      if (!user) throw new Error(t('mon_parcours.veuillez_reconnecter'));
       await telechargerPdfServeur(
         urlTelechargementPdf(passationId),
         nomRestitutionPdf(nomFruit, user.email),
       );
     } catch (e) {
-      alert('Téléchargement impossible : ' + (e as Error).message);
+      alert(t('mon_parcours.telechargement_impossible', { raison: (e as Error).message }));
     }
   }
 
@@ -50,46 +50,42 @@ export function MonParcoursPage() {
   return (
     <div className="wrap">
       <div className="eyebrow">Mon parcours</div>
-      <h1>Vos tests et votre synthèse</h1>
+      <h1>{t('mon_parcours.page_titre')}</h1>
       <button className="btn ghost sm" onClick={() => navigate('/menu?vue=individuel')} style={{ marginBottom: 20 }}>
-        ← Choisir un autre fruit
+        {t('mon_parcours.retour_fruits')}
       </button>
 
       {synthese.complet && synthese.scoreGlobalArrondi != null && (
         <div className="score-hero" style={{ marginBottom: 30 }}>
           <div>
             <div className="big">{synthese.scoreGlobalArrondi}%</div>
-            <div className="lb">Manifestation globale du fruit de l'Esprit</div>
+            <div className="lb">{t('mon_parcours.manifestation_globale')}</div>
           </div>
           <div className="interp">
-            Vous avez complété <strong>{synthese.nbTestsRealises} tests sur {synthese.nbTestsAttendus}</strong>.
-            Ce score est la moyenne de vos différentes composantes — un instantané de votre cheminement.
+            {t('mon_parcours.synthese_phrase', { realises: synthese.nbTestsRealises, attendus: synthese.nbTestsAttendus })}
           </div>
         </div>
       )}
 
       {!synthese.complet && (
         <div className="qualif" style={{ marginBottom: 24 }}>
-          <h3>Votre progression vers la synthèse globale</h3>
-          <p>
-            <strong>{synthese.nbTestsRealises}</strong> test{synthese.nbTestsRealises > 1 ? 's' : ''} terminé{synthese.nbTestsRealises > 1 ? 's' : ''} sur <strong>{synthese.nbTestsAttendus}</strong>.
-            Complétez tous vos diagnostics individuels pour débloquer la <strong>synthèse CHRISTOS globale</strong>.
-          </p>
+          <h3>{t('mon_parcours.progression_titre')}</h3>
+          <p>{t('mon_parcours.progression_phrase', { realises: synthese.nbTestsRealises, attendus: synthese.nbTestsAttendus })}</p>
         </div>
       )}
 
-      <h2 style={{ marginTop: 30, marginBottom: 12 }}>Historique de vos tests</h2>
+      <h2 style={{ marginTop: 30, marginBottom: 12 }}>{t('mon_parcours.historique_titre')}</h2>
       {synthese.passations.length === 0 ? (
-        <p className="hint">Vous n'avez pas encore commencé de test.</p>
+        <p className="hint">{t('mon_parcours.historique_vide')}</p>
       ) : (
         <div className="card" style={{ padding: 0 }}>
           <table style={{ width: '100%', borderCollapse: 'collapse' }}>
             <thead>
               <tr style={{ background: 'var(--teal-xl)' }}>
-                <th style={{ padding: 12, textAlign: 'left' }}>Fruit</th>
-                <th style={{ padding: 12, textAlign: 'left' }}>État</th>
-                <th style={{ padding: 12, textAlign: 'right' }}>Score</th>
-                <th style={{ padding: 12, textAlign: 'right' }}>Actions</th>
+                <th style={{ padding: 12, textAlign: 'left' }}>{t('mon_parcours.col_fruit')}</th>
+                <th style={{ padding: 12, textAlign: 'left' }}>{t('mon_parcours.col_etat')}</th>
+                <th style={{ padding: 12, textAlign: 'right' }}>{t('mon_parcours.col_score')}</th>
+                <th style={{ padding: 12, textAlign: 'right' }}>{t('mon_parcours.col_actions')}</th>
               </tr>
             </thead>
             <tbody>
@@ -98,20 +94,20 @@ export function MonParcoursPage() {
                   <td style={{ padding: 12 }}>
                     <strong>{p.referentielNom}</strong>
                     <br />
-                    <span className="hint" style={{ fontSize: 12 }}>
-                      Démarré le {new Date(p.debuteeLe).toLocaleDateString('fr-FR')}
+                    <span className="hint" style={{ fontSize: 'var(--fs-small)' }}>
+                      {t('mon_parcours.demarre_le', { date: new Date(p.debuteeLe).toLocaleDateString(i18n.resolvedLanguage ?? i18n.language) })}
                     </span>
                   </td>
                   <td style={{ padding: 12 }}>
                     {p.etat === 'TERMINEE' ? (
-                      <span style={{ color: 'var(--teal)', fontWeight: 600 }}>✓ Terminé</span>
+                      <span style={{ color: 'var(--teal)', fontWeight: 600 }}>{t('mon_parcours.etat_termine')}</span>
                     ) : (
-                      <span style={{ color: 'var(--orange)', fontWeight: 600 }}>⏳ En cours</span>
+                      <span style={{ color: 'var(--orange)', fontWeight: 600 }}>{t('mon_parcours.etat_en_cours')}</span>
                     )}
                   </td>
                   <td style={{ padding: 12, textAlign: 'right' }}>
                     {p.scoreGlobalArrondi != null ? (
-                      <span style={{ color: 'var(--orange)', fontWeight: 'bold', fontSize: 18 }}>
+                      <span style={{ color: 'var(--orange)', fontWeight: 'bold', fontSize: 'var(--fs-lead)' }}>
                         {p.scoreGlobalArrondi}{p.type === 'COUPLE' ? '/36' : '%'}
                       </span>
                     ) : <span className="hint">—</span>}
@@ -119,7 +115,7 @@ export function MonParcoursPage() {
                   <td style={{ padding: 12, textAlign: 'right' }}>
                     {p.etat === 'EN_COURS' && (
                       <button className="btn sm" onClick={() => navigate(`/test/${p.referentielCode}`)}>
-                        Reprendre
+                        {t('mon_parcours.cta_reprendre')}
                       </button>
                     )}
                     {p.etat === 'TERMINEE' && (
@@ -127,12 +123,12 @@ export function MonParcoursPage() {
                         <button className="btn ghost sm"
                                 onClick={() => navigate(`/resultat/${p.passationId}`)}
                                 style={{ marginRight: 6 }}>
-                          Voir
+                          {t('mon_parcours.cta_voir')}
                         </button>
                         {p.pdfDisponible && (
                           <button className="btn sec sm"
                                   onClick={() => handleTelechargerPdf(p.passationId, p.referentielNom)}>
-                            📄 PDF
+                            {t('mon_parcours.cta_pdf')}
                           </button>
                         )}
                       </>

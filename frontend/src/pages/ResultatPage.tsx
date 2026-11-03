@@ -38,7 +38,7 @@ function icones(type: 'TRISTE' | 'NEUTRE' | 'CONTENT', nombre: number, couleurBa
  * au POC.
  */
 export function ResultatPage() {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const langue = i18n.resolvedLanguage ?? i18n.language;
   const { passationId } = useParams<{ passationId: string }>();
   const navigate = useNavigate();
@@ -63,19 +63,19 @@ export function ResultatPage() {
     return <div className="wrap"><p className="hint" style={{ color: '#d45219' }}>{erreur}</p></div>;
   }
   if (!resultat) {
-    return <div className="wrap"><p>Chargement du résultat…</p></div>;
+    return <div className="wrap"><p>{t('resultat.chargement')}</p></div>;
   }
 
   const estCouple = resultat.type === 'COUPLE';
   const suffixeScore = resultat.unite === 'POURCENTAGE' ? '%' : '';
   const libelleScore = resultat.unite === 'POINTS_SUR_36'
-    ? 'points sur 36'
-    : 'de conformité globale';
+    ? t('resultat.points_sur_36')
+    : t('resultat.de_conformite');
 
   return (
     <div className="wrap result-page">
-      <div className="eyebrow">Restitution personnelle · {resultat.referentielNom}</div>
-      <h1>Votre portrait</h1>
+      <div className="eyebrow">{t('resultat.eyebrow', { nom: resultat.referentielNom })}</div>
+      <h1>{t('resultat.titre')}</h1>
 
       <div className="score-hero">
         <div>
@@ -94,11 +94,11 @@ export function ResultatPage() {
 
       <div className="charts">
         <div className="chart">
-          <h3>{estCouple ? 'Portrait du couple' : 'Mon portrait'}</h3>
+          <h3>{estCouple ? t('resultat.portrait_couple') : t('resultat.mon_portrait')}</h3>
           <RadarPortrait dimensions={resultat.dimensions} />
         </div>
         <div className="chart">
-          <h3>Niveau de manifestation par domaine</h3>
+          <h3>{t('resultat.manifestation_par_domaine')}</h3>
           <EntonnoirManifestation dimensions={resultat.dimensions} />
         </div>
       </div>
@@ -106,7 +106,7 @@ export function ResultatPage() {
       {(resultat.top.length > 0 || resultat.flop.length > 0) && (
         <div className="tops">
           <div className="card">
-            <h3>✨ Points forts</h3>
+            <h3>{t('resultat.points_forts')}</h3>
             <ol>
               {resultat.top.map((d, i) => (
                 <li key={i}>
@@ -117,7 +117,7 @@ export function ResultatPage() {
             </ol>
           </div>
           <div className="card">
-            <h3>💪 À travailler</h3>
+            <h3>{t('resultat.a_travailler')}</h3>
             <ol>
               {resultat.flop.map((d, i) => (
                 <li key={i}>
@@ -132,10 +132,8 @@ export function ResultatPage() {
 
       {resultat.bareme.length > 0 && (
         <section className="bareme" aria-labelledby="titre-bareme">
-          <h2 id="titre-bareme">
-            Barème d'interprétation de la conformité globale
-          </h2>
-          <p className="hint bareme-intro">Votre tranche est indiquée en rouge.</p>
+          <h2 id="titre-bareme">{t('resultat.bareme_titre')}</h2>
+          <p className="hint bareme-intro">{t('resultat.bareme_intro')}</p>
           <div className="bareme-list">
             {resultat.bareme.map((tranche, index) => (
               <div
@@ -148,7 +146,7 @@ export function ResultatPage() {
                 </span>
                 <span
                   className="emoji"
-                  aria-label={`${tranche.nombreIcones} niveau(x) ${tranche.typeIcone.toLowerCase()}`}
+                  aria-label={t('resultat.icone_aria', { nb: tranche.nombreIcones, type: tranche.typeIcone.toLowerCase() })}
                 >
                   {icones(tranche.typeIcone, tranche.nombreIcones, tranche.active ? '#FF0000' : '#000000')}
                 </span>
@@ -161,14 +159,12 @@ export function ResultatPage() {
 
       <div className="controls">
         <button className="btn sec" onClick={telechargerEtEnvoyerPdf} disabled={pdfEnCours}>
-          {pdfEnCours ? '⏳ Génération…' : '📄 Enregistrer le PDF et demander l’envoi par e-mail'}
+          {pdfEnCours ? t('resultat.generation_pdf') : t('resultat.enregistrer_pdf')}
         </button>
         <button className="btn ghost" onClick={() => navigate(estCouple ? '/menu' : '/menu?vue=individuel')}>
-          {estCouple ? 'Retour au menu' : 'Choisir un autre fruit'}
+          {estCouple ? t('resultat.retour_menu') : t('resultat.choisir_autre_fruit')}
         </button>
-        <button className="btn ghost sm" onClick={() => navigate('/mon-parcours')}>
-          📊 Mon parcours
-        </button>
+        <button className="btn ghost sm" onClick={() => navigate('/mon-parcours')}>{t('resultat.mon_parcours_cta')}</button>
       </div>
       {pdfMessage && (
         <p className="hint" style={{ marginTop: 10, color: pdfMessage.startsWith('✓') ? 'var(--teal)' : undefined }}>
@@ -188,23 +184,23 @@ export function ResultatPage() {
         fruitConfig, resultatPoc,
         { prenom: user.prenom, nom: user.nom, email: user.email, eglise: user.eglise }
       );
-      setPdfMessage('Choisissez où enregistrer le PDF. Sauvegarde serveur en cours…');
+      setPdfMessage(t('resultat.pdf_choisissez'));
       // Les deux opérations restent indépendantes, même si le sélecteur est annulé.
       const [local, serveur] = await Promise.allSettled([
         telechargerOuPartagerPdf(blob, nomFichier),
         televerserPdf(resultat.passationId, blob, nomFichier),
       ]);
       const messageLocal = local.status === 'fulfilled'
-        ? 'PDF enregistré. Ouverture ou partage effectué sur votre appareil.'
-        : `Enregistrement local : ${local.reason instanceof Error ? local.reason.message : String(local.reason)}`;
+        ? t('resultat.pdf_local_ok')
+        : t('resultat.pdf_erreur_local', { raison: local.reason instanceof Error ? local.reason.message : String(local.reason) });
       const messageServeur = serveur.status === 'fulfilled'
         ? serveur.value.envoiMailDeclenche
-          ? 'PDF sauvegardé sur le serveur. Envoi par e-mail demandé.'
-          : 'PDF sauvegardé sur le serveur. Envoi par e-mail désactivé : configuration SMTP nécessaire.'
-        : `Sauvegarde serveur / e-mail : ${serveur.reason instanceof Error ? serveur.reason.message : String(serveur.reason)}`;
+          ? t('resultat.pdf_serveur_mail_ok')
+          : t('resultat.pdf_serveur_mail_off')
+        : t('resultat.pdf_erreur_serveur', { raison: serveur.reason instanceof Error ? serveur.reason.message : String(serveur.reason) });
       setPdfMessage(`${local.status === 'fulfilled' && serveur.status === 'fulfilled' ? '✓ ' : ''}${messageLocal} ${messageServeur}`);
     } catch (e) {
-      setPdfMessage('Erreur : ' + (e as Error).message);
+      setPdfMessage(t('resultat.pdf_erreur_generique', { message: (e as Error).message }));
     } finally {
       setPdfEnCours(false);
     }

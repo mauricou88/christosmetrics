@@ -17,7 +17,9 @@
     "mon_parcours": "My journey",
     "supprimer_compte": "Delete my account",
     "verset": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness, gentleness and self-control.",
-    "verset_ref": "Galatians 5:22"
+    "verset_ref": "Galatians 5:22",
+    "erreur_prefixe": "Error",
+    "statut_a_commencer": "To start"
   },
   "accueil": {
     "eyebrow": "CHRISTOSMETRICS · Self-assessment",
@@ -237,5 +239,81 @@
     "politique": "Privacy policy",
     "cgu": "Terms of use",
     "copyright": "© {{annee}} Christosmetrics by LA"
+  },
+  "questionnaire": {
+    "chargement": "Loading the questionnaire…",
+    "aucune_question": "No question available.",
+    "question_num": "Question {{num}} of {{total}}",
+    "reponses_enregistrees": "{{nb}} answer(s) saved out of {{total}}",
+    "sauvegarde_en_cours": "Saving…",
+    "erreur_reessayer": "You can try again.",
+    "pour_terminer": "To finish, every answer must be saved. Please select your answer to this question.",
+    "revenir_premiere_manquante": "Go back to the first missing answer",
+    "question_precedente": "← Previous question",
+    "calcul_restitution": "Preparing your report…",
+    "terminer_voir_restitution": "Finish and see my report",
+    "reprendre_plus_tard": "Resume later",
+    "sauvegarde_hint": "💾 Every answer is saved automatically. You can close the tab and resume later.",
+    "echelle": {
+      "jamais": "Never",
+      "rarement": "Rarely",
+      "parfois": "Sometimes",
+      "souvent": "Often",
+      "presque_toujours": "Almost always",
+      "toujours": "Always"
+    }
+  },
+  "resultat": {
+    "chargement": "Loading the result…",
+    "eyebrow": "Personal report · {{nom}}",
+    "titre": "Your portrait",
+    "de_conformite": "overall conformity",
+    "points_sur_36": "points out of 36",
+    "portrait_couple": "Couple portrait",
+    "mon_portrait": "My portrait",
+    "manifestation_par_domaine": "Level of manifestation by domain",
+    "points_forts": "✨ Strengths",
+    "a_travailler": "💪 To work on",
+    "bareme_titre": "Interpretation scale for overall conformity",
+    "bareme_intro": "Your range is highlighted in red.",
+    "enregistrer_pdf": "📄 Save the PDF and request email delivery",
+    "generation_pdf": "⏳ Generating…",
+    "retour_menu": "Back to menu",
+    "choisir_autre_fruit": "Choose another fruit",
+    "mon_parcours_cta": "📊 My journey",
+    "pdf_choisissez": "Choose where to save the PDF. Server upload in progress…",
+    "pdf_local_ok": "PDF saved. Opened or shared on your device.",
+    "pdf_serveur_mail_ok": "PDF saved on the server. Email delivery requested.",
+    "pdf_serveur_mail_off": "PDF saved on the server. Email delivery disabled: SMTP configuration required.",
+    "pdf_erreur_local": "Local save: {{raison}}",
+    "pdf_erreur_serveur": "Server / email save: {{raison}}",
+    "pdf_erreur_generique": "Error: {{message}}",
+    "icone_aria": "{{nb}} {{type}} level(s)"
+  },
+  "mon_parcours": {
+    "veuillez_reconnecter": "Please sign in again.",
+    "telechargement_impossible": "Download failed: {{raison}}",
+    "retour_fruits": "← Choose another fruit",
+    "manifestation_globale": "Overall manifestation of the fruit of the Spirit",
+    "synthese_phrase": "You have completed {{realises}} out of {{attendus}} tests. This score is the average of your different components — a snapshot of your journey.",
+    "progression_titre": "Your progress toward the overall synthesis",
+    "progression_phrase": "{{realises}} test(s) completed out of {{attendus}}. Complete all your individual diagnostics to unlock the overall CHRISTOS synthesis.",
+    "historique_titre": "Your test history",
+    "historique_vide": "You have not started a test yet.",
+    "col_fruit": "Fruit",
+    "col_etat": "State",
+    "col_score": "Score",
+    "col_actions": "Actions",
+    "demarre_le": "Started on {{date}}",
+    "etat_termine": "✓ Completed",
+    "etat_en_cours": "⏳ In progress",
+    "cta_reprendre": "Resume",
+    "cta_voir": "View",
+    "cta_pdf": "📄 PDF",
+    "page_titre": "Your tests and your synthesis"
+  },
+  "suppression": {
+    "echec": "Deletion failed. Please try again.",
+    "bouton": "Permanently delete my account"
   }
 }

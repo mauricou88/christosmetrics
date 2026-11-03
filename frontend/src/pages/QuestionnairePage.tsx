@@ -1,4 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { useQuestionnaire } from '../hooks/useQuestionnaire';
 
 /**
@@ -14,23 +15,30 @@ import { useQuestionnaire } from '../hooks/useQuestionnaire';
  *   - INDIVIDUEL : 5 niveaux (Jamais → Presque toujours)
  *   - COUPLE     : 4 niveaux (Jamais → Toujours)
  */
-const ECHELLE_INDIVIDUEL = [
-  { libelle: 'Jamais', valeur: 1 },
-  { libelle: 'Rarement', valeur: 2 },
-  { libelle: 'Parfois', valeur: 3 },
-  { libelle: 'Souvent', valeur: 4 },
-  { libelle: 'Presque toujours', valeur: 5 },
-];
-const ECHELLE_COUPLE = [
-  { libelle: 'Jamais', valeur: 1 },
-  { libelle: 'Rarement', valeur: 2 },
-  { libelle: 'Souvent', valeur: 3 },
-  { libelle: 'Toujours', valeur: 4 },
-];
+type Niveau = { libelle: string; valeur: number };
+/** Construit l'echelle Likert dans la langue courante (lue via i18n). */
+function echelleIndividuel(t: (k: string) => string): Niveau[] {
+  return [
+    { libelle: t('questionnaire.echelle.jamais'), valeur: 1 },
+    { libelle: t('questionnaire.echelle.rarement'), valeur: 2 },
+    { libelle: t('questionnaire.echelle.parfois'), valeur: 3 },
+    { libelle: t('questionnaire.echelle.souvent'), valeur: 4 },
+    { libelle: t('questionnaire.echelle.presque_toujours'), valeur: 5 },
+  ];
+}
+function echelleCouple(t: (k: string) => string): Niveau[] {
+  return [
+    { libelle: t('questionnaire.echelle.jamais'), valeur: 1 },
+    { libelle: t('questionnaire.echelle.rarement'), valeur: 2 },
+    { libelle: t('questionnaire.echelle.souvent'), valeur: 3 },
+    { libelle: t('questionnaire.echelle.toujours'), valeur: 4 },
+  ];
+}
 
 export function QuestionnairePage() {
   const { code } = useParams<{ code: string }>();
   const navigate = useNavigate();
+  const { t } = useTranslation();
   const {
     referentiel, questionCourante, indexCourant, total,
     reponses, chargement, erreur, nbRepondues, complet, progression,
@@ -38,19 +46,19 @@ export function QuestionnairePage() {
     repondre, precedent, finaliser, estDerniere,
   } = useQuestionnaire(code!);
 
-  if (chargement) return <div className="wrap"><p>Chargement du questionnaire…</p></div>;
+  if (chargement) return <div className="wrap"><p>{t('questionnaire.chargement')}</p></div>;
   if (erreur && !referentiel) return (
     <div className="wrap">
       <p className="hint" role="alert" style={{ color: '#d45219' }}>{erreur}</p>
       <div className="controls">
-        <button className="btn" onClick={() => window.location.reload()}>Réessayer</button>
-        <button className="btn ghost" onClick={() => navigate('/menu?vue=individuel')}>Retour aux fruits</button>
+        <button className="btn" onClick={() => window.location.reload()}>{t('commun.reessayer')}</button>
+        <button className="btn ghost" onClick={() => navigate('/menu?vue=individuel')}>{t('commun.retour')}</button>
       </div>
     </div>
   );
-  if (!referentiel || !questionCourante) return <div className="wrap"><p>Aucune question disponible.</p></div>;
+  if (!referentiel || !questionCourante) return <div className="wrap"><p>{t('questionnaire.aucune_question')}</p></div>;
 
-  const echelle = referentiel.type === 'COUPLE' ? ECHELLE_COUPLE : ECHELLE_INDIVIDUEL;
+  const echelle = referentiel.type === 'COUPLE' ? echelleCouple(t) : echelleIndividuel(t);
   const dejaRepondu = reponses[questionCourante.id];
   const occupe = enregistrement || finalisation;
 
@@ -71,8 +79,8 @@ export function QuestionnairePage() {
     <div className="wrap">
       {/* Barre de progression */}
       <div className="rail"><i style={{ width: `${progression}%` }} /></div>
-      <div className="pcount">Question {indexCourant + 1} sur {total}</div>
-      <p className="hint" role="status">{nbRepondues} réponse(s) enregistrée(s) sur {total}{enregistrement ? ' · Sauvegarde en cours…' : ''}</p>
+      <div className="pcount">{t('questionnaire.question_num', { num: indexCourant + 1, total })}</div>
+      <p className="hint" role="status">{t('questionnaire.reponses_enregistrees', { nb: nbRepondues, total })}{enregistrement ? ` · ${t('questionnaire.sauvegarde_en_cours')}` : ''}</p>
 
       {dimensionCourante && (
         <div className="qhead">
@@ -97,30 +105,30 @@ export function QuestionnairePage() {
         </div>
       </div>
 
-      {erreur && <p className="hint" role="alert" style={{ color: '#d45219' }}>{erreur} Vous pouvez réessayer.</p>}
+      {erreur && <p className="hint" role="alert" style={{ color: '#d45219' }}>{erreur} {t('questionnaire.erreur_reessayer')}</p>}
       {estDerniere && !complet && !occupe && (
-        <p className="hint">Pour terminer, toutes les réponses doivent être enregistrées. Sélectionnez votre réponse à cette question.</p>
+        <p className="hint">{t('questionnaire.pour_terminer')}</p>
       )}
       {estDerniere && premiereSansReponse >= 0 && premiereSansReponse !== indexCourant && (
-        <button className="btn ghost" disabled={occupe} onClick={allerPremiereSansReponse}>Revenir à la première réponse manquante</button>
+        <button className="btn ghost" disabled={occupe} onClick={allerPremiereSansReponse}>{t('questionnaire.revenir_premiere_manquante')}</button>
       )}
 
       <div className="controls">
         <button className="btn ghost" onClick={precedent} disabled={indexCourant === 0 || occupe}>
-          ← Question précédente
+          {t('questionnaire.question_precedente')}
         </button>
         {(estDerniere || complet) && (
           <button className="btn sec" onClick={terminer}
                   disabled={!complet || occupe}>
-            {finalisation ? 'Calcul de votre restitution…' : 'Terminer et voir ma restitution'}
+            {finalisation ? t('questionnaire.calcul_restitution') : t('questionnaire.terminer_voir_restitution')}
           </button>
         )}
         <button className="btn ghost sm" disabled={occupe} onClick={() => navigate(referentiel.type === 'INDIVIDUEL' ? '/menu?vue=individuel' : '/menu')}>
-          Reprendre plus tard
+          {t('questionnaire.reprendre_plus_tard')}
         </button>
       </div>
       <p className="hint" style={{ marginTop: 10 }}>
-        💾 Chaque réponse est sauvegardée automatiquement. Vous pouvez fermer l'onglet et reprendre plus tard.
+        {t('questionnaire.sauvegarde_hint')}
       </p>
     </div>
   );

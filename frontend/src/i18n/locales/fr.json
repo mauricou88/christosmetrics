@@ -17,7 +17,9 @@
     "mon_parcours": "Mon parcours",
     "supprimer_compte": "Supprimer mon compte",
     "verset": "« Mais le fruit de l’Esprit, c’est l’amour, la joie, la paix, la patience, la bonté, la bienveillance, la fidélité, la douceur, la maîtrise de soi. »",
-    "verset_ref": "Galates 5.22"
+    "verset_ref": "Galates 5.22",
+    "erreur_prefixe": "Erreur",
+    "statut_a_commencer": "À commencer"
   },
   "accueil": {
     "eyebrow": "CHRISTOSMETRICS · Auto-diagnostic",
@@ -237,5 +239,81 @@
     "politique": "Politique de confidentialité",
     "cgu": "Conditions d'utilisation",
     "copyright": "© {{annee}} Christosmetrics by LA"
+  },
+  "questionnaire": {
+    "chargement": "Chargement du questionnaire…",
+    "aucune_question": "Aucune question disponible.",
+    "question_num": "Question {{num}} sur {{total}}",
+    "reponses_enregistrees": "{{nb}} réponse(s) enregistrée(s) sur {{total}}",
+    "sauvegarde_en_cours": "Sauvegarde en cours…",
+    "erreur_reessayer": "Vous pouvez réessayer.",
+    "pour_terminer": "Pour terminer, toutes les réponses doivent être enregistrées. Sélectionnez votre réponse à cette question.",
+    "revenir_premiere_manquante": "Revenir à la première réponse manquante",
+    "question_precedente": "← Question précédente",
+    "calcul_restitution": "Calcul de votre restitution…",
+    "terminer_voir_restitution": "Terminer et voir ma restitution",
+    "reprendre_plus_tard": "Reprendre plus tard",
+    "sauvegarde_hint": "💾 Chaque réponse est sauvegardée automatiquement. Vous pouvez fermer l’onglet et reprendre plus tard.",
+    "echelle": {
+      "jamais": "Jamais",
+      "rarement": "Rarement",
+      "parfois": "Parfois",
+      "souvent": "Souvent",
+      "presque_toujours": "Presque toujours",
+      "toujours": "Toujours"
+    }
+  },
+  "resultat": {
+    "chargement": "Chargement du résultat…",
+    "eyebrow": "Restitution personnelle · {{nom}}",
+    "titre": "Votre portrait",
+    "de_conformite": "de conformité globale",
+    "points_sur_36": "points sur 36",
+    "portrait_couple": "Portrait du couple",
+    "mon_portrait": "Mon portrait",
+    "manifestation_par_domaine": "Niveau de manifestation par domaine",
+    "points_forts": "✨ Points forts",
+    "a_travailler": "💪 À travailler",
+    "bareme_titre": "Barème d’interprétation de la conformité globale",
+    "bareme_intro": "Votre tranche est indiquée en rouge.",
+    "enregistrer_pdf": "📄 Enregistrer le PDF et demander l’envoi par e-mail",
+    "generation_pdf": "⏳ Génération…",
+    "retour_menu": "Retour au menu",
+    "choisir_autre_fruit": "Choisir un autre fruit",
+    "mon_parcours_cta": "📊 Mon parcours",
+    "pdf_choisissez": "Choisissez où enregistrer le PDF. Sauvegarde serveur en cours…",
+    "pdf_local_ok": "PDF enregistré. Ouverture ou partage effectué sur votre appareil.",
+    "pdf_serveur_mail_ok": "PDF sauvegardé sur le serveur. Envoi par e-mail demandé.",
+    "pdf_serveur_mail_off": "PDF sauvegardé sur le serveur. Envoi par e-mail désactivé : configuration SMTP nécessaire.",
+    "pdf_erreur_local": "Enregistrement local : {{raison}}",
+    "pdf_erreur_serveur": "Sauvegarde serveur / e-mail : {{raison}}",
+    "pdf_erreur_generique": "Erreur : {{message}}",
+    "icone_aria": "{{nb}} niveau(x) {{type}}"
+  },
+  "mon_parcours": {
+    "veuillez_reconnecter": "Veuillez vous reconnecter.",
+    "telechargement_impossible": "Téléchargement impossible : {{raison}}",
+    "retour_fruits": "← Choisir un autre fruit",
+    "manifestation_globale": "Manifestation globale du fruit de l’Esprit",
+    "synthese_phrase": "Vous avez complété {{realises}} tests sur {{attendus}}. Ce score est la moyenne de vos différentes composantes — un instantané de votre cheminement.",
+    "progression_titre": "Votre progression vers la synthèse globale",
+    "progression_phrase": "{{realises}} test(s) terminé(s) sur {{attendus}}. Complétez tous vos diagnostics individuels pour débloquer la synthèse CHRISTOS globale.",
+    "historique_titre": "Historique de vos tests",
+    "historique_vide": "Vous n’avez pas encore commencé de test.",
+    "col_fruit": "Fruit",
+    "col_etat": "État",
+    "col_score": "Score",
+    "col_actions": "Actions",
+    "demarre_le": "Démarré le {{date}}",
+    "etat_termine": "✓ Terminé",
+    "etat_en_cours": "⏳ En cours",
+    "cta_reprendre": "Reprendre",
+    "cta_voir": "Voir",
+    "cta_pdf": "📄 PDF",
+    "page_titre": "Vos tests et votre synthèse"
+  },
+  "suppression": {
+    "echec": "La suppression a échoué. Veuillez réessayer.",
+    "bouton": "Supprimer définitivement mon compte"
   }
 }
