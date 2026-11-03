@@ -3,7 +3,7 @@ import { getToken } from './client';
 
 const BASE_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:8080';
 
-/** Téléverse le PDF généré côté client ; le serveur le stocke + envoie par mail. */
+/** Téléverse le PDF généré côté client pour le sauvegarder sur le serveur. */
 export async function televerserPdf(
   passationId: number, fichier: Blob, nomFichier: string
 ): Promise<{ pdfId: number; tailleOctets: number; hashSha256: string; envoiMailDeclenche: boolean }> {

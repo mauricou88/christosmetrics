@@ -12,26 +12,24 @@ import java.security.MessageDigest;
 import java.util.NoSuchElementException;
 
 /**
- * Enregistre le PDF produit par le client (rendu identique au POC) et déclenche
- * l'envoi par e-mail. Idempotent : un nouvel upload remplace l'existant.
+ * Enregistre le PDF produit par le client (rendu identique au POC).
+ * Idempotent : un nouvel upload remplace l'existant. L'envoi par e-mail est suspendu.
  */
 @Service
 public class RestitutionPdfService {
 
     private final RestitutionPdfRepository pdfRepo;
     private final PassationRepository passationRepo;
-    private final MailService mailService;
 
     public RestitutionPdfService(RestitutionPdfRepository pdfRepo,
-                                 PassationRepository passationRepo,
-                                 MailService mailService) {
+                                 PassationRepository passationRepo) {
         this.pdfRepo = pdfRepo;
         this.passationRepo = passationRepo;
-        this.mailService = mailService;
     }
 
+    /** Sauvegarde la restitution sans déclencher d'envoi par e-mail. */
     @Transactional
-    public RestitutionPdf enregistrerEtEnvoyer(User user, Long passationId,
+    public RestitutionPdf enregistrer(User user, Long passationId,
                                                String nomFichier, byte[] contenu) {
         Passation p = charger(user, passationId);
         if (!p.estTerminee()) {
@@ -44,12 +42,7 @@ public class RestitutionPdfService {
             pdfRepo.flush();
         }
         RestitutionPdf pdf = pdfRepo.save(new RestitutionPdf(p, nomFichier, contenu, hash));
-        mailService.envoyerRestitution(user, p, pdf);
         return pdf;
-    }
-
-    public boolean envoiMailActif() {
-        return mailService.estActif();
     }
 
     @Transactional(readOnly = true)

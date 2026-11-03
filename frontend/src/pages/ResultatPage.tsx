@@ -160,7 +160,7 @@ export function ResultatPage() {
       )}
 
       <div className="controls">
-        <button className="btn sec" onClick={telechargerEtEnvoyerPdf} disabled={pdfEnCours}>
+        <button className="btn sec" onClick={telechargerEtSauvegarderPdf} disabled={pdfEnCours}>
           {pdfEnCours ? t('resultat.generation_pdf') : t('resultat.enregistrer_pdf')}
         </button>
         <button className="btn ghost" onClick={() => navigate(estCouple ? '/menu' : '/menu?vue=individuel')}>
@@ -176,8 +176,8 @@ export function ResultatPage() {
     </div>
   );
 
-  /** Génère le PDF (rendu POC) côté client, télécharge + envoie au serveur. */
-  async function telechargerEtEnvoyerPdf() {
+  /** Génère le PDF, le télécharge et le sauvegarde sur le serveur sans envoi par e-mail. */
+  async function telechargerEtSauvegarderPdf() {
     if (!resultat || !user) return;
     setPdfEnCours(true); setPdfMessage(null);
     try {
@@ -199,9 +199,7 @@ export function ResultatPage() {
         ? t('resultat.pdf_local_ok')
         : t('resultat.pdf_erreur_local', { raison: local.reason instanceof Error ? local.reason.message : String(local.reason) });
       const messageServeur = serveur.status === 'fulfilled'
-        ? serveur.value.envoiMailDeclenche
-          ? t('resultat.pdf_serveur_mail_ok')
-          : t('resultat.pdf_serveur_mail_off')
+        ? t('resultat.pdf_serveur_ok')
         : t('resultat.pdf_erreur_serveur', { raison: serveur.reason instanceof Error ? serveur.reason.message : String(serveur.reason) });
       setPdfMessage(`${local.status === 'fulfilled' && serveur.status === 'fulfilled' ? '✓ ' : ''}${messageLocal} ${messageServeur}`);
     } catch (e) {

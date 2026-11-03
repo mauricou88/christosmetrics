@@ -39,6 +39,7 @@ public class RestitutionPdfController {
         this.rateLimiter = rateLimiter;
     }
 
+    /** Téléverse le PDF pour sauvegarde uniquement ; l'envoi par e-mail est suspendu. */
     @PostMapping(path = "/{id}/pdf", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public UploadResponse televerser(@AuthenticationPrincipal User user,
                                      @PathVariable Long id,
@@ -50,8 +51,8 @@ public class RestitutionPdfController {
         validerPdf(fichier);
 
         String nom = sanitiserNomFichier(fichier.getOriginalFilename());
-        RestitutionPdf pdf = pdfService.enregistrerEtEnvoyer(user, id, nom, fichier.getBytes());
-        return new UploadResponse(pdf.getId(), pdf.getTailleOctets(), pdf.getHashSha256(), pdfService.envoiMailActif());
+        RestitutionPdf pdf = pdfService.enregistrer(user, id, nom, fichier.getBytes());
+        return new UploadResponse(pdf.getId(), pdf.getTailleOctets(), pdf.getHashSha256(), false);
     }
 
     @GetMapping("/{id}/pdf")
