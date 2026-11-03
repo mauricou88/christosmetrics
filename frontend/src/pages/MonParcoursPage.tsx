@@ -2,9 +2,12 @@ import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import { chargerMonParcours, type SyntheseGlobale } from '../api/synthese';
-import { urlTelechargementPdf } from '../api/pdf';
-import { telechargerPdfServeur } from '../utils/telechargementPdf';
+import { chargerResultat } from '../api/passations';
+import { televerserPdf } from '../api/pdf';
+import { telechargerOuPartagerPdf } from '../utils/telechargementPdf';
 import { nomRestitutionPdf } from '../utils/nomRestitutionPdf';
+import { genererRestitutionPdf, type LanguePdf } from '../utils/pdfGenerator';
+import { donneesRestitutionPdf } from '../utils/donneesRestitutionPdf';
 import { useAuth } from '../context/AuthContext';
 
 /**
@@ -19,6 +22,8 @@ export function MonParcoursPage() {
   const [synthese, setSynthese] = useState<SyntheseGlobale | null>(null);
   const [erreur, setErreur] = useState<string | null>(null);
   const [chargement, setChargement] = useState(true);
+  const [regenerationEnCours, setRegenerationEnCours] = useState<number | null>(null);
+  const [messageRegen, setMessageRegen] = useState<{ id: number; type: 'ok' | 'ko'; texte: string } | null>(null);
 
   useEffect(() => {
     let annule = false;
@@ -31,15 +36,46 @@ export function MonParcoursPage() {
     return () => { annule = true; };
   }, [langue]);
 
+  /** Regenere le PDF dans la langue courante puis le partage ET le re-upload serveur. */
   async function handleTelechargerPdf(passationId: number, nomFruit: string) {
+    if (regenerationEnCours != null) return;
+    setRegenerationEnCours(passationId);
+    setMessageRegen(null);
     try {
       if (!user) throw new Error(t('mon_parcours.veuillez_reconnecter'));
-      await telechargerPdfServeur(
-        urlTelechargementPdf(passationId),
-        nomRestitutionPdf(nomFruit, user.email),
+      const langueCourt = (langue ?? 'fr').slice(0, 2) as LanguePdf;
+      // 1. Recharger le resultat complet (le backend renvoie les textes dans la langue courante)
+      const resultat = await chargerResultat(passationId);
+      // 2. Composer les donnees PDF dans la bonne langue
+      const { fruitConfig, resultatPoc } = donneesRestitutionPdf(resultat, langueCourt);
+      // 3. Generer le PDF client dans la langue courante
+      const { blob, nomFichier } = genererRestitutionPdf(
+        fruitConfig, resultatPoc,
+        { prenom: user.prenom, nom: user.nom, email: user.email, eglise: user.eglise },
+        undefined,
+        langueCourt,
       );
+      // 4. Partage/telechargement local + upload serveur en parallele
+      const [local, serveur] = await Promise.allSettled([
+        telechargerOuPartagerPdf(blob, nomFichier ?? nomRestitutionPdf(nomFruit, user.email)),
+        televerserPdf(passationId, blob, nomFichier ?? nomRestitutionPdf(nomFruit, user.email)),
+      ]);
+      const localOk = local.status === 'fulfilled';
+      const serveurOk = serveur.status === 'fulfilled';
+      if (localOk && serveurOk) {
+        setMessageRegen({ id: passationId, type: 'ok', texte: t('mon_parcours.regen_ok') });
+      } else if (localOk) {
+        setMessageRegen({ id: passationId, type: 'ok', texte: t('mon_parcours.regen_local_seul') });
+      } else {
+        const raison = local.status === 'rejected'
+          ? (local.reason instanceof Error ? local.reason.message : String(local.reason))
+          : '';
+        throw new Error(raison || 'inconnue');
+      }
     } catch (e) {
-      alert(t('mon_parcours.telechargement_impossible', { raison: (e as Error).message }));
+      setMessageRegen({ id: passationId, type: 'ko', texte: t('mon_parcours.telechargement_impossible', { raison: (e as Error).message }) });
+    } finally {
+      setRegenerationEnCours(null);
     }
   }
 
@@ -125,11 +161,21 @@ export function MonParcoursPage() {
                                 style={{ marginRight: 6 }}>
                           {t('mon_parcours.cta_voir')}
                         </button>
-                        {p.pdfDisponible && (
-                          <button className="btn sec sm"
-                                  onClick={() => handleTelechargerPdf(p.passationId, p.referentielNom)}>
-                            {t('mon_parcours.cta_pdf')}
-                          </button>
+                        <button className="btn sec sm"
+                                disabled={regenerationEnCours === p.passationId}
+                                onClick={() => handleTelechargerPdf(p.passationId, p.referentielNom)}>
+                          {regenerationEnCours === p.passationId
+                            ? t('mon_parcours.regen_en_cours')
+                            : t('mon_parcours.cta_pdf')}
+                        </button>
+                        {messageRegen?.id === p.passationId && (
+                          <div className="hint" style={{
+                            marginTop: 6,
+                            fontSize: 'var(--fs-caption)',
+                            color: messageRegen.type === 'ok' ? 'var(--teal)' : '#d45219',
+                          }}>
+                            {messageRegen.texte}
+                          </div>
                         )}
                       </>
                     )}

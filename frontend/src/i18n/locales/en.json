@@ -310,7 +310,10 @@
     "cta_reprendre": "Resume",
     "cta_voir": "View",
     "cta_pdf": "📄 PDF",
-    "page_titre": "Your tests and your synthesis"
+    "page_titre": "Your tests and your synthesis",
+    "regen_en_cours": "⏳ Generating…",
+    "regen_ok": "✓ PDF regenerated in your current language.",
+    "regen_local_seul": "✓ PDF saved locally. Server upload failed."
   },
   "suppression": {
     "echec": "Deletion failed. Please try again.",

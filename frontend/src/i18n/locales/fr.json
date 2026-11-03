@@ -310,7 +310,10 @@
     "cta_reprendre": "Reprendre",
     "cta_voir": "Voir",
     "cta_pdf": "📄 PDF",
-    "page_titre": "Vos tests et votre synthèse"
+    "page_titre": "Vos tests et votre synthèse",
+    "regen_en_cours": "⏳ Génération…",
+    "regen_ok": "✓ PDF régénéré dans votre langue courante.",
+    "regen_local_seul": "✓ PDF enregistré localement. Upload serveur échoué."
   },
   "suppression": {
     "echec": "La suppression a échoué. Veuillez réessayer.",

@@ -310,7 +310,10 @@
     "cta_reprendre": "Continuar",
     "cta_voir": "Ver",
     "cta_pdf": "📄 PDF",
-    "page_titre": "Sus tests y su síntesis"
+    "page_titre": "Sus tests y su síntesis",
+    "regen_en_cours": "⏳ Generando…",
+    "regen_ok": "✓ PDF regenerado en su idioma actual.",
+    "regen_local_seul": "✓ PDF guardado localmente. Subida al servidor fallida."
   },
   "suppression": {
     "echec": "La eliminación ha fallado. Inténtelo de nuevo.",
