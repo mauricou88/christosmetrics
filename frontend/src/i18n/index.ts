@@ -22,7 +22,8 @@ void i18n
       pt: { translation: pt },
     },
     detection: {
-      order: ['localStorage', 'navigator'],
+      // Sans préférence mémorisée, utiliser le français plutôt que la langue du navigateur.
+      order: ['localStorage'],
       lookupLocalStorage: 'langue-preference',
       caches: ['localStorage'],
     },
