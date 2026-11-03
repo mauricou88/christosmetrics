@@ -21,6 +21,14 @@
     "erreur_prefixe": "Error",
     "statut_a_commencer": "To start"
   },
+  "navigation_entree": {
+    "notice": "User guide",
+    "menu": "Menu",
+    "label": "Account navigation",
+    "inscription": "Sign up",
+    "connexion": "Log in",
+    "espace": "My space"
+  },
   "accueil": {
     "eyebrow": "CHRISTOSMETRICS · Self-assessment",
     "titre": "How is the fruit of the Spirit growing in your life?",
@@ -48,9 +56,9 @@
     "individuel_label": "Individual assessments:",
     "fruits_disponibles": "Love, Joy, Peace, Patience, Goodness & Kindness, and Faithfulness.",
     "fruits_a_concevoir": "Gentleness and Self-control have yet to be developed.",
-    "cta_parcours": "Return to my journeys",
-    "cta_commencer": "Create my account and get started",
-    "cta_connexion": "Sign in"
+    "cta_parcours": "Continue my journey",
+    "cta_commencer": "Create my account",
+    "cta_connexion": "Already have an account? Sign in"
   },
   "auth": {
     "champs": {

@@ -38,25 +38,53 @@ test('stockage bloqué : le choix reste mémorisé pendant la session sans excep
   assert.equal(preference.introductionVideoTraitee(), true);
 });
 
-test('accueil : proposition facultative, aucun lecteur avant clic, bouton de relecture ensuite', () => {
+test('accueil : accès au compte sous la vidéo, puis action adaptée à la session', () => {
+  let estConnecte = false;
   const fr = JSON.parse(fs.readFileSync(path.join(__dirname, '../src/i18n/locales/fr.json'), 'utf8'));
   const { AccueilPage } = charger('src/pages/AccueilPage.tsx', {}, {
     'react-i18next': { useTranslation: () => ({ t: cle => cle.split('.').reduce((obj, segment) => obj?.[segment], fr) ?? cle }) },
-    '../context/AuthContext': { useAuth: () => ({ estConnecte: false, user: null }) },
+    '../context/AuthContext': { useAuth: () => ({ estConnecte, user: null }) },
     '../hooks/useMoi': { useMoi: () => ({ moi: null, chargement: false, rafraichir() {} }) },
     '../components/BadgeStreak': { BadgeStreak: () => null },
     '../components/JaugeChristos': { JaugeChristos: () => null },
-    '../components/IntroVideo': { IntroVideo: () => React.createElement('video') },
+    '../components/IntroVideo': { IntroVideo: props => React.createElement('video', { 'data-affichage': props.affichage }) },
   });
   const rendu = proposerVideo => renderToStaticMarkup(React.createElement(StaticRouter, { location: '/' },
     React.createElement(AccueilPage, { proposerVideo, onIntroductionTraitee() {} })));
   const initial = rendu(true);
   assert.ok(initial.includes('Découvrir CHRISTOSMETRICS en vidéo'));
-  assert.ok(initial.includes('Passer'));
   assert.ok(initial.includes('href="/inscription"'));
-  assert.ok(!initial.includes('<video'));
+  assert.ok(initial.includes('href="/connexion"'));
+  assert.ok(initial.includes('Créer mon compte'));
+  assert.ok(initial.indexOf('accueil-actions-compte') > initial.indexOf('<video'));
+  assert.ok(!initial.includes('etapes-parcours'));
+  assert.ok(initial.includes('<video data-affichage="integre"'));
   const suivant = rendu(false);
-  assert.ok(!suivant.includes('accueil-intro-video-titre'));
-  assert.ok(suivant.includes('Voir la vidéo de présentation'));
-  assert.ok(!suivant.includes('<video'));
+  assert.ok(!suivant.includes('>Passer<'));
+  assert.ok(!suivant.includes('Voir la vidéo de présentation'));
+  assert.ok(suivant.includes('href="/inscription"'));
+  assert.ok(suivant.includes('href="/connexion"'));
+  assert.ok(suivant.includes('<video data-affichage="integre"'));
+  estConnecte = true;
+  const connecte = rendu(false);
+  assert.ok(connecte.includes('Continuer mon parcours'));
+  assert.ok(connecte.includes('href="/menu"'));
+  assert.ok(!connecte.includes('href="/inscription"'));
+  assert.ok(!connecte.includes('href="/connexion"'));
+  assert.ok(!connecte.includes('Voir la vidéo de présentation'));
+});
+
+test('notice publique : les quatre étapes restent disponibles dans chaque langue', () => {
+  for (const langue of ['fr', 'en', 'es', 'pt']) {
+    const textes = JSON.parse(fs.readFileSync(path.join(__dirname, `../src/i18n/locales/${langue}.json`), 'utf8'));
+    const { NoticeUtilisationPage } = charger('src/pages/NoticeUtilisationPage.tsx', {}, {
+      'react-i18next': { useTranslation: () => ({ t: cle => cle.split('.').reduce((obj, segment) => obj?.[segment], textes) ?? cle }) },
+    });
+    const html = renderToStaticMarkup(React.createElement(StaticRouter, { location: '/notice-utilisation' },
+      React.createElement(NoticeUtilisationPage)));
+    assert.equal((html.match(/<li>/g) ?? []).length, 4);
+    assert.ok(html.includes(textes.navigation_entree.notice));
+    assert.ok(html.includes('href="/"'));
+    assert.ok(!html.includes('accueil.etapes.'));
+  }
 });

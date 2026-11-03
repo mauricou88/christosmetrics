@@ -21,6 +21,14 @@
     "erreur_prefixe": "Erro",
     "statut_a_commencer": "Por começar"
   },
+  "navigation_entree": {
+    "notice": "Guia de utilização",
+    "menu": "Menu",
+    "label": "Acesso à conta",
+    "inscription": "Criar conta",
+    "connexion": "Iniciar sessão",
+    "espace": "O meu espaço"
+  },
   "accueil": {
     "eyebrow": "CHRISTOSMETRICS · Autodiagnóstico",
     "titre": "Como está a crescer o fruto do Espírito na sua vida?",
@@ -48,9 +56,9 @@
     "individuel_label": "Avaliações individuais:",
     "fruits_disponibles": "Amor, Alegria, Paz, Paciência, Bondade e Benignidade, e Fidelidade.",
     "fruits_a_concevoir": "Mansidão e Domínio próprio estão por desenvolver.",
-    "cta_parcours": "Voltar aos meus percursos",
-    "cta_commencer": "Criar a minha conta e começar",
-    "cta_connexion": "Iniciar sessão"
+    "cta_parcours": "Continuar o meu percurso",
+    "cta_commencer": "Criar a minha conta",
+    "cta_connexion": "Já tenho conta — Iniciar sessão"
   },
   "auth": {
     "champs": {

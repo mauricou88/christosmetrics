@@ -21,6 +21,14 @@
     "erreur_prefixe": "Erreur",
     "statut_a_commencer": "À commencer"
   },
+  "navigation_entree": {
+    "notice": "Notice d’utilisation",
+    "menu": "Menu",
+    "label": "Accès au compte",
+    "inscription": "S’inscrire",
+    "connexion": "Se connecter",
+    "espace": "Mon espace"
+  },
   "accueil": {
     "eyebrow": "CHRISTOSMETRICS · Auto-diagnostic",
     "titre": "Où en êtes-vous du fruit de l’Esprit ?",
@@ -48,9 +56,9 @@
     "individuel_label": "En individuel :",
     "fruits_disponibles": "Amour, Joie, Paix, Patience, Bonté & Bienveillance et Fidélité.",
     "fruits_a_concevoir": "Douceur et Maîtrise de soi sont à concevoir.",
-    "cta_parcours": "Retrouver mes parcours",
-    "cta_commencer": "Créer mon compte et commencer",
-    "cta_connexion": "Se connecter"
+    "cta_parcours": "Continuer mon parcours",
+    "cta_commencer": "Créer mon compte",
+    "cta_connexion": "J’ai déjà un compte — Se connecter"
   },
   "auth": {
     "champs": {

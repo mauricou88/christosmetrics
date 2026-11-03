@@ -13,7 +13,9 @@ import { ConditionsUtilisationPage } from './pages/ConditionsUtilisationPage';
 import { StatusReseau } from './components/StatusReseau';
 import { Footer } from './components/Footer';
 import { BottomNav } from './components/BottomNav';
+import { MenuEntree } from './components/MenuEntree';
 import { AccueilPage } from './pages/AccueilPage';
+import { NoticeUtilisationPage } from './pages/NoticeUtilisationPage';
 import { OnboardingPage } from './pages/OnboardingPage';
 import { introductionVideoTraitee, memoriserIntroductionVideo } from './utils/preferenceIntroductionVideo';
 import { useEffect, useState, type ReactNode } from 'react';
@@ -82,7 +84,7 @@ function ContenuApp() {
   return (
     <div className={afficherBottomNav ? 'avec-bottom-nav' : undefined}>
         <RetourEnHaut />
-        {!introduction && <Header />}
+        {!introduction && <Header afficherMenu={afficherFooter} />}
         <StatusReseau />
         <main className={introduction ? 'onboarding-main' : undefined}>
           <Routes>
@@ -90,6 +92,7 @@ function ContenuApp() {
               ? <div className="wrap" role="status">…</div>
               : <AccueilPage proposerVideo={!videoTraitee} onIntroductionTraitee={terminerIntroduction} />} />
             <Route path="/onboarding" element={<OnboardingPage onTermine={terminerIntroduction} />} />
+            <Route path="/notice-utilisation" element={<NoticeUtilisationPage />} />
             <Route path="/connexion" element={<EntreeSiDeja />} />
             <Route path="/inscription" element={<EntreeSiDeja inscription />} />
             <Route path="/politique-confidentialite" element={<PolitiqueConfidentialitePage />} />
@@ -109,17 +112,20 @@ function ContenuApp() {
   );
 }
 
-/** Bandeau supérieur conforme au POC (logo officiel + baseline). */
-function Header() {
+/** Centre le bloc logo-signature et réserve un emplacement au menu à droite. */
+function Header({ afficherMenu }: { afficherMenu: boolean }) {
   return (
     <header className="top">
       <div className="top-in">
-        <Link to="/" aria-label="CHRISTOSMETRICS — Accueil"><img
-          src="/christosmetrics-logo.png"
-          alt="CHRISTOSMETRICS"
-          className="brand-logo"
-        /></Link>
-        <span className="sig">Mesurer pour devenir Christ</span>
+        <div className="brand-lockup">
+          <Link className="brand-link" to="/" aria-label="CHRISTOSMETRICS — Accueil"><img
+            src="/christosmetrics-logo.png"
+            alt="CHRISTOSMETRICS"
+            className="brand-logo"
+          /></Link>
+          <span className="sig">Mesurer pour devenir Christ</span>
+        </div>
+        {afficherMenu && <MenuEntree />}
       </div>
     </header>
   );
