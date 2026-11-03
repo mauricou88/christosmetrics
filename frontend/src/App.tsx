@@ -15,6 +15,7 @@ import { Footer } from './components/Footer';
 import { BottomNav } from './components/BottomNav';
 import { AccueilPage } from './pages/AccueilPage';
 import { OnboardingPage } from './pages/OnboardingPage';
+import { introductionVideoTraitee, memoriserIntroductionVideo } from './utils/preferenceIntroductionVideo';
 import { useEffect, useState, type ReactNode } from 'react';
 
 function RetourEnHaut() {
@@ -66,18 +67,16 @@ export function App() {
 function ContenuApp() {
   const { pathname } = useLocation();
   const { estConnecte, chargement } = useAuth();
-  const [onboardingDone, setOnboardingDone] = useState(() => {
-    try { return localStorage.getItem('onboarding-done') === 'true'; }
-    catch { return false; }
-  });
+  const [videoTraitee, setVideoTraitee] = useState(introductionVideoTraitee);
   const introduction = /^\/onboarding\/?$/i.test(pathname);
   const pagesSansFooter = /^\/(test\/[^/]+|onboarding)\/?$/i;
   const afficherFooter = !pagesSansFooter.test(pathname);
   const afficherBottomNav = estConnecte && afficherFooter;
 
-  /** Retient aussi la fin de l’introduction en mémoire si localStorage est inaccessible. */
+  /** Retient le choix de découverte sans le réinitialiser après une déconnexion. */
   function terminerIntroduction() {
-    setOnboardingDone(true);
+    memoriserIntroductionVideo();
+    setVideoTraitee(true);
   }
 
   return (
@@ -89,7 +88,7 @@ function ContenuApp() {
           <Routes>
             <Route path="/" element={chargement
               ? <div className="wrap" role="status">…</div>
-              : onboardingDone || estConnecte ? <AccueilPage /> : <Navigate to="/onboarding" replace />} />
+              : <AccueilPage proposerVideo={!videoTraitee} onIntroductionTraitee={terminerIntroduction} />} />
             <Route path="/onboarding" element={<OnboardingPage onTermine={terminerIntroduction} />} />
             <Route path="/connexion" element={<EntreeSiDeja />} />
             <Route path="/inscription" element={<EntreeSiDeja inscription />} />

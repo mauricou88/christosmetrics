@@ -1,15 +1,27 @@
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../context/AuthContext';
 import { useMoi } from '../hooks/useMoi';
 import { BadgeStreak } from '../components/BadgeStreak';
 import { JaugeChristos } from '../components/JaugeChristos';
+import { IntroVideo } from '../components/IntroVideo';
 
 /** Présentation publique et progression personnelle pour le compte connecté. */
-export function AccueilPage() {
+export function AccueilPage({ proposerVideo, onIntroductionTraitee }: {
+  proposerVideo: boolean;
+  onIntroductionTraitee: () => void;
+}) {
   const { t } = useTranslation();
   const { estConnecte, user } = useAuth();
   const { moi, chargement, rafraichir } = useMoi();
+  const [videoOuverte, setVideoOuverte] = useState(false);
+
+  /** Ouvre la vidéo sur demande et mémorise que la découverte a déjà été proposée. */
+  function regarderIntroduction() {
+    onIntroductionTraitee();
+    setVideoOuverte(true);
+  }
 
   return (
     <div className="wrap accueil-page">
@@ -27,6 +39,16 @@ export function AccueilPage() {
       <div className="eyebrow">{t('accueil.eyebrow')}</div>
       <h1>{t('accueil.titre')}</h1>
       <p className="lede">{t('accueil.lede')}</p>
+      {proposerVideo && (
+        <section className="card accueil-intro-video" aria-labelledby="accueil-intro-video-titre">
+          <h2 id="accueil-intro-video-titre">{t('intro_video.decouvrir')}</h2>
+          <p>{t('intro_video.invitation')}</p>
+          <div className="controls">
+            <button type="button" className="btn" onClick={regarderIntroduction}>{t('intro_video.regarder')}</button>
+            <button type="button" className="btn ghost" onClick={onIntroductionTraitee}>{t('onboarding.passer')}</button>
+          </div>
+        </section>
+      )}
       <div className="verse">
         {t('commun.verset')}
         <span>{t('commun.verset_ref')}</span>
@@ -48,6 +70,7 @@ export function AccueilPage() {
         {t('accueil.fruits_a_concevoir')}
       </p>
       <div className="controls">
+        {!proposerVideo && <button type="button" className="btn ghost" onClick={regarderIntroduction}>{t('intro_video.bouton')}</button>}
         {estConnecte ? (
           <Link className="btn sec" to="/menu">{t('accueil.cta_parcours')}</Link>
         ) : (
@@ -57,6 +80,7 @@ export function AccueilPage() {
           </>
         )}
       </div>
+      {videoOuverte && <IntroVideo onClose={() => setVideoOuverte(false)} />}
     </div>
   );
 }

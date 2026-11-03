@@ -17,6 +17,7 @@ export function IntroVideo({ onClose }: { onClose: () => void }) {
   const [langue, setLangue] = useState<LangueVideo>(prefere === 'en' ? 'en' : 'fr');
   const [muet, setMuet] = useState(true);
   const videoRef = useRef<HTMLVideoElement>(null);
+  const dialogueRef = useRef<HTMLDivElement>(null);
 
   const base = import.meta.env.BASE_URL || '/';
   const src = `${base}videos/christos-intro-${langue}.mp4`;
@@ -31,15 +32,38 @@ export function IntroVideo({ onClose }: { onClose: () => void }) {
     if (p && typeof p.catch === 'function') p.catch(() => { /* autoplay bloqué : l'utilisateur lancera via les contrôles */ });
   }, [muet, langue]);
 
-  // Fermeture à la touche Échap.
+  // Place le focus dans le lecteur et empêche le défilement de la page derrière lui.
   useEffect(() => {
-    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
+    const precedent = document.activeElement;
+    const overflowPrecedent = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    dialogueRef.current?.focus();
+    return () => {
+      document.body.style.overflow = overflowPrecedent;
+      if (precedent instanceof HTMLElement && precedent.isConnected) precedent.focus();
+    };
+  }, []);
+
+  // Ferme avec Échap et garde la navigation clavier dans le dialogue.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') { e.preventDefault(); onClose(); }
+      if (e.key !== 'Tab') return;
+      const elements = dialogueRef.current?.querySelectorAll<HTMLElement>('video, button');
+      if (!elements?.length) return;
+      const premier = elements[0], dernier = elements[elements.length - 1];
+      if (e.shiftKey && (document.activeElement === premier || document.activeElement === dialogueRef.current)) {
+        e.preventDefault(); dernier.focus();
+      } else if (!e.shiftKey && document.activeElement === dernier) {
+        e.preventDefault(); premier.focus();
+      }
+    };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [onClose]);
 
   return (
-    <div className="intro-video-overlay" role="dialog" aria-modal="true" aria-label={t('intro_video.titre')}>
+    <div ref={dialogueRef} tabIndex={-1} className="intro-video-overlay" role="dialog" aria-modal="true" aria-label={t('intro_video.titre')}>
       <div className="intro-video-box">
         <video
           key={langue}
@@ -50,6 +74,7 @@ export function IntroVideo({ onClose }: { onClose: () => void }) {
           muted={muet}
           playsInline
           controls
+          tabIndex={0}
           preload="auto"
         />
         <div className="intro-video-controls">

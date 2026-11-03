@@ -319,6 +319,9 @@
     "bouton": "Permanently delete my account"
   },
   "intro_video": {
+    "decouvrir": "Discover CHRISTOSMETRICS in a video",
+    "invitation": "Explore the journey before you start, or go straight to the app. You can watch the video again at any time.",
+    "regarder": "Watch",
     "titre": "Intro video",
     "bouton": "Watch the intro video",
     "son_on": "🔊 Turn on sound",
