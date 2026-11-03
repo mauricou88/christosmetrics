@@ -13,9 +13,11 @@ function charger(fichier, supplement = '', imports = {}) {
   }).outputText, { exports, Blob, atob, Uint8Array, require: nom => imports[nom] ?? require(nom) });
   return exports;
 }
-const { donneesRestitutionPdf } = charger('src/utils/donneesRestitutionPdf.ts');
+const titres = charger('src/utils/titresGraphiquesRestitution.ts');
+const importsTitres = { './titresGraphiquesRestitution': titres };
+const { donneesRestitutionPdf } = charger('src/utils/donneesRestitutionPdf.ts', '', importsTitres);
 const noms = charger('src/utils/nomRestitutionPdf.ts');
-const moteur = charger('src/utils/pdfGenerator.ts', '\nexports.miniPDF = MiniPDF; exports.visages = dessinerVisagesPDF;', { './nomRestitutionPdf': noms });
+const moteur = charger('src/utils/pdfGenerator.ts', '\nexports.miniPDF = MiniPDF; exports.visages = dessinerVisagesPDF;', { './nomRestitutionPdf': noms, ...importsTitres });
 const seed = fs.readFileSync(path.join(__dirname, '../../backend/src/main/resources/db/migration/V5__baremes_interpretation_poc.sql'), 'utf8');
 
 function resultat(code, score) {
@@ -34,8 +36,12 @@ function resultat(code, score) {
     top: [], flop: [],
   };
 }
-function generer(data) {
-  const { fruitConfig, resultatPoc } = donneesRestitutionPdf(data);
+function generer(data, langue = 'fr', deuxBarres = false) {
+  const { fruitConfig, resultatPoc } = donneesRestitutionPdf(data, langue);
+  if (deuxBarres) {
+    fruitConfig.syntheseType = 'barres2';
+    resultatPoc.dims = resultatPoc.dims.slice(0, 2);
+  }
   const evenements = [];
   const creer = moteur.miniPDF.creer;
   moteur.miniPDF.creer = () => {
@@ -47,7 +53,7 @@ function generer(data) {
     return doc;
   };
   try {
-    const pdf = moteur.genererRestitutionPdf(fruitConfig, resultatPoc, { prenom: 'Contrôle', nom: 'PDF', email: 'controle@example.test' });
+    const pdf = moteur.genererRestitutionPdf(fruitConfig, resultatPoc, { prenom: 'Contrôle', nom: 'PDF', email: 'controle@example.test' }, undefined, langue);
     return { ...pdf, evenements };
   } finally { moteur.miniPDF.creer = creer; }
 }
@@ -115,6 +121,34 @@ test('PDF couple : score sur 36 et bornes sans pourcentage', () => {
   assert.ok(!textes.includes('25 %'));
   assert.ok(!textes.some(t => typeof t === 'string' && /^\d+ - \d+ %$/.test(t)));
 });
+test('titres propres aux six fruits et au couple dans les quatre langues', () => {
+  const complements = {
+    fr: ['de la joie', 'de l’amour', 'de la bonté et de la bienveillance', 'de la fidélité', 'de la paix', 'de la patience', 'du fruit de l’Esprit dans le couple'],
+    en: ['of joy', 'of love', 'of kindness and goodness', 'of faithfulness', 'of peace', 'of patience', 'of the fruit of the Spirit as a couple'],
+    es: ['de la alegría', 'del amor', 'de la bondad y la benevolencia', 'de la fidelidad', 'de la paz', 'de la paciencia', 'del fruto del Espíritu en la pareja'],
+    pt: ['da alegria', 'do amor', 'da bondade e da benevolência', 'da fidelidade', 'da paz', 'da paciência', 'do fruto do Espírito no casal'],
+  };
+  const codes = ['joie', 'amour', 'bonte', 'fidelite', 'paix', 'patience', 'couple'];
+  for (const langue of Object.keys(complements)) {
+    for (const [index, code] of codes.entries()) {
+      const attendu = titres.titresGraphiquesRestitution(code, langue);
+      assert.ok(attendu.manifestation.endsWith(complements[langue][index]));
+      for (const deuxBarres of [false, true]) {
+        const { evenements } = generer(resultat(code, code === 'couple' ? 25 : 70), langue, deuxBarres);
+        const textes = evenements.filter(e => e.nom === 'text').map(e => e.args[0]);
+        assert.ok(textes.includes(attendu.manifestation), `${langue}/${code}`);
+        if (!deuxBarres) assert.ok(textes.includes(attendu.portrait));
+        if (langue !== 'fr') assert.ok(!textes.some(t => typeof t === 'string' && t.startsWith('Votre ')));
+        const titre = evenements.find(e => e.nom === 'text' && e.args[0] === attendu.manifestation);
+        const doc = moteur.miniPDF.creer();
+        assert.ok(doc.largeurTexte(attendu.manifestation, titre.args[3].taille, true) <= 174.01);
+        assert.ok(titre.args[3].taille >= 9, 'titre lisible sans débordement');
+      }
+    }
+  }
+  assert.equal(titres.titresGraphiquesRestitution('amour', 'en-GB').manifestation, 'Your level of expression of love');
+});
+
 test('PDFs de contrôle générés avec le moteur réel pour la revue visuelle', async () => {
   for (const [code, score] of [['paix', 27], ['joie', 85]]) {
     const pdf = generer(resultat(code, score));

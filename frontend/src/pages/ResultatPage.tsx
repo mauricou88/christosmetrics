@@ -7,6 +7,7 @@ import { RadarPortrait, EntonnoirManifestation } from '../components/Graphes';
 import { televerserPdf } from '../api/pdf';
 import { genererRestitutionPdf } from '../utils/pdfGenerator';
 import { donneesRestitutionPdf } from '../utils/donneesRestitutionPdf';
+import { titresGraphiquesRestitution } from '../utils/titresGraphiquesRestitution';
 import { useAuth } from '../context/AuthContext';
 import { telechargerOuPartagerPdf } from '../utils/telechargementPdf';
 
@@ -67,6 +68,7 @@ export function ResultatPage() {
   }
 
   const estCouple = resultat.type === 'COUPLE';
+  const titresGraphiques = titresGraphiquesRestitution(resultat.referentielCode, langue);
   const suffixeScore = resultat.unite === 'POURCENTAGE' ? '%' : '';
   const libelleScore = resultat.unite === 'POINTS_SUR_36'
     ? t('resultat.points_sur_36')
@@ -98,7 +100,7 @@ export function ResultatPage() {
           <RadarPortrait dimensions={resultat.dimensions} />
         </div>
         <div className="chart">
-          <h3>{t('resultat.manifestation_par_domaine')}</h3>
+          <h3>{titresGraphiques.manifestation}</h3>
           <EntonnoirManifestation dimensions={resultat.dimensions} />
         </div>
       </div>

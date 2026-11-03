@@ -1,5 +1,6 @@
 // @ts-nocheck
 import { nomRestitutionPdf } from './nomRestitutionPdf';
+import { titresGraphiquesRestitution } from './titresGraphiquesRestitution';
 
 export type LanguePdf = 'fr' | 'en' | 'es' | 'pt';
 
@@ -556,9 +557,16 @@ function dessinerVisagesPDF(doc, type, x, y, couleur, nombre){
   }
 }
 
-function dessinerDeuxBarres(doc, dims, x, y, w, h){
-  doc.text("Votre niveau de manifestation", x + w/2, y + 10,
-           {taille:13, gras:true, couleur:[0,0,0], align:"center"});
+/** Centrer le titre traduit et adapter sa taille à la largeur disponible. */
+function dessinerTitreGraphique(doc, titre, x, y, w, taille = 13){
+  const largeur = doc.largeurTexte(titre, taille, true);
+  const tailleAdaptee = largeur > w - 12 ? taille * (w - 12) / largeur : taille;
+  doc.text(titre, x + w/2, y, {taille:tailleAdaptee, gras:true, couleur:[0,0,0], align:"center"});
+}
+
+/** Dessiner les deux barres avec le titre localisé du fruit. */
+function dessinerDeuxBarres(doc, dims, x, y, w, h, titre){
+  dessinerTitreGraphique(doc, titre, x, y + 10, w);
 
   const couleurs = [C.teal, C.orange];
   const x0 = x + 22, y0 = y + 24, pw = w - 34, ph = h - 46;
@@ -590,7 +598,8 @@ function dessinerDeuxBarres(doc, dims, x, y, w, h){
   });
 }
 
-function dessinerRadar(doc, dims, x, y, w, h){
+/** Dessiner le portrait radar avec son titre localisé. */
+function dessinerRadar(doc, dims, x, y, w, h, titre){
   // Rayon : on prend la place disponible MAIS on le plafonne à 52 mm pour
   // garder une taille standard (sinon, sur une page dédiée, le radar devient
   // démesuré). R_MAX est le principal réglage si l'on veut agrandir/réduire.
@@ -603,7 +612,7 @@ function dessinerRadar(doc, dims, x, y, w, h){
     return [cx + Math.cos(a)*R*ratio, cy + Math.sin(a)*R*ratio];
   };
 
-  doc.text("Votre portrait", cx, y + 10, {taille:14, gras:true, couleur:[0,0,0], align:"center"});
+  dessinerTitreGraphique(doc, titre, x, y + 10, w, 14);
 
   // Toile : 10 polygones concentriques (un par tranche de 10 %) + rayons.
   // Excel affiche une graduation tous les 10 %, on reproduit la même densité.
@@ -635,10 +644,10 @@ function dessinerRadar(doc, dims, x, y, w, h){
   doc.polyline(val, true, "S");
 }
 
-function dessinerEntonnoir(doc, dims, x, y, w, h){
+/** Dessiner les niveaux par domaine avec le titre localisé du fruit. */
+function dessinerEntonnoir(doc, dims, x, y, w, h, titre){
   // Titre
-  doc.text("Votre niveau de manifestation", x + w/2, y + 9,
-           {taille:13, gras:true, couleur:[0,0,0], align:"center"});
+  dessinerTitreGraphique(doc, titre, x, y + 9, w);
 
   const n = dims.length;
 
@@ -711,6 +720,7 @@ function genererPDF(){
   const r = resultat;
   const L: LanguePdf = (langueCourante ?? 'fr');
   const T = (cle: string, vars?: Record<string, string | number>) => tpdf(L, cle, vars);
+  const titres = titresGraphiquesRestitution(fruit.code ?? '', L);
 
   /* ----- utilitaires de mise en page ----- */
 
@@ -785,7 +795,7 @@ function genererPDF(){
     const gh = Math.min(150, BAS - y - 4);
     doc.setDrawColor([120,140,146]).setLineWidth(0.3);
     doc.rect(gx, y, gw, gh, "S");
-    dessinerDeuxBarres(doc, r.dims, gx, y, gw, gh);
+    dessinerDeuxBarres(doc, r.dims, gx, y, gw, gh, fruit.titreManifestation ?? titres.manifestation);
     piedDePage();
   }
   /* --- CAS GÉNÉRAL : radar + entonnoir EMPILÉS sur la même page ---
@@ -804,12 +814,12 @@ function genererPDF(){
 
     doc.setDrawColor([120,140,146]).setLineWidth(0.3);
     doc.rect(gx, y, gw, ghRadar, "S");
-    dessinerRadar(doc, r.dims, gx, y, gw, ghRadar);
+    dessinerRadar(doc, r.dims, gx, y, gw, ghRadar, fruit.titrePortrait ?? titres.portrait);
 
     const y2 = y + ghRadar + 4;
     doc.setDrawColor([120,140,146]).setLineWidth(0.3);
     doc.rect(gx, y2, gw, ghBarres, "S");
-    dessinerEntonnoir(doc, r.dims, gx, y2, gw, ghBarres);
+    dessinerEntonnoir(doc, r.dims, gx, y2, gw, ghBarres, fruit.titreManifestation ?? titres.manifestation);
     piedDePage();
   }
 

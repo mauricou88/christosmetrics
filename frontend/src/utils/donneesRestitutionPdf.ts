@@ -1,5 +1,6 @@
 import type { Resultat, Tranche } from '../types';
 import type { LanguePdf } from './pdfGenerator';
+import { titresGraphiquesRestitution } from './titresGraphiquesRestitution';
 
 /** Textes locaux pour composer titrePdf et conformite dans la langue courante. */
 const LOCAL_TEXTS: Record<LanguePdf, { sur: (nom: string) => string; couple: string; conformiteA: (nom: string) => string; conformiteCouple: string }> = {
@@ -32,6 +33,7 @@ const LOCAL_TEXTS: Record<LanguePdf, { sur: (nom: string) => string; couple: str
 /** Adapter les données affichées à l’écran, sans recalculer ni réinterpréter les scores. */
 export function donneesRestitutionPdf(resultat: Resultat, langue: LanguePdf = 'fr') {
   const t = LOCAL_TEXTS[langue] ?? LOCAL_TEXTS.fr;
+  const titres = titresGraphiquesRestitution(resultat.referentielCode, langue);
   const convertirTranche = (tr: Tranche) => ({
     min: tr.min, max: tr.max, txt: tr.texte,
     face: tr.typeIcone.toLowerCase(), type: tr.typeIcone.toLowerCase(),
@@ -48,6 +50,8 @@ export function donneesRestitutionPdf(resultat: Resultat, langue: LanguePdf = 'f
   return {
     fruitConfig: {
       nom: resultat.referentielNom,
+      titrePortrait: titres.portrait,
+      titreManifestation: titres.manifestation,
       titrePdf: resultat.type === 'COUPLE' ? t.couple : t.sur(resultat.referentielNom),
       verset: 'Galates 5.22',
       topFlop: resultat.top.length,
