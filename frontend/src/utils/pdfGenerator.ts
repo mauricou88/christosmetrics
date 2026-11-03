@@ -1,5 +1,165 @@
 // @ts-nocheck
 import { nomRestitutionPdf } from './nomRestitutionPdf';
+
+export type LanguePdf = 'fr' | 'en' | 'es' | 'pt';
+
+/** Textes du PDF indexes par langue. Ton pastoral, accessible, non prescriptif. */
+const TEXTES: Record<LanguePdf, Record<string, string>> = {
+  fr: {
+    baseline: '-    Mesurer pour devenir Christ -',
+    titreRestitution: 'Restitution Analyse personnelle {titrePdf} du {date}',
+    sec1Preambule: '1.   Preambule'.replace('Preambule', 'Préambule'),
+    mailto: 'Mailto :',
+    suiteMail: ', vous avez volontairement rempli un questionnaire qui fait office d’outil d’auto-diagnostic à un instant donné.',
+    rappel1: 'Nous tenons à rappeler que cette restitution n’est nullement un avis ou jugement personnel mais la résultante factuelle des réponses honnêtes que vous avez apportées aux questions posées.',
+    rappel2: 'Elle ne vous dédouane pas d’un travail intentionnel et continu dans la lecture de la Bible et de la prière.',
+    photographie: 'Ceci vous permet d’obtenir, au temps où vous avez rempli le questionnaire, une photographie plausible de votre conformité à la tranche {nom} du fruit de l’Esprit (Galates 5.22).',
+    sec2Synthese: '2.   Synthèse',
+    conformiteBonte: 'Soit une conformité de ',
+    aLaBonte: ' à la Bonté et ',
+    aLaBienveillance: ' à la Bienveillance',
+    conformiteGlobale: 'Soit une conformité globale de ',
+    sec3Analyse: '3.   Analyse',
+    baremeTitre: 'Barème d’interprétation de la conformité globale au fruit de l’Esprit',
+    colScorePourcent: 'Score %',
+    colScoreSur36: 'Score / 36',
+    colInterpretation: 'Interprétation proposée',
+    qualifPrefixe: 'Qualification par manifestation',
+    qualifSuffixeBonte: ' de la bonté et bienveillance',
+    qualif1: 'si une manifestation < 20 % :  Alerte !',
+    qualif2: 'si une manifestation entre 20 % et 59 % : Encourageant !',
+    qualif3: 'si une manifestation > 59 % : Ne surtout pas retourner à moins !',
+    sec4Conclusion: '4.   Conclusion',
+    scoresCoherents: ' Vos scores sont cohérents.',
+    topVisibles: 'Top {n} des manifestations les plus visibles chez vous :',
+    topMoinsVisibles: 'Top {n} des manifestations les moins visibles chez vous :',
+    piedDePage: 'CHRISTOSMETRICS®  est un outil d’analyse propriétaire utilisé en support d’une croissance spirituelle dans la foi chrétienne.',
+    titrePdfSur: 'sur {nom}',
+    titrePdfCouple: 'du couple',
+    titrePdfA: 'à {nom}',
+    conformiteA: 'à {nom}',
+    conformiteCouple: 'au fruit de l’Esprit dans le couple',
+    nomFichierErreur: 'Le nom du fruit et l’adresse e-mail sont nécessaires pour nommer le PDF.',
+  },
+  en: {
+    baseline: '-    Measuring to grow into Christ -',
+    titreRestitution: 'Personal Analysis Report {titrePdf} — {date}',
+    sec1Preambule: '1.   Introduction',
+    mailto: 'Mailto:',
+    suiteMail: ', you have willingly completed a questionnaire that serves as a self-assessment tool at a given moment in time.',
+    rappel1: 'We want to remind you that this report is in no way a personal opinion or judgement, but the factual outcome of the honest answers you gave to the questions asked.',
+    rappel2: 'It does not exempt you from an intentional and ongoing commitment to reading the Bible and praying.',
+    photographie: 'This gives you, at the time you completed the questionnaire, a plausible snapshot of your conformity to the {nom} dimension of the fruit of the Spirit (Galatians 5:22).',
+    sec2Synthese: '2.   Summary',
+    conformiteBonte: 'That is, a conformity of ',
+    aLaBonte: ' in Kindness and ',
+    aLaBienveillance: ' in Goodness',
+    conformiteGlobale: 'That is, an overall conformity of ',
+    sec3Analyse: '3.   Analysis',
+    baremeTitre: 'Interpretation scale for overall conformity to the fruit of the Spirit',
+    colScorePourcent: 'Score %',
+    colScoreSur36: 'Score / 36',
+    colInterpretation: 'Suggested interpretation',
+    qualifPrefixe: 'Qualification by manifestation level',
+    qualifSuffixeBonte: ' for kindness and goodness',
+    qualif1: 'if manifestation < 20%: Alert!',
+    qualif2: 'if manifestation between 20% and 59%: Encouraging!',
+    qualif3: 'if manifestation > 59%: Do not drop below this!',
+    sec4Conclusion: '4.   Conclusion',
+    scoresCoherents: ' Your scores are consistent.',
+    topVisibles: 'Top {n} manifestations most visible in you:',
+    topMoinsVisibles: 'Top {n} manifestations least visible in you:',
+    piedDePage: 'CHRISTOSMETRICS® is a proprietary analytical tool used to support spiritual growth in the Christian faith.',
+    titrePdfSur: 'on {nom}',
+    titrePdfCouple: 'for the couple',
+    titrePdfA: 'on {nom}',
+    conformiteA: 'to {nom}',
+    conformiteCouple: 'to the fruit of the Spirit in the couple',
+    nomFichierErreur: 'The fruit name and the e-mail address are required to name the PDF.',
+  },
+  es: {
+    baseline: '-    Medir para llegar a ser Cristo -',
+    titreRestitution: 'Informe de análisis personal {titrePdf} del {date}',
+    sec1Preambule: '1.   Preámbulo',
+    mailto: 'Mailto:',
+    suiteMail: ', ha completado voluntariamente un cuestionario que sirve como herramienta de autodiagnóstico en un momento dado.',
+    rappel1: 'Queremos recordar que este informe no es en modo alguno una opinión o juicio personal, sino el resultado factual de las respuestas honestas que ha dado a las preguntas planteadas.',
+    rappel2: 'No le exime de un trabajo intencional y continuo en la lectura de la Biblia y la oración.',
+    photographie: 'Esto le permite obtener, en el momento en que completó el cuestionario, una fotografía plausible de su conformidad con la dimensión {nom} del fruto del Espíritu (Gálatas 5:22).',
+    sec2Synthese: '2.   Síntesis',
+    conformiteBonte: 'Es decir, una conformidad de ',
+    aLaBonte: ' con la Bondad y ',
+    aLaBienveillance: ' con la Benevolencia',
+    conformiteGlobale: 'Es decir, una conformidad global de ',
+    sec3Analyse: '3.   Análisis',
+    baremeTitre: 'Escala de interpretación de la conformidad global con el fruto del Espíritu',
+    colScorePourcent: 'Puntuación %',
+    colScoreSur36: 'Puntuación / 36',
+    colInterpretation: 'Interpretación propuesta',
+    qualifPrefixe: 'Calificación por nivel de manifestación',
+    qualifSuffixeBonte: ' de la bondad y la benevolencia',
+    qualif1: 'si una manifestación < 20 %: ¡Alerta!',
+    qualif2: 'si una manifestación entre 20 % y 59 %: ¡Alentador!',
+    qualif3: 'si una manifestación > 59 %: ¡No baje de aquí en ningún caso!',
+    sec4Conclusion: '4.   Conclusión',
+    scoresCoherents: ' Sus puntuaciones son coherentes.',
+    topVisibles: 'Top {n} manifestaciones más visibles en usted:',
+    topMoinsVisibles: 'Top {n} manifestaciones menos visibles en usted:',
+    piedDePage: 'CHRISTOSMETRICS® es una herramienta de análisis propietaria utilizada para apoyar el crecimiento espiritual en la fe cristiana.',
+    titrePdfSur: 'sobre {nom}',
+    titrePdfCouple: 'de la pareja',
+    titrePdfA: 'a {nom}',
+    conformiteA: 'a {nom}',
+    conformiteCouple: 'al fruto del Espíritu en la pareja',
+    nomFichierErreur: 'El nombre del fruto y la dirección de correo electrónico son necesarios para nombrar el PDF.',
+  },
+  pt: {
+    baseline: '-    Medir para nos tornarmos Cristo -',
+    titreRestitution: 'Relatório de análise pessoal {titrePdf} de {date}',
+    sec1Preambule: '1.   Preâmbulo',
+    mailto: 'Mailto:',
+    suiteMail: ', preencheu voluntariamente um questionário que serve como ferramenta de autodiagnóstico num dado momento.',
+    rappel1: 'Lembramos que este relatório não é de forma alguma uma opinião ou juízo pessoal, mas o resultado factual das respostas honestas que deu às perguntas colocadas.',
+    rappel2: 'Não o dispensa de um trabalho intencional e contínuo na leitura da Bíblia e na oração.',
+    photographie: 'Isto permite-lhe obter, no momento em que preencheu o questionário, uma fotografia plausível da sua conformidade com a dimensão {nom} do fruto do Espírito (Gálatas 5:22).',
+    sec2Synthese: '2.   Síntese',
+    conformiteBonte: 'Ou seja, uma conformidade de ',
+    aLaBonte: ' com a Bondade e ',
+    aLaBienveillance: ' com a Benevolência',
+    conformiteGlobale: 'Ou seja, uma conformidade global de ',
+    sec3Analyse: '3.   Análise',
+    baremeTitre: 'Escala de interpretação da conformidade global com o fruto do Espírito',
+    colScorePourcent: 'Pontuação %',
+    colScoreSur36: 'Pontuação / 36',
+    colInterpretation: 'Interpretação proposta',
+    qualifPrefixe: 'Qualificação por nível de manifestação',
+    qualifSuffixeBonte: ' da bondade e benevolência',
+    qualif1: 'se uma manifestação < 20 %: Alerta!',
+    qualif2: 'se uma manifestação entre 20 % e 59 %: Encorajador!',
+    qualif3: 'se uma manifestação > 59 %: Não deve descer abaixo disto!',
+    sec4Conclusion: '4.   Conclusão',
+    scoresCoherents: ' As suas pontuações são coerentes.',
+    topVisibles: 'Top {n} manifestações mais visíveis em si:',
+    topMoinsVisibles: 'Top {n} manifestações menos visíveis em si:',
+    piedDePage: 'CHRISTOSMETRICS® é uma ferramenta de análise proprietária utilizada para apoiar o crescimento espiritual na fé cristã.',
+    titrePdfSur: 'sobre {nom}',
+    titrePdfCouple: 'do casal',
+    titrePdfA: 'a {nom}',
+    conformiteA: 'a {nom}',
+    conformiteCouple: 'ao fruto do Espírito no casal',
+    nomFichierErreur: 'O nome do fruto e o endereço de e-mail são necessários para nomear o PDF.',
+  },
+};
+
+/** Petit helper qui remplace {cle} par les valeurs du dict dans le texte. */
+function tpdf(langue: LanguePdf, cle: string, vars?: Record<string, string | number>): string {
+  const textes = TEXTES[langue] ?? TEXTES.fr;
+  let txt = textes[cle] ?? TEXTES.fr[cle] ?? cle;
+  if (vars) for (const [k, v] of Object.entries(vars)) txt = txt.replace(`{${k}}`, String(v));
+  return txt;
+}
+
+
 /**
  * Module de génération PDF — RÉUTILISE le moteur MiniPDF du POC HTML V3.1 tel
  * quel, pour un rendu STRICTEMENT identique au POC validé.
@@ -19,11 +179,14 @@ const LOGO_CHRISTOSMETRICS = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAaQA
 let LOGO: string = LOGO_CHRISTOSMETRICS;
 let fruit: any = null;
 let resultat: any = null;
+let langueCourante: LanguePdf = 'fr';
 let identite: any = { prenom: '', nom: '', mail: '', eglise: '' };
 
 // ---------- BLOC IMPORTÉ TEL QUEL DU POC HTML ----------
-function dateRestitution(){
-  return new Date().toLocaleDateString("fr-FR", {day:"numeric", month:"long", year:"numeric"});
+function dateRestitution(langue: LanguePdf = 'fr'): string {
+  const locales: Record<LanguePdf, string> = { fr: 'fr-FR', en: 'en-GB', es: 'es-ES', pt: 'pt-PT' };
+  const d = new Date();
+  return d.toLocaleDateString(locales[langue] ?? 'fr-FR', { day: '2-digit', month: 'long', year: 'numeric' });
 }
 
 const LOGO_FLAMME = "data:image/png;base64,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";
@@ -546,6 +709,8 @@ function dessinerEntonnoir(doc, dims, x, y, w, h){
 function genererPDF(){
   const doc = MiniPDF.creer();
   const r = resultat;
+  const L: LanguePdf = (langueCourante ?? 'fr');
+  const T = (cle: string, vars?: Record<string, string | number>) => tpdf(L, cle, vars);
 
   /* ----- utilitaires de mise en page ----- */
 
@@ -562,7 +727,7 @@ function genererPDF(){
   const piedDePage = () => {
     doc.setDrawColor([200,214,218]).setLineWidth(0.2);
     doc.line(MARGE_G, 281, MARGE_D, 281);
-    doc.text("CHRISTOSMETRICS®  est un outil d'analyse propriétaire utilisé en support d'une croissance spirituelle dans la foi chrétienne.",
+    doc.text(T('piedDePage'),
              105, 286, {taille:7.5, couleur:C.gris, align:"center"});
   };
 
@@ -577,36 +742,36 @@ function genererPDF(){
   /* ================== PAGE 1 : PRÉAMBULE + SYNTHÈSE ================== */
   enTete();
   let y = 47;
-  doc.text("-    Mesurer pour devenir Christ -", 105, y, {taille:10.5, couleur:C.noir, align:"center"});
+  doc.text(T('baseline'), 105, y, {taille:10.5, couleur:C.noir, align:"center"});
   y += 9;
   // Titre conforme au modèle : « Restitution Analyse personnelle <titrePdf> du <date> »
-  doc.text(`Restitution Analyse personnelle ${fruit.titrePdf} du ${dateRestitution()}`,
+  doc.text(T('titreRestitution', { titrePdf: fruit.titrePdf, date: dateRestitution(L) }),
            105, y, {taille:11.5, couleur:C.noir, align:"center"});
 
   y += 12;
-  doc.text("1.   Préambule", MARGE_G, y, {taille:11, gras:true, couleur:C.noir});
+  doc.text(T('sec1Preambule'), MARGE_G, y, {taille:11, gras:true, couleur:C.noir});
 
   y += 8;
   // e-mail affiché comme un lien souligné, la phrase se poursuit ensuite.
-  const mailTxt = "Mailto :" + identite.mail;
+  const mailTxt = T('mailto') + ' ' + identite.mail;
   const wMail = doc.largeurTexte(mailTxt, 10, false);
   doc.text(mailTxt, MARGE_G, y, {taille:10, couleur:C.teal});
   doc.setDrawColor(C.teal).setLineWidth(0.2);
   doc.line(MARGE_G, y + 1.1, MARGE_G + wMail, y + 1.1);
-  const suite = ", vous avez volontairement rempli un questionnaire qui fait office d'outil d'auto-diagnostique à un instant donné.";
+  const suite = T('suiteMail');
   const restePremiere = doc.decouper(suite, LARGEUR - wMail - 1, 10, false);
   doc.text(restePremiere[0], MARGE_G + wMail + 1, y, {taille:10, couleur:C.noir});
   y += 4.7;
   if(restePremiere.length > 1) y = para(restePremiere.slice(1).join(" "), y);
 
   y += 1.5;
-  y = para("Nous tenons à rappeler que cette restitution n'est nullement un avis ou jugement personnel mais la résultante factuelle des réponses honnêtes que vous avez apportées aux questions posées.", y);
-  y = para("Elle ne vous dédouane pas d'un travail intentionnel et continu dans la lecture de la Bible et de la prière.", y, {gras:true});
+  y = para(T('rappel1'), y);
+  y = para(T('rappel2'), y, {gras:true});
   y += 1.5;
-  y = para(`Ceci vous permet d'obtenir, au temps où vous avez rempli le questionnaire, une photographie plausible de votre conformité à la tranche ${fruit.nom} du fruit de l'Esprit (Galates 5.22).`, y);
+  y = para(T('photographie', { nom: fruit.nom }), y);
 
   y += 4;
-  doc.text("2.   Synthèse", MARGE_G, y, {taille:11, gras:true, couleur:C.noir});
+  doc.text(T('sec2Synthese'), MARGE_G, y, {taille:11, gras:true, couleur:C.noir});
   y += 5;
 
   const BAS = 277;
@@ -655,8 +820,8 @@ function genererPDF(){
 
   // Phrase de conformité. Pour Bonté : 2 scores ; sinon 1 score global.
   if(fruit.syntheseType === 'barres2'){
-    const s1 = "Soit une conformité de ", s2 = r.dims[0].aff + "%", s3 = " à la Bonté et ",
-          s4 = r.dims[1].aff + "%", s5 = " à la Bienveillance";
+    const s1 = T('conformiteBonte'), s2 = r.dims[0].aff + "%", s3 = T('aLaBonte'),
+          s4 = r.dims[1].aff + "%", s5 = T('aLaBienveillance');
     const w1 = doc.largeurTexte(s1,11,true), w2 = doc.largeurTexte(s2,11,true),
           w3 = doc.largeurTexte(s3,11,true), w4 = doc.largeurTexte(s4,11,true), w5 = doc.largeurTexte(s5,11,true);
     let cx = 105 - (w1+w2+w3+w4+w5)/2;
@@ -666,7 +831,7 @@ function genererPDF(){
     doc.text(s4, cx, y, {taille:11, gras:true, couleur:C.orange}); cx += w4;
     doc.text(s5, cx, y, {taille:11, gras:true, couleur:C.noir});
   } else {
-    const a1 = "Soit une conformité globale de ", a2 = r.globalAff + (fruit.unite === 'POINTS_SUR_36' ? " / 36" : " %"), a3 = " " + fruit.conformite;
+    const a1 = T('conformiteGlobale'), a2 = r.globalAff + (fruit.unite === 'POINTS_SUR_36' ? " / 36" : " %"), a3 = " " + fruit.conformite;
     const w1 = doc.largeurTexte(a1,11,true), w2 = doc.largeurTexte(a2,11,true), w3 = doc.largeurTexte(a3,11,true);
     let cx = 105 - (w1+w2+w3)/2;
     doc.text(a1, cx, y, {taille:11, gras:true, couleur:C.noir}); cx += w1;
@@ -675,9 +840,9 @@ function genererPDF(){
   }
 
   y += 15;
-  doc.text("3.   Analyse", MARGE_G, y, {taille:11, gras:true, couleur:C.noir});
+  doc.text(T('sec3Analyse'), MARGE_G, y, {taille:11, gras:true, couleur:C.noir});
   y += 11;
-  doc.text("Barème d'interprétation de la conformité globale au fruit de l'Esprit", MARGE_G, y, {taille:10, couleur:C.noir});
+  doc.text(T('baremeTitre'), MARGE_G, y, {taille:10, couleur:C.noir});
 
   /* --- tableau du barème (5 tranches) --- */
   y += 9;
@@ -685,8 +850,8 @@ function genererPDF(){
   doc.setDrawColor([0,0,0]).setLineWidth(0.25);
   doc.rect(tx, y - 5, c1, 9, "S");
   doc.rect(tx + c1, y - 5, c2, 9, "S");
-  doc.text(fruit.unite === 'POINTS_SUR_36' ? "Score / 36" : "Score %", tx + c1/2, y, {taille:10, couleur:C.noir, align:"center"});
-  doc.text("Interprétation proposée", tx + c1 + c2/2, y, {taille:10, couleur:C.noir, align:"center"});
+  doc.text(fruit.unite === 'POINTS_SUR_36' ? T('colScoreSur36') : T('colScorePourcent'), tx + c1/2, y, {taille:10, couleur:C.noir, align:"center"});
+  doc.text(T('colInterpretation'), tx + c1 + c2/2, y, {taille:10, couleur:C.noir, align:"center"});
   y += 4;
   fruit.bareme.forEach(b => {
     const actif = b.active === true || (r.tranche != null && b.min === r.tranche.min && b.max === r.tranche.max);
@@ -704,11 +869,11 @@ function genererPDF(){
   });
 
   y += 13;
-  doc.text(`Qualification par manifestation${fruit.syntheseType==='barres2' ? " de la bonté et bienveillance" : ""} :`, MARGE_G, y, {taille:10, couleur:C.noir});
+  doc.text(T('qualifPrefixe') + (fruit.syntheseType === 'barres2' ? T('qualifSuffixeBonte') : '') + ' :', MARGE_G, y, {taille:10, couleur:C.noir});
   y += 8;
-  [["si une manifestation < 20 % :  Alerte !", true],
-   ["si une manifestation entre 20 % et 59 % : Encourageant !", false],
-   ["si une manifestation > 59 % : Ne surtout pas retourner à moins !", false]
+  [[T('qualif1'), true],
+   [T('qualif2'), false],
+   [T('qualif3'), false]
   ].forEach(([t, gras]) => {
     doc.text("»", MARGE_G + 6, y, {taille:9, couleur:C.teal});
     doc.text(t, MARGE_G + 11, y, {taille:10, gras, couleur:C.noir});
@@ -719,18 +884,18 @@ function genererPDF(){
   if(fruit.syntheseType === 'barres2' && fruit.conclusion){
     // Bonté : pas de top/flop mais une conclusion explicative.
     y += 9;
-    doc.text("4.   Conclusion", MARGE_G, y, {taille:11, gras:true, couleur:C.noir});
+    doc.text(T('sec4Conclusion'), MARGE_G, y, {taille:11, gras:true, couleur:C.noir});
     y += 8;
-    y = para(fruit.conclusion + " Vos scores sont cohérents.", y);
+    y = para(fruit.conclusion + T('scoresCoherents'), y);
   } else if(fruit.topFlop > 0){
     // Vérifier qu'on a la place ; sinon nouvelle page (évite les débordements).
     if(y > 235){ piedDePage(); doc.addPage(); enTete(); y = 47; }
     y += 7;
-    doc.text(`Top ${fruit.topFlop} des manifestations les plus visibles chez vous :`, MARGE_G, y, {taille:10, couleur:C.noir});
+    doc.text(T('topVisibles', { n: fruit.topFlop }), MARGE_G, y, {taille:10, couleur:C.noir});
     y += 8;
     r.top.forEach(d => { doc.text(`- ${d.nom} : ${d.aff}%`, MARGE_G, y, {taille:10, couleur:C.noir}); y += 6.5; });
     y += 4;
-    doc.text(`Top ${fruit.topFlop} des manifestations les moins visibles chez vous :`, MARGE_G, y, {taille:10, couleur:C.noir});
+    doc.text(T('topMoinsVisibles', { n: fruit.topFlop }), MARGE_G, y, {taille:10, couleur:C.noir});
     y += 8;
     r.flop.forEach(d => { doc.text(`- ${d.nom} : ${d.aff}%`, MARGE_G, y, {taille:10, couleur:C.noir}); y += 6.5; });
   }
@@ -752,12 +917,14 @@ export function genererRestitutionPdf(
   fruitConfig: any,
   resultatCalcul: any,
   user: { prenom: string; nom: string; email: string; eglise?: string },
-  logoPrincipal?: string
+  logoPrincipal?: string,
+  langue: LanguePdf = 'fr'
 ): { blob: Blob; nomFichier: string } {
   LOGO = logoPrincipal ?? LOGO_CHRISTOSMETRICS;
   fruit = fruitConfig;
   resultat = resultatCalcul;
   identite = { prenom: user.prenom, nom: user.nom, mail: user.email, eglise: user.eglise ?? '' };
+  langueCourante = langue;
 
   let blob: Blob | null = null;
   let nomFichier = 'restitution.pdf';

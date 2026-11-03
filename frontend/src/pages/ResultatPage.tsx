@@ -179,10 +179,13 @@ export function ResultatPage() {
     if (!resultat || !user) return;
     setPdfEnCours(true); setPdfMessage(null);
     try {
-      const { fruitConfig, resultatPoc } = donneesRestitutionPdf(resultat);
+      const langueCourt = (i18n.resolvedLanguage ?? i18n.language ?? 'fr').slice(0, 2) as 'fr' | 'en' | 'es' | 'pt';
+      const { fruitConfig, resultatPoc } = donneesRestitutionPdf(resultat, langueCourt);
       const { blob, nomFichier } = genererRestitutionPdf(
         fruitConfig, resultatPoc,
-        { prenom: user.prenom, nom: user.nom, email: user.email, eglise: user.eglise }
+        { prenom: user.prenom, nom: user.nom, email: user.email, eglise: user.eglise },
+        undefined,
+        langueCourt,
       );
       setPdfMessage(t('resultat.pdf_choisissez'));
       // Les deux opérations restent indépendantes, même si le sélecteur est annulé.
