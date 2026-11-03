@@ -608,3 +608,19 @@ main { padding-left: max(16px, env(safe-area-inset-left));
 @media (prefers-reduced-motion: reduce) {
   .jauge-christos-arc, .jauge-christos-barre > span { transition: none; }
 }
+
+/* ---------- Video d'introduction (overlay) ---------- */
+.intro-video-overlay { position:fixed; inset:0; z-index:1000; display:grid; place-items:center;
+  padding:max(16px, env(safe-area-inset-left,0px)); background:rgba(14,19,22,.92);
+  backdrop-filter:blur(3px); }
+.intro-video-box { width:min(96vw, 940px); }
+.intro-video-player { width:100%; aspect-ratio:16/9; display:block; border-radius:16px;
+  background:#000; box-shadow:0 30px 80px rgba(0,0,0,.55); }
+.intro-video-controls { display:flex; gap:12px; align-items:center; justify-content:center;
+  margin-top:16px; flex-wrap:wrap; }
+.intro-video-langs { display:inline-flex; border:1px solid var(--line); border-radius:999px; overflow:hidden; }
+.iv-lang { padding:8px 20px; background:var(--surface); color:var(--muted); border:none; font:inherit;
+  font-weight:600; letter-spacing:.04em; cursor:pointer; min-height:40px; }
+.iv-lang.on { background:var(--teal); color:#fff; }
+.iv-lang:focus-visible { outline:2px solid var(--teal); outline-offset:2px; }
+.profil-intro-actions { display:flex; gap:12px; flex-wrap:wrap; }

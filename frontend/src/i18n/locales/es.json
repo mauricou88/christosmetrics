@@ -317,5 +317,12 @@
   "suppression": {
     "echec": "La eliminación ha fallado. Inténtelo de nuevo.",
     "bouton": "Eliminar definitivamente mi cuenta"
+  },
+  "intro_video": {
+    "titre": "Vídeo de presentación",
+    "bouton": "Ver el vídeo de presentación",
+    "son_on": "🔊 Activar sonido",
+    "son_off": "🔇 Silenciar",
+    "fermer": "Cerrar"
   }
 }

@@ -6,6 +6,7 @@ import { version } from '../../package.json';
 import { useMoi } from '../hooks/useMoi';
 import { JaugeChristos } from '../components/JaugeChristos';
 import { BadgeStreak } from '../components/BadgeStreak';
+import { IntroVideo } from '../components/IntroVideo';
 import { Capacitor } from '@capacitor/core';
 import { NotificationService, calculerOccurrences, lirePreferencesRappels, enregistrerPreferencesRappels, type PreferencesRappels, type FrequenceRappel, type StatutPermission } from '../services/NotificationService';
 
@@ -144,6 +145,8 @@ export function ProfilPage() {
     navigate('/', { replace: true });
   }
 
+  const [videoOuverte, setVideoOuverte] = useState(false);
+
   /** Relance la présentation même pour un compte connecté ou un stockage indisponible. */
   function revoirIntroduction() {
     try { localStorage.removeItem('onboarding-done'); }
@@ -279,10 +282,16 @@ export function ProfilPage() {
       </section>
       <section className="card" aria-labelledby="profil-intro">
         <h2 id="profil-intro">{t('onboarding.introduction')}</h2>
-        <button type="button" className="btn ghost" onClick={revoirIntroduction}>
-          {t('onboarding.revoir_intro')}
-        </button>
+        <div className="profil-intro-actions">
+          <button type="button" className="btn" onClick={() => setVideoOuverte(true)}>
+            {t('intro_video.bouton')}
+          </button>
+          <button type="button" className="btn ghost" onClick={revoirIntroduction}>
+            {t('onboarding.revoir_intro')}
+          </button>
+        </div>
       </section>
+      {videoOuverte && <IntroVideo onClose={() => setVideoOuverte(false)} />}
     </div>
   );
 }

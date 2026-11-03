@@ -317,5 +317,12 @@
   "suppression": {
     "echec": "La suppression a échoué. Veuillez réessayer.",
     "bouton": "Supprimer définitivement mon compte"
+  },
+  "intro_video": {
+    "titre": "Vidéo de présentation",
+    "bouton": "Voir la vidéo de présentation",
+    "son_on": "🔊 Activer le son",
+    "son_off": "🔇 Couper le son",
+    "fermer": "Fermer"
   }
 }
