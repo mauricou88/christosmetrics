@@ -23,6 +23,29 @@ function taillePolice(token: '--fs-caption' | '--fs-small'): number {
 }
 
 /**
+ * Decoupe un label en lignes de ~<= maxChars pour que Chart.js l'affiche sur
+ * plusieurs lignes (API Chart.js : retourner un array = plusieurs lignes).
+ * Preserve les mots entiers. Max 2 lignes pour garder le radar lisible.
+ */
+function wrapLabel(label: string, maxChars = 12): string | string[] {
+  if (label.length <= maxChars) return label;
+  const mots = label.split(/\s+/);
+  if (mots.length === 1) return label; // un seul mot long, on garde (ex. "Intrapersonnelle")
+  const lignes: string[] = ['', ''];
+  let idx = 0;
+  for (const mot of mots) {
+    const prochaineLigne = lignes[idx] ? lignes[idx] + ' ' + mot : mot;
+    if (prochaineLigne.length <= maxChars || idx === 1) {
+      lignes[idx] = prochaineLigne;
+    } else {
+      idx = 1;
+      lignes[idx] = mot;
+    }
+  }
+  return lignes[1] ? lignes : lignes[0];
+}
+
+/**
  * RADAR « Votre portrait » — un axe par dimension, échelle 0..100 %.
  */
 export function RadarPortrait({ dimensions }: { dimensions: ScoreDimension[] }) {
@@ -43,13 +66,19 @@ export function RadarPortrait({ dimensions }: { dimensions: ScoreDimension[] }) 
     scales: {
       r: {
         beginAtZero: true, max: 100,
-        ticks: { stepSize: 20, font: { size: taillePolice('--fs-caption') } },
+        ticks: { stepSize: 20, font: { size: taillePolice('--fs-caption') }, backdropColor: 'transparent' },
         grid: { color: '#D8E4E7' },
-        pointLabels: { font: { size: taillePolice('--fs-caption') } },
+        pointLabels: {
+          font: { size: taillePolice('--fs-caption') },
+          padding: 10,
+          centerPointLabels: false,
+          callback: (label: string) => wrapLabel(label, 12),
+        },
       },
     },
+    layout: { padding: { top: 8, right: 8, bottom: 8, left: 8 } },
   };
-  return <div style={{ height: 400 }}><Radar data={data} options={options} /></div>;
+  return <div style={{ height: 420, maxWidth: 460, margin: '0 auto' }}><Radar data={data} options={options} /></div>;
 }
 
 /**
@@ -99,7 +128,7 @@ export function EntonnoirManifestation({ dimensions }: { dimensions: ScoreDimens
     plugins: { legend: { display: false }, tooltip: { enabled: false } },
     scales: {
       x: { beginAtZero: true, max: 100, display: false, grid: { display: false } },
-      y: { ticks: { font: { size: taillePolice('--fs-caption') } }, grid: { display: false } },
+      y: { ticks: { font: { size: taillePolice('--fs-caption') }, callback: function(this: any, val: unknown) { const lbl = this.getLabelForValue(val as number); return wrapLabel(lbl, 16); } }, grid: { display: false } },
     },
   };
 
