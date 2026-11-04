@@ -1,4 +1,36 @@
 {
+  "assistant_fruits": {
+    "ouvrir": "Any questions?",
+    "titre": "The fruit of the Spirit",
+    "sous_titre": "A few starting points for reflection",
+    "fermer": "Close the conversation",
+    "conversation": "Questions and answers",
+    "bienvenue": "Hello! Ask a simple question about the fruit of the Spirit, or choose one of the suggestions below.",
+    "vous": "You",
+    "nom": "Assistant",
+    "suggestions": "Suggested questions",
+    "votre_question": "Your question",
+    "exemple": "For example: how can I grow in patience?",
+    "envoyer": "Send",
+    "note": "General answers on predefined topics. Your conversation is not saved on the server.",
+    "inconnu": "I don’t have a prepared answer to that question. Try a topic such as love, joy, peace or spiritual growth, or choose a suggestion.",
+    "references": { "galates": "Read Galatians 5:22–23", "jean": "Read John 15:4–5" },
+    "sujets": {
+      "definition": { "question": "What is the fruit of the Spirit?", "reponse": "The fruit of the Spirit describes the qualities that develop in a life guided by the Holy Spirit. Paul presents them as aspects of one fruit: a transformation expressed through our relationships and everyday choices." },
+      "liste": { "question": "What are the nine aspects of the fruit of the Spirit?", "reponse": "Galatians 5:22–23 names love, joy, peace, forbearance, kindness, goodness, faithfulness, gentleness and self-control. Some words differ between Bible translations. These aspects complement one another." },
+      "amour": { "question": "What does love mean?", "reponse": "Love seeks the good of another person, beyond a passing feeling. One practical step: listen to someone attentively and choose an act of service without expecting anything in return." },
+      "joie": { "question": "What is joy?", "reponse": "Joy can be rooted in a relationship with God, even in difficult circumstances. It does not require you to hide sadness. One practical step: take a moment to recognise something you are grateful for today." },
+      "paix": { "question": "How can I cultivate peace?", "reponse": "Peace involves trusting God and seeking peace in relationships, beyond simply avoiding conflict. One practical step: bring a worry to God in prayer, then consider a possible step towards reconciliation." },
+      "patience": { "question": "How can I grow in patience?", "reponse": "Patience helps us persevere and give others time rather than reacting impulsively. It does not mean accepting injustice without taking action. One practical step: pause before replying during a tense conversation." },
+      "bonte": { "question": "What are kindness and goodness?", "reponse": "Kindness and goodness come together in caring for others and seeking to do what is good. Bible translations use related terms. One practical step: notice a specific need around you and respond respectfully." },
+      "fidelite": { "question": "What does faithfulness mean?", "reponse": "Faithfulness is expressed in trust in God and consistency in our commitments. One practical step: make a small, realistic promise and keep it, even when your initial enthusiasm fades." },
+      "douceur": { "question": "What is gentleness?", "reponse": "Gentleness allows us to express truth respectfully, without overpowering others. It is compatible with firmness and boundaries. One practical step: rephrase a disagreement in words that invite dialogue." },
+      "maitrise": { "question": "What is self-control?", "reponse": "Self-control helps us choose our response rather than being driven by an impulse. One practical step: identify a familiar trigger and prepare a constructive response, such as pausing or changing activity." },
+      "croissance": { "question": "How can I grow day by day?", "reponse": "Jesus connects bearing fruit with remaining in relationship with him. Prayer, Bible reading and Christian community can nurture this spiritual journey. Choose a small, practical action for today, then take time to reflect on your experience." },
+      "tests": { "question": "What are the CHRISTOSMETRICS tests for?", "reponse": "The questionnaires invite you to reflect on how the fruit of the Spirit is expressed in your life, based on your answers. A score measures neither your worth nor your faith. This assistant cannot access or interpret your results." },
+      "bonjour": { "question": "Hello", "reponse": "Hello! I can offer a few simple starting points about the fruit of the Spirit. Try asking: “What is gentleness?” or “How can I grow day by day?”" }
+    }
+  },
   "commun": {
     "marque": "CHRISTOSMETRICS",
     "chargement": "Loading…",

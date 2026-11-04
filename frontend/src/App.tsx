@@ -14,6 +14,7 @@ import { StatusReseau } from './components/StatusReseau';
 import { Footer } from './components/Footer';
 import { BottomNav } from './components/BottomNav';
 import { MenuEntree } from './components/MenuEntree';
+import { AssistantFruits } from './components/AssistantFruits';
 import { AccueilPage } from './pages/AccueilPage';
 import { NoticeUtilisationPage } from './pages/NoticeUtilisationPage';
 import { OnboardingPage } from './pages/OnboardingPage';
@@ -108,6 +109,7 @@ function ContenuApp() {
         </main>
         {afficherFooter && <Footer />}
         {afficherBottomNav && <BottomNav />}
+        {afficherFooter && <AssistantFruits />}
     </div>
   );
 }

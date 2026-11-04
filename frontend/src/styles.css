@@ -702,3 +702,44 @@ main { padding-left: max(16px, env(safe-area-inset-left));
 .accueil-connexion { display:inline-flex; align-items:center; justify-content:center; min-height:44px;
   padding:8px; color:var(--teal); font-size:var(--fs-small); text-underline-offset:4px; }
 .accueil-connexion:focus-visible { outline:2px solid var(--teal); outline-offset:2px; border-radius:8px; }
+
+/* === Assistant FAQ sur le fruit de l’Esprit === */
+.assistant-declencheur { position:fixed; bottom:calc(20px + env(safe-area-inset-bottom, 0px));
+  right:max(16px, env(safe-area-inset-right, 0px)); z-index:60; display:flex; align-items:center;
+  gap:8px; min-height:48px; padding:10px 16px; border:1px solid var(--line); border-radius:999px;
+  background:var(--surface); color:var(--teal); font:inherit; font-weight:600; box-shadow:var(--shadow); cursor:pointer; }
+.avec-bottom-nav .assistant-declencheur { bottom:calc(84px + env(safe-area-inset-bottom, 0px)); }
+.assistant-declencheur > span:first-child { font-size:22px; }
+.assistant-declencheur:focus-visible, .assistant-fermer:focus-visible,
+.assistant-suggestions button:focus-visible { outline:2px solid var(--teal); outline-offset:3px; }
+.assistant-dialogue { position:fixed; inset:auto max(16px, env(safe-area-inset-right, 0px)) calc(20px + env(safe-area-inset-bottom, 0px)) auto;
+  margin:0; width:min(400px, calc(100vw - 32px)); height:min(620px, calc(100dvh - 48px)); max-height:calc(100dvh - 48px);
+  padding:0; overflow:hidden; border:1px solid var(--line); border-radius:var(--radius);
+  background:var(--surface); color:var(--ink); box-shadow:var(--shadow); }
+.assistant-dialogue[open] { display:flex; flex-direction:column; }
+.assistant-dialogue::backdrop { background:rgba(0,0,0,.25); }
+.assistant-entete { display:flex; align-items:flex-start; gap:12px; padding:16px; border-bottom:1px solid var(--line); flex-shrink:0; }
+.assistant-entete > div { flex:1; min-width:0; }
+.assistant-entete h2 { margin:0; font-size:var(--fs-h3); }
+.assistant-entete p { margin:4px 0 0; color:var(--muted); font-size:var(--fs-small); }
+.assistant-fermer { border:0; background:transparent; color:var(--ink); width:44px; height:44px; flex-shrink:0; font-size:28px; cursor:pointer; }
+.assistant-conversation { flex:1; min-height:0; overflow-y:auto; padding:16px; overscroll-behavior:contain; }
+.assistant-echange { margin-top:16px; }
+.assistant-question, .assistant-reponse { margin:8px 0; padding:12px; border-radius:12px; font-size:var(--fs-small); overflow-wrap:anywhere; }
+.assistant-question { margin-left:24px; background:var(--teal-xl); }
+.assistant-reponse { margin-right:12px; background:var(--bg); }
+.assistant-reponse p { margin:4px 0; }
+.assistant-auteur { display:block; margin-bottom:4px; font-weight:600; color:var(--muted); }
+.assistant-reference { display:inline-block; padding:6px 0; color:var(--teal); text-underline-offset:3px; }
+.assistant-suggestions { display:flex; gap:6px; overflow-x:auto; padding:8px 12px; flex-shrink:0; border-top:1px solid var(--line); }
+.assistant-suggestions button { flex:0 0 auto; max-width:230px; min-height:44px; border:1px solid var(--line); border-radius:12px;
+  background:var(--surface); color:var(--teal); padding:8px; font:inherit; font-size:var(--fs-small); cursor:pointer; }
+.assistant-formulaire { padding:8px 12px; flex-shrink:0; }
+.assistant-formulaire label { display:block; margin-bottom:4px; font-size:var(--fs-small); }
+.assistant-formulaire > div { display:flex; gap:8px; }
+.assistant-formulaire input { min-width:0; flex:1; width:0; font-size:16px; }
+.assistant-formulaire .btn { flex-shrink:0; }
+.assistant-note { margin:0; padding:0 12px 12px; color:var(--muted); font-size:var(--fs-caption); flex-shrink:0; }
+@media print {
+  .assistant-declencheur, .assistant-dialogue { display:none !important; }
+}

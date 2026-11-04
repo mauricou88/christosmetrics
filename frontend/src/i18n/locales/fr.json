@@ -1,4 +1,36 @@
 {
+  "assistant_fruits": {
+    "ouvrir": "Une question ?",
+    "titre": "Le fruit de l’Esprit",
+    "sous_titre": "Quelques repères pour votre réflexion",
+    "fermer": "Fermer la conversation",
+    "conversation": "Questions et réponses",
+    "bienvenue": "Bonjour ! Posez une question simple sur le fruit de l’Esprit, ou choisissez l’une des suggestions ci-dessous.",
+    "vous": "Vous",
+    "nom": "Assistant",
+    "suggestions": "Questions suggérées",
+    "votre_question": "Votre question",
+    "exemple": "Par exemple : comment cultiver la patience ?",
+    "envoyer": "Envoyer",
+    "note": "Réponses générales sur des sujets prédéfinis. Vos échanges ne sont pas enregistrés sur le serveur.",
+    "inconnu": "Je n’ai pas de réponse préparée pour cette question. Essayez un sujet comme l’amour, la joie, la paix ou la croissance spirituelle, ou choisissez une suggestion.",
+    "references": { "galates": "Lire Galates 5:22–23", "jean": "Lire Jean 15:4–5" },
+    "sujets": {
+      "definition": { "question": "Qu’est-ce que le fruit de l’Esprit ?", "reponse": "Le fruit de l’Esprit désigne les qualités qui se développent dans une vie conduite par le Saint-Esprit. Paul les présente comme les aspects d’un même fruit : une transformation qui se manifeste dans nos relations et nos choix quotidiens." },
+      "liste": { "question": "Quels sont les neuf aspects du fruit de l’Esprit ?", "reponse": "Galates 5:22–23 présente l’amour, la joie, la paix, la patience, la bonté, la bienveillance, la fidélité, la douceur et la maîtrise de soi. Certains mots varient selon les traductions bibliques. Ces aspects sont complémentaires." },
+      "amour": { "question": "Que signifie l’amour ?", "reponse": "L’amour recherche le bien de l’autre, au-delà d’un sentiment passager. Une piste concrète : écouter quelqu’un avec attention et choisir un geste de service, sans attendre quelque chose en retour." },
+      "joie": { "question": "Qu’est-ce que la joie ?", "reponse": "La joie peut s’enraciner dans la relation avec Dieu, même lorsque les circonstances sont difficiles. Elle n’oblige pas à cacher sa tristesse. Une piste : prendre un moment pour reconnaître un motif de gratitude aujourd’hui." },
+      "paix": { "question": "Comment cultiver la paix ?", "reponse": "La paix concerne la confiance en Dieu et la recherche de relations apaisées, au-delà de l’absence de conflit. Une piste : confier une inquiétude dans la prière, puis réfléchir à une démarche de réconciliation possible." },
+      "patience": { "question": "Comment cultiver la patience ?", "reponse": "La patience aide à persévérer et à laisser du temps à l’autre sans réagir immédiatement sous l’impulsion. Elle ne signifie pas accepter une situation injuste sans agir. Une piste : faire une pause avant de répondre dans une conversation tendue." },
+      "bonte": { "question": "Que sont la bonté et la bienveillance ?", "reponse": "La bonté et la bienveillance se rejoignent dans l’attention portée à l’autre et la volonté de faire le bien. Les traductions bibliques emploient des termes proches. Une piste : repérer un besoin concret autour de vous et y répondre avec respect." },
+      "fidelite": { "question": "Que signifie la fidélité ?", "reponse": "La fidélité se manifeste dans la confiance en Dieu et la constance de nos engagements. Une piste : choisir une petite promesse réaliste et la tenir, même lorsque l’enthousiasme du début diminue." },
+      "douceur": { "question": "Qu’est-ce que la douceur ?", "reponse": "La douceur permet d’exprimer la vérité avec respect, sans écraser l’autre. Elle n’exclut ni la fermeté ni les limites. Une piste : reformuler un désaccord avec des mots qui invitent au dialogue." },
+      "maitrise": { "question": "Qu’est-ce que la maîtrise de soi ?", "reponse": "La maîtrise de soi aide à choisir sa réponse plutôt qu’à être dirigé par une impulsion. Une piste : identifier un déclencheur habituel, puis préparer une réponse constructive, comme une pause ou un changement d’activité." },
+      "croissance": { "question": "Comment grandir au quotidien ?", "reponse": "Jésus relie le fait de porter du fruit à la relation avec lui. La prière, la lecture biblique et la vie fraternelle peuvent nourrir ce cheminement. Choisissez un petit geste concret à pratiquer aujourd’hui, puis prenez le temps de relire ce que vous avez vécu." },
+      "tests": { "question": "À quoi servent les tests CHRISTOSMETRICS ?", "reponse": "Les questionnaires invitent à réfléchir à la manière dont le fruit de l’Esprit se manifeste dans votre vie, à partir de vos réponses. Un score ne mesure ni votre valeur personnelle ni votre foi. Cet assistant n’accède pas à vos résultats et ne les interprète pas." },
+      "bonjour": { "question": "Bonjour", "reponse": "Bonjour ! Je peux vous donner des repères simples sur le fruit de l’Esprit. Par exemple : « Qu’est-ce que la douceur ? » ou « Comment grandir au quotidien ? »" }
+    }
+  },
   "commun": {
     "marque": "CHRISTOSMETRICS",
     "chargement": "Chargement…",

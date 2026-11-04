@@ -1,4 +1,36 @@
 {
+  "assistant_fruits": {
+    "ouvrir": "¿Alguna pregunta?",
+    "titre": "El fruto del Espíritu",
+    "sous_titre": "Algunas orientaciones para reflexionar",
+    "fermer": "Cerrar la conversación",
+    "conversation": "Preguntas y respuestas",
+    "bienvenue": "¡Hola! Haz una pregunta sencilla sobre el fruto del Espíritu o elige una de las sugerencias.",
+    "vous": "Tú",
+    "nom": "Asistente",
+    "suggestions": "Preguntas sugeridas",
+    "votre_question": "Tu pregunta",
+    "exemple": "Por ejemplo: ¿cómo cultivar la paciencia?",
+    "envoyer": "Enviar",
+    "note": "Respuestas generales sobre temas predefinidos. La conversación no se guarda en el servidor.",
+    "inconnu": "No tengo una respuesta preparada para esa pregunta. Prueba con un tema como el amor, la alegría, la paz o el crecimiento espiritual, o elige una sugerencia.",
+    "references": { "galates": "Leer Gálatas 5:22–23", "jean": "Leer Juan 15:4–5" },
+    "sujets": {
+      "definition": { "question": "¿Qué es el fruto del Espíritu?", "reponse": "El fruto del Espíritu describe las cualidades que se desarrollan en una vida guiada por el Espíritu Santo. Pablo las presenta como aspectos de un mismo fruto: una transformación que se expresa en nuestras relaciones y decisiones cotidianas." },
+      "liste": { "question": "¿Cuáles son los nueve aspectos del fruto del Espíritu?", "reponse": "Gálatas 5:22–23 presenta el amor, la alegría, la paz, la paciencia, la amabilidad, la bondad, la fidelidad, la humildad y el dominio propio. Algunas palabras varían según la traducción bíblica. Estos aspectos se complementan." },
+      "amour": { "question": "¿Qué significa el amor?", "reponse": "El amor busca el bien de la otra persona, más allá de un sentimiento pasajero. Una idea práctica: escuchar con atención y ofrecer un gesto de servicio sin esperar nada a cambio." },
+      "joie": { "question": "¿Qué es la alegría?", "reponse": "La alegría puede arraigarse en la relación con Dios, incluso en circunstancias difíciles. No exige ocultar la tristeza. Una idea práctica: reconocer hoy un motivo de gratitud." },
+      "paix": { "question": "¿Cómo cultivar la paz?", "reponse": "La paz implica confiar en Dios y procurar relaciones pacíficas, más allá de la ausencia de conflictos. Una idea práctica: presentar una preocupación en oración y pensar en un posible paso hacia la reconciliación." },
+      "patience": { "question": "¿Cómo cultivar la paciencia?", "reponse": "La paciencia ayuda a perseverar y a dar tiempo a los demás sin reaccionar por impulso. No significa aceptar una injusticia sin actuar. Una idea práctica: hacer una pausa antes de responder en una conversación tensa." },
+      "bonte": { "question": "¿Qué son la bondad y la benevolencia?", "reponse": "La bondad y la benevolencia se unen en el cuidado de los demás y el deseo de hacer el bien. Las traducciones bíblicas emplean términos relacionados. Una idea práctica: reconocer una necesidad concreta y responder con respeto." },
+      "fidelite": { "question": "¿Qué significa la fidelidad?", "reponse": "La fidelidad se expresa en la confianza en Dios y la constancia en nuestros compromisos. Una idea práctica: hacer una promesa pequeña y realista, y cumplirla aunque disminuya el entusiasmo inicial." },
+      "douceur": { "question": "¿Qué es la mansedumbre?", "reponse": "La mansedumbre permite expresar la verdad con respeto, sin imponerse a los demás. Es compatible con la firmeza y los límites. Una idea práctica: reformular un desacuerdo con palabras que inviten al diálogo." },
+      "maitrise": { "question": "¿Qué es el dominio propio?", "reponse": "El dominio propio ayuda a elegir una respuesta en lugar de actuar por impulso. Una idea práctica: identificar una situación que suele provocar una reacción y preparar una respuesta constructiva, como hacer una pausa o cambiar de actividad." },
+      "croissance": { "question": "¿Cómo crecer cada día?", "reponse": "Jesús relaciona dar fruto con permanecer en relación con él. La oración, la lectura bíblica y la comunidad cristiana pueden nutrir este camino espiritual. Elige una acción pequeña para hoy y dedica después un momento a reflexionar sobre lo vivido." },
+      "tests": { "question": "¿Para qué sirven los tests CHRISTOSMETRICS?", "reponse": "Los cuestionarios invitan a reflexionar sobre cómo se manifiesta el fruto del Espíritu en tu vida, a partir de tus respuestas. Una puntuación no mide tu valor ni tu fe. Este asistente no accede a tus resultados ni los interpreta." },
+      "bonjour": { "question": "Hola", "reponse": "¡Hola! Puedo darte algunas orientaciones sencillas sobre el fruto del Espíritu. Por ejemplo: «¿Qué es la mansedumbre?» o «¿Cómo crecer cada día?»" }
+    }
+  },
   "commun": {
     "marque": "CHRISTOSMETRICS",
     "chargement": "Cargando…",
