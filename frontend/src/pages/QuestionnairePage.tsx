@@ -1,4 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
+import type { CSSProperties } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useQuestionnaire } from '../hooks/useQuestionnaire';
 
@@ -92,8 +93,8 @@ export function QuestionnairePage() {
       <div className="q answered" style={{ marginTop: 20 }}>
         <span className="t"><strong>Q{indexCourant + 1}.</strong> {questionCourante.texte}</span>
         <div className="opts" style={{
-          gridTemplateColumns: `repeat(${echelle.length}, 1fr)`,
-        }}>
+          '--nombre-options': echelle.length,
+        } as CSSProperties}>
           {echelle.map(e => (
             <button key={e.valeur}
                     className={`opt ${dejaRepondu === e.valeur ? 'selected' : ''}`}

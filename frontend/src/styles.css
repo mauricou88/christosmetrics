@@ -244,9 +244,9 @@ main{padding-top:28px;padding-bottom:max(32px,env(safe-area-inset-bottom))}
 .q{background:var(--surface);border-left:4px solid var(--line);border-radius:8px;padding:16px;margin-bottom:12px}
 .q.answered{border-left-color:var(--orange)}  /* question répondue : liseré orange */
 .q .t{font-weight:500;color:var(--ink);margin-bottom:10px;display:block}
-.q .opts{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
-@media(max-width:600px){.q .opt{font-size:var(--fs-caption);padding:10px 4px;line-height:1.25}}
+.q .opts{display:grid;grid-template-columns:repeat(var(--nombre-options,5),minmax(0,1fr));gap:8px}
 .q .opt{padding:10px;border:1px solid var(--line);border-radius:6px;text-align:center;
+        min-width:0;min-height:48px;white-space:normal;overflow-wrap:anywhere;
         cursor:pointer;font-size:var(--fs-small);transition:all .18s ease;background:var(--surface)}
 .q .opt:hover{border-color:var(--teal);background:var(--teal-xl)}
 .q .opt.selected{background:var(--orange);color:var(--surface);border-color:var(--orange)}
@@ -352,8 +352,9 @@ main { padding-left: max(16px, env(safe-area-inset-left));
 
   .q { padding: 14px; }
   .q .t { font-size: var(--fs-body); line-height: 1.4; }
-  .q .opts { grid-template-columns: repeat(5, 1fr); gap: 4px; }
-  .opt { padding: 10px 4px; font-size: var(--fs-caption); min-height: 44px; line-height: 1.25; }
+  /* Une option par ligne : les libellés complets restent lisibles et faciles à toucher. */
+  .q .opts { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+  .q .opt { padding: 12px 14px; font-size: var(--fs-body); min-height: 48px; line-height: 1.4; }
 
   .controls { flex-direction: column; align-items: stretch; gap: 10px; }
   .controls .btn { width: 100%; min-height: 48px; }
